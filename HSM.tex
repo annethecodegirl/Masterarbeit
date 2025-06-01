@@ -17,94 +17,188 @@
 
 \section*{The Hakenes \& Schliephake Model}
 
-The consequentialist carbon footprint model developed by Hakenes and Schliephake (2024) provides a structured approach to attributing carbon responsibility between consumption and investment under conditions of market risk and uncertainty.
+Traditional methods for estimating household carbon footprints attribute emissions based on direct consumption or financial ownership in emitting industries. However, they often ignore the market feedback loops triggered by individual decisions — such as how a household reducing demand might simply shift that demand to other consumers or investors.
 
-\begin{equation}
-f_{ph} = x \left( \varphi q_h + (1 - \varphi) \frac{i_h}{c} \right)
-\end{equation}
+The model developed by Hakenes and Schliephake (2024) addresses this issue through a general equilibrium framework. By embedding both product and financial markets, the model assigns carbon footprints based not only on what households consume or invest in, but also on the ripple effects of those choices across the economy. This consequentialist approach captures the true marginal impact of household behavior on aggregate emissions.
 
-\subsection*{Derivation of the Weighting Parameter \texorpdfstring{$\varphi$}{phi}}
+\section{Deriving the Household Footprint in a One-Industry Economy}
 
-\begin{equation}
-U = b q_h - \frac{1}{2} \alpha \sigma^2 \left( \frac{i_h}{c} \right)^2
-\end{equation}
+We consider a simplified version of the model developed by Hakenes and Schliephake (2024), focusing on an economy with a single industry. A representative good is produced using capital as the only input. Firms operate under constant returns to scale, with a marginal cost of production $c$. Let $Q$ denote the aggregate quantity produced and consumed, and $I$ the total capital invested. Given the linear technology, we have:
 
-\begin{equation}
-\frac{\partial U}{\partial q_h} = b - \lambda = 0
-\end{equation}
+\[
+I = cQ.
+\]
 
-\begin{equation}
-\frac{\partial U}{\partial i_h} = - \alpha \sigma^2 \left( \frac{i_h}{c^2} \right) - \lambda \frac{1}{c} = 0
-\end{equation}
+Each unit of the good generates emissions $x$, which aggregates both production-related and consumption-related emissions. Thus, total emissions in the economy are given by:
 
-\begin{equation}
-\lambda = b
-\end{equation}
+\[
+X = xQ.
+\]
 
-\begin{equation}
-\alpha \sigma^2 \left( \frac{i_h}{c^2} \right) - \frac{b}{c} = 0
-\end{equation}
+\subsection*{Firms and Capital Market}
 
-\begin{equation}
-i_h = - \frac{b c^2}{\alpha \sigma^2}
-\end{equation}
+Firms raise capital $I$ from households and produce output $Q$. After selling the output at price $P$, they repay investors using the liquidation value $\lambda$ and a noise term $\varepsilon$, which follows a normal distribution with zero mean and variance $\sigma^2$. The return on investment is:
 
-\begin{equation}
-\varphi = \frac{b}{b + c^2 \alpha \sigma^2}
-\end{equation}
+\[
+r = \frac{P}{c} + \lambda + \varepsilon.
+\]
 
-\subsection*{Sensitivity of \texorpdfstring{$\varphi$}{phi}}
+Profits are distributed to investors in proportion to their capital contributions. Firms operate competitively, so expected profits are zero in equilibrium.
 
-\begin{equation}
-\frac{\partial \varphi}{\partial b} = \frac{\alpha \sigma^2}{(b + \alpha \sigma^2)^2}
-\end{equation}
+\subsection*{Household Optimization Problem}
 
-\begin{equation}
-\frac{\partial \varphi}{\partial \alpha} = - \frac{b \sigma^2}{(b + \alpha \sigma^2)^2}
-\end{equation}
+Household $h$ is endowed with wealth $w$ and allocates it between investment $i_h$ and consumption $q_h$. The portion not invested yields a risk-free return $r_f$. The budget constraint is:
 
-\begin{equation}
-\frac{\partial \varphi}{\partial \sigma^2} = - \frac{b \alpha}{(b + \alpha \sigma^2)^2}
-\end{equation}
+\[
+m_h = r i_h + r_f(w - i_h) - P q_h,
+\]
 
-\subsection*{Market Equilibrium Analysis}
+where $m_h$ is the leftover wealth after investment and consumption. The household derives utility from consumption and terminal wealth. The expected utility function is given by:
 
-\begin{equation}
-P = a - b Q
-\end{equation}
+\[
+U_h = \mathbb{E} \left[ -e^{-\alpha \left( a q_h - \frac{b}{2}q_h^2 + m_h - xQ \right)} \right],
+\]
 
-\begin{equation}
-P = c (r_f - \lambda) + \frac{c^2 \alpha \sigma^2}{n - 1} Q
-\end{equation}
+where $a$ represents the marginal utility of the first unit of the good, $b > 0$ captures diminishing marginal utility, $\alpha$ is the coefficient of absolute risk aversion, and $xQ$ reflects the disutility from global emissions.
 
-\begin{equation}
-a - b Q = c (r_f - \lambda) + \frac{c^2 \alpha \sigma^2}{n - 1} Q
-\end{equation}
+Substituting $m_h$ into the utility function and linearizing expectations due to the exponential-normal structure, we obtain:
 
-\begin{equation}
-Q^* = \frac{(a - x) - c (r_f - \lambda)}{b + \frac{c^2 \alpha \sigma^2}{n - 1}}
-\end{equation}
+\[
+\mathbb{E}[U_h] = -\exp \left\{ -\alpha \left[ (a - P)q_h - \frac{b}{2}q_h^2 + r_f w + \left( \frac{P}{c} + \lambda - r_f \right)i_h - \frac{\alpha}{2} \sigma^2 i_h^2 - xQ \right] \right\}.
+\]
 
-\subsection*{Carbon Footprint Function and Sensitivity}
+\subsection*{Market Equilibrium and Footprint Derivation}
 
-\begin{equation}
-f_{ph} = x \left( \frac{b q_h + \alpha \sigma^2 \frac{i_h}{c}}{b + \alpha \sigma^2} \right)
-\end{equation}
+To calculate the household's consequentialist footprint, we compare the equilibrium outcome with and without household $h$. In equilibrium, the market clears:
 
-\begin{equation}
-\frac{\partial f_{ph}}{\partial b} = x \frac{\alpha \sigma^2 \left(q_h - \frac{i_h}{c} \right)}{(b + \alpha \sigma^2)^2}
-\end{equation}
+\[
+Q = q_h + (n - 1) q_{-h}, \quad I = i_h + (n - 1) i_{-h}, \quad I = cQ.
+\]
 
-\begin{equation}
-\frac{\partial f_{ph}}{\partial \alpha} = - x \frac{b \sigma^2 \left(q_h - \frac{i_h}{c} \right)}{(b + \alpha \sigma^2)^2}
-\end{equation}
+Other households maximize the same utility, taking $P$ as given. Their optimal demand and investment are derived from the first-order conditions:
 
-\begin{equation}
-\frac{\partial f_{ph}}{\partial \sigma^2} = - x \frac{b \alpha \left(q_h - \frac{i_h}{c} \right)}{(b + \alpha \sigma^2)^2}
-\end{equation}
+\[
+q_{-h} = \frac{a - x - P}{b}, \quad i_{-h} = \frac{1}{\alpha \sigma^2} \left( \frac{P}{c} + \lambda - r_f \right).
+\]
 
-\subsection*{Discussion and Implications}
+Substituting these into the equilibrium conditions and solving, we obtain the aggregate quantity:
 
-The analytical framework captures the consequentialist perspective of carbon attribution, emphasizing how risk, marginal utility, and volatility shift the responsibility for emissions between consumption and investment.
+\[
+Q = \phi q_h + (1 - \phi) \frac{i_h}{c} + \text{(terms independent of } h),
+\]
+
+where the weighting parameter $\phi$ is defined as:
+
+\[
+\phi = \frac{b}{b + c^2 \alpha \sigma^2}.
+\]
+
+This weight determines how the household’s choices affect equilibrium quantities and, consequently, emissions. The consequentialist footprint of household $h$ is defined as the marginal impact of their participation on total emissions:
+
+\[
+fp_h = x \left( Q(q_h, i_h) - Q(0, 0) \right) = x \left( \phi q_h + (1 - \phi) \frac{i_h}{c} \right).
+\]
+
+\subsection*{Interpretation}
+
+The parameter $\phi$ captures the relative influence of consumption and investment. When the financial asset is risk-free ($\sigma^2 = 0$), we obtain $\phi = 1$, and the entire footprint is attributed to consumption. Conversely, if consumption utility is linear ($b = 0$), then $\phi = 0$, and the footprint depends entirely on investment. This formulation ensures full accounting of emissions across households:
+
+\[
+\sum_h fp_h = xQ = X.
+\]
+\section{Derivation of the Weighting Parameter \( \boldsymbol{\phi} \)}
+
+To derive the footprint weighting parameter \( \boldsymbol{\phi} \), we begin with the assumption that aggregate output \( Q \) is produced by a linear technology using capital \( I \) with constant marginal cost \( c \). Hence,
+\[
+Q = \frac{I}{c}.
+\]
+
+The total capital in the market is supplied by \( n \) households. We distinguish a representative household \( h \) from the remaining \( n - 1 \) households, and denote their investment and consumption decisions by \( (i_h, q_h) \) and \( (i_{-h}, q_{-h}) \), respectively.
+
+In equilibrium, market clearing implies:
+\[
+Q = q_h + (n - 1) q_{-h}, \quad I = i_h + (n - 1) i_{-h}, \quad I = cQ.
+\]
+
+Substituting into the identity \( I = cQ \), we obtain:
+\[
+i_h + (n - 1) i_{-h} = c \left( q_h + (n - 1) q_{-h} \right).
+\]
+
+Now consider how the quantity \( Q \) changes when household \( h \) changes its behavior. Holding the other households' behavior fixed, the marginal effect of \( h \)'s consumption and investment on output is given by the total differential:
+\[
+\frac{\partial Q}{\partial q_h} = 1, \quad \frac{\partial Q}{\partial i_h} = \frac{1}{c}.
+\]
+
+However, these effects are attenuated by the endogenous reactions of other households. If household \( h \) increases consumption \( q_h \), market price \( P \) rises. Other households respond by lowering their own consumption \( q_{-h} \) and adjusting their investment \( i_{-h} \) to the new return. Conversely, if \( h \) increases investment \( i_h \), the capital supply rises, which reduces price and affects others' choices.
+
+We now derive the explicit behavioral responses.
+
+The other households' optimal consumption satisfies:
+\[
+\frac{\partial \mathbb{E}[U_{-h}]}{\partial q_{-h}} = 0 \quad \Rightarrow \quad a - x - b q_{-h} - P = 0,
+\]
+which yields:
+\[
+q_{-h} = \frac{a - x - P}{b}.
+\]
+
+Their optimal investment satisfies:
+\[
+\frac{\partial \mathbb{E}[U_{-h}]}{\partial i_{-h}} = 0 \quad \Rightarrow \quad \frac{P}{c} + \lambda - r_f - \alpha \sigma^2 i_{-h} = 0,
+\]
+so that:
+\[
+i_{-h} = \frac{1}{\alpha \sigma^2} \left( \frac{P}{c} + \lambda - r_f \right).
+\]
+
+Now insert these behavioral responses into the aggregate equilibrium conditions:
+\[
+Q = q_h + (n - 1) \left( \frac{a - x - P}{b} \right), \quad I = i_h + (n - 1) \left( \frac{1}{\alpha \sigma^2} \left( \frac{P}{c} + \lambda - r_f \right) \right).
+\]
+
+Combining these with \( Q = \frac{I}{c} \), we solve for the dependence of \( Q \) on \( q_h \) and \( i_h \). Define the partial footprint of household \( h \) as the difference in total output caused by its activity:
+\[
+fp_h = x \left( Q(q_h, i_h) - Q(0, 0) \right).
+\]
+
+Linearizing \( Q \) in \( q_h \) and \( i_h \), and denoting the resulting coefficients as footprint weights, we obtain:
+\[
+fp_h = x \left( \phi q_h + (1 - \phi) \frac{i_h}{c} \right),
+\]
+where
+\[
+\phi = \frac{b}{b + c^2 \alpha \sigma^2}.
+\]
+
+This expression reflects how much of the household’s carbon footprint is attributed to consumption versus investment. It arises from the equilibrium interactions between price responses and household behavioral elasticities in both the product and capital markets.
+
+\section{Comparative Statics of the Weighting Parameter \( \boldsymbol{\phi} \)}
+
+We now investigate how the footprint weighting parameter \( \boldsymbol{\phi} \), defined as
+\[
+\boldsymbol{\phi} = \frac{b}{b + c^2 \alpha \sigma^2},
+\]
+responds to changes in the underlying structural parameters of the model.
+
+Differentiating \( \boldsymbol{\phi} \) with respect to the coefficient of absolute risk aversion \( \alpha \), we obtain
+\[
+\frac{\partial \boldsymbol{\phi}}{\partial \alpha} = -\frac{b c^2 \sigma^2}{(b + c^2 \alpha \sigma^2)^2} < 0.
+\]
+This implies that as households become more risk-averse, the footprint share attributed to consumption declines, while the relative importance of investment decisions increases.
+
+With respect to the volatility of financial returns, captured by \( \sigma^2 \), we find
+\[
+\frac{\partial \boldsymbol{\phi}}{\partial \sigma^2} = -\frac{b c^2 \alpha}{(b + c^2 \alpha \sigma^2)^2} < 0.
+\]
+An increase in financial risk similarly reduces \( \boldsymbol{\varphi} \), shifting the footprint burden from consumption to investment channels.
+
+Finally, consider the effect of changing the curvature of the utility function through the parameter \( b \). Differentiation yields
+\[
+\frac{\partial \boldsymbol{\phi}}{\partial b} = \frac{c^2 \alpha \sigma^2}{(b + c^2 \alpha \sigma^2)^2} > 0.
+\]
+A higher value of \( b \), indicating stronger diminishing marginal utility from consumption, increases the share of the footprint attributed to consumption activities.
+
+In sum, the weighting parameter \( \boldsymbol{\varphi} \) is decreasing in both risk aversion and return volatility, and increasing in the concavity of consumption preferences. These results highlight how the relative responsibility of consumption and investment for carbon emissions is endogenous to household behavior and financial risk, making the model responsive to empirical variation across households or economies.
 
 \end{document}
