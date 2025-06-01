@@ -1,1 +1,175 @@
+\documentclass[12pt,a4paper]{article}
 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\geometry{left=3cm, right=2cm, top=2cm, bottom=2cm}
+\onehalfspacing
+
+\begin{document}
+
+\subsection{The GHG Protocol Methodology: History, Implementation, and Application to Household Emissions}
+
+The Greenhouse Gas (GHG) Protocol is a globally recognized standard for accounting and reporting greenhouse gas emissions. Developed in the late 1990s through a collaboration between the World Resources Institute (WRI) and the World Business Council for Sustainable Development (WBCSD), the GHG Protocol was officially launched in 2001 with the primary aim of providing a consistent and comprehensive framework for emissions accounting across corporate and public sectors. Over the years, its importance has grown significantly, with subsequent expansions such as the development of the GHG Protocol Scope 3 Standard in 2011, which broadened the accounting boundary to include indirect emissions across a company’s or household’s value chain. The historical motivation behind its creation was rooted in the need for greater transparency and comparability in emissions disclosures, especially as climate policy instruments and stakeholder expectations became increasingly sophisticated.
+
+The GHG Protocol is structured around three main scopes of emissions, each delineating a distinct layer of responsibility and source attribution. Scope 1 covers direct emissions from sources that are owned or controlled by the reporting entity, such as the combustion of fuels in household-owned vehicles or heating systems. Scope 2 includes indirect emissions associated with the generation of purchased electricity, steam, heating, or cooling consumed by the household but produced off-site. Scope 3 is the broadest category, encompassing all other indirect emissions that occur as a consequence of the household’s activities but are not directly controlled by it. These include emissions from the production and transport of goods and services consumed by the household, as well as those associated with financial investments and capital goods.
+
+The principal reason for employing the GHG Protocol in household-level emissions analysis lies in its capacity to provide a standardized and granular approach to calculating emissions across different dimensions of behavior. It allows for a full inventory of climate impacts arising from everyday life—from fueling a car to investing in equity portfolios. Additionally, the protocol facilitates benchmarking across time and geography, making it possible to compare the carbon intensities of different households or regions. This is particularly valuable for policy-making, where a reliable basis for comparison is needed to design effective incentives, taxes, or subsidy programs aimed at reducing emissions.
+
+Households may apply the GHG Protocol methodology when they aim to understand the full extent of their carbon footprint, either for personal environmental awareness or to comply with voluntary disclosure programs. It is also useful in academic and policy research, where household-level emissions data feed into broader simulations of national carbon inventories or help evaluate the effectiveness of climate policies. Moreover, with the rise of ESG (Environmental, Social, and Governance) investing, households are increasingly motivated to assess not only their consumption patterns but also the environmental implications of their financial choices. The GHG Protocol's inclusion of Scope 3 investment-related emissions is thus particularly timely and relevant.
+
+The benefits of using the GHG Protocol are manifold. First, it ensures methodological consistency by offering a clearly defined structure and a set of standard emission factors that can be applied universally or tailored regionally. This consistency is crucial for the comparability of results and for building credible datasets over time. Second, the protocol is transparent and traceable. It encourages users to document the sources of their activity data and the emission factors applied, thus allowing for auditing, replication, and critical scrutiny. Third, its structure is flexible enough to accommodate varying levels of data availability and resolution. Households with access to detailed energy bills and expenditure data can achieve high-resolution footprints, while those with limited data can still generate reasonable estimates using average or proxy figures.
+
+However, the protocol is not without its criticisms and limitations. One prominent challenge is the reliance on emission factors, which are often generalized and may not reflect specific production technologies or regional energy mixes. This can introduce inaccuracies, particularly in Scope 3 categories, where supply chains are long, complex, and globalized. Another issue is the risk of double counting. Since emissions are reported across both upstream and downstream actors, a single emission source may be attributed to multiple entities. Although the protocol offers guidance to mitigate this, ensuring strict boundary-setting remains an operational challenge. Additionally, the protocol does not inherently capture dynamic changes in market behavior or consumer preferences. It provides a static snapshot, which is useful for diagnostics but limited in predictive or behavioral modeling capabilities.
+
+The mathematical formulation under the GHG Protocol for calculating a household’s carbon footprint begins with the aggregation of emissions across all three scopes. The total carbon footprint of a household is expressed as:
+
+\begin{equation}
+CF_{\text{household}} = E_{\text{Scope 1}} + E_{\text{Scope 2}} + E_{\text{Scope 3}}
+\end{equation}
+
+Each of these components is calculated based on the product of activity data and corresponding emission factors. For Scope 1, this includes the quantity of fuel combusted in household-controlled devices or vehicles, multiplied by the fuel-specific emission factor. Scope 2 emissions are determined by multiplying electricity or district heating usage by grid-specific emission factors. Scope 3 is more complex and can be further disaggregated into emissions from the consumption of goods and services, and emissions from household investments. For the consumption subcategory, expenditures are multiplied by lifecycle emission factors derived from environmentally extended input-output models or product-level lifecycle assessments. For investment-based emissions, the monetary value of investments is multiplied by portfolio-weighted emission intensities of the respective industries.
+
+An illustrative example of this methodology can be found in the case of household consumption patterns in Spain for the year 2022. Using data from the Spanish National Statistics Institute (INE), we observe that the average household expenditure was approximately €31,568. This expenditure was spread across various COICOP categories such as housing, transport, food, communication, and leisure. Each category was assigned an appropriate emission factor derived from lifecycle assessment studies and national inventories. For example, food and beverage consumption had an emission factor of 0.50 kg CO$_2$e per euro, while housing-related expenditures including electricity and heating had a lower emission factor of 0.25 kg CO$_2$e per euro due to Spain’s relatively cleaner energy grid.
+
+Applying this methodology, we find that Scope 1 emissions, predominantly from petrol and gas use in private vehicles and heating, amounted to 1,114.83 kg CO$_2$e annually. Scope 2 emissions, arising from heating and cooling energy consumed, contributed an additional 829.70 kg CO$_2$e. In contrast, Scope 3 emissions, which include emissions from the production and delivery of consumed goods and services, accounted for the largest share—totaling 9,883.55 kg CO$_2$e. The aggregate household carbon footprint was therefore estimated to be 11,828.08 kg CO$_2$e per annum.
+
+This case study illustrates not only the quantitative value of the GHG Protocol methodology but also its diagnostic power. It becomes evident that indirect emissions dominate the carbon footprint of Spanish households, a trend consistent with data from other high-income countries. Such insights can be pivotal for policy recommendations, such as encouraging low-carbon food choices, promoting public transport, or offering green investment options to households.
+
+Despite the effectiveness of the GHG Protocol, further enhancements could be considered to address its limitations. One potential improvement is the integration of behavioral elasticities into Scope 3 modeling. This would account for changes in consumer behavior in response to price signals or information campaigns, thereby making emissions accounting more responsive and dynamic. Another avenue for advancement is the regionalization of emission factors. Instead of relying on national averages, more localized data—such as city-level electricity mixes or transport infrastructure—could significantly improve the granularity and relevance of household-level assessments.
+
+Moreover, the GHG Protocol could be supplemented with time-series data to allow for temporal comparisons and trend analysis. This would enable users to track progress toward emissions reduction goals and to evaluate the impacts of policy interventions over time. Additionally, the inclusion of complementary environmental metrics, such as water use or material intensity, could broaden the perspective beyond carbon and offer a more holistic view of household sustainability.
+
+In conclusion, the GHG Protocol remains one of the most robust, widely accepted, and adaptable frameworks for emissions accounting. Its application at the household level yields critical insights into the drivers of climate impact and serves as a foundational tool for behavioral and policy interventions. While not perfect, its continued evolution—particularly with respect to Scope 3 measurement accuracy and behavioral modeling—will be essential for deepening our understanding of the complex relationship between everyday choices and global climate outcomes.
+
+\subsubsection*{Illustration: Application of the GHG Protocol to Spanish Household Consumption (2022)}
+
+To provide a concrete empirical demonstration of the GHG Protocol methodology, we apply the framework to Spanish household expenditure data for the year 2022. This case study not only operationalizes the theoretical components outlined above but also highlights the magnitude and distribution of household emissions when analyzed across Scopes 1, 2, and 3.
+
+The data is sourced from the Spanish National Statistics Institute (INE), which reports average annual consumption expenditures per household disaggregated by COICOP classification. This dataset is especially suitable because it provides category-specific expenditure values and percentage structures, allowing us to assign appropriate emission factors to each type of consumption.
+
+We begin with the total mean annual expenditure per household, reported to be €31,568. This expenditure is then categorized across essential consumption areas such as food and non-alcoholic beverages, housing and energy, transport, communication, and services like restaurants and recreation. The corresponding structure percentages indicate the relative share of each category in the total expenditure. For instance, housing and energy accounted for approximately 32.4\% of the total, while food and beverages represented around 16.0\%. Transport expenditures stood at 12.0\%, with significant growth observed in service-oriented categories such as restaurants and hotels.
+
+\begin{table}[h]
+\centering
+\caption{Mean Consumption Expenditure per Household in Spain, 2022}
+\label{tab:expenditure}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Category} & \textbf{Mean Expenditure (€)} & \textbf{Structure \%} & \textbf{Annual Rate \%} & \textbf{Annual Difference (€)} \\
+\hline
+Total & 31,568 & 100.0 & 7.9 & 2,324 \\
+Food and non-alcoholic beverages & 5,050 & 16.0 & 5.1 & 244 \\
+Alcoholic beverages and tobacco & 481 & 1.5 & -3.0 & -15 \\
+Clothing and footwear & 1,232 & 3.9 & 6.5 & 76 \\
+Housing, water, electricity, gas & 10,243 & 32.4 & 3.5 & 350 \\
+Furnishings and maintenance & 1,296 & 4.1 & 0.8 & 10 \\
+Health & 1,228 & 3.9 & 2.1 & 25 \\
+Transport & 3,794 & 12.0 & 17.5 & 564 \\
+Communications & 925 & 2.9 & -1.3 & -12 \\
+Recreation and culture & 1,534 & 4.9 & 18.0 & 241 \\
+Education & 468 & 1.5 & 6.4 & 29 \\
+Restaurants and hotels & 2,953 & 9.4 & 29.1 & 665 \\
+Miscellaneous goods and services & 2,364 & 7.5 & 7.5 & 148 \\
+\hline
+\end{tabular}}
+\end{table}
+
+Next, we calculate Scope 1 emissions. These emissions arise from the direct combustion of fossil fuels by households, primarily through private vehicle use and home heating. We use energy consumption data expressed in gigajoules (GJ) per capita and apply appropriate emission factors. According to Spain’s INE and international emission factor databases such as DEFRA and IPCC, petrol used for transport has an emission factor of 73.3 kg CO$_2$e/GJ, while natural gas used in heating has a slightly lower factor of 56.1 kg CO$_2$e/GJ.
+
+\begin{table}[h]
+\centering
+\caption{Direct Emissions from Household Energy and Transport (Scope 1)}
+\label{tab:scope1}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Energy Source} & \textbf{Consumption (GJ/hab)} & \textbf{Emission Factor (kg CO$_2$e/GJ)} & \textbf{Emissions (kg CO$_2$e)} \\
+\hline
+Natural Gas (Transport) & 0.04 & 56.1 & 2.24 \\
+Petrol (Transport) & 14.44 & 73.3 & 1058.45 \\
+Natural Gas (Heating) & 0.73 & 56.1 & 40.95 \\
+Petrol (Other) & 0.18 & 73.3 & 13.19 \\
+\hline
+\textbf{Total} & & & \textbf{1114.83} \\
+\hline
+\end{tabular}
+\end{table}
+
+We then proceed to Scope 2 emissions, which pertain to purchased energy—namely electricity and district heating—used within the household but generated off-site. The average household in Spain consumed approximately 8.96 GJ of heating and cooling energy. The national grid's emission factor for such energy consumption, based on 2022 data, is estimated at 92.6 kg CO$_2$e per GJ.
+
+\begin{table}[h]
+\centering
+\caption{Indirect Emissions from Heating and Cooling (Scope 2)}
+\label{tab:scope2}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Energy Source} & \textbf{Consumption (GJ/hab)} & \textbf{Emission Factor (kg CO$_2$e/GJ)} & \textbf{Emissions (kg CO$_2$e)} \\
+\hline
+Heating/Cooling Energy & 8.96 & 92.6 & 829.70 \\
+\hline
+\textbf{Total} & & & \textbf{829.70} \\
+\hline
+\end{tabular}
+\end{table}
+
+The most complex and voluminous part of the analysis involves Scope 3 emissions. These emissions arise from the indirect impacts of household consumption decisions, including the carbon embedded in food, manufactured goods, services, and transportation infrastructure. Each expenditure category is multiplied by a category-specific emission factor derived from lifecycle assessment databases. For example, the food category carries an emission factor of 0.50 kg CO$_2$e per euro spent, reflecting emissions from agriculture, processing, and distribution. Clothing, by contrast, has a lower factor of 0.25 kg CO$_2$e/€, while restaurant services, due to their energy intensity, have a higher factor of 0.40 kg CO$_2$e/€.
+
+\begin{table}[h]
+\centering
+\caption{Consumption-Based Emissions (Scope 3)}
+\label{tab:scope3}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Category} & \textbf{Expenditure (€)} & \textbf{Emission Factor (kg CO$_2$e/€)} & \textbf{Emissions (kg CO$_2$e)} \\
+\hline
+Food and non-alcoholic beverages & 5,050 & 0.50 & 2525.00 \\
+Alcoholic beverages and tobacco & 481 & 0.30 & 144.30 \\
+Clothing and footwear & 1,232 & 0.25 & 308.00 \\
+Housing and utilities & 10,243 & 0.25 & 2560.75 \\
+Furnishings & 1,296 & 0.30 & 388.80 \\
+Health & 1,228 & 0.20 & 245.60 \\
+Transport services & 3,794 & 0.30 & 1138.20 \\
+Communications & 925 & 0.15 & 138.75 \\
+Recreation & 1,534 & 0.35 & 536.90 \\
+Education & 468 & 0.10 & 46.80 \\
+Restaurants and hotels & 2,953 & 0.40 & 1181.20 \\
+Miscellaneous goods and services & 2,364 & 0.30 & 709.20 \\
+\hline
+\textbf{Total} & & & \textbf{9883.55} \\
+\hline
+\end{tabular}}
+\end{table}
+
+Finally, by summing the results from all three scopes, we obtain the total household carbon footprint for a typical Spanish household in 2022. The emissions distribution clearly reveals that Scope 3 emissions dominate, comprising nearly 84\% of the total. This insight aligns with broader research indicating that in high-income settings, the indirect emissions associated with consumption patterns far exceed direct household emissions.
+
+\begin{table}[h]
+\centering
+\caption{Total Household Carbon Footprint by Scope}
+\label{tab:total_emissions}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Scope} & \textbf{Emissions (kg CO$_2$e)} \\
+\hline
+Scope 1 & 1114.83 \\
+Scope 2 & 829.70 \\
+Scope 3 & 9883.55 \\
+\textbf{Total} & \textbf{11828.08} \\
+\hline
+\end{tabular}
+\end{table}
+
+This empirical illustration not only validates the functionality of the GHG Protocol when applied to real-world household data but also emphasizes the critical role of consumption behavior in shaping emissions outcomes. The findings suggest that while improvements in home energy efficiency and cleaner fuels are valuable, the most substantial reductions may be achieved through systemic shifts in consumption patterns, such as transitioning to plant-based diets, reducing air travel, or shifting investments away from carbon-intensive industries.
+
+\end{document}
