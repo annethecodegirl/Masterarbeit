@@ -1,1 +1,67 @@
+\documentclass[12pt,a4paper]{article}
 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\geometry{left=3cm, right=2cm, top=2cm, bottom=2cm}
+\onehalfspacing
+
+\begin{document}
+\subsection{Input-Output Matrix Model}
+
+\subsubsection*{Measurement of Carbon Footprint Using I-O Matrix}
+
+Household carbon footprints (HCF) are categorized into three tiers: \textit{Tier 1} (direct fuel combustion), \textit{Tier 2} (indirect emissions from purchased electricity and heating), and \textit{Tier 3} (indirect emissions from goods and services). An Input-Output (I-O) framework is employed to estimate these emissions systematically. This methodology follows the approach outlined in Matthews et al. (2008) and Long et al. (2019).
+
+\subsubsection*{Input-Output Framework}
+The total economic output required to satisfy final demand \( \mathbf{F} \) in an economy is derived from the fundamental balance equation of input-output analysis:
+\begin{equation}
+    \mathbf{X} = (\mathbf{I} - \mathbf{A})^{-1} \mathbf{F}
+\end{equation}
+where \( \mathbf{X} \) represents the total output vector across all sectors, \( \mathbf{A} \) is the technology coefficient matrix that defines the interdependencies between industries, and \( \mathbf{I} \) is the identity matrix. The term \( (\mathbf{I} - \mathbf{A})^{-1} \) is known as the Leontief inverse, which accounts for both direct and indirect production effects required to meet final demand.
+
+\subsubsection*{Tier 1: Direct Emissions}
+Tier 1 emissions result from the direct combustion of fuels by households, including natural gas, gasoline, and heating oil. These emissions are quantified using the emission coefficient matrix \( \mathbf{R} \), which is a diagonal matrix where each element \( r_{ii} \) denotes the emission intensity per unit of fuel consumption. Household fuel consumption is represented as a vector \( \mathbf{y} \), yielding direct emissions:
+\begin{equation}
+    \mathbf{E}_1 = \mathbf{R} \mathbf{y}
+\end{equation}
+where \( \mathbf{E}_1 \) captures emissions directly attributable to household fuel usage.
+
+\subsubsection*{Tier 2: Indirect Energy Emissions}
+Indirect emissions arise from electricity and heating consumption, which are not directly combusted within households but contribute to emissions at the production stage. The calculation follows:
+\begin{equation}
+    \mathbf{E}_2 = \mathbf{R} (\mathbf{I} + \mathbf{A}') \mathbf{y}
+\end{equation}
+where \( \mathbf{A}' \) is a subset of the input-output matrix specific to energy-producing industries. The emission intensity vector \( \mathbf{R} \) in this case reflects the carbon footprint of electricity and heat generation.
+
+\subsubsection*{Tier 3: Indirect Supply Chain Emissions}
+Traditional I-O models have been criticized, including by Matthews et al. (2008), for underestimating supply chain emissions due to the exclusion of imports and economic interactions beyond the primary production stage. To improve accuracy, we adopt an import-adjusted balance equation:
+\begin{equation}
+    \mathbf{X} = [(\mathbf{I} - \mathbf{M}) (\mathbf{I} - \mathbf{A})]^{-1} [(\mathbf{I} - \mathbf{M}) \mathbf{F} + \mathbf{EX}]
+\end{equation}
+where \( \mathbf{M} \) is the import-adjustment matrix that removes non-domestic contributions, ensuring that emissions are calculated based solely on domestic production. The term \( \mathbf{EX} \) represents exports, ensuring that emissions are assigned to domestic consumption rather than international trade.
+
+Applying the emission intensity matrix \( \mathbf{D} \), the total indirect supply chain emissions are given by:
+\begin{equation}
+    \mathbf{E}_3 = \mathbf{D} [(\mathbf{I} - \mathbf{M}) (\mathbf{I} - \mathbf{A})]^{-1} [(\mathbf{I} - \mathbf{M}) \mathbf{F} + \mathbf{EX}]
+\end{equation}
+This formulation captures emissions embedded in the entire production and distribution chain, offering a more comprehensive estimation of the household carbon footprint.
+
+\subsubsection*{Total Household Carbon Footprint}
+The overall household carbon footprint integrates direct, indirect energy, and supply chain emissions:
+\begin{equation}
+    \mathbf{E}_{\text{total}} = \mathbf{E}_1 + \mathbf{E}_2 + \mathbf{E}_3
+\end{equation}
+This formulation aligns with recent advances in environmentally extended input-output models, refining emission estimations by incorporating full economic feedback loops and import corrections. The inclusion of trade-adjusted emissions ensures a more realistic and policy-relevant estimation of household contributions to carbon emissions, as emphasized by Long et al. (2019).
+
+\end{document}

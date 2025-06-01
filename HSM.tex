@@ -1,1 +1,110 @@
+\documentclass[12pt,a4paper]{article}
 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\geometry{left=3cm, right=2cm, top=2cm, bottom=2cm}
+\onehalfspacing
+
+\begin{document}
+
+\section*{The Hakenes \& Schliephake Model}
+
+The consequentialist carbon footprint model developed by Hakenes and Schliephake (2024) provides a structured approach to attributing carbon responsibility between consumption and investment under conditions of market risk and uncertainty.
+
+\begin{equation}
+f_{ph} = x \left( \varphi q_h + (1 - \varphi) \frac{i_h}{c} \right)
+\end{equation}
+
+\subsection*{Derivation of the Weighting Parameter \texorpdfstring{$\varphi$}{phi}}
+
+\begin{equation}
+U = b q_h - \frac{1}{2} \alpha \sigma^2 \left( \frac{i_h}{c} \right)^2
+\end{equation}
+
+\begin{equation}
+\frac{\partial U}{\partial q_h} = b - \lambda = 0
+\end{equation}
+
+\begin{equation}
+\frac{\partial U}{\partial i_h} = - \alpha \sigma^2 \left( \frac{i_h}{c^2} \right) - \lambda \frac{1}{c} = 0
+\end{equation}
+
+\begin{equation}
+\lambda = b
+\end{equation}
+
+\begin{equation}
+\alpha \sigma^2 \left( \frac{i_h}{c^2} \right) - \frac{b}{c} = 0
+\end{equation}
+
+\begin{equation}
+i_h = - \frac{b c^2}{\alpha \sigma^2}
+\end{equation}
+
+\begin{equation}
+\varphi = \frac{b}{b + c^2 \alpha \sigma^2}
+\end{equation}
+
+\subsection*{Sensitivity of \texorpdfstring{$\varphi$}{phi}}
+
+\begin{equation}
+\frac{\partial \varphi}{\partial b} = \frac{\alpha \sigma^2}{(b + \alpha \sigma^2)^2}
+\end{equation}
+
+\begin{equation}
+\frac{\partial \varphi}{\partial \alpha} = - \frac{b \sigma^2}{(b + \alpha \sigma^2)^2}
+\end{equation}
+
+\begin{equation}
+\frac{\partial \varphi}{\partial \sigma^2} = - \frac{b \alpha}{(b + \alpha \sigma^2)^2}
+\end{equation}
+
+\subsection*{Market Equilibrium Analysis}
+
+\begin{equation}
+P = a - b Q
+\end{equation}
+
+\begin{equation}
+P = c (r_f - \lambda) + \frac{c^2 \alpha \sigma^2}{n - 1} Q
+\end{equation}
+
+\begin{equation}
+a - b Q = c (r_f - \lambda) + \frac{c^2 \alpha \sigma^2}{n - 1} Q
+\end{equation}
+
+\begin{equation}
+Q^* = \frac{(a - x) - c (r_f - \lambda)}{b + \frac{c^2 \alpha \sigma^2}{n - 1}}
+\end{equation}
+
+\subsection*{Carbon Footprint Function and Sensitivity}
+
+\begin{equation}
+f_{ph} = x \left( \frac{b q_h + \alpha \sigma^2 \frac{i_h}{c}}{b + \alpha \sigma^2} \right)
+\end{equation}
+
+\begin{equation}
+\frac{\partial f_{ph}}{\partial b} = x \frac{\alpha \sigma^2 \left(q_h - \frac{i_h}{c} \right)}{(b + \alpha \sigma^2)^2}
+\end{equation}
+
+\begin{equation}
+\frac{\partial f_{ph}}{\partial \alpha} = - x \frac{b \sigma^2 \left(q_h - \frac{i_h}{c} \right)}{(b + \alpha \sigma^2)^2}
+\end{equation}
+
+\begin{equation}
+\frac{\partial f_{ph}}{\partial \sigma^2} = - x \frac{b \alpha \left(q_h - \frac{i_h}{c} \right)}{(b + \alpha \sigma^2)^2}
+\end{equation}
+
+\subsection*{Discussion and Implications}
+
+The analytical framework captures the consequentialist perspective of carbon attribution, emphasizing how risk, marginal utility, and volatility shift the responsibility for emissions between consumption and investment.
+
+\end{document}
