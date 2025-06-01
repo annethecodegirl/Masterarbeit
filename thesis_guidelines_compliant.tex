@@ -1,0 +1,428 @@
+
+\documentclass[12pt,a4paper]{article}
+
+% -------------------------
+% Packages
+% -------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+% -------------------------
+% Page Setup
+% -------------------------
+\geometry{left=3cm, right=2cm, top=2cm, bottom=2cm}
+\onehalfspacing
+
+% -------------------------
+% Title Information (Cover Page)
+% -------------------------
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+    \vspace*{2cm}
+    \Huge{\textbf{Comparing Household Carbon Footprint Calculation Methods}}\\[2cm]
+    \Large{Master Thesis Presented to the}\\[0.3cm]
+    \Large{Department of Economics at the}\\[0.3cm]
+    \Large{Rheinische Friedrich-Wilhelms-Universität Bonn}\\[1.5cm]
+    \Large{In Partial Fulfillment of the Requirements for the Degree of}\\[0.3cm]
+    \Large{Master of Science (M.Sc.)}\\[1.5cm]
+    \Large{Supervisor: [Name of Supervisor]}\\[0.3cm]
+    \Large{Submitted in January 2025 by:}\\[0.3cm]
+    \Large{Anushka Mukherjee}\\[0.3cm]
+    \Large{Matriculation Number: [Your Matriculation Number]}\\
+\end{center}
+\newpage
+
+% -------------------------
+% Table of Contents
+% -------------------------
+\tableofcontents
+\newpage
+
+% -------------------------
+% Abstract
+% -------------------------
+\section*{Abstract}
+This paper explores and compares four different methods for calculating household carbon footprints: the traditional GHG Protocol method, the consequentialist model by Hakenes and Schliephake, the Life Cycle Assessment (LCA) method, and the Input-Output (I-O) matrix model. Emphasis is placed on measurement accuracy, market effects, and policy implications.
+\newpage
+
+% -------------------------
+% Main Content
+% -------------------------
+\section{Introduction}
+\section{Literature Review}
+
+
+Climate change mitigation policies are heavily influenced by the development trajectories of nations and their respective stages of economic growth, as outlined in the fifth assessment report by the Intergovernmental Panel on Climate Change (IPCC, 2007). According to emission estimates for 2023 provided by the EDGAR database, global greenhouse gas (GHG) emissions increased by 1.9\% compared to 2022, reaching 53.0 Gt CO2eq. The major contributors to global GHG emissions in 2023 were China, the United States, India, the European Union (EU27), Russia, and Brazil, which together accounted for 62.7\% of the total global emissions. Carbon dioxide (CO2) produced by human activities remains the largest driver of global warming, with its concentration in the atmosphere having risen by 48\% above pre-industrial levels (before 1750) by 2020. The primary sources of CO2 emissions include the combustion of coal, oil, and natural gas, deforestation, livestock farming, the release of fluorinated gases from industrial equipment, and the use of nitrogen-based fertilizers (Weber \& Matthews, 2008). These activities have led to more frequent and severe weather events, including heatwaves and droughts, that are impacting regions around the world. In 2024, the United States experienced 27 weather and climate-related disaster events, each resulting in losses exceeding \$1 billion (NOAA, n.d.).
+\vspace{5 pt}
+
+The growing acknowledgment of global warming as a significant threat has prompted international initiatives aimed at reducing greenhouse gas (GHG) emissions. These initiatives rely on accurate assessment and reporting of GHG emissions to inform climate policies (IPCC, 2007). Households account for 17\% of total global carbon dioxide (CO2) emissions, underscoring their critical role in addressing climate change. Understanding and mitigating residential contributions to greenhouse gas (GHG) emissions require prioritizing the household carbon footprint, a vital measure of emissions stemming from residential consumption (Du \& Zhong, 2024). Several methodologies are available for estimating GHG emissions, with the concept of carbon footprint gaining significant attention (Guinee, 2011). A carbon footprint is defined as the total GHG emissions caused directly and indirectly by an individual, organization, event, or product, traditionally calculated by summing emissions from every stage of a product or service's life cycle (Center for Sustainable Systems, 2024). Among the available methodologies, the GHG Protocol has emerged as a widely used framework for corporate GHG reporting, considering direct and indirect emissions resulting from household consumption. However, this method has limitations, such as double-counting and restricted adjustments for market dynamics (WBCSD, 2004). 
+\vspace{5 pt}
+Another widely used approach is the Input-Output Analysis (IOA) method, a top-down model that calculates carbon footprints by analyzing monetary transactions between activities and extending them to an environmental level through greenhouse gas (GHG) emissions. This approach, known as Environmentally Extended Input-Output Analysis (EEIO), provides a macro-level view of the environmental impacts of economic activities (Encyclopedia of Ecology, 2019). For instance, a study using EEIO to examine the carbon footprints of Australian equity investments and Socially Responsible Investments (SRI) demonstrated that applying SRI criteria significantly reduces the carbon footprint of equity portfolios. This highlights equity investments as a major driver of economic activity and a crucial lever in advancing a sustainable economy (Chard, 2024).
+\vspace{5 pt}
+
+Another frequently used method for calculating carbon emissions is the Emission Factor (EF) method. According to the Intergovernmental Panel on Climate Change (IPCC, 2019), the formula for estimating GHG emissions is:
+
+\[
+\text{GHG Emissions} = \text{Activity Data (AD)} \times \text{Emission Factor (EF)}
+\]
+
+Here, Activity Data (AD) refers to the scale of production or consumption activities that result in GHG emissions, such as fossil fuel use or electricity consumption. The Emission Factor (EF) represents the amount of GHG emitted per unit of activity, such as the emissions per liter of fuel burned or per kilowatt-hour of electricity consumed. Life Cycle Assessment (LCA) is a highly sophisticated tool for examining the environmental impact of products and services. It offers a holistic evaluation, tracing environmental consequences across every stage of a product's existence, from the extraction of raw materials to its final disposal—often described as a "cradle-to-grave" approach. By analyzing phases such as production, distribution, usage, and end-of-life processes, LCA quantifies resource use, greenhouse gas emissions, and pollution affecting air, water, and soil systems (Global Climate Initiatives, 2023). A study leveraging LCA and household survey data provided precise calculations of carbon footprints by capturing emissions associated with daily consumption, household production activities, and the supply chain of consumed goods (Peng, 2021).
+
+\vspace{5 pt}
+The model by Hakenes and Schliephake (2024) offers a fresh perspective on carbon footprint estimation by addressing the shortcomings of traditional static models. This consequentialist approach integrates market behaviors and industry-specific responses to provide a more dynamic and realistic analysis of household emissions. It highlights the connection between individual consumer decisions and broader emission outcomes, accounting for variables such as price elasticity and interdependencies between industries in both product and financial markets. By separating direct emissions tied to household activities from spillover effects influencing other sectors, this model delivers a more detailed and actionable understanding of household contributions to carbon emissions, paving the way for tailored climate strategies
+\section{Methodology and Research Design}
+
+The aim of this paper is to provide an overview, illustrate and finally draw comparision between four different methods for calculating household carbon footprints. 
+
+\subsection{GHG Protocol Method}
+The process of estimating a household's carbon footprint integrates methodologies consistent with the GHG Protocol Corporate Standard and the Scope 3 Accounting and Reporting Standard, focusing on comprehensive boundary-setting and robust emission quantification practices. The calculation encompasses Scope 1 emissions (direct emissions from combustion of fuels in household-controlled sources such as vehicles and heating systems), Scope 2 emissions(indirect emissions from purchased electricity, steam, or cooling consumed by the household), and Scope 3 emissions (indirect value chain emissions associated with the lifecycle of goods, services, and investments). Activity data is the cornerstone of this approach, representing quantitative measures like fuel consumption (liters or cubic meters), energy usage (kWh), quantities of purchased goods (kilograms or units), and financial allocations for investments. Emission factors—derived from authoritative sources such as DEFRA, IPCC, and region-specific datasets like eGRID—translate this activity data into carbon dioxide equivalent (CO\textsubscript{2}e) emissions. For Scope 3, lifecycle or cradle-to-gate emission factors are used to capture all upstream and downstream processes, including raw material extraction, production, and end-of-life treatment. The methodology adheres to the principles of completeness, consistency, and transparency, ensuring data accuracy through primary supplier-specific data where feasible or secondary average data where necessary. By aggregating emissions across all three scopes, this process provides a comprehensive carbon inventory, allowing households to benchmark their environmental impact and identify key hotspots for targeted reductions.
+
+\subsubsection{Methodology for Calculating Household Carbon Footprint Using GHG Guidelines}
+
+\subsubsection*{Aggregate Carbon Footprint}
+
+The aggregate carbon footprint of a household (\(CF_{\text{household}}\)) in the GHG Protocol framework is calculated as:
+\begin{equation}
+CF_{\text{household}} = E_{\text{Scope 1}} + E_{\text{Scope 2}} + E_{\text{Scope 3}}
+\end{equation}
+where \(E_{\text{Scope 1}}\) represents emissions from direct household activities (e.g., combustion of fuels in vehicles or heating systems), \(E_{\text{Scope 2}}\) refers to indirect emissions from purchased electricity, heating, or cooling, and \(E_{\text{Scope 3}}\) encompasses indirect emissions from consumption and investment in the household's value chain.
+
+
+
+\subsubsection*{Scope 1: Direct Emissions}
+Scope 1 includes emissions from activities directly controlled by the household. These are primarily from the combustion of fuels.
+\begin{equation}
+E_{\text{Scope 1}} = \sum_{i} \left( Q_{\text{fuel}, i} \times EF_{\text{fuel}, i} \right)
+\end{equation}
+where \(Q_{\text{fuel}, i}\) represents the quantity of the \(i^{\text{th}}\) fuel consumed (e.g., liters of gasoline or cubic meters of natural gas), and \(EF_{\text{fuel}, i}\) denotes the emission factor for the \(i^{\text{th}}\) fuel (\(\text{kg CO}_2\text{e}/\text{unit of fuel}\)).
+
+
+\subsubsection*{Scope 2: Indirect Energy Emissions}
+Scope 2 emissions arise from the generation of purchased electricity, steam, heating, or cooling used by the household.
+\begin{equation}
+E_{\text{Scope 2}} = \sum_{j} \left( E_{\text{energy}, j} \times EF_{\text{energy}, j} \right)
+\end{equation}
+where \(E_{\text{energy}, j}\) represents the energy consumption in kilowatt-hours (kWh) or other units, and \(EF_{\text{energy}, j}\) denotes the emission factor for the energy source \(j\) (\(\text{kg CO}_2\text{e}/\text{kWh}\)).
+
+
+\subsubsection*{Scope 3: Value Chain Emissions}
+Scope 3 emissions cover indirect emissions from the household’s consumption and production activities, encompassing both upstream and downstream value chain processes.
+
+\subsubsection*{Consumption-Based Emissions}
+\begin{equation}
+E_{\text{Scope 3, consumption}} = \sum_{k} \left( Q_{\text{goods}, k} \times EF_{\text{goods}, k} \right)
+\end{equation}
+where \(Q_{\text{goods}, k}\) represents the quantity of the \(k^{\text{th}}\) good consumed (e.g., kilograms of food, liters of water), and \(EF_{\text{goods}, k}\) denotes the emission factor for the \(k^{\text{th}}\) good (\(\text{kg CO}_2\text{e}/\text{unit of good}\)).
+
+\subsubsection*{Investment-Based Emissions}
+\begin{equation}
+E_{\text{Scope 3, investment}} = \sum_{l} \left( A_{\text{investment}, l} \times EF_{\text{investment}, l} \right)
+\end{equation}
+where \(A_{\text{investment}, l}\) represents the monetary value of the \(l^{\text{th}}\) investment (e.g., equity, real estate), and \(EF_{\text{investment}, l}\) denotes the emission factor for the \(l^{\text{th}}\) investment (\(\text{kg CO}_2\text{e}/\text{unit of currency}\)).
+
+
+When calculating greenhouse gas (GHG) emissions, several key factors need to be carefully considered. Emission factors (EF) are sourced from reputable databases such as DEFRA, IPCC, or region-specific tools like eGRID, and they include life cycle emissions where applicable. In addition, accurate activity data must be collected, including quantities of fuel, energy, goods, and the monetary values of investments. Lifecycle emissions, especially Scope 3 emissions, should be evaluated using approaches like cradle-to-grave or cradle-to-gate, ensuring the inclusion of all upstream and downstream activities. This comprehensive methodology aligns with the \textit{GHG Protocol Corporate Value Chain (Scope 3) Standard}, providing a robust framework for households to calculate their carbon footprint. By integrating direct emissions, energy use, and value chain impacts, households can identify significant contributors to their emissions and explore opportunities for reduction.
+
+\subsubsection{Illustration of Household Carbon Footprint Using Real Data}
+
+To illustrate the methodology discussed in the previous sections, we present an empirical analysis of household consumption expenditure for Spain in 2022. This analysis integrates expenditure data with emission factors to estimate the carbon footprint across different consumption categories.
+
+\subsubsection*{Household Consumption Expenditure}
+
+The following table presents the mean consumption expenditure per household in Spain for the year 2022, categorized according to the COICOP classification.
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{|l|c|c|c|c|}
+        \hline
+        \textbf{Category} & \textbf{Mean Expenditure (€)} & \textbf{Structure \%} & \textbf{Annual Rate \%} & \textbf{Annual Difference (€)} \\
+        \hline
+        Total & 31,568 & 100.0 & 7.9 & 2,324 \\
+        Food and non-alcoholic beverages & 5,050 & 16.0 & 5.1 & 244 \\
+        Alcoholic beverages and tobacco & 481 & 1.5 & -3.0 & -15 \\
+        Clothing and footwear & 1,232 & 3.9 & 6.5 & 76 \\
+        Housing, water, electricity, gas & 10,243 & 32.4 & 3.5 & 350 \\
+        Furnishings, household maintenance & 1,296 & 4.1 & 0.8 & 10 \\
+        Health & 1,228 & 3.9 & 2.1 & 25 \\
+        Transport & 3,794 & 12.0 & 17.5 & 564 \\
+        Communications & 925 & 2.9 & -1.3 & -12 \\
+        Recreation and culture & 1,534 & 4.9 & 18.0 & 241 \\
+        Education & 468 & 1.5 & 6.4 & 29 \\
+        Restaurants and hotels & 2,953 & 9.4 & 29.1 & 665 \\
+        Miscellaneous goods & 2,364 & 7.5 & 7.5 & 148 \\
+        \hline
+    \end{tabular}}
+    \caption{Mean Consumption Expenditure per Household in Spain, 2022}
+    \label{tab:household_expenditure_spain}
+\end{table}
+
+\subsubsection*{Scope 1: Direct Emissions}
+
+\textbf Emission factors for Scope 1 were sourced from national energy agencies and the IPCC guidelines for fuel combustion. Natural gas and petroleum contributions from both transport and household for the year 2022 was sourced from the Spanish National Statistics Institute (INE).
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{Energy Source} & \textbf{Consumption (GJ/hab)} & \textbf{Emission Factor (kg CO$_2$e/GJ)} & \textbf{Emissions (kg CO$_2$e)} \\
+        \hline
+        Natural Gas (Transport) & 0.04 & 56.1 & 2.24 \\
+        Petrol (Transport) & 14.44 & 73.3 & 1058.45 \\
+        Natural Gas (Other) & 0.73 & 56.1 & 40.95 \\
+        Petrol (Other) & 0.18 & 73.3 & 13.19 \\
+        \hline
+        \textbf{Total} & & & \textbf{1114.83} \\
+        \hline
+    \end{tabular}}
+    \caption{Direct Emissions from Household Energy and Transport (Scope 1)}
+    \label{tab:scope1_emissions_corrected}
+\end{table}
+
+
+
+\subsubsection*{Scope 2: Indirect Energy Emissions}
+\textbf The emission factor for Scope 2 is based on national grid electricity and district heating emissions data for Spain for the year 2022 was sourced from the Spanish National Statistics Institute (INE), aligning with the methodology outlined by the GHG Protocol guidelines.
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{Energy Source} & \textbf{Consumption (GJ/hab)} & \textbf{Emission Factor (kg CO$_2$e/GJ)} & \textbf{Emissions (kg CO$_2$e)} \\
+        \hline
+        Heating/Cooling Total Energy & 8.96 & 92.6 & 829.70 \\
+        \hline
+        \textbf{Total} & & & \textbf{829.70} \\
+        \hline
+    \end{tabular}}
+    \caption{Updated Indirect Emissions from Heating/Cooling (Scope 2)}
+    \label{tab:scope2_emissions_corrected}
+\end{table}
+
+
+
+\subsubsection*{Scope 3: Consumption-Based Emissions}
+
+Emission factors for Scope 3 were derived from lifecycle assessment (LCA) studies and national consumption-based emissions inventories. These factors capture upstream and downstream emissions from household consumption, including production, transportation, and waste disposal processes. The estimates align with the GHG Protocol Scope 3 calculation framework to ensure completeness and accuracy in quantifying household indirect emissions.
+
+\begin{table}[h]
+    \centering
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{Category} & \textbf{Expenditure (€)} & \textbf{Emission Factor (kg CO$_2$e/€)} & \textbf{Emissions (kg CO$_2$e)} \\
+        \hline
+        Food and non-alcoholic beverages & 5,050 & 0.50 & 2525.00 \\
+        Alcoholic beverages and tobacco & 481 & 0.30 & 144.30 \\
+        Clothing and footwear & 1,232 & 0.25 & 308.00 \\
+        Housing, water, electricity, gas & 10,243 & 0.25 & 2560.75 \\
+        Furnishings, household maintenance & 1,296 & 0.30 & 388.80 \\
+        Health & 1,228 & 0.20 & 245.60 \\
+        Transport & 3,794 & 0.30 & 1138.20 \\
+        Communications & 925 & 0.15 & 138.75 \\
+        Recreation and culture & 1,534 & 0.35 & 536.90 \\
+        Education & 468 & 0.10 & 46.80 \\
+        Restaurants and hotels & 2,953 & 0.40 & 1181.20 \\
+        Miscellaneous goods & 2,364 & 0.30 & 709.20 \\
+        \hline
+        \textbf{Total} & & & \textbf{9883.55} \\
+        \hline
+    \end{tabular}}
+    \caption{Consumption-Based Emissions (Scope 3)}
+    \label{tab:scope3_emissions}
+\end{table}
+
+
+
+\subsubsection*{Aggregate Carbon Footprint}
+
+
+
+\textbf The total household carbon footprint is computed by summing emissions from all three scopes. This value provides a holistic measure of household environmental impact, encompassing direct fuel use, electricity consumption, and consumption-based emissions. The aggregation aligns with methodologies established by the GHG Protocol and national environmental agencies to ensure consistency and comparability across reporting frameworks. The emission factors used are consistent with reputable sources such as the IPCC, DEFRA, and national energy databases to ensure accuracy and reliability in carbon footprint calculations.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|c|}
+        \hline
+        \textbf{Scope} & \textbf{Emissions (kg CO$_2$e)} \\
+        \hline
+        Scope 1 & 1114.83 \\
+        Scope 2 & 829.70 \\
+        Scope 3 & 9883.55 \\
+        \textbf{Total} & \textbf{11828.08} \\
+        \hline
+    \end{tabular}
+    \caption{Total Household Carbon Footprint}
+    \label{tab:total_carbon_footprint}
+\end{table}
+\vspace{150 pt}
+
+\subsection{Life Cycle Assessment (LCA) Method}
+The LCA method calculates emissions throughout the entire life cycle of a product or service, from production to disposal. This model captures emissions from every stage of the supply chain and provides a comprehensive assessment of indirect emissions.
+
+The carbon footprint for a single industry using the LCA approach is:
+\[
+fp_h = q_h \cdot \text{LCA}_j
+\]
+where \(q_h\) is the quantity consumed by household \(h\), and \(\text{LCA}_j\) represents the life cycle emissions per unit in industry \(j\).
+
+
+\subsubsection{Methodology for Household Carbon Footprint Calculation based on LCA approach}
+
+The methodology developed by Peng et al. (2021) provides a comprehensive framework for calculating household carbon footprints by integrating life-cycle assessment (LCA) approaches. This framework accounts for both carbon emissions and sequestration from various household activities, including consumption and production, using survey data. It employs three primary LCA methods: (1) \textit{Process LCA}, which evaluates emissions from agricultural and livestock-related processes, capturing material inputs like fertilizers and operational activities; (2) \textit{Input–Output LCA}, applied to household consumption activities such as energy, food, housing, and transportation; and (3) \textit{Hybrid LCA}, which combines process and input-output methods to assess afforestation activities and durable goods like clothing. The methodology categorizes household activities into specific domains, including direct energy consumption, living consumption (short-lived and durable goods), agricultural activities (emissions from material inputs and sequestration from biomass growth), afforestation (carbon sequestration from tree plantations such as citrus farming), and livestock raising (emissions from fodder preparation, livestock growth, and manure management). The total carbon footprint is expressed as the sum of emissions and sequestration across these domains, incorporating emission factors and material inputs derived from IPCC guidelines and regional data. 
+\subsubsection*{Overall Carbon Footprint}
+\begin{equation}
+CF_i = \sum_{n} E_{in} + \sum_{m} S_{im}
+\end{equation}
+where $CF_i$ represents the Carbon footprint of household $i$, $E_{in}$ is the annual carbon emissions of household $i$ in category $n$ and $S_{im}$ is the annual carbon sequestration of household $i$ in category $m$.
+
+
+\subsubsection*{Carbon Emissions from Direct Energy Consumption}
+\begin{equation}
+E_{id} = \sum_d (F_{id} \cdot EF_d)
+\end{equation}
+\begin{equation}
+EF_d = OX_d \cdot \left(C_{o,d} \cdot \frac{12}{44} + C_{h,d} \cdot \frac{12}{16}\right) \cdot H_d \cdot 10^{-9}
+\end{equation}
+
+where $E_{id}$ is the carbon emissions from direct fuel consumption, $F_{id}$ is the fuel consumption of household $i$ for fuel type $d$, $EF_d$ is the emission factor of fuel $d$, $OX_d$ is the oxygenation efficiency (assumed 100\%), $C_{o,d}$ and $C_{h,d}$ are the CO$_2$ and CH$_4$ emission factors, and $H_d$ is the net calorific value of the fuel.
+
+
+\subsubsection*{Carbon Emissions from Living Consumption}
+\begin{equation}
+E_{if} = \sum_f (EF_f \cdot C_{if})
+\end{equation}
+\begin{equation}
+E_{ij} = \sum_j \frac{(EF_j \cdot C_{ij})}{L_j}
+\end{equation}
+where: $E_{if}$ and $E_{ij}$ are the carbon emissions from short-lived and durable consumer products, $C_{if}$ and $C_{ij}$ are the amounts of consumed material, and $L_j$ is the lifetime of durable consumer product $j$.
+
+
+\subsubsection*{Carbon Footprint in Agricultural Activities}
+\begin{equation}
+CF_{ia} = \sum_a (EF_a \cdot M_{ia}) + \sum_t (EF_t \cdot FS_{ia}) + \sum_v (B_v \cdot 0.475)
+\end{equation}
+where: $CF_{ia}$ is the carbon footprint from agricultural activities, $EF_a$ and $EF_t$ are the emission factors for materials and field operations, $M_{ia}$ is the material input, $FS_{ia}$ is the field size, and $B_v$ is the biomass produced.
+
+
+\subsubsection*{Carbon Sequestration from Afforestation}
+\begin{equation}
+S_{iaf} = FS_{iaf} \cdot CS_{\text{citrus}}
+\end{equation}
+where: $S_{iaf}$ is the carbon sequestration from afforestation, $FS_{iaf}$ is the field size for afforestation, and $CS_{\text{citrus}}$ is the carbon stock of citrus trees.
+
+
+\subsubsection*{Carbon Emissions from Livestock Raising}
+\begin{equation}
+E_{il} = \sum_f (EF_{if} \cdot F_{if}) + \sum_l (EF_{il} \cdot N_{il})
+\end{equation}
+where: $E_{il}$ is the carbon emissions from livestock raising, $EF_{if}$ and $EF_{il}$ are the emission factors for fodder and livestock, $F_{if}$ is the fodder consumption, and $N_{il}$ is the number of livestock.
+
+
+
+\subsubsection*{Aggregate Formula for Household Carbon Footprint}
+
+The total carbon footprint ($CF_{\text{total}}$) of a household is the sum of emissions and sequestration from all relevant activities, including direct energy consumption, living consumption, agricultural activities, afforestation, and livestock raising:
+
+\begin{align}
+CF_{\text{total}} = & \underbrace{\sum_d \left(F_{id} \cdot EF_d\right)}_{\text{Direct energy consumption}} + 
+\underbrace{\sum_f \left(EF_f \cdot C_{if}\right) + \sum_j \frac{\left(EF_j \cdot C_{ij}\right)}{L_j}}_{\text{Living consumption}} \nonumber \\
+& + \underbrace{\sum_a \left(EF_a \cdot M_{ia}\right) + \sum_t \left(EF_t \cdot FS_{ia}\right) + \sum_v \left(B_v \cdot 0.475\right)}_{\text{Agricultural activities}} \nonumber \\
+& - \underbrace{\sum_{iaf} \left(FS_{iaf} \cdot CS_{\text{citrus}}\right)}_{\text{Afforestation}} +
+\underbrace{\sum_f \left(EF_{if} \cdot F_{if}\right) + \sum_l \left(EF_{il} \cdot N_{il}\right)}_{\text{Livestock raising}}
+\end{align}
+
+
+The total household carbon footprint is denoted by $CF_{\text{total}}$. Fuel consumption for fuel type $d$ is represented by $F_{id}$, and the emission factor of fuel $d$ is denoted by $EF_d$. The amount of consumed materials for short-lived ($f$) and durable products ($j$) is represented by $C_{if}$ and $C_{ij}$, respectively, with the lifetime of durable product $j$ given by $L_j$. The emission factors for short-lived and durable products are represented by $EF_f$ and $EF_j$, respectively. The material input for agricultural activity $a$ is denoted by $M_{ia}$, while the emission factors for agricultural materials and field operations are given by $EF_a$ and $EF_t$. The field size for agricultural activities is represented by $FS_{ia}$, and the biomass produced is denoted by $B_v$. The field size for afforestation is represented by $FS_{iaf}$, while the carbon stock of citrus trees is given by $CS_{\text{citrus}}$. Fodder consumption for livestock is denoted by $F_{if}$, and the number of livestock is represented by $N_{il}$. The emission factors for fodder and livestock are represented by $EF_{if}$ and $EF_{il}$, respectively.
+
+
+
+\subsection{Input-Output Matrix Model}
+
+\subsubsection*{Measurement of Carbon Footprint Using I-O Matrix}
+
+Household carbon footprints (HCF) are categorized into three tiers: \textit{Tier 1} (direct fuel combustion), \textit{Tier 2} (indirect emissions from purchased electricity and heating), and \textit{Tier 3} (indirect emissions from goods and services). An Input-Output (I-O) framework is employed to estimate these emissions systematically. This methodology follows the approach outlined in Matthews et al. (2008) and Long et al. (2019).
+
+\subsubsection*{Input-Output Framework}
+The total economic output required to satisfy final demand \( \mathbf{F} \) in an economy is derived from the fundamental balance equation of input-output analysis:
+\begin{equation}
+    \mathbf{X} = (\mathbf{I} - \mathbf{A})^{-1} \mathbf{F}
+\end{equation}
+where \( \mathbf{X} \) represents the total output vector across all sectors, \( \mathbf{A} \) is the technology coefficient matrix that defines the interdependencies between industries, and \( \mathbf{I} \) is the identity matrix. The term \( (\mathbf{I} - \mathbf{A})^{-1} \) is known as the Leontief inverse, which accounts for both direct and indirect production effects required to meet final demand.
+
+\subsubsection*{Tier 1: Direct Emissions}
+Tier 1 emissions result from the direct combustion of fuels by households, including natural gas, gasoline, and heating oil. These emissions are quantified using the emission coefficient matrix \( \mathbf{R} \), which is a diagonal matrix where each element \( r_{ii} \) denotes the emission intensity per unit of fuel consumption. Household fuel consumption is represented as a vector \( \mathbf{y} \), yielding direct emissions:
+\begin{equation}
+    \mathbf{E}_1 = \mathbf{R} \mathbf{y}
+\end{equation}
+where \( \mathbf{E}_1 \) captures emissions directly attributable to household fuel usage.
+
+\subsubsection*{Tier 2: Indirect Energy Emissions}
+Indirect emissions arise from electricity and heating consumption, which are not directly combusted within households but contribute to emissions at the production stage. The calculation follows:
+\begin{equation}
+    \mathbf{E}_2 = \mathbf{R} (\mathbf{I} + \mathbf{A}') \mathbf{y}
+\end{equation}
+where \( \mathbf{A}' \) is a subset of the input-output matrix specific to energy-producing industries. The emission intensity vector \( \mathbf{R} \) in this case reflects the carbon footprint of electricity and heat generation.
+
+\subsubsection*{Tier 3: Indirect Supply Chain Emissions}
+Traditional I-O models have been criticized, including by Matthews et al. (2008), for underestimating supply chain emissions due to the exclusion of imports and economic interactions beyond the primary production stage. To improve accuracy, we adopt an import-adjusted balance equation:
+\begin{equation}
+    \mathbf{X} = [(\mathbf{I} - \mathbf{M}) (\mathbf{I} - \mathbf{A})]^{-1} [(\mathbf{I} - \mathbf{M}) \mathbf{F} + \mathbf{EX}]
+\end{equation}
+where \( \mathbf{M} \) is the import-adjustment matrix that removes non-domestic contributions, ensuring that emissions are calculated based solely on domestic production. The term \( \mathbf{EX} \) represents exports, ensuring that emissions are assigned to domestic consumption rather than international trade.
+
+Applying the emission intensity matrix \( \mathbf{D} \), the total indirect supply chain emissions are given by:
+\begin{equation}
+    \mathbf{E}_3 = \mathbf{D} [(\mathbf{I} - \mathbf{M}) (\mathbf{I} - \mathbf{A})]^{-1} [(\mathbf{I} - \mathbf{M}) \mathbf{F} + \mathbf{EX}]
+\end{equation}
+This formulation captures emissions embedded in the entire production and distribution chain, offering a more comprehensive estimation of the household carbon footprint.
+
+\subsubsection*{Total Household Carbon Footprint}
+The overall household carbon footprint integrates direct, indirect energy, and supply chain emissions:
+\begin{equation}
+    \mathbf{E}_{\text{total}} = \mathbf{E}_1 + \mathbf{E}_2 + \mathbf{E}_3
+\end{equation}
+This formulation aligns with recent advances in environmentally extended input-output models, refining emission estimations by incorporating full economic feedback loops and import corrections. The inclusion of trade-adjusted emissions ensures a more realistic and policy-relevant estimation of household contributions to carbon emissions, as emphasized by Long et al. (2019).
+
+
+
+\section{Next Steps}
+In the upcoming sections, each methodology will be discussed in detail, followed by an empirical comparison and simulation-based analysis.
+
+% -------------------------
+% Bibliography
+% -------------------------
+\bibliographystyle{apalike}
+\bibliography{references}
+
+% -------------------------
+% Statement of Authorship
+% -------------------------
+\newpage
+\thispagestyle{empty}
+\vspace*{5cm}
+\begin{center}
+    \textbf{Statement of Authorship}
+\end{center}
+
+\vspace{1cm}
+\noindent
+I hereby confirm that the work presented has been performed and interpreted solely by myself except for where I explicitly identified the contrary. I assure that this work has not been presented in any other form for the fulfillment of any other degree or qualification. Ideas taken from other works in letter and in spirit are identified in every single case.
+
+\vspace{2cm}
+\noindent
+Date: \hrulefill \hfill Signature: \hrulefill
+
+\end{document}

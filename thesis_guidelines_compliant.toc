@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Literature Review}{4}{section.2}%
+\contentsline {section}{\numberline {3}Methodology and Research Design}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}GHG Protocol Method}{6}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Methodology for Calculating Household Carbon Footprint Using GHG Guidelines}{6}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Illustration of Household Carbon Footprint Using Real Data}{8}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Life Cycle Assessment (LCA) Method}{10}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Methodology for Household Carbon Footprint Calculation based on LCA approach}{10}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}Input-Output Matrix Model}{12}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Next Steps}{14}{section.4}%
