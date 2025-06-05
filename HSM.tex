@@ -19,7 +19,7 @@
 
 Traditional methods for estimating household carbon footprints attribute emissions based on direct consumption or financial ownership in emitting industries. However, they often ignore the market feedback loops triggered by individual decisions — such as how a household reducing demand might simply shift that demand to other consumers or investors.
 
-The model developed by Hakenes and Schliephake (2024) addresses this issue through a general equilibrium framework. By embedding both product and financial markets, the model assigns carbon footprints based not only on what households consume or invest in, but also on the ripple effects of those choices across the economy. This consequentialist approach captures the true marginal impact of household behavior on aggregate emissions.
+The model developed by Hakenes and Schliephake (2024) addresses this issue through a general equilibrium framework. By embedding both product and financial markets, the model assigns carbon footprints based not only on what households consume or invest in, but also on the spillover effects of those choices across the economy. This consequentialist approach attempts to capture the true marginal impact of household behavior on aggregate emissions.
 
 \section{Deriving the Household Footprint in a One-Industry Economy}
 
@@ -99,7 +99,6 @@ This weight determines how the household’s choices affect equilibrium quantiti
 fp_h = x \left( Q(q_h, i_h) - Q(0, 0) \right) = x \left( \phi q_h + (1 - \phi) \frac{i_h}{c} \right).
 \]
 
-\subsection*{Interpretation}
 
 The parameter $\phi$ captures the relative influence of consumption and investment. When the financial asset is risk-free ($\sigma^2 = 0$), we obtain $\phi = 1$, and the entire footprint is attributed to consumption. Conversely, if consumption utility is linear ($b = 0$), then $\phi = 0$, and the footprint depends entirely on investment. This formulation ensures full accounting of emissions across households:
 
@@ -191,7 +190,7 @@ With respect to the volatility of financial returns, captured by \( \sigma^2 \),
 \[
 \frac{\partial \boldsymbol{\phi}}{\partial \sigma^2} = -\frac{b c^2 \alpha}{(b + c^2 \alpha \sigma^2)^2} < 0.
 \]
-An increase in financial risk similarly reduces \( \boldsymbol{\varphi} \), shifting the footprint burden from consumption to investment channels.
+An increase in financial risk similarly reduces \( \boldsymbol{\phi} \), shifting the footprint burden from consumption to investment channels.
 
 Finally, consider the effect of changing the curvature of the utility function through the parameter \( b \). Differentiation yields
 \[
@@ -199,6 +198,8 @@ Finally, consider the effect of changing the curvature of the utility function t
 \]
 A higher value of \( b \), indicating stronger diminishing marginal utility from consumption, increases the share of the footprint attributed to consumption activities.
 
-In sum, the weighting parameter \( \boldsymbol{\varphi} \) is decreasing in both risk aversion and return volatility, and increasing in the concavity of consumption preferences. These results highlight how the relative responsibility of consumption and investment for carbon emissions is endogenous to household behavior and financial risk, making the model responsive to empirical variation across households or economies.
+In sum, the weighting parameter \( \boldsymbol{\phi} \) is decreasing in both risk aversion and return volatility, and increasing in the concavity of consumption preferences. These results highlight how the relative responsibility of consumption and investment for carbon emissions is endogenous to household behavior and financial risk, making the model responsive to empirical variation across households or economies.
+
+
 
 \end{document}

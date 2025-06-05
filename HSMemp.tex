@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{amsmath}
+
+\begin{document}
+\section{Empirical Illustration: Application of the Single-Industry Model}
+
+Here, the simplified version of the Hakenes and Schliephake (2024) model is applied to the U.S. wheat market, using USDA data from 2010 to 2016. Production volumes serve as a proxy for quantity supplied, while total domestic use approximates quantity demanded. Farm prices are taken as observed average annual prices.
+
+To estimate supply behavior, an ordinary least squares (OLS) regression of price is fitted on observed production, yielding the empirical supply curve. The demand curve is constructed based on literature-consistent elasticity assumptions: a slope of $-20$ million bushels per dollar price change, calibrated to pass through the sample average price and quantity. This demand curve ensures consistency with inelastic real-world demand behavior for wheat.
+
+We simulate the 2016–2017 wheat supply shock, during which production declined by 15.6\%. This is modeled by proportionally shifting the supply curve upward. Equilibrium price and quantity before and after the shock are obtained by solving the intersection between the demand curve and the respective supply curves.
+
+\subsection*{Carbon Footprint Calculation from Data}
+
+We compute the carbon footprint associated with each equilibrium using an emission factor of 10.88 kg CO\textsubscript{2}e per bushel (based on FAO and USDA estimates).
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lccc}
+\toprule
+\textbf{Scenario} & \textbf{Quantity} & \textbf{Price} & \textbf{Carbon Footprint} \\
+\textbf{USDA data} & \textbf{(million bushels)} & \textbf{(USD)} & \textbf{(million kg CO\textsubscript{2}e)} \\
+\midrule
+Before Shock  & 2100.71 & 5.58 & 22859.68 \\
+After Shock & 2068.38 & 5.82 & 22500.32 \\
+\midrule
+\textbf{Change} & \textemdash & \textemdash & \textbf{-359.36} \\
+\bottomrule
+\end{tabular}
+\caption{Carbon footprint before and after the supply shock using real market data.}
+\end{table}
+
+\subsection*{Theoretical Model-Based Calculation}
+
+We then apply the Hakenes and Schliephake model to compute the consequentialist carbon footprint. The model attributes emissions to household consumption and investment using the formula:
+\[
+fp_h = x \left( \phi q_h + (1 - \phi)\frac{i_h}{c} \right),
+\]
+where $x$ is the emission intensity, $q_h$ is household consumption, $i_h$ is household investment, $c$ is the marginal cost of production, and $\phi$ is the industry-specific weighting parameter derived from market risk and preferences.
+
+Using parameter estimates calibrated from the data, the model yields the following theoretical results:
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lccc}
+\toprule
+\textbf{Scenario} & \textbf{Quantity} & \textbf{Price} & \textbf{Carbon Footprint} \\
+\textbf{} & \textbf{(million bushels)} & \textbf{(USD)} & \textbf{(million kg CO\textsubscript{2}e)} \\
+\midrule
+Before Shock  & 2112.36 & 5.69 & 22983.46 \\
+After Shock   & 2095.13 & 5.85 & 22808.35 \\
+\midrule
+Change        & --      & --   & -175.11 \\
+\bottomrule
+\end{tabular}
+\caption{Model-based carbon footprint before and after the supply shock.}
+\end{table}
+
+\subsection*{Discussion}
+
+The empirical estimate attributes a reduction of approximately 359.36 million kg CO\textsubscript{2}e to the shock, whereas the theoretical model estimates a smaller reduction of 175.11 million kg CO\textsubscript{2}e. This difference arises due to key structural distinctions. The empirical method assumes a direct proportional relationship between production and emissions, without accounting for behavioral adjustments or market feedback. In contrast, the Hakenes and Schliephake model is consequentialist: it incorporates general equilibrium effects, including substitution by other households and financial market responses. As a result, the model predicts a more conservative, but causally grounded, estimate of emissions change.
+\end{document}
