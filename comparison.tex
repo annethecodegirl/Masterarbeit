@@ -1,0 +1,51 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\geometry{left=3cm, right=2cm, top=2cm, bottom=2cm}
+\onehalfspacing
+
+\begin{document}
+
+\section{Comparative Study of Carbon Footprint Models}
+
+This section synthesizes the analytical characteristics and empirical implications of the four carbon footprint models examined in the thesis: the GHG Protocol, Life Cycle Assessment (LCA), Input-Output (IO) models, and the equilibrium-based model developed by Hakenes and Schliephake (2024). While each method serves the common purpose of estimating carbon responsibility, they differ fundamentally in attribution logic, treatment of investment, and ability to account for behavioral or market feedbacks.
+
+The GHG Protocol offers a widely adopted framework organized around Scopes 1, 2, and 3, assigning emissions based on physical ownership or control of sources and indirect supply-chain activities. Although operationally convenient, it remains purely descriptive and static, and is prone to double counting, particularly across Scope 3 boundaries.
+
+Life Cycle Assessment (LCA) adopts a product-centered perspective, tracing emissions from resource extraction to disposal. It is effective at capturing the emissions intensity of individual goods but assumes fixed consumption and production pathways, thus ignoring substitution effects and equilibrium shifts.
+
+Input-Output models link economic flows across sectors with environmental accounts, providing a systemic view of emissions responsibility. These models are well-suited for policy simulations and national-level assessments but often rely on average intensities and neglect agent-level behavior or causality.
+
+In contrast, the Hakenes and Schliephake model is structurally derived from household optimization and market clearing. It attributes emissions not to observed flows but to the marginal impact of consumption and investment decisions under uncertainty. The model captures general equilibrium responses, prevents double counting, and enables a consequentialist interpretation of footprint responsibility. However, it requires more assumptions and calibration, and is less standardized in applied contexts.
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{|p{4cm}|p{3cm}|p{3.2cm}|p{3cm}|}
+\hline
+\textbf{Method} & \textbf{Attribution Principle} & \textbf{Market Feedback Captured} & \textbf{Treatment of Investment} \\
+\hline
+GHG Protocol (Scopes 1–3) & Ownership/control across direct and indirect emissions & Not captured (static) & Partially included in Scope 3; prone to overlap \\
+\hline
+Life Cycle Assessment (LCA) & Emissions traced across product life cycle stages & Not captured; assumes fixed pathways & Typically not included \\
+\hline
+Input-Output Model & Emissions linked to economic flows via sectoral multipliers & Not captured; no agent-level causality & Included via capital formation; lacks behavioral detail \\
+\hline
+Hakenes and Schliephake (2024) & Marginal behavioral impact under general equilibrium & Fully captured via endogenous responses & Explicitly modeled through household-level investment \\
+\hline
+\end{tabular}
+\caption{Comparative features of carbon footprint models across attribution, feedback, and investment treatment.}
+\end{table}
+
+The comparison reveals that while GHG Protocol, LCA, and IO approaches are well-established and practical, they largely neglect the behavioral and equilibrium aspects of emissions responsibility. The Hakenes and Schliephake model fills this gap by linking individual decisions to system-level outcomes through a theoretically grounded lens. This makes it particularly suitable for policy evaluation and simulations where behavioral responses and financial linkages are non-negligible.
+
+\end{document}
