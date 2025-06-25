@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  1 JUN 2025 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  25 JUN 2025 11:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -453,27 +453,47 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
 
 [2]
+<LCA_pie_chart.png, id=53, 681.0243pt x 366.8907pt>
+File: LCA_pie_chart.png Graphic file (type png)
+<use LCA_pie_chart.png>
+Package pdftex.def Info: LCA_pie_chart.png  used on input line 105.
+(pdftex.def)             Requested size: 364.19667pt x 196.209pt.
 
-[3] (LCA.aux)
+
+[3]
+Overfull \hbox (3.89807pt too wide) in paragraph at lines 109--109
+[]\T1/lmr/bx/n/17.28 Illustration of LCA with Com-par-a-tive In-sights from
+ []
+
+
+Overfull \hbox (4.35454pt too wide) in paragraph at lines 111--112
+\T1/lmr/m/n/12 Life cy-cle as-sess-ment (LCA) and en-vi-ron-men-tally ex-tended input--output anal-y-sis (EEIOA)
+ []
+
+
+
+[4 <./LCA_pie_chart.png>]
+
+[5] (LCA.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
 Package rerunfilecheck Info: File `LCA.out' has not changed.
-(rerunfilecheck)             Checksum: 7B6F271DF8A992A56D210AB575D9739E;710.
+(rerunfilecheck)             Checksum: 5483F77248AE94115486BB7F7FC71F95;1180.
  ) 
 Here is how much of TeX's memory you used:
- 12377 strings out of 470045
- 195169 string characters out of 5479094
- 581007 words of memory out of 5000000
- 38895 multiletter control sequences out of 15000+600000
- 660719 words of font info for 65 fonts, out of 8000000 for 9000
+ 12404 strings out of 470045
+ 195633 string characters out of 5479094
+ 583007 words of memory out of 5000000
+ 38914 multiletter control sequences out of 15000+600000
+ 666732 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,19n,79p,1586b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,19n,79p,1636b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on LCA.pdf (3 pages, 152201 bytes).
+Output written on LCA.pdf (5 pages, 287555 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

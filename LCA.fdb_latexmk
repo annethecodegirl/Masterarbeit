@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1748791319.30037 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/LCA.tex" "LCA.pdf" "LCA" 1748791320.49838 0
-  "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1748710362 82560 ef239c2cb0a12117bb5525d1036b4375 ""
+["pdflatex"] 1750845369.17529 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/LCA.tex" "LCA.pdf" "LCA" 1750845370.49121 0
+  "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1748941724 82560 ef239c2cb0a12117bb5525d1036b4375 ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1748704790 13089765 bc6a75f620132fc869ce2950439eeb88 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -15,6 +15,7 @@
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmbx12.tfm" 1256929440 12088 d750ac78274fa7c9f73ba09914c04f8a ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmr12.tfm" 1256929440 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
+  "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmr17.tfm" 1256929440 12156 ca1ae6a3c8564e89597f1f993fba1608 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmr6.tfm" 1256929440 12048 c1068d0f4772be9b0ec447692e1d6d82 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmr8.tfm" 1256929440 12064 9b9ade9f64cb32ce1d9a88d21fbd5c2d ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/ec-lmri12.tfm" 1256929440 17144 271aaf9ebb339934b04110dc5211fba4 ""
@@ -103,10 +104,11 @@
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "LCA.aux" 1748791320 496 fcb3454e13514b5f5e05d581eb28c8b0 "pdflatex"
-  "LCA.out" 1748791320 710 7b6f271df8a992a56d210ab575d9739e "pdflatex"
-  "LCA.tex" 1748791317 7325 605b8e12dc1c03f78bc4ee463b34094a ""
-  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/LCA.tex" 1748791317 7325 605b8e12dc1c03f78bc4ee463b34094a ""
+  "LCA.aux" 1750845370 948 0e9cbdda3a346f43f23c2d119f9996df "pdflatex"
+  "LCA.out" 1750845370 1180 5483f77248ae94115486bb7f7fc71f95 "pdflatex"
+  "LCA.tex" 1750845367 12759 308be76dfb87e31c415a68b97844107c ""
+  "LCA_pie_chart.png" 1750844837 165770 4e7fcc353a1c338d66a0d8ae3b3478cd ""
+  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/LCA.tex" 1750845367 12759 308be76dfb87e31c415a68b97844107c ""
   (generated)
   "LCA.aux"
   "LCA.log"
