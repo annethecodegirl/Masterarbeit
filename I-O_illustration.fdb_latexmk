@@ -1,5 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1750601393.29421 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/I-O_illustration.tex" "I-O_illustration.pdf" "I-O_illustration" 1750601394.44983 0
+["pdflatex"] 1750817949.05302 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/I-O_illustration.tex" "I-O_illustration.pdf" "I-O_illustration" 1750817950.38395 0
+  "Authors.png" 1750770993 88068 114022acbbdf029787e3eb2ac9914188 ""
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1748941724 82560 ef239c2cb0a12117bb5525d1036b4375 ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1748704790 13089765 bc6a75f620132fc869ce2950439eeb88 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -107,10 +108,12 @@
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "I-O_illustration.aux" 1750601394 1767 d7bfadca4099555ce08c9f9b6aea4717 "pdflatex"
-  "I-O_illustration.out" 1750601394 873 b8bebedad93af60c5b2e9f6ccae70ea8 "pdflatex"
-  "I-O_illustration.tex" 1750601392 5835 4b45eb3b2cdcc6f8b8779da7b5a3ed25 ""
-  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/I-O_illustration.tex" 1750601392 5835 4b45eb3b2cdcc6f8b8779da7b5a3ed25 ""
+  "Coauthors.png" 1750771011 68380 04ab25832f42981a77d0808db985fed0 ""
+  "I-O_illustration.aux" 1750817950 4453 268460d6eef3b30ca240da1885999bfa "pdflatex"
+  "I-O_illustration.out" 1750817950 2437 7903dd1c7eeebef6d95416a068a0f22a "pdflatex"
+  "I-O_illustration.tex" 1750817947 10723 fcb49dc6e417f6527ca189df1873770a ""
+  "Publications.png" 1750770983 92364 fc575fa04c84166c1b9705a520e5601d ""
+  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/I-O_illustration.tex" 1750817947 10723 fcb49dc6e417f6527ca189df1873770a ""
   (generated)
   "I-O_illustration.aux"
   "I-O_illustration.log"

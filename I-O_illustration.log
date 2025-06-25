@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  22 JUN 2025 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  25 JUN 2025 04:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -457,27 +457,76 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 {C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
 
 [2]
+<Publications.png, id=80, 715.11165pt x 426.393pt>
+File: Publications.png Graphic file (type png)
+<use Publications.png>
+Package pdftex.def Info: Publications.png  used on input line 152.
+(pdftex.def)             Requested size: 318.66948pt x 190.01428pt.
 
-[3] (I-O_illustration.aux)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `tab:lead_authors' on page 3 undefined on input line 159.
+
+
+Overfull \hbox (12.11024pt too wide) in paragraph at lines 165--181
+ [][] 
+ []
+
+
+
+[3]
+<Authors.png, id=88, 581.0508pt x 354.123pt>
+File: Authors.png Graphic file (type png)
+<use Authors.png>
+Package pdftex.def Info: Authors.png  used on input line 186.
+(pdftex.def)             Requested size: 318.66948pt x 194.21709pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Coauthors.png, id=90, 570.933pt x 354.123pt>
+File: Coauthors.png Graphic file (type png)
+<use Coauthors.png>
+Package pdftex.def Info: Coauthors.png  used on input line 197.
+(pdftex.def)             Requested size: 318.66948pt x 197.6645pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[4 <./Publications.png>]
+
+[5 <./Authors.png> <./Coauthors.png>]
+
+[6] (I-O_illustration.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `I-O_illustration.out' has not changed.
-(rerunfilecheck)             Checksum: B8BEBEDAD93AF60C5B2E9F6CCAE70EA8;873.
+(rerunfilecheck)             Checksum: 7903DD1C7EEEBEF6D95416A068A0F22A;2437.
  ) 
 Here is how much of TeX's memory you used:
- 12425 strings out of 470045
- 196622 string characters out of 5479094
- 584309 words of memory out of 5000000
- 38945 multiletter control sequences out of 15000+600000
+ 12480 strings out of 470045
+ 197631 string characters out of 5479094
+ 584805 words of memory out of 5000000
+ 38984 multiletter control sequences out of 15000+600000
  672049 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,677b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,932b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on I-O_illustration.pdf (3 pages, 123383 bytes).
+Output written on I-O_illustration.pdf (6 pages, 325256 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
