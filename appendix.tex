@@ -1,0 +1,43 @@
+% Full LaTeX document with aligned numbers using siunitx
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{siunitx}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\sisetup{group-separator=,}
+
+\begin{document}
+
+% Appendix A: Supplementary Tables and Figures
+\section*{Appendix A: Supplementary Material}
+
+\begin{table}[h]
+\centering
+\caption{Mean Consumption Expenditure per Household in Spain, 2022}\label{tab:expenditure}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l S[table-format=5.0] S[table-format=5.1] S[table-format=2.1] S[table-format=5.0]}
+\toprule
+\textbf{Category} & {\textbf{Mean Expenditure (€)}} & {\textbf{Structure (\%)}} & {\textbf{Annual Rate (\%)}} & {\textbf{Annual Difference (€)}} \\
+\midrule
+Total & 31568 & 100.0 & 7.9 & 2324 \\
+Food and non-alcoholic beverages & 5050 & 16.0 & 5.1 & 244 \\
+Alcoholic beverages and tobacco & 481 & 1.5 & -3.0 & -15 \\
+Clothing and footwear & 1232 & 3.9 & 6.5 & 76 \\
+Housing, water, electricity, gas & 10243 & 32.4 & 3.5 & 350 \\
+Furnishings and maintenance & 1296 & 4.1 & 0.8 & 10 \\
+Health & 1228 & 3.9 & 2.1 & 25 \\
+Transport & 3794 & 12.0 & 17.5 & 564 \\
+Communications & 925 & 2.9 & -1.3 & -12 \\
+Recreation and culture & 1534 & 4.9 & 18.0 & 241 \\
+Education & 468 & 1.5 & 6.4 & 29 \\
+Restaurants and hotels & 2953 & 9.4 & 29.1 & 665 \\
+Miscellaneous goods and services & 2364 & 7.5 & 7.5 & 148 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\end{document}
