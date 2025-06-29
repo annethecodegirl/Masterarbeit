@@ -1,0 +1,45 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Literature Review}{1}{section.2}%
+\contentsline {section}{\numberline {3}Methodology}{3}{section.3}%
+\contentsline {section}{\numberline {4}The GHG Protocol}{3}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Illustration: Application of the GHG Protocol to Spanish Household Consumption (2022)}{6}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Life Cycle Assessment (LCA) Method}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Methodology for Household Carbon Footprint Calculation based on LCA approach}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Overall Carbon Footprint}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Carbon Emissions from Direct Energy Consumption}{10}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Carbon Emissions from Living Consumption}{10}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Carbon Footprint in Agricultural Activities}{10}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Carbon Sequestration from Afforestation}{10}{subsection.5.6}%
+\contentsline {subsubsection}{\numberline {5.6.1}Carbon Emissions from Livestock Raising}{10}{subsubsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.7}Aggregate Formula for Household Carbon Footprint}{11}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}LCA Illustration}{11}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Illustration of LCA with Comparative Insights from EEIOA}{12}{subsection.5.9}%
+\contentsline {section}{\numberline {6}Input-Output Matrix Model}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Measurement of Carbon Footprint Using I-O Matrix}{13}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Input-Output Framework}{13}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Tier 1: Direct Emissions}{14}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Tier 2: Indirect Energy Emissions}{14}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Total Household Carbon Footprint}{15}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Input-Output Matrix Model}{15}{subsection.6.6}%
+\contentsline {subsubsection}{\numberline {6.6.1}Input-Output Framework}{15}{subsubsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.7}Input-Output Matrix Model}{17}{subsection.6.7}%
+\contentsline {section}{\numberline {7}Illustrative Application of the Input-Output Model}{18}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Data and Methodology}{19}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Explicit Calculation Example}{19}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Results}{20}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Discussion}{20}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Bibliometric Analysis of Household Carbon Footprint Studies Using Input-Output Models}{20}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Methodology}{20}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Results}{21}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Temporal Publication Trends}{21}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Lead Author Contributions}{22}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Co-authorship Patterns}{22}{subsubsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}Top Source Journals}{22}{subsubsection.8.2.4}%
+\contentsline {subsection}{\numberline {8.3}Discussion}{23}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Deriving the Household Footprint in a One-Industry Economy}{24}{section.9}%
+\contentsline {section}{\numberline {10}Derivation of the Weighting Parameter \( \boldsymbol {\phi } \)}{26}{section.10}%
+\contentsline {section}{\numberline {11}Comparative Statics of the Weighting Parameter \( \boldsymbol {\phi } \)}{27}{section.11}%
+\contentsline {section}{\numberline {12}Empirical Illustration: Application of the Single-Industry Model}{28}{section.12}%
+\contentsline {section}{\numberline {13}Results}{31}{section.13}%
+\contentsline {section}{\numberline {14}Discussion}{31}{section.14}%
+\contentsline {section}{\numberline {15}Conclusion}{31}{section.15}%
