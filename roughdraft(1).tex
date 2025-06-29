@@ -126,112 +126,102 @@ Based on this calculation, the total household carbon footprint is estimated at 
 
 As an empirical demonstration, the GHG Protocol framework is applied to household expenditure data for Spain in 2022, illustrating how emissions are quantified and distributed across Scopes 1, 2, and 3 in practice. The data is sourced from the Spanish National Statistics Institute (INE), which reports average annual consumption expenditures per household disaggregated by COICOP classification. This dataset provides category-specific expenditure values and percentage structures, enabling assignment of appropriate emission factors to each type of consumption.
 
-We begin with the total mean annual expenditure per household, reported to be €31,568. This expenditure is then categorized across essential consumption areas such as food and non-alcoholic beverages, housing and energy, transport, communication, and services like restaurants and recreation. The corresponding structure percentages indicate the relative share of each category in the total expenditure. For instance, housing and energy accounted for approximately 32.4\% of the total, while food and beverages represented around 16.0\%. Transport expenditures stood at 12.0\%, with significant growth observed in service-oriented categories such as restaurants and hotels.
-
- \begin{table}[h]
-\centering
-\caption{Mean Consumption Expenditure per Household in Spain, 2022}\label{tab:expenditure}
-\resizebox{\textwidth}{!}{
-\begin{tabular}{|l|c|c|c|c|}
-\hline
-\textbf{Category} & \textbf{Mean Expenditure (€)} & \textbf{Structure \%} & \textbf{Annual Rate \%} & \textbf{Annual Difference (€)} \\
-\hline
-Total & 31,568 & 100.0 & 7.9 & 2,324 \\
-Food and non-alcoholic beverages & 5,050 & 16.0 & 5.1 & 244 \\
-Alcoholic beverages and tobacco & 481 & 1.5 & -3.0 & -15 \\
-Clothing and footwear & 1,232 & 3.9 & 6.5 & 76 \\
-Housing, water, electricity, gas & 10,243 & 32.4 & 3.5 & 350 \\
-Furnishings and maintenance & 1,296 & 4.1 & 0.8 & 10 \\
-Health & 1,228 & 3.9 & 2.1 & 25 \\
-Transport & 3,794 & 12.0 & 17.5 & 564 \\
-Communications & 925 & 2.9 & -1.3 & -12 \\
-Recreation and culture & 1,534 & 4.9 & 18.0 & 241 \\
-Education & 468 & 1.5 & 6.4 & 29 \\
-Restaurants and hotels & 2,953 & 9.4 & 29.1 & 665 \\
-Miscellaneous goods and services & 2,364 & 7.5 & 7.5 & 148 \\
-\hline
-\end{tabular}}
-\end{table}
+The total mean annual household expenditure is reported at €31,568. This amount is allocated across major consumption areas, including food and non-alcoholic beverages, housing and energy, transport, communication, and services such as restaurants and recreation. The corresponding structure percentages indicate the relative contribution of each category to total spending. For example, housing and energy account for approximately 32.4 percent of total expenditure, while food and beverages represent about 16.0 percent. Transport expenditures stand at 12.0 percent, with notable growth observed in service-related categories such as restaurants and hotels. A detailed breakdown of these categories is provided in Table 1 of the appendix.
 
 Next, we calculate Scope 1 emissions. These emissions arise from the direct combustion of fossil fuels by households, primarily through private vehicle use and home heating. We use energy consumption data expressed in gigajoules (GJ) per capita and apply appropriate emission factors. According to Spain’s INE and international emission factor databases such as DEFRA and IPCC, petrol used for transport has an emission factor of 73.3 kg CO$_2$e/GJ, while natural gas used in heating has a slightly lower factor of 56.1 kg CO$_2$e/GJ.
 
+% Ensure \usepackage{graphicx} is in your preamble
+
 \begin{table}[h]
 \centering
-\caption{Direct Emissions from Household Energy and Transport (Scope 1)}\label{tab:scope1}
-\begin{tabular}{|l|c|c|c|}
-\hline
+\caption*{\textbf{Table 4.1}: Direct Emissions from Household Energy and Transport (Scope 1)}\label{tab:scope1}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
 \textbf{Energy Source} & \textbf{Consumption (GJ/hab)} & \textbf{Emission Factor (kg CO$_2$e/GJ)} & \textbf{Emissions (kg CO$_2$e)} \\
-\hline
+\midrule
 Natural Gas (Transport) & 0.04 & 56.1 & 2.24 \\
-Petrol (Transport) & 14.44 & 73.3 & 1058.45 \\
-Natural Gas (Heating) & 0.73 & 56.1 & 40.95 \\
-Petrol (Other) & 0.18 & 73.3 & 13.19 \\
-\hline
-\textbf{Total} & & & \textbf{1114.83} \\
-\hline
-\end{tabular}
+Petrol (Transport)      & 14.44 & 73.3 & 1058.45 \\
+Natural Gas (Heating)   & 0.73 & 56.1 & 40.95 \\
+Petrol (Other)          & 0.18 & 73.3 & 13.19 \\
+\midrule
+\textbf{Total}          &       &       & \textbf{1114.83} \\
+\bottomrule
+\end{tabular}%
+}
 \end{table}
+
 
 We then proceed to Scope 2 emissions, which pertain to purchased energy—namely electricity and district heating—used within the household but generated off-site. The average household in Spain consumed approximately 8.96 GJ of heating and cooling energy. The national grid's emission factor for such energy consumption, based on 2022 data, is estimated at 92.6 kg CO$_2$e per GJ.
 
 \begin{table}[h]
 \centering
-\caption{Indirect Emissions from Heating and Cooling (Scope 2)}\label{tab:scope2}
-\begin{tabular}{|l|c|c|c|}
-\hline
+\caption*{\textbf{Table 4.2:} Indirect Emissions from Heating and Cooling (Scope 2)}\label{tab:scope2}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
 \textbf{Energy Source} & \textbf{Consumption (GJ/hab)} & \textbf{Emission Factor (kg CO$_2$e/GJ)} & \textbf{Emissions (kg CO$_2$e)} \\
-\hline
+\midrule
 Heating/Cooling Energy & 8.96 & 92.6 & 829.70 \\
-\hline
+\midrule
 \textbf{Total} & & & \textbf{829.70} \\
-\hline
-\end{tabular}
+\bottomrule
+\end{tabular}%
+}
 \end{table}
 
 The most complex and voluminous part of the analysis involves Scope 3 emissions. These emissions arise from the indirect impacts of household consumption decisions, including the carbon embedded in food, manufactured goods, services, and transportation infrastructure. Each expenditure category is multiplied by a category-specific emission factor derived from lifecycle assessment databases. For example, the food category carries an emission factor of 0.50 kg CO$_2$e per euro spent, reflecting emissions from agriculture, processing, and distribution. Clothing, by contrast, has a lower factor of 0.25 kg CO$_2$e/€, while restaurant services, due to their energy intensity, have a higher factor of 0.40 kg CO$_2$e/€.
 
+% Make sure you have \usepackage{booktabs} and \usepackage{graphicx} in your preamble
+
 \begin{table}[h]
 \centering
-\caption{Consumption-Based Emissions (Scope 3)}\label{tab:scope3}
-\resizebox{\textwidth}{!}{
-\begin{tabular}{|l|c|c|c|}
-\hline
+\caption*{\textbf{Table 4.3:} Consumption-Based Emissions (Scope 3)}\label{tab:scope3}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
 \textbf{Category} & \textbf{Expenditure (€)} & \textbf{Emission Factor (kg CO$_2$e/€)} & \textbf{Emissions (kg CO$_2$e)} \\
-\hline
-Food and non-alcoholic beverages & 5,050 & 0.50 & 2525.00 \\
-Alcoholic beverages and tobacco & 481 & 0.30 & 144.30 \\
-Clothing and footwear & 1,232 & 0.25 & 308.00 \\
-Housing and utilities & 10,243 & 0.25 & 2560.75 \\
-Furnishings & 1,296 & 0.30 & 388.80 \\
-Health & 1,228 & 0.20 & 245.60 \\
-Transport services & 3,794 & 0.30 & 1138.20 \\
-Communications & 925 & 0.15 & 138.75 \\
-Recreation & 1,534 & 0.35 & 536.90 \\
-Education & 468 & 0.10 & 46.80 \\
-Restaurants and hotels & 2,953 & 0.40 & 1181.20 \\
-Miscellaneous goods and services & 2,364 & 0.30 & 709.20 \\
-\hline
-\textbf{Total} & & & \textbf{9883.55} \\
-\hline
-\end{tabular}}
+\midrule
+Food and non-alcoholic beverages & 5,050 & 0.50 & 2,525.00 \\
+Alcoholic beverages and tobacco  &   481 & 0.30 &   144.30 \\
+Clothing and footwear            & 1,232 & 0.25 &   308.00 \\
+Housing and utilities            &10,243 & 0.25 & 2,560.75 \\
+Furnishings                      & 1,296 & 0.30 &   388.80 \\
+Health                           & 1,228 & 0.20 &   245.60 \\
+Transport services               & 3,794 & 0.30 & 1,138.20 \\
+Communications                   &   925 & 0.15 &   138.75 \\
+Recreation                       & 1,534 & 0.35 &   536.90 \\
+Education                        &   468 & 0.10 &    46.80 \\
+Restaurants and hotels           & 2,953 & 0.40 & 1,181.20 \\
+Miscellaneous goods and services & 2,364 & 0.30 &   709.20 \\
+\midrule
+\textbf{Total}                   &        &       & \textbf{9,883.55} \\
+\bottomrule
+\end{tabular}%
+}
 \end{table}
 
 Finally, by summing the results from all three scopes, we obtain the total household carbon footprint for a typical Spanish household in 2022. The emissions distribution clearly reveals that Scope 3 emissions dominate, comprising nearly 84\% of the total. This insight aligns with broader research indicating that in high-income settings, the indirect emissions associated with consumption patterns far exceed direct household emissions.
 
+% Make sure \usepackage{booktabs} is in your preamble
+
 \begin{table}[h]
 \centering
-\caption{Total Household Carbon Footprint by Scope}\label{tab:total_emissions}
-\begin{tabular}{|l|c|}
-\hline
+\caption*{\textbf{Table 4.4:} Total Household Carbon Footprint by Scope}
+\label{tab:total_emissions}
+\begin{tabular}{lc}
+\toprule
 \textbf{Scope} & \textbf{Emissions (kg CO$_2$e)} \\
-\hline
-Scope 1 & 1114.83 \\
-Scope 2 & 829.70 \\
-Scope 3 & 9883.55 \\
-\textbf{Total} & \textbf{11828.08} \\
-\hline
+\midrule
+Scope 1 & 1,114.83 \\
+Scope 2 &   829.70 \\
+Scope 3 & 9,883.55 \\
+\midrule
+\textbf{Total} & \textbf{11,828.08} \\
+\bottomrule
 \end{tabular}
 \end{table}
+
 
 This empirical illustration not only validates the functionality of the GHG Protocol when applied to real-world household data but also emphasizes the critical role of consumption behavior in shaping emissions outcomes. The findings suggest that while improvements in home energy efficiency and cleaner fuels are valuable, the most substantial reductions may be achieved through systemic shifts in consumption patterns, such as transitioning to plant-based diets, reducing air travel, or shifting investments away from carbon-intensive industries.
 \section{Life Cycle Assessment (LCA) Method}
