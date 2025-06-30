@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1751220502.73833 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" "roughdraft(1).pdf" "roughdraft(1)" 1751220504.80433 0
+["pdflatex"] 1751302142.12284 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" "roughdraft(1).pdf" "roughdraft(1)" 1751302144.12783 0
   "Authors.png" 1750770993 88068 114022acbbdf029787e3eb2ac9914188 ""
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1751200890 84158 d77284a6843bde1e4b9764f09fb2e89e ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1748704790 13089765 bc6a75f620132fc869ce2950439eeb88 ""
@@ -131,13 +131,13 @@
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/tocloft/tocloft.sty" 1578908763 37263 3e78d14f0f4b1a30560fea5e04de805d ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "Coauthors.png" 1750771011 68380 04ab25832f42981a77d0808db985fed0 ""
-  "LCA_pie_chart.png" 1750844837 165770 4e7fcc353a1c338d66a0d8ae3b3478cd ""
+  "LCA_pie.png" 1751297765 185552 8226e4b9a75c7d0e0c4b2433fe6ffb17 ""
   "Publications.png" 1750770983 92364 fc575fa04c84166c1b9705a520e5601d ""
-  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" 1751220499 75649 7558d38cdecf3d660a93c04cbad0d231 ""
-  "roughdraft(1).aux" 1751220504 10284 d83ccf05adc59a3278ad6e641f91cad1 "pdflatex"
-  "roughdraft(1).out" 1751220504 10115 2b15ce06140366249c406e27434ebb91 "pdflatex"
-  "roughdraft(1).tex" 1751220499 75649 7558d38cdecf3d660a93c04cbad0d231 ""
-  "roughdraft(1).toc" 1751220504 4387 8cc5079b00e02a3b5548a5edd52bb221 "pdflatex"
+  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" 1751302139 69657 d5dd641efae4977d346b949ca8828f6c ""
+  "roughdraft(1).aux" 1751302143 9171 3470645e63c3b23b69a04c2913ede3e5 "pdflatex"
+  "roughdraft(1).out" 1751302143 8363 1a4adb5e6ff6876342100cf4951d688f "pdflatex"
+  "roughdraft(1).tex" 1751302139 69657 d5dd641efae4977d346b949ca8828f6c ""
+  "roughdraft(1).toc" 1751302143 3544 642b3153c55af9c1a4e635daac9f6fcd "pdflatex"
   (generated)
   "roughdraft(1).aux"
   "roughdraft(1).log"
