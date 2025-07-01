@@ -8,6 +8,7 @@
 % Packages
 \usepackage[utf8]{inputenc}%
 \usepackage[T1]{fontenc}%
+\usepackage{indentfirst}%
 \usepackage{geometry}%
 \usepackage{setspace}%
 \usepackage{times}%
@@ -47,6 +48,9 @@
 % Table of contents formatting
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}%
 
+% Paragraph formatting
+\setlength{\parindent}{1.25em} % Indent for ALL paragraphs, including first
+\setlength{\parskip}{0em}      % No extra spacing between paragraphs
 
 \begin{document}
 
@@ -79,12 +83,12 @@
 
 \section{Literature Review}
 Climate change mitigation policies are heavily influenced by the development trajectories of nations and their respective stages of economic growth, as outlined in the fifth assessment report by the Intergovernmental Panel on Climate Change (IPCC, 2007). According to emission estimates for 2023 provided by the EDGAR database, global greenhouse gas (GHG) emissions increased by 1.9\% compared to 2022, reaching 53.0 Gt CO2eq. The major contributors to global GHG emissions in 2023 were China, the United States, India, the European Union (EU27), Russia, and Brazil, which together accounted for 62.7\% of the total global emissions. Carbon dioxide (CO2) produced by human activities remains the largest driver of global warming, with its concentration in the atmosphere having risen by 48\% above pre-industrial levels (before 1750) by 2020. The primary sources of CO2 emissions include the combustion of coal, oil, and natural gas, deforestation, livestock farming, the release of fluorinated gases from industrial equipment, and the use of nitrogen-based fertilizers (Weber \& Matthews, 2008). These activities have led to more frequent and severe weather events, including heatwaves and droughts, that are impacting regions around the world. In 2024, the United States experienced 27 weather and climate-related disaster events, each resulting in losses exceeding \$1 billion (NOAA, n.d.).
-\vspace{5pt}
+
 The growing acknowledgment of global warming as a significant threat has prompted international initiatives aimed at reducing greenhouse gas (GHG) emissions. These initiatives rely on accurate assessment and reporting of GHG emissions to inform climate policies (IPCC, 2007). Households account for 17\% of total global carbon dioxide (CO2) emissions, underscoring their critical role in addressing climate change. Understanding and mitigating residential contributions to greenhouse gas (GHG) emissions require prioritizing the household carbon footprint, a vital measure of emissions stemming from residential consumption (Du \& Zhong, 2024). Several methodologies are available for estimating GHG emissions, with the concept of carbon footprint gaining significant attention (Guinee, 2011). A carbon footprint is defined as the total GHG emissions caused directly and indirectly by an individual, organization, event, or product, traditionally calculated by summing emissions from every stage of a product or service's life cycle (Center for Sustainable Systems, 2024). Among the available methodologies, the GHG Protocol has emerged as a widely used framework for corporate GHG reporting, considering direct and indirect emissions resulting from household consumption. However, this method has limitations, such as double-counting and restricted adjustments for market dynamics (WBCSD, 2004). 
-\vspace{5pt}
+
 
 Another widely used approach is the Input-Output Analysis (IOA) method, a top-down model that calculates carbon footprints by analyzing monetary transactions between activities and extending them to an environmental level through greenhouse gas (GHG) emissions. This approach, known as Environmentally Extended Input-Output Analysis (EEIO), provides a macro-level view of the environmental impacts of economic activities (Encyclopedia of Ecology, 2019). For instance, a study using EEIO to examine the carbon footprints of Australian equity investments and Socially Responsible Investments (SRI) demonstrated that applying SRI criteria significantly reduces the carbon footprint of equity portfolios. This highlights equity investments as a major driver of economic activity and a crucial lever in advancing a sustainable economy (Chard, 2024).
-\vspace{5pt}
+
 
 Another frequently used method for calculating carbon emissions is the Emission Factor (EF) method. According to the Intergovernmental Panel on Climate Change (IPCC, 2019), the formula for estimating GHG emissions is:
 \[
@@ -344,35 +348,41 @@ The environmentally extended Input-Output (EEIO) framework provides a rigorous m
 
 Let \( \mathbf{F} \) be the final demand vector representing household expenditure across sectors. The fundamental Leontief demand model relates total output \( \mathbf{X} \) to final demand via:
 \begin{equation}
-    \mathbf{X} = (\mathbf{I} - \mathbf{A})^{-1} \mathbf{F},
+    \mathbf{X} = {(\mathbf{I} - \mathbf{A})}^{-1} \mathbf{F},
 \end{equation}
-where \( \mathbf{A} \) is the technical coefficient matrix specifying inter-industry input requirements, and \( \mathbf{I} \) is the identity matrix. The inverse term \( (\mathbf{I} - \mathbf{A})^{-1} \) (the Leontief inverse) expands final demand to the total upstream production required to satisfy it (Leontief, 1970).
+where \( \mathbf{A} \) is the technical coefficient matrix specifying inter-industry input requirements, and \( \mathbf{I} \) is the identity matrix. The inverse term \( {(\mathbf{I} - \mathbf{A})}^{-1} \) (the Leontief inverse) expands final demand to the total upstream production required to satisfy it (Leontief, 1970).
 
-\textbf{Tier 1: Direct Emissions} are computed using an emission factor vector or diagonal matrix \( \mathbf{R} \) and household fuel use vector \( \mathbf{y} \):
+\textbf{Tier 1: Direct Emissions.}  
+Tier 1 quantifies the immediate carbon emissions resulting from household-level combustion of fossil fuels such as natural gas, heating oil, or gasoline. Empirically, direct residential energy use accounts for a significant share of household carbon footprints in industrialised economies, for instance, Weber and Matthews (2008) estimate that direct fuel use can represent around 20--30\% of total household-related GHG emissions in the United States. Mathematically, direct emissions are calculated by multiplying household-specific fuel consumption by sector-specific emission coefficients:
 \begin{equation}
-    \mathbf{E}_1 = \mathbf{R} \mathbf{y}.
+    \mathbf{E}_1 = \mathbf{R} \mathbf{y},
+\end{equation}
+where \( \mathbf{R} \) is a diagonal matrix of fuel-specific emission intensities (kg CO$_2$e per unit of fuel) and \( \mathbf{y} \) is the vector of fuel quantities consumed.
+
+\textbf{Tier 2: Indirect Energy Emissions.}  
+Tier 2 captures emissions associated with electricity and district heating purchased by households but produced off-site. These upstream emissions typically exceed direct combustion emissions in highly electrified economies: for example, Steubing et al.\ (2022) show that for many European households, indirect energy emissions can comprise up to 40\% of total household GHG impact. The indirect burden is derived by tracing inter-industry dependencies in the power and heat generation sectors. Formally, this is expressed as:
+\begin{equation}
+    \mathbf{E}_2 = \mathbf{R}_{\text{energy}} {(\mathbf{I} - \mathbf{A}_{\text{energy}})}^{-1} \mathbf{y},
+\end{equation}
+where \( \mathbf{A}_{\text{energy}} \) denotes the technology matrix restricted to the energy supply chain, and \( \mathbf{R}_{\text{energy}} \) is the corresponding emission factor matrix for the production stage. The Leontief inverse structure guarantees that upstream fuel inputs, power losses, and ancillary generation processes are consistently included (Matthews et al., 2008).
+
+\textbf{Tier 3: Indirect Supply Chain Emissions.}  
+Beyond fuel and energy use, households induce substantial upstream emissions through consumption of goods and services — including food, manufactured products, and mobility services — which embed emissions across global supply chains (Wiedmann et al., 2010). To robustly allocate these emissions, the EEIO model adjusts for international trade and non-domestic production, following Long et al.\ (2019) and Sheng et al.\ (2024). The import-adjusted balance ensures that only domestically attributable emissions are counted:
+\begin{equation}
+    \mathbf{X} = {[(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})]}^{-1} [(\mathbf{I} - \mathbf{M})\mathbf{F} + \mathbf{EX}],
+\end{equation}
+where \( \mathbf{M} \) captures the share of imported inputs by sector, and \( \mathbf{EX} \) corrects for exported goods, aligning the final footprint with actual domestic consumption. Applying the full supply chain emission intensities \( \mathbf{D} \) yields:
+\begin{equation}
+    \mathbf{E}_3 = \mathbf{D} \mathbf{X} = \mathbf{D} {[(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})]}^{-1} [(\mathbf{I} - \mathbf{M})\mathbf{F} + \mathbf{EX}].
 \end{equation}
 
-\textbf{Tier 2: Indirect Energy Emissions} capture upstream emissions from electricity and heat generation. If \( \mathbf{A}_{\text{energy}} \) denotes the relevant submatrix and \( \mathbf{R}_{\text{energy}} \) the associated emission factors, then:
-\begin{equation}
-    \mathbf{E}_2 = \mathbf{R}_{\text{energy}} (\mathbf{I} - \mathbf{A}_{\text{energy}})^{-1} \mathbf{y}.
-\end{equation}
-This formulation ensures that indirect energy-sector dependencies are consistently incorporated (Matthews et al., 2008).
-
-\textbf{Tier 3: Indirect Supply Chain Emissions} are derived by extending the I-O system to correct for imports and exports. Following Long et al.\ (2019) and Sheng et al.\ (2024), an import-adjusted framework modifies the balance as:
-\begin{equation}
-    \mathbf{X} = [(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})]^{-1} [(\mathbf{I} - \mathbf{M})\mathbf{F} + \mathbf{EX}],
-\end{equation}
-where \( \mathbf{M} \) is the import coefficient matrix and \( \mathbf{EX} \) is the export vector, ensuring emissions are consistently attributed to domestic consumption. Total Tier 3 emissions then follow by applying an appropriate emission intensity matrix \( \mathbf{D} \):
-\begin{equation}
-    \mathbf{E}_3 = \mathbf{D} \mathbf{X} = \mathbf{D} [(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})]^{-1} [(\mathbf{I} - \mathbf{M})\mathbf{F} + \mathbf{EX}].
-\end{equation}
-
-Combining all tiers, the total household carbon footprint is:
+\textbf{Total Household Footprint.}  
+Combining these three tiers provides a closed-system estimate of the household carbon footprint:
 \begin{equation}
     \mathbf{E}_{\text{total}} = \mathbf{E}_1 + \mathbf{E}_2 + \mathbf{E}_3.
 \end{equation}
-This multi-tiered structure provides a mathematically closed, system-consistent estimate of direct, indirect energy-related, and embodied supply chain emissions, avoiding truncation errors typical in process-based LCA (Matthews et al., 2008; Steubing et al., 2022).
+This integrated EEIO structure addresses the truncation and boundary gaps typical in process-based Life Cycle Assessment (LCA) by capturing the full feedback loops of modern production networks (Matthews et al., 2008; Steubing et al., 2022). As demonstrated by empirical studies (e.g., Weber and Matthews, 2008; Wiedmann et al., 2010), accurately accounting for these indirect flows is critical for meaningful carbon footprinting and evidence-based climate policy.
+
 \subsection{Illustrative Application of the Input-Output Model}
 
 Following the formal derivation of the environmentally extended input-output (EEIO) model, this section presents an illustrative application of the framework to household carbon footprint estimation. The aim is to operationalize the Leontief-based formulation:
@@ -385,30 +395,8 @@ In this illustration, pre-calculated environmentally extended emission intensiti
 
 \subsection{Data and Methodology}
 
-Household final consumption expenditure data were obtained from Eurostat and supplementary sources, converted to euros at the 2021 average exchange rate (1 USD = 0.85 EUR). Table~\ref{tab:efactors} summarizes the emission intensities applied.
+Household final consumption expenditure data were obtained from Eurostat and supplementary sources, converted to euros at the 2021 average exchange rate (1 USD = 0.85 EUR). The emission factors used are reported in Appendix A, Table 2.
 
-\begin{table}[h]
-\centering
-\caption{Spend-Based Emission Factors (EXIOBASE via Climatiq.io)}\label{tab:efactors}
-\begin{tabular}{@{}ll@{}}
-\toprule
-\textbf{Category} & \textbf{Emission Factor (kgCO$_{2}$e/€)}\\
-\midrule
-Housing, water, electricity, gas & 0.30\\
-Food and non-alcoholic beverages & 0.48\\
-Transport & 0.40\\
-Other goods and services & 0.18\\
-Recreation and culture & 0.20\\
-Restaurants and hotels & 0.45\\
-Furnishings and household equipment & 0.25\\
-Health & 0.20\\
-Alcoholic beverages and tobacco & 0.42\\
-Clothing and footwear & 0.25\\
-Communications & 0.15\\
-Education & 0.15\\
-\bottomrule
-\end{tabular}
-\end{table}
 
 For each country $c$, and for each category $i$, the household carbon footprint is calculated as:
 \[
@@ -420,10 +408,8 @@ where:
     \item $EF_i$ is the spend-based emission factor for category $i$;
     \item $E_{i,c}$ is the resulting emissions (kg CO$_{2}$e).
 \end{itemize}
+For instance, for France, the national household expenditure on food and non-alcoholic beverages is:
 
-\subsection{Explicit Calculation Example}
-
-For France, the household expenditure on food and non-alcoholic beverages is:
 \[
 F_{\text{food,FR}} = 1.322 \times 10^9 \cdot 0.139 = 183.8 \times 10^9 \text{ EUR}
 \]
@@ -436,57 +422,15 @@ Analogously, calculations are performed for all categories and countries.
 
 \subsection{Results}
 
-\begin{table}[h]
-\centering
-\caption{Estimated Household Carbon Footprints by Category (Million Tonnes CO$_{2}$e)}\label{tab:results}
-\begin{tabular}{@{}lccc@{}}
-\toprule
-\textbf{Category} & \textbf{France} & \textbf{Spain} & \textbf{Germany}\\
-\midrule
-Housing, water, electricity, gas & 109.5 & 50.4 & 137.3\\
-Food and non-alcoholic beverages & 88.2 & 47.1 & 100.7\\
-Transport & 66.6 & 30.4 & 94.1\\
-Other goods and services & 29.8 & 12.8 & 42.3\\
-Recreation and culture & 20.4 & 9.1 & 34.1\\
-Restaurants and hotels & 37.3 & 37.3 & 32.3\\
-Furnishings and household equipment & 16.2 & 8.5 & 31.4\\
-Health & 11.1 & 6.1 & 20.1\\
-Alcoholic beverages and tobacco & 22.8 & 12.8 & 27.1\\
-Clothing and footwear & 10.9 & 6.0 & 17.1\\
-Communications & 5.0 & 2.8 & 6.2\\
-Education & 1.0 & 1.5 & 2.2\\
-\midrule
-\textbf{Total} & \textbf{419.0} & \textbf{223.0} & \textbf{544.9}\\
-\bottomrule
-\end{tabular}
-\end{table}
+The resulting household carbon footprints for 2021 are summarized in Tables~3--5 in Appendix~A. The total estimated footprints are approximately 420~Mt~CO$_2$e for France, 227~Mt~CO$_2$e for Spain, and 546~Mt~CO$_2$e for Germany.
 
-\subsection{Discussion}
+Housing, food, and transport account for the largest shares of total household emissions in all three countries. These estimates demonstrate how the environmentally extended input-output (EEIO) approach captures indirect supply chain emissions embedded in upstream production, which are excluded from territorial greenhouse gas (GHG) inventories that measure only direct domestic emissions.
 
-This illustration demonstrates how the IO model framework, when combined with spend-based emission intensities, yields a comprehensive household carbon footprint that captures both direct and indirect emissions. The method is widely applied due to its ability to integrate complex supply chain interactions, incorporate international trade adjustments (Long et al.~2019), and support policy-relevant analyses of consumption-based emissions (Matthews et al.~2008; Sheng et al.~2024).
+Unlike conventional GHG inventories or product-level life cycle assessments (LCA) that typically track physical quantities of fuel or goods consumed, the EEIO method allocates emissions based on household expenditure across all final demand categories. This spend-based framework enables the tracing of embodied emissions in goods and services, including imported products, providing a more complete perspective on consumption-driven impacts.
 
-\begin{table}[h]
-\centering
-\caption{Household Expenditure Share by Category (\% of Total, 2021)}\label{tab:appendix_expenditure}
-\begin{tabular}{lccc}
-\hline
-\textbf{Category} & \textbf{France} & \textbf{Spain} & \textbf{Germany}\\
-\hline
-Housing, water, electricity, gas & 27.6 & 24.3 & 25.5\\
-Food and non-alcoholic beverages & 13.9 & 14.2 & 11.7\\
-Transport & 12.6 & 11.0 & 13.1\\
-Other goods and services & 12.5 & 10.3 & 13.1\\
-Recreation and culture & 7.7 & 6.6 & 9.5\\
-Restaurants and hotels & 6.2 & 12.0 & 4.0\\
-Furnishings, household equipment & 4.9 & 4.9 & 7.0\\
-Health & 4.2 & 4.4 & 5.6\\
-Alcoholic beverages, tobacco & 4.1 & 4.4 & 3.6\\
-Clothing and footwear & 3.3 & 3.5 & 3.8\\
-Communications & 2.5 & 2.7 & 2.3\\
-Education & 0.5 & 1.4 & 0.8\\
-\hline
-\end{tabular}
-\end{table}
+The scale and sectoral structure of the results are consistent with earlier multi-regional input-output analyses for Europe (e.g., Matthews et al.~2008; Sheng et al.~2024), which report housing energy use, food supply chains, and private mobility as the dominant drivers of household footprints. The method is widely applied due to its ability to integrate complex supply chain interactions and incorporate international trade adjustments (Long et al.~2019). This confirms that the IO model, when combined with up-to-date household expenditure data, remains an effective tool for quantifying the full indirect climate impact of household demand.
+
+
 
 \section{Bibliometric Analysis of Household Carbon Footprint Studies Using Input-Output Models}
 
