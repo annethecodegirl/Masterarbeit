@@ -1,6 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1751413268.7173 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" "roughdraft(1).pdf" "roughdraft(1)" 1751413270.69983 0
-  "Authors.png" 1750770993 88068 114022acbbdf029787e3eb2ac9914188 ""
+["pdflatex"] 1751451237.10222 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" "roughdraft(1).pdf" "roughdraft(1)" 1751451238.93656 0
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1751200890 84158 d77284a6843bde1e4b9764f09fb2e89e ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1748704790 13089765 bc6a75f620132fc869ce2950439eeb88 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -24,7 +23,6 @@
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1233951854 908 2921f8a10601f252058503cc6570e581 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1233951854 940 228d6584342e91276bf566bcf9716b83 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbsy10.tfm" 1136765053 1116 4e6ba9d7914baa6482fd69f67d126380 ""
-  "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx6.tfm" 1136765053 1344 8a0be4fe4d376203000810ad4dc81558 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx8.tfm" 1136765053 1332 1fde11373e221473104d6cc5993f046e ""
@@ -34,7 +32,6 @@
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmib10.tfm" 1136765053 1524 554068197b70979a55370e6c6495f441 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
-  "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr17.tfm" 1136765053 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr6.tfm" 1136765053 1300 b62933e007d01cfd073f79b963c01526 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm" 1136765053 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
@@ -134,11 +131,11 @@
   "Coauthors.png" 1750771011 68380 04ab25832f42981a77d0808db985fed0 ""
   "LCA_pie.png" 1751297765 185552 8226e4b9a75c7d0e0c4b2433fe6ffb17 ""
   "Publications.png" 1750770983 92364 fc575fa04c84166c1b9705a520e5601d ""
-  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" 1751413266 70445 2b9c98e21c2227879b8e6d1b9ad04199 ""
-  "roughdraft(1).aux" 1751413270 8004 80a6d1558cbc30a54e7f100685c50a3c "pdflatex"
-  "roughdraft(1).out" 1751413270 8051 1428f905b329a105eded750809fe7798 "pdflatex"
-  "roughdraft(1).tex" 1751413266 70445 2b9c98e21c2227879b8e6d1b9ad04199 ""
-  "roughdraft(1).toc" 1751413270 3372 7f8eeadb2cc989f824ceeebab6ed1fb2 "pdflatex"
+  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" 1751451236 68991 2fe75233d26c90274517d9069a6f81c0 ""
+  "roughdraft(1).aux" 1751451238 8029 3428b0e3f8be23134b3b845fc292bf38 "pdflatex"
+  "roughdraft(1).out" 1751451238 10178 22fb7d773704a3f9205e3e3117397da7 "pdflatex"
+  "roughdraft(1).tex" 1751451236 68991 2fe75233d26c90274517d9069a6f81c0 ""
+  "roughdraft(1).toc" 1751451238 4190 4da17e78f23db1298f106e83494e8978 "pdflatex"
   (generated)
   "roughdraft(1).aux"
   "roughdraft(1).log"
