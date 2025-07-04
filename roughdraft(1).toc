@@ -16,25 +16,18 @@
 \contentsline {subsection}{\numberline {6.1}Illustrative Application of the Input-Output Model}{14}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Data and Methodology}{14}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Results}{15}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Bibliometric Analysis of Household Carbon Footprint Studies Using Input-Output Models}{16}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Methodology}{16}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Results}{16}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Temporal Publication Trends}{16}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Lead Author Contributions}{17}{subsubsection.7.2.2}%
-\contentsline {subsubsection}{\numberline {7.2.3}Co-authorship Patterns}{17}{subsubsection.7.2.3}%
-\contentsline {subsubsection}{\numberline {7.2.4}Top Source Journals}{17}{subsubsection.7.2.4}%
-\contentsline {subsection}{\numberline {7.3}Comparative Assessment of LCA and EEIOA for Household Carbon Footprint Estimation}{18}{subsection.7.3}%
-\contentsline {section}{\numberline {8}The Hakenes \& Schliephake Model}{19}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Deriving the Household Footprint in a One-Industry Economy}{19}{subsection.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.1}Firms and Capital Market}{19}{subsubsection.8.1.1}%
-\contentsline {subsubsection}{\numberline {8.1.2}Household Optimization Problem}{20}{subsubsection.8.1.2}%
-\contentsline {subsubsection}{\numberline {8.1.3}Market Equilibrium and Footprint Derivation}{20}{subsubsection.8.1.3}%
-\contentsline {subsubsection}{\numberline {8.1.4}Derivation of the Weighting Parameter \( \boldsymbol {\phi } \)}{21}{subsubsection.8.1.4}%
-\contentsline {subsubsection}{\numberline {8.1.5}Comparative Statics of the Weighting Parameter \( \boldsymbol {\phi } \)}{22}{subsubsection.8.1.5}%
-\contentsline {subsection}{\numberline {8.2}Empirical Illustration: Application of the Single-Industry Model}{23}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Carbon Footprint Estimation under Empirical Supply Curve}{24}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Carbon Footprint Estimation under Theoretical Supply Curve}{24}{subsubsection.8.2.2}%
-\contentsline {subsubsection}{\numberline {8.2.3}Structural Sources of Difference in Emissions Outcomes}{25}{subsubsection.8.2.3}%
-\contentsline {section}{\numberline {9}Results}{26}{section.9}%
-\contentsline {section}{\numberline {10}Discussion}{26}{section.10}%
-\contentsline {section}{\numberline {11}Conclusion}{26}{section.11}%
+\contentsline {subsection}{\numberline {6.4}Comparative Assessment of LCA and EEIOA for Household Carbon Footprint Estimation}{16}{subsection.6.4}%
+\contentsline {section}{\numberline {7}The Hakenes \& Schliephake Model}{17}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Deriving the Household Footprint in a One-Industry Economy}{17}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Firms and Capital Market}{17}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Household Optimization Problem}{18}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Market Equilibrium and Footprint Derivation}{18}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Derivation of the Weighting Parameter \( \boldsymbol {\phi } \)}{19}{subsubsection.7.1.4}%
+\contentsline {subsubsection}{\numberline {7.1.5}Comparative Statics of the Weighting Parameter \( \boldsymbol {\phi } \)}{20}{subsubsection.7.1.5}%
+\contentsline {subsection}{\numberline {7.2}Empirical Illustration: Application of the Single-Industry Model}{21}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Carbon Footprint Estimation under Empirical Supply Curve}{22}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Carbon Footprint Estimation under Theoretical Supply Curve}{22}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Structural Sources of Difference in Emissions Outcomes}{23}{subsubsection.7.2.3}%
+\contentsline {section}{\numberline {8}Results}{24}{section.8}%
+\contentsline {section}{\numberline {9}Discussion}{24}{section.9}%
+\contentsline {section}{\numberline {10}Conclusion}{24}{section.10}%

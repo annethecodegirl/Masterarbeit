@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1751630274.26626 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" "roughdraft(1).pdf" "roughdraft(1)" 1751630275.80505 0
+["pdflatex"] 1751626509.4922 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/backup(2).tex" "backup(2).pdf" "backup(2)" 1751626511.36656 0
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1751200890 84158 d77284a6843bde1e4b9764f09fb2e89e ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1748704790 13089765 bc6a75f620132fc869ce2950439eeb88 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -128,16 +128,18 @@
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/tocloft/tocloft.sty" 1578908763 37263 3e78d14f0f4b1a30560fea5e04de805d ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty" 1730400552 1618 d81d7e8646081fd4049b99a8cd8a91df ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "Coauthors.png" 1750771011 68380 04ab25832f42981a77d0808db985fed0 ""
   "LCA_pie.png" 1751297765 185552 8226e4b9a75c7d0e0c4b2433fe6ffb17 ""
-  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" 1751630271 65835 85c6832ae2b3f7e52abeefae1294b6c1 ""
-  "roughdraft(1).aux" 1751630275 6502 21d4541ad3d1a89bbae75ff49e3e8425 "pdflatex"
-  "roughdraft(1).out" 1751630275 8717 be9bee42b2a481d7299f54e7a28e9cd4 "pdflatex"
-  "roughdraft(1).tex" 1751630271 65835 85c6832ae2b3f7e52abeefae1294b6c1 ""
-  "roughdraft(1).toc" 1751630275 3493 d14699d896b9bf0b97b5b93404272f89 "pdflatex"
+  "Publications.png" 1750770983 92364 fc575fa04c84166c1b9705a520e5601d ""
+  "backup(2).aux" 1751626511 8029 3428b0e3f8be23134b3b845fc292bf38 "pdflatex"
+  "backup(2).out" 1751626511 10178 22fb7d773704a3f9205e3e3117397da7 "pdflatex"
+  "backup(2).tex" 1751626503 68991 2fe75233d26c90274517d9069a6f81c0 ""
+  "backup(2).toc" 1751626511 4190 4da17e78f23db1298f106e83494e8978 "pdflatex"
+  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/backup(2).tex" 1751626503 68991 2fe75233d26c90274517d9069a6f81c0 ""
   (generated)
-  "roughdraft(1).aux"
-  "roughdraft(1).log"
-  "roughdraft(1).out"
-  "roughdraft(1).pdf"
-  "roughdraft(1).toc"
+  "backup(2).aux"
+  "backup(2).log"
+  "backup(2).out"
+  "backup(2).pdf"
+  "backup(2).toc"
   (rewritten before read)

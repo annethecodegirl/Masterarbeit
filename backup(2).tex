@@ -344,104 +344,44 @@ Together, this evidence shows that focusing only on direct household fuel use un
 
 \section{Input-Output Matrix Model}
 
-The environmentally extended Input-Output (EEIO) framework provides a macroeconomic approach for quantifying household carbon footprints by tracing both direct and upstream greenhouse gas (GHG) emissions embedded in goods and services. Following Matthews et al.\ (2008) and Long et al.\ (2019), the household footprint is consistently structured into three tiers: \textit{Tier 1} (direct on-site fuel combustion), \textit{Tier 2} (indirect emissions from purchased electricity and heat), and \textit{Tier 3} (indirect supply chain emissions embodied in consumption).
+The environmentally extended Input-Output (EEIO) framework provides a rigorous macroeconomic approach for quantifying household-level carbon footprints by capturing both direct and upstream greenhouse gas (GHG) emissions embedded in economic activities. Following Matthews et al.\ (2008) and Long et al.\ (2019), the household footprint is consistently structured into three tiers: \textit{Tier 1} (direct on-site fuel combustion), \textit{Tier 2} (indirect emissions from purchased electricity and heat), and \textit{Tier 3} (indirect supply chain emissions embodied in consumed goods and services).
 
-\vspace{1em}
-
-Let \( \mathbf{F} \) be the final demand vector representing household expenditure across sectors. The fundamental Leontief demand system relates total output \( \mathbf{X} \) to final demand through:
-
+Let \( \mathbf{F} \) be the final demand vector representing household expenditure across sectors. The fundamental Leontief demand model relates total output \( \mathbf{X} \) to final demand via:
 \begin{equation}
-    \mathbf{X} = (\mathbf{I} - \mathbf{A})^{-1} \mathbf{F},
+    \mathbf{X} = {(\mathbf{I} - \mathbf{A})}^{-1} \mathbf{F},
 \end{equation}
+where \( \mathbf{A} \) is the technical coefficient matrix specifying inter-industry input requirements, and \( \mathbf{I} \) is the identity matrix. The inverse term \( {(\mathbf{I} - \mathbf{A})}^{-1} \) (the Leontief inverse) expands final demand to the total upstream production required to satisfy it (Leontief, 1970).
 
-where \( \mathbf{A} \) is the \textit{technical coefficient matrix} specifying inter-industry input requirements, and \( \mathbf{I} \) is the identity matrix. The inverse term \( (\mathbf{I} - \mathbf{A})^{-1} \) --- known as the \textit{Leontief inverse} --- expands direct final demand into the total upstream production required to meet it.
-
-\vspace{1em}
-
-\noindent
-\textbf{Derivation of the Technical Coefficient Matrix.}  
-Each element \( A_{ij} \) is defined by:
-
-\begin{equation}
-    A_{ij} = \frac{z_{ij}}{x_j},
-\end{equation}
-
-where \( z_{ij} \) is the monetary value of input from sector \( i \) to sector \( j \), and \( x_j \) is the total output of sector \( j \). Thus, \( \mathbf{A} \) captures the technology and interdependencies between sectors.
-
-The basic system identity is:
-
-\begin{equation}
-    \mathbf{X} = \mathbf{A} \mathbf{X} + \mathbf{F} \quad \Longrightarrow \quad (\mathbf{I} - \mathbf{A}) \mathbf{X} = \mathbf{F} \quad \Longrightarrow \quad \mathbf{X} = (\mathbf{I} - \mathbf{A})^{-1} \mathbf{F}.
-\end{equation}
-
-\vspace{1em}
-
-\noindent
 \textbf{Tier 1: Direct Emissions.}  
-Tier 1 quantifies emissions from household fuel combustion. Following Weber and Matthews (2008), this component is significant for direct residential energy use in industrialised economies:
-
+Tier 1 quantifies the immediate carbon emissions resulting from household-level combustion of fossil fuels such as natural gas, heating oil, or gasoline. Empirically, direct residential energy use accounts for a significant share of household carbon footprints in industrialised economies, for instance, Weber and Matthews (2008) estimate that direct fuel use can represent around 20--30\% of total household-related GHG emissions in the United States. Mathematically, direct emissions are calculated by multiplying household-specific fuel consumption by sector-specific emission coefficients:
 \begin{equation}
     \mathbf{E}_1 = \mathbf{R} \mathbf{y},
 \end{equation}
+where \( \mathbf{R} \) is a diagonal matrix of fuel-specific emission intensities (kg CO$_2$e per unit of fuel) and \( \mathbf{y} \) is the vector of fuel quantities consumed.
 
-where \( \mathbf{R} \) is a diagonal matrix of fuel-specific emission intensities (kg CO$_2$e per unit) and \( \mathbf{y} \) is the vector of household fuel consumption.
-
-\vspace{1em}
-
-\noindent
 \textbf{Tier 2: Indirect Energy Emissions.}  
-Tier 2 represents upstream emissions from purchased electricity and district heating:
-
+Tier 2 captures emissions associated with electricity and district heating purchased by households but produced off-site. These upstream emissions typically exceed direct combustion emissions in highly electrified economies: for example, Steubing et al.\ (2022) show that for many European households, indirect energy emissions can comprise up to 40\% of total household GHG impact. The indirect burden is derived by tracing inter-industry dependencies in the power and heat generation sectors. Formally, this is expressed as:
 \begin{equation}
-    \mathbf{E}_2 = \mathbf{R}_{\text{energy}} (\mathbf{I} - \mathbf{A}_{\text{energy}})^{-1} \mathbf{y},
+    \mathbf{E}_2 = \mathbf{R}_{\text{energy}} {(\mathbf{I} - \mathbf{A}_{\text{energy}})}^{-1} \mathbf{y},
 \end{equation}
+where \( \mathbf{A}_{\text{energy}} \) denotes the technology matrix restricted to the energy supply chain, and \( \mathbf{R}_{\text{energy}} \) is the corresponding emission factor matrix for the production stage. The Leontief inverse structure guarantees that upstream fuel inputs, power losses, and ancillary generation processes are consistently included (Matthews et al., 2008).
 
-where \( \mathbf{A}_{\text{energy}} \) is the submatrix describing the energy supply chain, and \( \mathbf{R}_{\text{energy}} \) is the emission intensity matrix for generation. The Leontief inverse ensures full upstream fuel input requirements and conversion losses are included (Matthews et al., 2008).
-
-\vspace{1em}
-
-\noindent
 \textbf{Tier 3: Indirect Supply Chain Emissions.}  
-Beyond energy, household demand for food, manufactured goods, and services induces indirect emissions across complex global supply chains. The import-adjusted balance corrects for trade effects (Long et al., 2019; Sheng et al., 2024):
-
+Beyond fuel and energy use, households induce substantial upstream emissions through consumption of goods and services — including food, manufactured products, and mobility services — which embed emissions across global supply chains (Wiedmann et al., 2010). To robustly allocate these emissions, the EEIO model adjusts for international trade and non-domestic production, following Long et al.\ (2019) and Sheng et al.\ (2024). The import-adjusted balance ensures that only domestically attributable emissions are counted:
 \begin{equation}
-    \mathbf{X} = [(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})]^{-1} [(\mathbf{I} - \mathbf{M})\mathbf{F} + \mathbf{EX}],
+    \mathbf{X} = {[(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})]}^{-1} [(\mathbf{I} - \mathbf{M})\mathbf{F} + \mathbf{EX}],
+\end{equation}
+where \( \mathbf{M} \) captures the share of imported inputs by sector, and \( \mathbf{EX} \) corrects for exported goods, aligning the final footprint with actual domestic consumption. Applying the full supply chain emission intensities \( \mathbf{D} \) yields:
+\begin{equation}
+    \mathbf{E}_3 = \mathbf{D} \mathbf{X} = \mathbf{D} {[(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})]}^{-1} [(\mathbf{I} - \mathbf{M})\mathbf{F} + \mathbf{EX}].
 \end{equation}
 
-where \( \mathbf{M} \) denotes the sectoral import shares and \( \mathbf{EX} \) corrects for domestic exports. Total indirect supply chain emissions are then given by:
-
-\begin{equation}
-    \mathbf{E}_3 = \mathbf{D} \mathbf{X} = \mathbf{D} [(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})]^{-1} [(\mathbf{I} - \mathbf{M})\mathbf{F} + \mathbf{EX}],
-\end{equation}
-
-with \( \mathbf{D} \) containing sector-specific emission intensities.
-
-\vspace{1em}
-
-\noindent
-\textbf{Stability Consideration.}  
-A known limitation, noted by Matthews et al.\ (2008), is that the Leontief inverse may produce unrealistic results if \( \mathbf{A} \) is not properly specified. If column sums exceed unity, the matrix \( (\mathbf{I} - \mathbf{A}) \) can become singular or near-singular, producing unstable or extremely large coefficients. This ``blow-up'' risk implies that all input coefficients must be carefully validated to ensure that each sector's input requirements do not exceed its output.
-
-To address this, a basic feasibility check ensures:
-
-\begin{equation}
-    \sum_{i} A_{ij} < 1 \quad \forall j.
-\end{equation}
-
-Additionally, where possible, this study compares results with the benchmarked EIO-LCA tool by Matthews et al.\ (2008) as a practical sanity check.
-
-\vspace{1em}
-
-\noindent
 \textbf{Total Household Footprint.}  
-Combining all tiers, the household footprint is:
-
+Combining these three tiers provides a closed-system estimate of the household carbon footprint:
 \begin{equation}
     \mathbf{E}_{\text{total}} = \mathbf{E}_1 + \mathbf{E}_2 + \mathbf{E}_3.
 \end{equation}
-
-This integrated EEIO framework mitigates truncation and boundary errors typical of process-based LCA, capturing the full feedback loops of modern economies (Matthews et al., 2008; Steubing et al., 2022).
-
+This integrated EEIO structure addresses the truncation and boundary gaps typical in process-based Life Cycle Assessment (LCA) by capturing the full feedback loops of modern production networks (Matthews et al., 2008; Steubing et al., 2022). As demonstrated by empirical studies (e.g., Weber and Matthews, 2008; Wiedmann et al., 2010), accurately accounting for these indirect flows is critical for meaningful carbon footprinting and evidence-based climate policy.
 
 \subsection{Illustrative Application of the Input-Output Model}
 
@@ -455,37 +395,30 @@ In this illustration, pre-calculated environmentally extended emission intensiti
 
 \subsection{Data and Methodology}
 
-The spend-based emission factors applied in this study are derived from EXIOBASE, a multi-regional input-output (MRIO) database that links inter-industry transactions with satellite environmental accounts. For each sector, the technical coefficient matrix $\mathbf{A}$ is constructed by dividing inter-industry monetary flows by sectoral outputs. The Leontief inverse $(\mathbf{I} - \mathbf{A})^{-1}$ then expands final demand to include both direct and indirect production requirements. By multiplying each sector's direct GHG emissions by this total requirements matrix, the full upstream carbon intensity is obtained as follows:
+Household final consumption expenditure data were obtained from Eurostat and supplementary sources, converted to euros at the 2021 average exchange rate (1 USD = 0.85 EUR). The emission factors used are reported in Appendix A, Table 2.
+
+
+For each country $c$, and for each category $i$, the household carbon footprint is calculated as:
+\[
+E_{i,c} = F_{i,c} \cdot EF_i
+\]
+where:
+\begin{itemize}
+    \item $F_{i,c}$ is the household expenditure in euros for category $i$ in country $c$;
+    \item $EF_i$ is the spend-based emission factor for category $i$;
+    \item $E_{i,c}$ is the resulting emissions (kg CO$_{2}$e).
+\end{itemize}
+For instance, for France, the national household expenditure on food and non-alcoholic beverages is:
 
 \[
-EF_i = \sum_{j} C_j L_{ji}, 
-\quad \text{where} \quad 
-L = (\mathbf{I} - \mathbf{A})^{-1}.
+F_{\text{food,FR}} = 1.322 \times 10^9 \cdot 0.139 = 183.8 \times 10^9 \text{ EUR}
 \]
-
-Here, $C_j$ denotes the direct emissions intensity for producing sector $j$, and $L_{ji}$ represents the total requirements linking producing sectors $j$ and $i$. The resulting spend-based factors are published through Climatiq.io, which provides up-to-date coefficients aggregated from EXIOBASE under a permissive data license \citep{EXIOBASEsource}.
-
-To ensure numerical stability, EXIOBASE balances its input-output tables using harmonised supply-use statistics, preventing divergence in the Leontief inverse. An additional feasibility check confirms that the sum of each column in $\mathbf{A}$ remains below unity, preserving the productive structure required for invertibility.
-
-Annual household final consumption expenditure for France, Spain, and Germany was sourced from Eurostat for the year 2021 and harmonised to euros at the average annual exchange rate. For each expenditure category $i$ and country $c$, the household carbon footprint is estimated by multiplying the national expenditure by the corresponding spend-based factor:
-
+The corresponding emissions are:
 \[
-E_{i,c} = F_{i,c} \times EF_i.
+E_{\text{food,FR}} = 183.8 \times 10^9 \cdot 0.48 = 88.2 \times 10^6 \ \text{tonnes CO}_{2}\text{e}
 \]
 
-For instance, for France, the estimated annual household spending on food and non-alcoholic beverages is approximately
-
-\[
-F_{\text{food,FR}} = 1.322 \times 10^9 \times 0.139 = 183.8 \times 10^9~\text{EUR}.
-\]
-
-Multiplying this by the category-specific factor of 0.48~kg CO$_2$e per euro yields an estimated
-
-\[
-E_{\text{food,FR}} = 183.8 \times 10^9 \times 0.48 = 88.2 \times 10^6~\text{tonnes CO}_2\text{e}.
-\]
-
-The same procedure is applied across all final demand categories and for Spain and Germany. This method follows the tier-3 EEIO approach and systematically allocates upstream supply chain emissions, providing a comprehensive perspective on the consumption-driven climate impact of households. All emission factors are listed in Appendix~A, Table~2.
+Analogously, calculations are performed for all categories and countries.
 
 \subsection{Results}
 
@@ -496,6 +429,88 @@ Housing, food, and transport account for the largest shares of total household e
 Unlike conventional GHG inventories or product-level life cycle assessments (LCA) that typically track physical quantities of fuel or goods consumed, the EEIO method allocates emissions based on household expenditure across all final demand categories. This spend-based framework enables the tracing of embodied emissions in goods and services, including imported products, providing a more complete perspective on consumption-driven impacts.
 
 The scale and sectoral structure of the results are consistent with earlier multi-regional input-output analyses for Europe (e.g., Matthews et al.~2008; Sheng et al.~2024), which report housing energy use, food supply chains, and private mobility as the dominant drivers of household footprints. The method is widely applied due to its ability to integrate complex supply chain interactions and incorporate international trade adjustments (Long et al.~2019). This confirms that the IO model, when combined with up-to-date household expenditure data, remains an effective tool for quantifying the full indirect climate impact of household demand.
+
+
+
+\section{Bibliometric Analysis of Household Carbon Footprint Studies Using Input-Output Models}
+
+\subsection{Methodology}
+
+This bibliometric analysis follows the methodological approach used by Sheng et al. (2024). Publications were retrieved from Scopus, using search terms related to household carbon footprint, input-output, EEIO, and environmentally extended, comprising 208 unique publications on household carbon footprint estimation using input-output (IO) models, including environmentally extended input-output (EEIO) and multi-regional input-output (MRIO) frameworks. The dataset covers publications from 2008 to 2025. Duplicate records were removed using DOI and EID identifiers. Python (pandas and matplotlib) was used for data cleaning and visualization. Metrics examined include temporal publication trends, lead author contributions, co-authorship patterns, and source journals with their publishing countries.
+
+\subsection{Results}
+
+\subsubsection{Temporal Publication Trends}
+
+The publication trend reported in (Figure~7.1) confirms a consistent increase in research output on household carbon footprint estimation using input-output models since 2010. Annual publications reached a peak of 27 in 2020 and remained elevated through 2024, reflecting sustained methodological interest and broader policy relevance consistent with findings reported by Sheng et al. (2024).
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{Publications.png}
+\caption*{\textbf{Figure 7.1:} Annual publications on household carbon footprint using input-output models (2008--2025)}\label{fig:Publications}
+\end{figure}
+
+\subsubsection{Lead Author Contributions}
+
+The analysis shows that lead authorship is concentrated among a small number of prolific researchers, including Long Y.~(9 publications) and Shigetomi Y.~(5 publications). The top contributors are affiliated with institutions in China, Japan, Finland, Norway, and the UK, indicating geographically diverse but institutionally clustered leadership in the field (Table~7.1).
+
+\begin{table}[h]
+\centering
+\caption*{\textbf{Table 7.1:} Lead authors and affiliations in Input-Output based Household Footprint Research.}\label{tab:lead_authors_affiliations}
+\begin{tabular}{@{}lrl@{}}
+\hline 
+\textbf{Lead Author} & \textbf{Publications} & \textbf{Affiliation} \\
+\hline
+Long Y. & 9 & Beijing Institute of Technology, China \\
+Shigetomi Y. & 5 & Kyushu University, Japan \\
+Ivanova D. & 4 & Norwegian University of Science and Technology, Norway \\
+Ala-Mantila S. & 4 & Aalto University, Finland \\
+Druckman A. & 3 & University of Surrey, UK \\
+Liu X. & 3 & Chinese Academy of Sciences, China \\
+Owen A. & 2 & University of Leeds, UK \\
+Zhong H. & 2 & Chinese Academy of Sciences, China \\
+Chen G. & 2 & Norwegian University of Science and Technology, Norway \\
+Christis M. & 2 & University of Antwerp, Belgium \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+\subsubsection{Co-authorship Patterns}
+
+The co-authorship profile indicates that the majority of studies are produced by multi-author teams, which is consistent with the collaborative nature of quantitative input-output research and the integration of environmental extensions with multi-regional datasets (Figure~7.2).
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{Coauthors.png}
+\caption*{\textbf{Figure 7.2: }Distribution of co-authorship in household carbon footprint IO publications}\label{fig:coauthorship}
+\end{figure}
+
+\subsubsection{Top Source Journals}
+
+The leading publication outlets include the \textit{Journal of Cleaner Production}, \textit{Ecological Economics}, and \textit{Environmental Research Letters}. Most high-volume journals are published in the Netherlands, the UK, or the USA, reflecting the prominent role of major international publishers and the concentration of environmental economics and industrial ecology journals within the European and North American research landscape (Table~7.2).
+
+\begin{table}[h]
+\centering
+\caption*{\textbf{Table 7.2: }Top Source Journals, Number of Publications, and Publishing Countries}\label{tab:journal_countries}
+\begin{tabular}{lll}
+\hline
+\textbf{Journal} & \textbf{Publications} & \textbf{Country} \\
+\hline
+Journal of Cleaner Production & 24 & UK / Netherlands \\
+Ecological Economics & 16 & Netherlands \\
+Environmental Research Letters & 14 & UK \\
+Journal of Industrial Ecology & 11 & USA \\
+Resources, Conservation and Recycling & 11 & Netherlands \\
+Science of the Total Environment & 11 & Netherlands \\
+Energy Policy & 9 & Netherlands \\
+Sustainability (Switzerland) & 8 & Switzerland \\
+Journal of Environmental Management & 8 & Netherlands \\
+Environmental Science and Technology & 5 & USA \\
+\hline
+\end{tabular}
+\end{table}
 
 
 \subsection{Comparative Assessment of LCA and EEIOA for Household Carbon Footprint Estimation}
