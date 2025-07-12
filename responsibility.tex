@@ -1,0 +1,76 @@
+% Document class
+% Document class
+% chktex-file 44
+% chktex-file 13
+% chktex-file 8
+\documentclass[12pt,a4paper]{article}%
+
+% Packages
+\usepackage[utf8]{inputenc}%
+\usepackage[T1]{fontenc}%
+\usepackage{indentfirst}%
+\usepackage{geometry}%
+\usepackage{setspace}%
+\usepackage{times}%
+\usepackage{lipsum}% For dummy text
+\usepackage{graphicx}%
+\usepackage{fancyhdr}%
+\usepackage{titlesec}%
+\usepackage{tocloft}%
+\usepackage{amsmath,amssymb}%
+\usepackage{caption}%
+\usepackage{subcaption}%
+\usepackage{booktabs}%
+\usepackage{hyperref}%
+\usepackage{natbib}%
+
+% Geometry
+\geometry{
+  a4paper,
+  left=3cm,
+  right=2cm,
+  top=2cm,
+  bottom=2cm
+}%
+
+% Line spacing
+\onehalfspacing%
+
+% Page numbering
+\pagestyle{fancy}%
+\fancyhf{}%
+\rfoot{\thepage}%
+
+% Section formatting
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}%
+\titleformat{\subsection}[block]{\normalfont\large\bfseries}{\thesubsection}{1em}{}%
+
+% Table of contents formatting
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}%
+
+% Paragraph formatting
+\setlength{\parindent}{1.25em} % Indent for ALL paragraphs, including first
+\setlength{\parskip}{0em}      % No extra spacing between paragraphs
+
+\begin{document}
+\section{Responsibility for Household Carbon Footprints}
+
+\subsection{Behavioural Drivers and Indirect Responsibility}
+% General points about households controlling direct vs indirect emissions.
+
+\subsection{AI and the Expanding Indirect Household Footprint}
+
+Artificial intelligence (AI) is now deeply embedded in everyday life, shaping how households consume digital services and indirectly expanding their carbon footprints. In the environmentally extended input-output (EEIO) framework, these impacts appear mainly in Tier 2 (indirect energy demand) and Tier 3 (upstream production). While households do not directly train large-scale AI models, their cumulative demand for AI-driven services --- from generative chatbots and voice assistants to recommendation algorithms and video streaming --- drives sustained growth in global data centre operations.
+
+Recent evidence shows the scale of this footprint. The \textit{AI Index Report 2025} estimates that training a single large model can emit thousands of tonnes of CO$_2$e: GPT-3 (2020) required about 588 tonnes for training, GPT-4 (2023) over 5,000 tonnes, and Meta's Llama 3.1 (2024) nearly 9,000 tonnes. While training occurs centrally, inference --- the daily use of these models by millions of households --- drives continuous energy demand. The same report finds that the cost per million tokens of inference fell by more than 280-fold from 2022 to 2024, making high-volume household queries economically trivial but climatically significant.
+
+These trends intensify the indirect household footprint by raising electricity demand and embedded emissions in hardware supply chains. Households' digital behavior now shapes a portion of global data centre energy use, which accounted for about 1--2\% of total global electricity demand in recent estimates (IEA, 2023). Popular high-bandwidth applications like HD video streaming and cloud storage further amplify this load. This illustrates a central challenge in household footprint attribution: individual actions that seem marginal when isolated aggregate into large-scale system impacts through network effects and supply chain feedbacks.
+
+Responsibility for managing this impact is therefore shared. While individual households have limited influence over AI model design or training, they directly determine inference volume and service usage. On the supply side, the emissions intensity depends critically on the energy sources that power data centres and the efficiency of AI hardware. Policy measures such as renewable energy integration, efficiency standards, and digital service carbon disclosures can mitigate this indirect footprint.
+
+In sum, modern AI services exemplify how indirect household emissions evolve with technological adoption. They reaffirm the need to consider both behavioral demand-side choices and system-level supply-side decarbonization when designing policies to address the full scope of household carbon footprints.
+
+\subsection{Transport Mode Choice and Shared Spillovers}
+% Then the Hakenes–Schliephake insight on cars vs trains, policy leverage, spillovers.
+
+\end{document}

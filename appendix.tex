@@ -6,16 +6,18 @@
 \usepackage{caption}
 \usepackage{siunitx}
 \usepackage{geometry}
+\usepackage{float}
 \geometry{margin=1in}
-
+\clearpage
 \sisetup{group-separator=,}
 
 \begin{document}
 
 % Appendix A: Supplementary Tables and Figures
-\section*{Appendix A: Supplementary Material}
 
-\begin{table}[h]
+\section*{Appendix A: Tables and Figures}
+
+\begin{table}[H]
 \centering
 \caption{Mean Consumption Expenditure per Household in Spain, 2022}\label{tab:expenditure}
 \resizebox{\textwidth}{!}{
@@ -41,7 +43,7 @@ Miscellaneous goods and services & 2364 & 7.5 & 7.5 & 148 \\
 \end{table}
 
 % Table 2: Emission Factors
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \caption{Spend-Based Emission Factors (EXIOBASE via Climatiq.io)}\label{tab:efactors}
 \begin{tabular}{l S[table-format=1.2]}
@@ -65,7 +67,7 @@ Education & 0.15 \\
 \end{table}
 
 % Table: France Expenditure and Emissions
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \caption{Household expenditure and carbon footprint by category for France (2021, Eurostat).}\label{tab:france_expenditure_emissions}
 \resizebox{\textwidth}{!}{
@@ -92,7 +94,7 @@ Education & 0.15 & 0.5 & 6.6 & 1.0 \\
 \end{table}
 
 % Appendix A: Spain Expenditure and Emissions Table with Resizebox
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \caption{Household expenditure and carbon footprint by category for Spain (2021, Eurostat).}\label{tab:spain_expenditure_emissions}
 \resizebox{\textwidth}{!}{
@@ -118,8 +120,9 @@ Education & 0.15 & 1.40 & 9.7 & 1.5 \\
 \end{tabular}}
 \end{table}
 
+
 % Appendix A: Germany Expenditure and Emissions Table
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \caption{Household expenditure and carbon footprint by category for Germany (2021, Eurostat).}\label{tab:germany_expenditure_emissions}
 \resizebox{\textwidth}{!}{
@@ -144,5 +147,73 @@ Education & 0.15 & 0.80 & 14.4 & 2.2 \\
 \bottomrule
 \end{tabular}}
 \end{table}
+
+
+\section*{Appendix B: Derivations}
+\subsection*{B.1 Stability of the Leontief Inverse}
+
+To illustrate the condition under which the Leontief inverse exists, we consider two hypothetical technical coefficient matrices. The stability of each system is assessed based on the spectral radius \( \rho(\mathbf{A}) \).
+
+\textbf{Stable system:}
+\[
+\mathbf{A}_{\text{stable}} =
+\begin{bmatrix}
+0.2 & 0.1 \\
+0.3 & 0.4
+\end{bmatrix}
+\quad \Rightarrow \quad \rho(\mathbf{A}) = 0.5 < 1
+\]
+
+\textbf{Unstable system:}
+\[
+\mathbf{A}_{\text{unstable}} =
+\begin{bmatrix}
+0.6 & 0.7 \\
+0.8 & 0.9
+\end{bmatrix}
+\quad \Rightarrow \quad \rho(\mathbf{A}) \approx 1.51 > 1
+\]
+
+Only the first system satisfies the condition \( \rho(\mathbf{A}) < 1 \), which ensures that the series \( (\mathbf{I} - \mathbf{A})^{-1} = \sum_{k=0}^\infty \mathbf{A}^k \) converges. A spectral radius above 1 implies that the system is not productive and the total output requirement diverges.
+
+\subsection*{B.2 Emission Multiplier Computation in EEIO}
+
+To demonstrate the computation of supply chain emissions in EEIO models, we use a simplified 3-sector structure based on EXIOBASE-style values for Agriculture, Manufacturing, and Services.
+
+\textbf{Technical Coefficient Matrix:}
+\[
+\mathbf{A} =
+\begin{bmatrix}
+0.10 & 0.05 & 0.02 \\
+0.20 & 0.15 & 0.10 \\
+0.05 & 0.10 & 0.10
+\end{bmatrix}
+\]
+
+\textbf{Leontief Inverse:}
+\[
+(\mathbf{I} - \mathbf{A})^{-1} =
+\begin{bmatrix}
+1.12 & 0.11 & 0.04 \\
+0.29 & 1.19 & 0.17 \\
+0.07 & 0.19 & 1.13
+\end{bmatrix}
+\]
+
+\textbf{Emission Intensities (kg CO\textsubscript{2}e/€):}
+\[
+\mathbf{C} = \begin{bmatrix} 0.45 & 0.30 & 0.20 \end{bmatrix}
+\]
+
+\textbf{Emission Multipliers:}
+\[
+\mathbf{C} (\mathbf{I} - \mathbf{A})^{-1} =
+\begin{bmatrix}
+0.609 & 0.422 & 0.283
+\end{bmatrix}
+\]
+
+These values represent the total cradle-to-gate carbon footprint induced by one euro of final demand in each sector. For instance, €1 spent on agricultural products results in approximately 0.609 kg of CO\textsubscript{2}e emissions when accounting for all upstream effects. This methodology reflects standard EXIOBASE and Climatiq practices for spend-based carbon accounting.
+
 
 \end{document}

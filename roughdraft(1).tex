@@ -342,98 +342,82 @@ Together, this evidence shows that focusing only on direct household fuel use un
 \caption{Relative contributions of household activities to carbon footprints}
 \end{figure}
 
-\section{Input-Output Matrix Model}
+\section{Input–Output Model and Carbon Footprint Estimation}
+The environmentally extended Input-Output (EEIO) framework provides a macroeconomic approach for quantifying household carbon footprints by tracing both direct and upstream greenhouse gas (GHG) emissions embedded in goods and services. 
 
-The environmentally extended Input-Output (EEIO) framework provides a macroeconomic approach for quantifying household carbon footprints by tracing both direct and upstream greenhouse gas (GHG) emissions embedded in goods and services. Following Matthews et al.\ (2008) and Long et al.\ (2019), the household footprint is consistently structured into three tiers: \textit{Tier 1} (direct on-site fuel combustion), \textit{Tier 2} (indirect emissions from purchased electricity and heat), and \textit{Tier 3} (indirect supply chain emissions embodied in consumption).
+\subsection{Leontief Input–Output Framework}
 
-\vspace{1em}
-
-Let \( \mathbf{F} \) be the final demand vector representing household expenditure across sectors. The fundamental Leontief demand system relates total output \( \mathbf{X} \) to final demand through:
-
-\begin{equation}
-    \mathbf{X} = (\mathbf{I} - \mathbf{A})^{-1} \mathbf{F},
-\end{equation}
-
-where \( \mathbf{A} \) is the \textit{technical coefficient matrix} specifying inter-industry input requirements, and \( \mathbf{I} \) is the identity matrix. The inverse term \( (\mathbf{I} - \mathbf{A})^{-1} \) --- known as the \textit{Leontief inverse} --- expands direct final demand into the total upstream production required to meet it.
-
-\vspace{1em}
-
-\noindent
-\textbf{Derivation of the Technical Coefficient Matrix.}  
-Each element \( A_{ij} \) is defined by:
+We begin with the standard Leontief system, where total output \( \mathbf{X} \) is the sum of intermediate input requirements and final demand:
 
 \begin{equation}
-    A_{ij} = \frac{z_{ij}}{x_j},
+\mathbf{X} = \mathbf{A} \mathbf{X} + \mathbf{F}.
 \end{equation}
 
-where \( z_{ij} \) is the monetary value of input from sector \( i \) to sector \( j \), and \( x_j \) is the total output of sector \( j \). Thus, \( \mathbf{A} \) captures the technology and interdependencies between sectors.
-
-The basic system identity is:
+Solving for total output yields the fundamental input–output identity:
 
 \begin{equation}
-    \mathbf{X} = \mathbf{A} \mathbf{X} + \mathbf{F} \quad \Longrightarrow \quad (\mathbf{I} - \mathbf{A}) \mathbf{X} = \mathbf{F} \quad \Longrightarrow \quad \mathbf{X} = (\mathbf{I} - \mathbf{A})^{-1} \mathbf{F}.
+\mathbf{X} = (\mathbf{I} - \mathbf{A})^{-1} \mathbf{F}.
 \end{equation}
 
-\vspace{1em}
+Here, \( \mathbf{A} \) is the technical coefficient matrix, \( \mathbf{F} \) is the vector of household final demand, and \( (\mathbf{I} - \mathbf{A})^{-1} \) is the Leontief inverse, which accounts for the total production required (both direct and indirect) to satisfy final demand.
 
-\noindent
-\textbf{Tier 1: Direct Emissions.}  
-Tier 1 quantifies emissions from household fuel combustion. Following Weber and Matthews (2008), this component is significant for direct residential energy use in industrialised economies:
+\subsection{Technical Coefficient Matrix}
+
+Each element \( A_{ij} \) of the matrix \( \mathbf{A} \) is defined as:
 
 \begin{equation}
-    \mathbf{E}_1 = \mathbf{R} \mathbf{y},
+A_{ij} = \frac{z_{ij}}{x_j},
 \end{equation}
 
-where \( \mathbf{R} \) is a diagonal matrix of fuel-specific emission intensities (kg CO$_2$e per unit) and \( \mathbf{y} \) is the vector of household fuel consumption.
+where \( z_{ij} \) denotes the monetary value of inputs from sector \( i \) to sector \( j \), and \( x_j \) is the total output of sector \( j \). The matrix \( \mathbf{A} \) reflects the technological input structure of the economy.
 
-\vspace{1em}
+\subsection{Stability of the Leontief Inverse}
 
-\noindent
-\textbf{Tier 2: Indirect Energy Emissions.}  
-Tier 2 represents upstream emissions from purchased electricity and district heating:
+The Leontief inverse \( (\mathbf{I} - \mathbf{A})^{-1} \) exists and is finite if the matrix \( \mathbf{A} \) satisfies the stability condition \( \rho(\mathbf{A}) < 1 \), where \( \rho(\cdot) \) denotes the spectral radius (i.e., the largest absolute eigenvalue). This condition ensures that the production system is productive and does not require infinite inputs. In applied input--output tables, a sufficient (but not necessary) condition is that the column sums of \( \mathbf{A} \) are each less than one:
+\[
+\sum_i A_{ij} < 1 \quad \text{for all } j.
+\]
+This implies that each sector uses less than one unit of intermediate input to produce one unit of output, a condition that is generally satisfied in empirical datasets (Miller and Blair, 2009).
+
+\subsection{Carbon Footprint Estimation via Input–Output Modelling}
+
+The environmentally extended input–output (EEIO) model estimates household carbon footprints by applying sectoral emission intensities to the total output vector required to satisfy final demand:
 
 \begin{equation}
-    \mathbf{E}_2 = \mathbf{R}_{\text{energy}} (\mathbf{I} - \mathbf{A}_{\text{energy}})^{-1} \mathbf{y},
+\mathbf{E} = \mathbf{C} (\mathbf{I} - \mathbf{A})^{-1} \mathbf{F},
 \end{equation}
 
-where \( \mathbf{A}_{\text{energy}} \) is the submatrix describing the energy supply chain, and \( \mathbf{R}_{\text{energy}} \) is the emission intensity matrix for generation. The Leontief inverse ensures full upstream fuel input requirements and conversion losses are included (Matthews et al., 2008).
+where \( \mathbf{C} \) is the vector of direct emission intensities (e.g., kg CO\textsubscript{2}e per euro of output), and \( \mathbf{E} \) is the resulting emissions attributable to household consumption. This formulation captures both direct and upstream (supply chain) emissions associated with consumption.
 
-\vspace{1em}
+\subsection{Tiered Decomposition of Household Emissions}
 
-\noindent
-\textbf{Tier 3: Indirect Supply Chain Emissions.}  
-Beyond energy, household demand for food, manufactured goods, and services induces indirect emissions across complex global supply chains. The import-adjusted balance corrects for trade effects (Long et al., 2019; Sheng et al., 2024):
+Following Matthews et al.~(2008) and Long et al.~(2019), the total household footprint can be analytically decomposed into three tiers:
+
+\paragraph{Tier 1: Direct Emissions}
 
 \begin{equation}
-    \mathbf{X} = [(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})]^{-1} [(\mathbf{I} - \mathbf{M})\mathbf{F} + \mathbf{EX}],
+\mathbf{E}_1 = \mathbf{C}_d \cdot \mathbf{F}_d,
 \end{equation}
 
-where \( \mathbf{M} \) denotes the sectoral import shares and \( \mathbf{EX} \) corrects for domestic exports. Total indirect supply chain emissions are then given by:
+where \( \mathbf{F}_d \) is household consumption of directly combusted fuels and \( \mathbf{C}_d \) is the corresponding emission intensity vector.
+
+\paragraph{Tier 2: Indirect Energy Emissions}
 
 \begin{equation}
-    \mathbf{E}_3 = \mathbf{D} \mathbf{X} = \mathbf{D} [(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})]^{-1} [(\mathbf{I} - \mathbf{M})\mathbf{F} + \mathbf{EX}],
+\mathbf{E}_2 = \mathbf{C}_e \cdot (\mathbf{I} - \mathbf{A})^{-1} \cdot \mathbf{F}_e,
 \end{equation}
 
-with \( \mathbf{D} \) containing sector-specific emission intensities.
+with \( \mathbf{F}_e \) representing consumption of electricity and district heating, and \( \mathbf{C}_e \) their emission intensities.
 
-\vspace{1em}
-
-\noindent
-\textbf{Stability Consideration.}  
-A known limitation, noted by Matthews et al.\ (2008), is that the Leontief inverse may produce unrealistic results if \( \mathbf{A} \) is not properly specified. If column sums exceed unity, the matrix \( (\mathbf{I} - \mathbf{A}) \) can become singular or near-singular, producing unstable or extremely large coefficients. This ``blow-up'' risk implies that all input coefficients must be carefully validated to ensure that each sector's input requirements do not exceed its output.
-
-To address this, a basic feasibility check ensures:
+\paragraph{Tier 3: Indirect Supply Chain Emissions}
 
 \begin{equation}
-    \sum_{i} A_{ij} < 1 \quad \forall j.
+\mathbf{E}_3 = \mathbf{C} \cdot \left[(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})\right]^{-1} \cdot \left[(\mathbf{I} - \mathbf{M}) \cdot \mathbf{F} + \mathbf{EX} \right],
 \end{equation}
 
-Additionally, where possible, this study compares results with the benchmarked EIO-LCA tool by Matthews et al.\ (2008) as a practical sanity check.
+where \( \mathbf{M} \) is a diagonal matrix of sectoral import shares, and \( \mathbf{EX} \) accounts for exports. This import-adjusted EEIO formulation ensures emissions are assigned to domestic demand (Long et al., 2019; Sheng et al., 2024).
 
-\vspace{1em}
-
-\noindent
-\textbf{Total Household Footprint.}  
+\paragraph{Total Household Footprint.}  
 Combining all tiers, the household footprint is:
 
 \begin{equation}
@@ -445,22 +429,16 @@ This integrated EEIO framework mitigates truncation and boundary errors typical 
 
 \subsection{Illustrative Application of the Input-Output Model}
 
-Following the formal derivation of the environmentally extended input-output (EEIO) model, this section presents an illustrative application of the framework to household carbon footprint estimation. The aim is to operationalize the Leontief-based formulation:
-\[
-\mathbf{E} = \mathbf{C} {(\mathbf{I}-\mathbf{A})}^{-1} \mathbf{F}
-\]
-where $\mathbf{F}$ denotes the final demand vector, here represented by annual household consumption expenditure by category; ${(\mathbf{I}-\mathbf{A})}^{-1}$ is the Leontief inverse, capturing direct and indirect production requirements to satisfy $\mathbf{F}$; $\mathbf{C}$ is the vector of direct emission intensities (kg CO$_{2}$e per unit output).
-
 In this illustration, pre-calculated environmentally extended emission intensities (kg CO$_{2}$e per euro spent) are applied to household consumption data for France, Spain, and Germany for 2021. These intensities represent the aggregated effect of $\mathbf{C} {(\mathbf{I}-\mathbf{A})}^{-1}$ and are derived from the EXIOBASE multi-regional input-output (MRIO) model, as accessed via Climatiq.io. The method aligns with the tier-3 comprehensive accounting approach discussed in Matthews et al.~(2008), Long et al.~(2019), and Sheng et al.~(2024).
 
 \subsection{Data and Methodology}
 
-The spend-based emission factors applied in this study are derived from EXIOBASE, a multi-regional input-output (MRIO) database that links inter-industry transactions with satellite environmental accounts. For each sector, the technical coefficient matrix $\mathbf{A}$ is constructed by dividing inter-industry monetary flows by sectoral outputs. The Leontief inverse $(\mathbf{I} - \mathbf{A})^{-1}$ then expands final demand to include both direct and indirect production requirements. By multiplying each sector's direct GHG emissions by this total requirements matrix, the full upstream carbon intensity is obtained as follows:
+The Leontief inverse $(\mathbf{I} - \mathbf{A})^{-1}$ then expands final demand to include both direct and indirect production requirements.
 
 \[
 EF_i = \sum_{j} C_j L_{ji}, 
 \quad \text{where} \quad 
-L = (\mathbf{I} - \mathbf{A})^{-1}.
+L = {(\mathbf{I} - \mathbf{A})}^{-1}.
 \]
 
 Here, $C_j$ denotes the direct emissions intensity for producing sector $j$, and $L_{ji}$ represents the total requirements linking producing sectors $j$ and $i$. The resulting spend-based factors are published through Climatiq.io, which provides up-to-date coefficients aggregated from EXIOBASE under a permissive data license \citep{EXIOBASEsource}.
@@ -516,7 +494,7 @@ where fuel use, short-lived and durable goods, capital goods lifespan, material 
 In comparison, the EEIOA model, as defined in Equation~(14), estimates the footprint as:
 
 \begin{equation}
-\text{CF}_{\text{EEIOA}} = R (I - A)^{-1} y.
+\text{CF}_{\text{EEIOA}} = {R (I - A)}^{-1} y.
 \end{equation}
 
 In standard practice, the final demand vector $y$ typically excludes gross fixed capital formation, meaning that capital goods for future production are not fully reflected in the EEIOA results. This distinction explains why LCA-based footprints can exceed EEIOA estimates in capital-intensive sectors. Steubing et al.~(2022) demonstrate that for electricity, fossil-based power systems show close agreement between LCA and EEIOA estimates, whereas renewable electricity systems diverge more significantly due to the inclusion of construction and infrastructure impacts in the LCA boundary.
