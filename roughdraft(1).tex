@@ -23,7 +23,7 @@
 \usepackage{booktabs}%
 \usepackage{hyperref}%
 \usepackage{natbib}%
-
+\usepackage{float}
 % Geometry
 \geometry{
   a4paper,
@@ -79,28 +79,38 @@
 
 
 \section{Introduction}
-\lipsum[1-2] % chktex 8
+Climate change poses a pressing global challenge, driven not only by industrial activity and energy production but also by the cumulative impact of household-level demand. Residential consumption, encompassing everything from energy use and food choices to investment behaviors, accounts for nearly 17–40\% of global greenhouse gas (GHG) emissions, depending on measurement approach and boundary definitions. Accurately accounting for household carbon footprints (HCFs) is therefore pivotal to designing mitigation strategies that are both equitable and effective.
+
+To date, HCF estimation methods have evolved along multiple trajectories, each addressing different facets of systemic emissions. Emission factor–based accounting, including the GHG Protocol and IPCC Guidelines, offers a clear rule-based framework by tying activity data to standardized emissions coefficients. Life cycle assessment (LCA) enriches this by providing cradle-to-grave tracing of product-related emissions, though it remains vulnerable to data truncation, boundary limitations, and uneven standardization. Environmentally extended input-output analysis (EEIOA) captures the full spectrum of supply-chain emissions by linking household expenditures with sectoral emissions embedded across global trade networks. Moreover, hybrid methods integrate product-level LCA detail into IO frameworks, while recent dynamic EEIO applications have further allowed for the analysis of capital stock evolution and cross-regional interdependencies.
+
+Despite their sophistication, these frameworks often treat households as passive actors, failing to account for price-mediated behavior, investments, or feedback effects across markets. The general equilibrium model developed by Hakenes and Schliephake (2024) addresses this deficiency by explicitly modeling how household consumption and investment decisions trigger economy-wide emissions through price mechanisms and behavioral spillovers. This thesis compares these four methodological paradigms—emission factor accounting, LCA, EEIOA, and general equilibrium modeling—by applying each to a unified empirical dataset and evaluating their implications for carbon responsibility, policy priorities, and supply-side intervention.
+
+The primary objective of this work is twofold: first, to assess the analytical robustness and policy relevance of each HCF estimation method; second, to demonstrate that while household-level behavioral change has symbolic value, lasting climate impact requires structural interventions in supply chains and production systems. As energy and food demand grow with demographic and economic trends, this study posits that upstream policy—rather than targeting aggregate household behavior—is the most potent lever for sustainable decarbonization. 
+
+The paper is structured as follows: Section 2 reviews existing literature, Sections 3–7 present each methodology and implementation, Section 8 offers a comparative discussion, and Section 9 concludes with policy and research implications.
 
 \section{Literature Review}
-Climate change mitigation policies are heavily influenced by the development trajectories of nations and their respective stages of economic growth, as outlined in the fifth assessment report by the Intergovernmental Panel on Climate Change (IPCC, 2007). According to emission estimates for 2023 provided by the EDGAR database, global greenhouse gas (GHG) emissions increased by 1.9\% compared to 2022, reaching 53.0 Gt CO2eq. The major contributors to global GHG emissions in 2023 were China, the United States, India, the European Union (EU27), Russia, and Brazil, which together accounted for 62.7\% of the total global emissions. Carbon dioxide (CO2) produced by human activities remains the largest driver of global warming, with its concentration in the atmosphere having risen by 48\% above pre-industrial levels (before 1750) by 2020. The primary sources of CO2 emissions include the combustion of coal, oil, and natural gas, deforestation, livestock farming, the release of fluorinated gases from industrial equipment, and the use of nitrogen-based fertilizers (Weber \& Matthews, 2008). These activities have led to more frequent and severe weather events, including heatwaves and droughts, that are impacting regions around the world. In 2024, the United States experienced 27 weather and climate-related disaster events, each resulting in losses exceeding \$1 billion (NOAA, n.d.).
+The household carbon footprint has been studied extensively using varying definitions and scopes. Early contributions by Pachauri and Spreng (2002) and Lenzen et al. (2004) laid the groundwork for estimating household emissions using input-output techniques. Druckman and Jackson (2009) expanded this literature by linking household expenditure patterns with emission intensities, emphasizing the heterogeneity of household behavior. Baiocchi and Minx (2010) provided one of the first large-scale comparative assessments across European countries. Subsequent studies such as Hertwich and Peters (2009), Ivanova et al. (2016), and Moran et al. (2018) further refined household-level carbon accounting, incorporating global supply chains and inequality dimensions. These foundational studies established the analytical relevance of household carbon footprints in understanding consumption-based emissions and set the stage for methodological innovations.
 
-The growing acknowledgment of global warming as a significant threat has prompted international initiatives aimed at reducing greenhouse gas (GHG) emissions. These initiatives rely on accurate assessment and reporting of GHG emissions to inform climate policies (IPCC, 2007). Households account for 17\% of total global carbon dioxide (CO2) emissions, underscoring their critical role in addressing climate change. Understanding and mitigating residential contributions to greenhouse gas (GHG) emissions require prioritizing the household carbon footprint, a vital measure of emissions stemming from residential consumption (Du \& Zhong, 2024). Several methodologies are available for estimating GHG emissions, with the concept of carbon footprint gaining significant attention (Guinee, 2011). A carbon footprint is defined as the total GHG emissions caused directly and indirectly by an individual, organization, event, or product, traditionally calculated by summing emissions from every stage of a product or service's life cycle (Center for Sustainable Systems, 2024). Among the available methodologies, the GHG Protocol has emerged as a widely used framework for corporate GHG reporting, considering direct and indirect emissions resulting from household consumption. However, this method has limitations, such as double-counting and restricted adjustments for market dynamics (WBCSD, 2004). 
+A bibliometric analysis of 1,311 peer-reviewed articles published between 2000 and 2025 reveals a substantial and accelerating growth in research on household carbon footprints. The volume of publications increased significantly after 2010, with a pronounced surge following the adoption of the Paris Agreement in 2015. To account for incomplete data in 2025, the publication count for the year was estimated by doubling the observed mid-year value, assuming a consistent publication rate throughout the year. This adjustment avoids visual misinterpretation of a declining trend and is reflected in Figure 2.1, which shows the annual publication trajectory. The most frequent publication outlets include the \textit{Journal of Cleaner Production, Science of the Total Environment,} and \textit{Environmental Science and Technology}. Leading contributors in terms of publication count and influence include Long et al., Heinonen et al., and Li et al., whose work has focused on input-output modeling, behavioral drivers, and carbon inequality. Keyword co-occurrence analysis (Figure 2.2) indicates strong thematic linkages among “input-output analysis,” “life cycle assessment,” “sustainable consumption,” and “GHG emissions.” Co-authorship network patterns also reveal the formation of dense collaboration clusters, particularly around institutions such as the University of Tokyo, Sun Yat-sen University, and the University of Maryland. A full breakdown of annual publication counts, author rankings, and keyword frequencies is provided in Appendix A (Table A.1–A.3).
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.85\textwidth]{publication_trend_darkblue_estimated2025.png}
+    \caption*{\textbf{Figure 2.1: }Estimated annual publication trend on household carbon footprints (2000–2025). The 2025 value is a linear extrapolation based on mid-year data.}
+\end{figure}
 
-Another widely used approach is the Input-Output Analysis (IOA) method, a top-down model that calculates carbon footprints by analyzing monetary transactions between activities and extending them to an environmental level through greenhouse gas (GHG) emissions. This approach, known as Environmentally Extended Input-Output Analysis (EEIO), provides a macro-level view of the environmental impacts of economic activities (Encyclopedia of Ecology, 2019). For instance, a study using EEIO to examine the carbon footprints of Australian equity investments and Socially Responsible Investments (SRI) demonstrated that applying SRI criteria significantly reduces the carbon footprint of equity portfolios. This highlights equity investments as a major driver of economic activity and a crucial lever in advancing a sustainable economy (Chard, 2024).
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.85\textwidth]{keyword_cooccurrence.png}
+    \caption*{\textbf{Figure 2.2: }Keyword co-occurrence network for the 30 most frequently used terms in household carbon footprint literature (2000–2025).}
+\end{figure}
 
+The estimation of household carbon footprints in the literature has relied on a range of methods, each grounded in distinct assumptions about attribution, causality, and system boundaries. The Greenhouse Gas (GHG) Protocol developed by the World Resources Institute and the World Business Council for Sustainable Development (WRI and WBCSD, 2004) remains a foundational standard for measuring direct (Scope 1), energy-related (Scope 2), and indirect (Scope 3) emissions. Its approach, based on multiplying activity data by standardized emission factors, is also formalized in the IPCC Guidelines (IPCC, 2019), and has been applied in national inventories and corporate disclosures. Weber and Matthews (2008) adapted this framework for household-level analysis in the United States, producing emission estimates based on household expenditure data. Life cycle assessment (LCA) methods represent a more detailed approach, estimating cradle-to-grave emissions across all stages of a product's life. Studies such as Guinée (2011) and Steubing et al. (2022) apply LCA to household consumption, though the method often requires high-resolution data and faces boundary truncation issues. Input-output analysis (IOA), especially in its environmentally extended form (EEIOA), has enabled system-wide footprinting by linking household expenditures to upstream emissions. Baiocchi and Minx (2010) applied EEIOA to compare household footprints across Europe, while Wiedmann et al. (2009) introduced a theoretical foundation for multi-regional models. Ivanova et al. (2016) added a spatial inequality perspective across global households. Hybrid models have sought to combine the detail of LCA with the coverage of IOA, as in Sonesson et al. (2017) for food systems and in Chard (2024) and Hasegawa et al. (2021) for investment-based emissions. Finally, the model of Hakenes and Schliephake (2024) represents a general equilibrium approach in which household consumption and investment affect emissions indirectly through price changes and behavioral responses across sectors. This model introduces inter-household spillovers and endogenized market feedbacks, offering a causally coherent framework for footprint attribution.
 
-Another frequently used method for calculating carbon emissions is the Emission Factor (EF) method. According to the Intergovernmental Panel on Climate Change (IPCC, 2019), the formula for estimating GHG emissions is:
-\[
-\text{GHG Emissions} = \text{Activity Data (AD)} \times \text{Emission Factor (EF)}
-\]
-Here, Activity Data (AD) refers to the scale of production or consumption activities that result in GHG emissions, such as fossil fuel use or electricity consumption. The Emission Factor (EF) represents the amount of GHG emitted per unit of activity, such as the emissions per liter of fuel burned or per kilowatt-hour of electricity consumed. Life Cycle Assessment (LCA) is a highly sophisticated tool for examining the environmental impact of products and services. It offers a holistic evaluation, tracing environmental consequences across every stage of a product's existence, from the extraction of raw materials to its final disposal—often described as a ``cradle-to-grave approach''. By analyzing phases such as production, distribution, usage, and end-of-life processes, LCA quantifies resource use, greenhouse gas emissions, and pollution affecting air, water, and soil systems (Global Climate Initiatives, 2023). A study leveraging LCA and household survey data provided precise calculations of carbon footprints by capturing emissions associated with daily consumption, household production activities, and the supply chain of consumed goods (Peng, 2021).
+Despite substantial methodological innovation, critical gaps remain in the literature on household carbon footprint estimation. Emission factor models and life cycle assessment frameworks often treat household preferences and market interactions as exogenous or fixed, limiting their ability to simulate policy-induced behavioral change (Guinée 2011; IPCC 2019). Environmentally extended input-output models, while capable of tracing upstream emissions across global supply chains, typically rely on static technical coefficients and lack behavioral realism in their representation of household decision-making (Wiedmann et al. 2009; Ivanova et al. 2016). Hybrid approaches that combine life cycle data with IO frameworks improve sectoral resolution but generally do not incorporate the endogeneity of prices, income effects, or inter-household spillovers (Sonesson et al. 2017; Chard 2024). Moreover, recent studies that examine the carbon intensity of investment portfolios have expanded the scope of household responsibility (Hasegawa et al. 2021), yet often do so in partial equilibrium settings that abstract from feedback effects across markets. The model introduced by Hakenes and Schliephake (2024) addresses many of these limitations by embedding household consumption and investment behavior within a general equilibrium framework. This approach allows for the propagation of individual decisions through price mechanisms and sectoral reallocation, thereby capturing indirect responsibility in a structurally consistent way.
 
-\vspace{5pt}
-
-The model by Hakenes and Schliephake (2024) offers a fresh perspective on carbon footprint estimation by addressing the shortcomings of traditional static models. This consequentialist approach integrates market behaviors and industry-specific responses to provide a more dynamic and realistic analysis of household emissions. It highlights the connection between individual consumer decisions and broader emission outcomes, accounting for variables such as price elasticity and interdependencies between industries in both product and financial markets. By separating direct emissions tied to household activities from spillover effects influencing other sectors, this model delivers a more detailed and actionable understanding of household contributions to carbon emissions, paving the way for tailored climate strategies.
-
-
+Taken together, the reviewed literature offers a broad but fragmented understanding of household carbon responsibility. While methodological advances have enhanced precision and coverage, questions remain about the causal validity and policy relevance of different approaches. This thesis contributes by systematically comparing four major estimation methods—emission factor accounting, life cycle assessment, input-output analysis, and the general equilibrium model proposed by Hakenes and Schliephake—through empirical illustrations and critical evaluation. Beyond methodological comparison, the analysis is motivated by a broader concern: that household-level behavioral change, while symbolically important, offers limited mitigation potential without structural reform on the supply side. As energy and food demands grow with population pressures, the study advocates for shifting the focus of policy design toward upstream interventions in production systems rather than overemphasizing downstream consumption.
 \section{Methodology}
 \lipsum[3-4]
 
@@ -356,10 +366,10 @@ We begin with the standard Leontief system, where total output \( \mathbf{X} \) 
 Solving for total output yields the fundamental input–output identity:
 
 \begin{equation}
-\mathbf{X} = (\mathbf{I} - \mathbf{A})^{-1} \mathbf{F}.
+\mathbf{X} = {(\mathbf{I} - \mathbf{A})}^{-1} \mathbf{F}.
 \end{equation}
 
-Here, \( \mathbf{A} \) is the technical coefficient matrix, \( \mathbf{F} \) is the vector of household final demand, and \( (\mathbf{I} - \mathbf{A})^{-1} \) is the Leontief inverse, which accounts for the total production required (both direct and indirect) to satisfy final demand.
+Here, \( \mathbf{A} \) is the technical coefficient matrix, \( \mathbf{F} \) is the vector of household final demand, and \( {(\mathbf{I} - \mathbf{A})}^{-1} \) is the Leontief inverse, which accounts for the total production required (both direct and indirect) to satisfy final demand.
 
 \subsection{Technical Coefficient Matrix}
 
@@ -373,18 +383,18 @@ where \( z_{ij} \) denotes the monetary value of inputs from sector \( i \) to s
 
 \subsection{Stability of the Leontief Inverse}
 
-The Leontief inverse \( (\mathbf{I} - \mathbf{A})^{-1} \) exists and is finite if the matrix \( \mathbf{A} \) satisfies the stability condition \( \rho(\mathbf{A}) < 1 \), where \( \rho(\cdot) \) denotes the spectral radius (i.e., the largest absolute eigenvalue). This condition ensures that the production system is productive and does not require infinite inputs. In applied input--output tables, a sufficient (but not necessary) condition is that the column sums of \( \mathbf{A} \) are each less than one:
+The Leontief inverse \( {(\mathbf{I} - \mathbf{A})}^{-1} \) exists and is finite if the matrix \( \mathbf{A} \) satisfies the stability condition \( \rho(\mathbf{A}) < 1 \), where \( \rho(\cdot) \) denotes the spectral radius (i.e., the largest absolute eigenvalue). This condition ensures that the production system is productive and does not require infinite inputs. In applied input--output tables, a sufficient (but not necessary) condition is that the column sums of \( \mathbf{A} \) are each less than one:
 \[
 \sum_i A_{ij} < 1 \quad \text{for all } j.
 \]
-This implies that each sector uses less than one unit of intermediate input to produce one unit of output, a condition that is generally satisfied in empirical datasets (Miller and Blair, 2009).
+This implies that each sector uses less than one unit of intermediate input to produce one unit of output, a condition that is generally satisfied in empirical datasets (Miller and Blair, 2009). A numerical illustration of the stability condition, along with matrix-based examples and emission multiplier computation, is provided in Appendix B.
 
 \subsection{Carbon Footprint Estimation via Input–Output Modelling}
 
 The environmentally extended input–output (EEIO) model estimates household carbon footprints by applying sectoral emission intensities to the total output vector required to satisfy final demand:
 
 \begin{equation}
-\mathbf{E} = \mathbf{C} (\mathbf{I} - \mathbf{A})^{-1} \mathbf{F},
+\mathbf{E} = \mathbf{C} {(\mathbf{I} - \mathbf{A})}^{-1} \mathbf{F},
 \end{equation}
 
 where \( \mathbf{C} \) is the vector of direct emission intensities (e.g., kg CO\textsubscript{2}e per euro of output), and \( \mathbf{E} \) is the resulting emissions attributable to household consumption. This formulation captures both direct and upstream (supply chain) emissions associated with consumption.
@@ -404,7 +414,7 @@ where \( \mathbf{F}_d \) is household consumption of directly combusted fuels an
 \paragraph{Tier 2: Indirect Energy Emissions}
 
 \begin{equation}
-\mathbf{E}_2 = \mathbf{C}_e \cdot (\mathbf{I} - \mathbf{A})^{-1} \cdot \mathbf{F}_e,
+\mathbf{E}_2 = \mathbf{C}_e \cdot {(\mathbf{I} - \mathbf{A})}^{-1} \cdot \mathbf{F}_e,
 \end{equation}
 
 with \( \mathbf{F}_e \) representing consumption of electricity and district heating, and \( \mathbf{C}_e \) their emission intensities.
@@ -412,7 +422,7 @@ with \( \mathbf{F}_e \) representing consumption of electricity and district hea
 \paragraph{Tier 3: Indirect Supply Chain Emissions}
 
 \begin{equation}
-\mathbf{E}_3 = \mathbf{C} \cdot \left[(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})\right]^{-1} \cdot \left[(\mathbf{I} - \mathbf{M}) \cdot \mathbf{F} + \mathbf{EX} \right],
+\mathbf{E}_3 = \mathbf{C} \cdot {\left[(\mathbf{I} - \mathbf{M})(\mathbf{I} - \mathbf{A})\right]}^{-1} \cdot \left[(\mathbf{I} - \mathbf{M}) \cdot \mathbf{F} + \mathbf{EX} \right],
 \end{equation}
 
 where \( \mathbf{M} \) is a diagonal matrix of sectoral import shares, and \( \mathbf{EX} \) accounts for exports. This import-adjusted EEIO formulation ensures emissions are assigned to domestic demand (Long et al., 2019; Sheng et al., 2024).
@@ -429,11 +439,11 @@ This integrated EEIO framework mitigates truncation and boundary errors typical 
 
 \subsection{Illustrative Application of the Input-Output Model}
 
-In this illustration, pre-calculated environmentally extended emission intensities (kg CO$_{2}$e per euro spent) are applied to household consumption data for France, Spain, and Germany for 2021. These intensities represent the aggregated effect of $\mathbf{C} {(\mathbf{I}-\mathbf{A})}^{-1}$ and are derived from the EXIOBASE multi-regional input-output (MRIO) model, as accessed via Climatiq.io. The method aligns with the tier-3 comprehensive accounting approach discussed in Matthews et al.~(2008), Long et al.~(2019), and Sheng et al.~(2024).
+In this illustration, pre-calculated environmentally extended emission intensities (kg CO$_{2}$e per euro spent) are applied to household consumption data for France, Spain, and Germany for 2021. These intensities represent the aggregated effect of $\mathbf{C} {(\mathbf{I}-\mathbf{A})}^{-1}$ and are derived from the EXIOBASE multi-regional input-output (MRIO) model, as accessed via Climatiq.io.\footnote{These coefficients implicitly incorporate trade-adjusted upstream emissions, though no explicit import share matrix was applied in this illustration.} The method aligns with the tier-3 comprehensive accounting approach discussed in Matthews et al.~(2008), Long et al.~(2019), and Sheng et al.~(2024).
 
 \subsection{Data and Methodology}
 
-The Leontief inverse $(\mathbf{I} - \mathbf{A})^{-1}$ then expands final demand to include both direct and indirect production requirements.
+The Leontief inverse ${(\mathbf{I} - \mathbf{A})}^{-1}$ then expands final demand to include both direct and indirect production requirements.
 
 \[
 EF_i = \sum_{j} C_j L_{ji}, 
@@ -441,7 +451,7 @@ EF_i = \sum_{j} C_j L_{ji},
 L = {(\mathbf{I} - \mathbf{A})}^{-1}.
 \]
 
-Here, $C_j$ denotes the direct emissions intensity for producing sector $j$, and $L_{ji}$ represents the total requirements linking producing sectors $j$ and $i$. The resulting spend-based factors are published through Climatiq.io, which provides up-to-date coefficients aggregated from EXIOBASE under a permissive data license \citep{EXIOBASEsource}.
+Here, $C_j$ denotes the direct emissions intensity for producing sector $j$, and $L_{ji}$ represents the total requirements linking producing sectors $j$ and $i$. The resulting spend-based factors are published through Climatiq.io, which provides up-to-date coefficients aggregated from EXIOBASE under a permissive data license (Creative Commons Attribution-ShareAlike 4.0 International License).
 
 To ensure numerical stability, EXIOBASE balances its input-output tables using harmonised supply-use statistics, preventing divergence in the Leontief inverse. An additional feasibility check confirms that the sum of each column in $\mathbf{A}$ remains below unity, preserving the productive structure required for invertibility.
 
@@ -467,13 +477,25 @@ The same procedure is applied across all final demand categories and for Spain a
 
 \subsection{Results}
 
-The resulting household carbon footprints for 2021 are summarized in Tables~3--5 in Appendix~A. The total estimated footprints are approximately 420~Mt~CO$_2$e for France, 227~Mt~CO$_2$e for Spain, and 546~Mt~CO$_2$e for Germany.
+Table 6.1 summarizes the estimated household carbon footprints for France, Spain, and Germany in 2021, derived using the environmentally extended input--output model. The full breakdown by expenditure category is reported in Appendix~A (Tables~3--5).
 
-Housing, food, and transport account for the largest shares of total household emissions in all three countries. These estimates demonstrate how the environmentally extended input-output (EEIO) approach captures indirect supply chain emissions embedded in upstream production, which are excluded from territorial greenhouse gas (GHG) inventories that measure only direct domestic emissions.
+\begin{table}[h]
+\centering
+\caption*{\textbf{Table 6.1:} Total estimated household carbon footprints (2021)}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Country} & \textbf{Expenditure (bn €)} & \textbf{Emissions (Mt CO\textsubscript{2}e)} \\
+\midrule
+France & 1322.0 & 420.0 \\
+Spain & 747.9 & 227.0 \\
+Germany & 1794.8 & 545.9 \\
+\bottomrule
+\end{tabular}
+\end{table}
 
-Unlike conventional GHG inventories or product-level life cycle assessments (LCA) that typically track physical quantities of fuel or goods consumed, the EEIO method allocates emissions based on household expenditure across all final demand categories. This spend-based framework enables the tracing of embodied emissions in goods and services, including imported products, providing a more complete perspective on consumption-driven impacts.
+In all three countries, the dominant drivers of household emissions are housing, food, and transport. These sectors together account for over 60\% of the footprint, reflecting the carbon intensity of residential energy use, agri-food supply chains, and private mobility. The relative magnitude and structure of results are consistent with earlier multi-regional IO studies (Matthews et al.~2008; Long et al.~2019; Sheng et al.~2024), confirming the utility of EEIO methods for policy-relevant footprint accounting.
 
-The scale and sectoral structure of the results are consistent with earlier multi-regional input-output analyses for Europe (e.g., Matthews et al.~2008; Sheng et al.~2024), which report housing energy use, food supply chains, and private mobility as the dominant drivers of household footprints. The method is widely applied due to its ability to integrate complex supply chain interactions and incorporate international trade adjustments (Long et al.~2019). This confirms that the IO model, when combined with up-to-date household expenditure data, remains an effective tool for quantifying the full indirect climate impact of household demand.
+Thus, the footprint estimates capture the sectoral and cross-country variation in household carbon intensity, illustrating the effectiveness of the EEIO approach in quantifying consumption-driven emissions at national scale.
 
 
 \subsection{Comparative Assessment of LCA and EEIOA for Household Carbon Footprint Estimation}
