@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  1 JUL 2025 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  16 JUL 2025 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -533,7 +533,7 @@ Overfull \hbox (91.41911pt too wide) in paragraph at lines 193--202
 [9]
 
 [10]
-<LCA_pie_chart.png, id=278, 681.0243pt x 366.8907pt>
+<LCA_pie_chart.png, id=313, 681.0243pt x 366.8907pt>
 File: LCA_pie_chart.png Graphic file (type png)
 <use LCA_pie_chart.png>
 Package pdftex.def Info: LCA_pie_chart.png  used on input line 335.
@@ -568,7 +568,7 @@ Overfull \hbox (5.6606pt too wide) in paragraph at lines 620--620
 
 
 [20]
-<Publications.png, id=349, 715.11165pt x 426.393pt>
+<Publications.png, id=384, 715.11165pt x 426.393pt>
 File: Publications.png Graphic file (type png)
 <use Publications.png>
 Package pdftex.def Info: Publications.png  used on input line 634.
@@ -579,12 +579,12 @@ Package pdftex.def Info: Publications.png  used on input line 634.
 
 LaTeX Warning: Reference `tab:lead_authors' on page 22 undefined on input line 641.
 
-<Authors.png, id=357, 581.0508pt x 354.123pt>
+<Authors.png, id=392, 581.0508pt x 354.123pt>
 File: Authors.png Graphic file (type png)
 <use Authors.png>
 Package pdftex.def Info: Authors.png  used on input line 668.
 (pdftex.def)             Requested size: 318.66948pt x 194.21709pt.
-<Coauthors.png, id=359, 570.933pt x 354.123pt>
+<Coauthors.png, id=394, 570.933pt x 354.123pt>
 File: Coauthors.png Graphic file (type png)
 <use Coauthors.png>
 Package pdftex.def Info: Coauthors.png  used on input line 679.
@@ -1075,13 +1075,47 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [31]
 
-Package natbib Warning: Empty `thebibliography' environment on input line 973.
-
-
-
 [32]
+Overfull \hbox (2.5483pt too wide) in paragraph at lines 1006--1007
+[]\T1/ptm/m/n/12 By as-sign-ing re-spon-si-bil-ity based on marginal system-wide im-pact, the model avoids double-
+ []
 
-[33] (roughdraft.aux)
+
+
+[33]
+Overfull \hbox (31.33884pt too wide) in paragraph at lines 1012--1013
+\T1/ptm/m/n/12 min-i-miz-ing the risk of over-attribution but of-fer-ing lit-tle be-hav-ioral or struc-tural in-sight. Consumption-
+ []
+
+
+c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft.tex:1018: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1018 \begin{figure}[H]
+                        
+Option `H' ignored and `p' used.
+
+<attribution_heatmap.png, id=474, 625.8582pt x 281.853pt>
+File: attribution_heatmap.png Graphic file (type png)
+<use attribution_heatmap.png>
+Package pdftex.def Info: attribution_heatmap.png  used on input line 1020.
+(pdftex.def)             Requested size: 455.24411pt x 205.01985pt.
+
+
+[34]
+
+Package natbib Warning: Empty `thebibliography' environment on input line 1038.
+
+
+
+[35]
+
+[36]
+
+[37 <./attribution_heatmap.png>] (roughdraft.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
@@ -1091,20 +1125,20 @@ L3 programming layer <2025-04-29>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `roughdraft.out' has not changed.
-(rerunfilecheck)             Checksum: 861C55EE0EBF202060EE523B07FFD461;8814.
+(rerunfilecheck)             Checksum: DFF5934B8D98F41347DA7764B17BC562;10477.
  ) 
 Here is how much of TeX's memory you used:
- 13916 strings out of 470045
- 222210 string characters out of 5479094
- 712688 words of memory out of 5000000
- 40303 multiletter control sequences out of 15000+600000
- 667720 words of font info for 105 fonts, out of 8000000 for 9000
+ 13968 strings out of 470045
+ 222976 string characters out of 5479094
+ 713058 words of memory out of 5000000
+ 40329 multiletter control sequences out of 15000+600000
+ 677922 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,19n,79p,1899b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on roughdraft.pdf (36 pages, 618168 bytes).
+<C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on roughdraft.pdf (40 pages, 752267 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
- 119 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 593 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 500000)
+ 394 words of extra memory for PDF output out of 10000 (max. 10000000)
 

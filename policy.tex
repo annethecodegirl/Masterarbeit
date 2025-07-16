@@ -1,0 +1,217 @@
+% Document class
+% Document class
+% chktex-file 44
+% chktex-file 13
+% chktex-file 8
+\documentclass[12pt,a4paper]{article}%
+
+% Packages
+\usepackage[utf8]{inputenc}%
+\usepackage[T1]{fontenc}%
+\usepackage{indentfirst}%
+\usepackage{geometry}%
+\usepackage{setspace}%
+\usepackage{times}%
+\usepackage{lipsum}% For dummy text
+\usepackage{graphicx}%
+\usepackage{fancyhdr}%
+\usepackage{titlesec}%
+\usepackage{tocloft}%
+\usepackage{amsmath,amssymb}%
+\usepackage{caption}%
+\usepackage{subcaption}%
+\usepackage{booktabs}%
+\usepackage{hyperref}%
+\usepackage{natbib}%
+\usepackage{float}
+\usepackage{threeparttable, booktabs, array, ragged2e}
+\renewcommand{\arraystretch}{1.5} % Adds vertical padding
+
+% Add this in your preamble if not already included
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+% Geometry
+\geometry{
+  a4paper,
+  left=3cm,
+  right=2cm,
+  top=2cm,
+  bottom=2cm
+}%
+
+% Line spacing
+\onehalfspacing%
+
+% Page numbering
+\pagestyle{fancy}%
+\fancyhf{}%
+\rfoot{\thepage}%
+
+% Section formatting
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}%
+\titleformat{\subsection}[block]{\normalfont\large\bfseries}{\thesubsection}{1em}{}%
+
+% Table of contents formatting
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}%
+
+% Paragraph formatting
+\setlength{\parindent}{1.25em} % Indent for ALL paragraphs, including first
+\setlength{\parskip}{0em}      % No extra spacing between paragraphs
+
+\begin{document}
+\section{Overview}
+
+Climate mitigation efforts increasingly recognize households as both contributors to and potential levers for reducing global greenhouse gas (GHG) emissions. Yet the policy instruments aimed at curbing household carbon footprints vary substantially in design, scope, and effectiveness—a variation largely shaped by the underlying method used to calculate those emissions. Whether a policy is targeted at fuel use, investment decisions, dietary choices, or broader patterns of consumption depends on whether emissions are accounted for through direct measurement (as in the GHG Protocol), product life cycles (LCA), system-wide economic flows (EEIO), or general equilibrium models that incorporate behavioral and financial spillovers (e.g., Hakenes and Schliephake).
+
+Each of these methods carries implicit assumptions about responsibility, agency, and feasibility. As a result, the policies they inform often differ not only in their technical design but also in their capacity to deliver equitable and durable decarbonization. While LCA-informed policies tend to focus on greening products, EEIO approaches shift attention to consumption patterns and supply chains, and income-based models emphasize structural inequalities in both emissions and responsibility. Yet these models often fail to incorporate the complex social and behavioral drivers of energy use at the household level, particularly in developing contexts where informality, aspiration, and cultural norms play a decisive role. Additionally, emerging technologies such as artificial intelligence (AI) offer new avenues for real-time monitoring and behavioral nudging but must be deployed thoughtfully to avoid reinforcing inequities.
+
+This chapter analyzes policy instruments for household decarbonization through a methodological lens, examining how different models shape policy design and impact. It integrates recent insights from behavioral science, climate finance, and digital governance to evaluate not only which policies work, but \emph{why}, \emph{where}, and \emph{for whom} they are most effective.
+
+\section{Policy Instruments and Their Methodological Foundations}
+
+The effectiveness and fairness of policies aimed at reducing household carbon footprints depend not only on the political and institutional context in which they are implemented, but also on the method used to estimate emissions. This section classifies key climate policy instruments relevant to households—such as carbon taxes, cap-and-trade schemes, product standards, investment-based levies, and behavioral interventions—and evaluates their suitability through the lens of different carbon accounting methods: the GHG Protocol, Life Cycle Assessment (LCA), Environmentally Extended Input-Output (EEIO) analysis, and the general equilibrium model by Hakenes and Schliephake.
+
+Rather than examining the models first, this section reverses the typical approach and begins with the policies themselves. For each instrument, we consider which methodological framework provides the strongest analytical basis and what implications arise for policy design and equity.
+
+\subsection{Carbon Taxes}
+
+Carbon taxation is one of the most widely implemented and theoretically robust instruments for climate mitigation. Designed to internalize the social cost of carbon, it levies a uniform price on each tonne of CO\textsubscript{2} equivalent emissions, thereby incentivizing behavioral change and technological substitution across sectors. In the context of households, carbon taxes primarily influence consumption through higher prices for fossil fuels, electricity, heating, and carbon-intensive goods. 
+
+The implementation of carbon taxes varies considerably across national contexts. Scandinavian countries such as Sweden and Finland have adopted high carbon tax rates targeting transport and heating fuels, achieving measurable reductions in per capita emissions. In contrast, countries like Chile and South Africa have introduced modest levies with narrower sectoral coverage. These taxes are typically passed down to consumers, making them salient at the household level. However, their effectiveness and fairness hinge on critical design parameters, including the tax rate, the breadth of emissions covered, and the extent to which revenues are redistributed to mitigate regressive effects.
+
+From a methodological standpoint, carbon taxes have historically been grounded in the accounting principles of the Greenhouse Gas (GHG) Protocol. This framework, which emphasizes direct (Scope 1) and energy-related (Scope 2) emissions, provides a transparent and standardized basis for taxing household fossil fuel use. Nevertheless, its reliance on territorial emissions accounting has significant limitations, particularly in high-income countries where a substantial share of emissions is embodied in imported goods and services. Policies based solely on this protocol risk underestimating household responsibility and misallocating incentives.
+
+A more comprehensive foundation is offered by Environmentally Extended Input-Output (EEIO) models, which capture the full lifecycle emissions associated with household consumption. EEIO-based approaches enable the design of consumption-based carbon taxes that target emissions embedded in goods—such as food, electronics, or clothing—regardless of their country of origin. These models thus support the development of more equitable and globally consistent taxation schemes, including border carbon adjustments and differentiated VAT structures. Moreover, they allow policymakers to trace emissions along complex supply chains, aligning fiscal instruments with actual carbon accountability.
+
+While carbon taxes are generally lauded for their simplicity, cost-effectiveness, and technological neutrality, they are not without drawbacks. Empirical evidence suggests that low-income households tend to spend a larger share of their income on energy and food, raising concerns about regressivity. Without targeted compensation or revenue recycling mechanisms, carbon taxes risk exacerbating social inequality. Conversely, taxes informed by EEIO analysis offer the possibility of aligning environmental effectiveness with distributive justice by incorporating upstream emissions and differentiating taxation by product class or expenditure profile.
+
+Ultimately, the policy effectiveness of carbon taxation depends on aligning its design with an accurate and comprehensive understanding of household emissions. Models limited to direct emissions can inform short-term pricing measures but fail to capture structural drivers. In contrast, EEIO models—though more data-intensive—support systemic interventions that better reflect the embeddedness and inequality of household carbon footprints.
+
+\subsection{Product and Appliance Standards}
+
+Product and appliance standards constitute one of the most mature and widely adopted policy instruments for reducing household carbon emissions. These standards typically target energy consumption at the point of use—such as lighting, refrigeration, heating, and cooking—and have been implemented in forms ranging from mandatory minimum energy performance standards (MEPS) to voluntary eco-labels and public procurement guidelines. By setting thresholds for efficiency or lifecycle emissions, such policies aim to reduce the environmental intensity of routine household consumption without requiring active behavioral change.
+
+The methodological basis for product standards lies primarily in Life Cycle Assessment (LCA), which enables regulators to assess cradle-to-grave emissions associated with household goods. In contrast to direct emissions accounting under the GHG Protocol, LCA captures the embedded carbon in both the production and end-use phases, making it particularly suitable for targeting emissions-intensive consumption categories such as food systems, home appliances, and construction materials. This approach is visible in the European Union’s Ecodesign Directive and the widespread adoption of appliance labeling schemes across OECD countries. Japan’s Top Runner Program extends this logic by continuously updating energy efficiency baselines based on the best-performing technologies available in the market.
+
+However, the success of such standards depends not only on technical design but also on affordability, cultural fit, and enforcement capacity. Greenwood and Warren (2022) emphasize that the deployment of energy-efficient appliances—such as clean cookstoves or refrigerators—is often embedded in complex behavioral and aspirational landscapes. For instance, in low-income contexts, product choice is rarely governed by lifecycle performance metrics alone; it is also shaped by symbolic preferences, perceived modernity, and gendered divisions of domestic labor. This disconnect can lead to underutilization of subsidized technologies or parallel use alongside traditional devices—a phenomenon known as “fuel stacking.”
+
+Climate finance mechanisms have increasingly supported product and appliance standards, particularly through results-based financing and concessional lending. Programs such as the Green Climate Fund and bilateral initiatives have funded appliance swaps, low-carbon public housing, and rural electrification projects aimed at modernizing household technology. Yet, without integrated behavioral design or inclusive co-creation, such interventions often underperform in both uptake and sustained emissions reduction.
+
+Moreover, LCA-based standards tend to privilege measurable product categories over complex service chains or informal markets. While these tools excel at regulating formal-sector appliances, they are less effective at addressing emissions associated with informal food processing, construction, or transportation services common in the Global South. In such settings, simplified hybrid models or community-led appliance design may offer more context-sensitive alternatives.
+
+Ultimately, product and appliance standards reflect a technocratic vision of household decarbonization—one in which emissions reductions are achieved through the restructuring of markets and the imposition of universal thresholds. While such instruments have contributed significantly to mitigation in high-income countries, their broader effectiveness depends on coupling lifecycle logic with affordability, symbolic relevance, and climate finance that enables widespread access.
+
+\subsection{Investment-Based Instruments}
+
+While household carbon policies have traditionally focused on consumption patterns, a growing body of research suggests that investment decisions—particularly among high-income households—play an equally, if not more, significant role in driving emissions. Investment-based instruments seek to address this blind spot by attributing emissions responsibility to financial flows, capital holdings, and shareholder influence over high-emitting sectors. These policies include carbon-adjusted income taxation, green investment mandates, and climate-aligned fiduciary standards for institutional investors.
+
+The methodological foundation for such instruments departs significantly from territorial or product-based accounting frameworks. Instead, it aligns more closely with general equilibrium approaches such as the model proposed by Hakenes and Schliephake, which internalize spillovers, substitutability, and risk allocation across sectors. By modeling households not just as consumers but also as portfolio holders, these frameworks reveal a more comprehensive carbon responsibility landscape—one that links emissions to risk-bearing decisions and capital endowments. Under such a view, carbon pricing should not only apply at the point of fuel use or product purchase, but also at the point of investment in emissions-intensive industries.
+
+Empirical support for this approach is found in the work of Starr et al. (2023), who demonstrate that in the United States, the top 10\% of households are responsible for over 40\% of emissions, largely through investment-related income. The top 1\% alone account for nearly 17\% of national emissions, despite far lower shares in direct consumption. These findings challenge the prevailing focus on lifestyle nudges and energy efficiency campaigns, suggesting instead that capital taxation, green bond regulation, and shareholder accountability mechanisms may be more effective levers for structural decarbonization.
+
+Policy instruments emerging from this insight are diverse. One proposal is an income-based carbon tax that includes capital gains, dividends, and rents, weighted by the carbon intensity of the underlying assets. Another is the integration of climate risk into fiduciary duty, thereby requiring institutional investors to divest from high-emitting sectors or face legal exposure. Public finance mechanisms such as sovereign wealth funds or central bank green mandates can also be oriented to reward low-carbon investment behavior. While these approaches are still politically nascent, their analytical foundation is increasingly robust.
+
+Climate finance can play a catalytic role in operationalizing these instruments. By de-risking green investments or supporting blended finance structures, multilateral funds can influence private capital allocation at scale. However, doing so requires a departure from conventional project-based finance logic toward systems-oriented intervention. It also necessitates governance reforms in how emissions responsibility is assigned across the financial system.
+
+Unlike traditional instruments that focus on changing household behavior through prices or nudges, investment-based approaches confront the structural reproduction of carbon intensity through asset ownership and financial intermediation. They offer a more ambitious, albeit politically challenging, framework for carbon responsibility—one that implicates privilege, long-term risk, and the ethics of capital deployment.
+
+\subsection{Behavioural Interventions}
+
+Behavioural interventions target the social, psychological, and cultural drivers of household carbon emissions, offering a critical complement to price-based and technological policies. These instruments aim to shift preferences, norms, and routines—such as cooking habits, appliance use, or mobility patterns—through strategies like public education campaigns, symbolic media, community co-design, and default-setting. Their rationale lies in the recognition that household behavior is not merely a function of economic incentives or technological availability, but deeply embedded in identity, aspiration, and social context.
+
+Climate finance has increasingly supported such interventions, particularly in the Global South, where formal energy infrastructure is often limited and behavior constitutes a primary leverage point for emissions reduction. Yet, as Greenwood and Warren (2022) argue, many of these efforts fail to achieve durable impact because they rely on top-down diffusion models that misunderstand or overlook local complexity. For instance, clean cookstove distribution programs, despite substantial investment, have often been met with low adoption rates or rapid abandonment—not due to lack of access, but because the new technologies failed to align with culinary practices, gender roles, or symbolic values associated with modernity and tradition.
+
+More successful examples emphasize co-creation and narrative reframing. Kenya’s “Samba Chef” program, which used reality television to model aspirational clean cooking behaviors, is one such case. By embedding energy transitions into culturally resonant storylines, it shifted attitudes in ways that technical interventions could not. Similar results have been found in participatory appliance design projects in Zambia and India, where involving users—particularly women—in the specification and aesthetics of new technologies led to significantly higher uptake and consistent use.
+
+Methodologically, behavioural interventions are often under-theorized within carbon accounting models. Conventional frameworks such as the GHG Protocol or LCA assume stable preferences and linear use patterns, rendering them ill-suited to capture the fluidity of household behavior. Even EEIO models, while broader in scope, typically aggregate behavioral heterogeneity into average sectoral flows. As a result, many high-resolution opportunities for targeted intervention remain invisible to these approaches.
+
+The emerging intersection of behavioural science and climate finance seeks to address this gap by funding programs that test nudges, defaults, and social proof interventions through randomized trials and adaptive evaluation. However, scaling these efforts requires new metrics for impact that go beyond kilowatt-hours saved or emissions averted. Metrics must account for persistence, spillover, and equity—particularly when interventions disproportionately affect women, informal workers, or culturally marginalized groups.
+
+Ultimately, behavioural interventions are indispensable for household decarbonization not because they replace structural reform, but because they determine whether such reforms are accepted, adapted, and sustained. When supported by climate finance that is responsive to context, aspiration, and voice, these interventions can unlock forms of mitigation that are both low-cost and high-trust. Without them, even the most sophisticated technologies risk remaining unused, and the most ambitious policies risk becoming irrelevant.
+
+\subsection{AI and Digital Tools}
+
+Artificial intelligence (AI) and digital tools are emerging as pivotal instruments for enhancing the precision, personalization, and policy relevance of household carbon footprint mitigation. These technologies enable real-time data collection, personalized feedback, and dynamic emissions modelling—functions that are largely beyond the reach of conventional policy instruments. When deployed responsibly, AI-based systems can help close the feedback loop between consumption decisions and environmental impact, especially for urban and digitally connected households.
+The primary methodological advantage of AI lies in its ability to integrate high-dimensional, heterogeneous data across behavioral, financial, and environmental domains. For instance, machine learning models can estimate household emissions by combining transaction-level expenditure data, geospatial information, energy usage patterns, and demographic profiles. These approaches enhance the granularity of footprint estimation beyond the sectoral averages found in Environmentally Extended Input-Output (EEIO) models, and offer dynamic adaptability to behavioral change—a limitation of traditional Life Cycle Assessment (LCA) frameworks. A recent study on the evolution of household carbon research highlights how contextual language models and unsupervised clustering can extract nuanced trends and policy gaps from large bibliometric datasets, offering new tools for targeting emissions hotspots and informing targeted interventions.
+
+
+In practical terms, AI is being embedded into mobile applications, smart meters, and digital nudging platforms. For example, apps such as Svalna and Klima allow users to track their carbon emissions in real-time, simulate alternative consumption scenarios, and receive behavioral recommendations. Other tools use AI to automate carbon accounting for household investment portfolios, aligning with investment-based attribution models. The convergence of AI with fintech platforms is also enabling embedded carbon pricing in personal budgeting tools, which could support low-carbon transitions at scale if governed transparently.
+
+Climate finance institutions are beginning to recognize the role of digital tools in accelerating household decarbonization. Digital public infrastructure investments—such as open emissions APIs, energy data hubs, and secure identity-linked carbon registries—are being supported through development finance initiatives. However, as Greenwood and Warren (2022) caution, such innovations risk reproducing existing inequalities if not designed with digital access, literacy, and data privacy at the core. In low-income and rural settings, where smartphone penetration and broadband access remain limited, reliance on AI may exacerbate marginalization rather than empower mitigation.
+
+Moreover, algorithmic opacity and commercial ownership of data raise concerns about accountability and consent in emissions tracking. Without robust governance frameworks, digital tools may incentivize superficial compliance over substantive change. There is also a risk of reinforcing individual responsibility narratives while deflecting attention from structural emissions drivers—a critique increasingly directed at platform-based sustainability solutions.
+
+Nonetheless, when deployed in alignment with participatory design, open standards, and context-sensitive financing, AI and digital tools can significantly enhance the reach and responsiveness of household carbon policies. By enabling adaptive, real-time feedback and unlocking granular emissions data, they create new pathways for climate finance to engage households not merely as emitters, but as co-designers of a low-carbon future.
+
+\section{Integrating Instruments and Equity}
+
+The five policy instruments examined in this chapter—carbon tax, product standards, investment-based taxation, behavioural interventions, and AI-enabled digital tools—each emerge from different methodological traditions and assign carbon responsibility in distinct ways. What unites them, however, is their relevance to the household as both emitter and agent. By pairing these instruments with the methods that best support their design—whether LCA, EEIO, general equilibrium modeling, or behavioural science—we gain clarity not only about which tools are technically appropriate, but also about which are ethically justified, socially acceptable, and financially scalable. The table below summarizes this alignment and reflects on the broader implications for climate policy and finance at the household level.
+
+
+\begin{table}[H]
+\centering
+\caption{Household Carbon Policy Instruments: Methodological Alignment and Strategic Implications}
+\label{tab:final_policy_comparison}
+\begin{threeparttable}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{L{3.8cm} L{4.2cm} L{3.3cm} L{3.8cm} L{4cm}}
+\toprule
+\textbf{Policy Instrument} & \textbf{Methodological Basis} & \textbf{Climate Finance Compatibility} & \textbf{Strengths} & \textbf{Limitations} \\
+\midrule
+Carbon Taxes & GHG Protocol (Scope 1–2); extended by EEIO for consumption-based pricing & Moderate\tnote{1} & Transparent, administratively simple; scalable across sectors & Regressive without redistribution; ineffective without embedded emissions accounting \\
+\addlinespace
+Product and Appliance Standards & Life Cycle Assessment (LCA); partially supported by GHG Protocol & High\tnote{2} & Technologically mature; harmonized with global trade and procurement policies & Poor alignment with cultural practice; limited uptake in informal settings \\
+\addlinespace
+Investment-Based Instruments & General Equilibrium (Hakenes-Schliephake), supported by EEIO & Moderate\tnote{3} & Targets systemic inequality and capital-linked emissions; long-term structural potential & Requires fiscal system reform; politically sensitive in high-income contexts \\
+\addlinespace
+Behavioural Interventions & Behavioural science; weakly embedded in traditional carbon models & High\tnote{4} & Low-cost, participatory, socially adaptive; crucial in informal or transitional settings & Difficult to quantify and fund through conventional carbon metrics; often undervalued \\
+\addlinespace
+AI and Digital Tools & Hybrid: EEIO + LCA + behavioural integration & Growing\tnote{5} & Enables real-time, household-specific carbon tracking; bridges data with policy simulation & Digital exclusion risks; regulatory and privacy concerns in implementation \\
+\bottomrule
+\end{tabular}
+}
+\vspace{1em}
+\begin{tablenotes}
+\footnotesize
+\item[1] Adopted in Sweden, Canada, and Chile; climate finance relevance via carbon dividends and fiscal transition funding.
+\item[2] Supported by GCF, bilateral donors, and national public procurement standards (e.g., EU Ecodesign Directive).
+\item[3] Potential integration into sovereign wealth funds, IMF tax proposals, and fiduciary regulation.
+\item[4] Increasingly funded via GEF and UNDP behavioral pilots, especially where co-benefits (e.g., health, gender) apply.
+\item[5] Enabled through blended finance, fintech partnerships, and smart city infrastructure initiatives.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+This comparative analysis highlights that no single methodological framework or policy instrument is sufficient to address the complexity of household carbon emissions. While the GHG Protocol and LCA provide standardized tools for measuring and regulating direct and product-specific emissions, they risk oversimplifying the social, financial, and behavioral structures that underpin household carbon responsibility. EEIO and general equilibrium models offer more comprehensive representations of systemic responsibility—particularly in the context of investment and inequality—but require data-intensive infrastructure and institutional coordination. Similarly, behavioural interventions and AI-enabled tools introduce much-needed responsiveness and granularity, yet remain underutilized in formal climate finance pipelines and carbon accounting systems.
+
+The instruments most likely to succeed are those designed with both methodological precision and social fit. Effective household decarbonization will not result from technical superiority alone, but from the integration of upstream and downstream logics: investment-linked responsibility, consumption-based accountability, behavioral relevance, and real-time feedback. Climate finance must evolve to reflect this layered reality—shifting from discrete funding streams to portfolios that embed digital, behavioral, and structural insights within a unified mitigation strategy. The next chapter takes this synthesis forward, identifying key design principles and policy pathways for constructing such an integrated approach.
+
+\subsection{Policy Implications and Strategic Recommendations}
+
+The comparative analysis presented in this chapter underscores that effective household decarbonization cannot be achieved through technical instruments alone. Each methodological approach—whether focused on direct emissions, product life cycles, system-wide consumption, or capital flows—reveals distinct layers of responsibility and intervention. Therefore, policy design must be layered accordingly: tailored to method, responsive to social context, and structurally aligned with available climate finance mechanisms.
+
+For national governments, the implication is twofold. First, carbon taxes and appliance standards must be informed by consumption-wide accounting frameworks such as EEIO, not just territorial emissions. This allows for the inclusion of imported emissions and avoids unjustly penalizing lower-income households while exempting capital-intensive lifestyles. Second, policy instruments must be evaluated not only on their mitigation potential but also on their distributional consequences. Incorporating income-linked carbon pricing or capital-based taxation—as proposed in equilibrium models—offers a pathway to align climate goals with fiscal justice.
+
+Climate finance institutions must evolve beyond a narrow project-based logic to support integrated portfolios that combine digital, behavioral, and structural interventions. This means financing not only solar panels and cookstoves, but also carbon tracking apps, participatory media, and public goods infrastructure that enhances agency. Behavioural interventions, in particular, should be elevated from peripheral pilots to core strategy, especially in adaptation and just transition frameworks.
+
+City-level policymakers and infrastructure agencies should adopt hybrid carbon accounting methods that combine EEIO data with behavioural and spatial analytics. Urban households are not only dense emitters but also highly sensitive to transport design, food access, and housing policy. AI-enabled monitoring tools can help local governments visualize real-time emissions and target interventions more precisely—but only if they are designed for inclusivity and digital equity.
+
+Finally, academic and statistical communities have a critical role in reshaping how emissions responsibility is measured. Methodological choices are not neutral: they shape which policies are seen as legitimate and which lives are made visible in carbon governance. Standard-setting bodies and data providers should work toward frameworks that reflect both structural causes and behavioural textures of emissions. This includes expanding household surveys to capture investment flows, informal energy use, and digital access.
+
+In sum, effective household carbon policy must be methodologically informed, equity-sensitive, and operationally realistic. The next chapter concludes by reflecting on how integrating these elements redefines the boundary between personal responsibility and structural transformation in climate action.
+
+\section{Conclusion}
+
+This thesis set out to examine how the method used to calculate household carbon footprints shapes the policies that follow, the responsibilities that are assigned, and the equity outcomes that result. By comparing four dominant frameworks—the GHG Protocol, Life Cycle Assessment (LCA), Environmentally Extended Input-Output (EEIO) models, and the general equilibrium model by Hakenes and Schliephake—this study has shown that carbon accounting is not merely a technical exercise, but a deeply political one. The choice of method influences not only the scale and location of emissions, but also the narrative of blame and the distribution of accountability.
+
+Empirical illustrations revealed that the estimated footprint of a household can vary dramatically depending on whether emissions are measured directly, traced through product life cycles, allocated via supply chains, or adjusted for investment-driven influence. These differences are not just numerical—they are normative. They determine who is asked to change, who is allowed to continue, and whose behavior is rendered visible or invisible in policy discourse.
+
+The analysis of policy instruments further demonstrated that certain methods lend themselves to particular forms of intervention. Carbon taxes and appliance standards are most coherent under GHG and LCA frameworks, while EEIO models support structural taxation and global trade instruments. Investment-based responsibility, supported by equilibrium modelling, remains underexplored but is crucial for targeting the disproportionate carbon influence of the wealthiest households. Behavioural and digital tools cut across these methods, providing adaptability and granularity where structural models fall short.
+
+A key contribution of this thesis lies in showing that household carbon responsibility is layered—simultaneously behavioral, infrastructural, and financial. Effective climate policy must therefore be layered as well: combining short-term nudges with long-term structural reforms, and integrating traditional emissions models with behavioral science and real-time digital infrastructure. Climate finance, too, must evolve to support this complexity—not just by funding technologies, but by enabling fairness, participation, and visibility.
+
+The limitations of this study—most notably the simplified empirical illustrations and the use of stylized rather than field-based data—suggest several avenues for future research. These include applying the Hakenes-Schliephake model to real-world portfolio data, testing AI-powered carbon trackers in diverse urban contexts, and evaluating how responsibility shifts under hybrid or evolving accounting methods.
+
+At a moment when climate responsibility is increasingly individualized in public discourse, this thesis argues for a more systemic and just understanding of household emissions. It is not only what we consume, but how we are positioned—economically, socially, and institutionally—that defines our footprint. By interrogating the methods beneath the metrics, we may arrive at policies that are not only effective, but fair.
+
+\end{document}

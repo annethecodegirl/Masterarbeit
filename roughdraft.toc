@@ -34,6 +34,13 @@
 \contentsline {section}{\numberline {9}Derivation of the Weighting Parameter \( \boldsymbol {\phi } \)}{26}{section.9}%
 \contentsline {section}{\numberline {10}Comparative Statics of the Weighting Parameter \( \boldsymbol {\phi } \)}{27}{section.10}%
 \contentsline {section}{\numberline {11}Empirical Illustration: Application of the Single-Industry Model}{28}{section.11}%
-\contentsline {section}{\numberline {12}Results}{31}{section.12}%
-\contentsline {section}{\numberline {13}Discussion}{31}{section.13}%
-\contentsline {section}{\numberline {14}Conclusion}{31}{section.14}%
+\contentsline {section}{\numberline {12}Responsibility for Household Carbon Emissions}{31}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Rethinking Responsibility}{31}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Attribution Principles}{31}{subsection.12.2}%
+\contentsline {subsubsection}{\numberline {12.2.1}Attribution Based on Operational Control}{31}{subsubsection.12.2.1}%
+\contentsline {subsubsection}{\numberline {12.2.2}Consumption-Based Attribution}{32}{subsubsection.12.2.2}%
+\contentsline {subsubsection}{\numberline {12.2.3}Consequentialist Attribution}{33}{subsubsection.12.2.3}%
+\contentsline {subsection}{\numberline {12.3}Comparative Synthesis of Attribution Frameworks}{34}{subsection.12.3}%
+\contentsline {section}{\numberline {13}Results}{34}{section.13}%
+\contentsline {section}{\numberline {14}Discussion}{34}{section.14}%
+\contentsline {section}{\numberline {15}Conclusion}{34}{section.15}%
