@@ -7,15 +7,15 @@
 \contentsline {subsection}{\numberline {4.3}Limitations of the GHG Protocol}{8}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Life Cycle Assessment (LCA) Method}{9}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Methodology for Household Carbon Footprint Calculation based on LCA approach}{10}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Carbon Emissions from Direct Energy Consumption}{11}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.2}Carbon Emissions from Direct Energy Consumption}{10}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Carbon Emissions from Living Consumption}{11}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Carbon Footprint in Agricultural Activities}{12}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.4}Carbon Footprint in Agricultural Activities}{11}{subsection.5.4}%
 \contentsline {subsection}{\numberline {5.5}Carbon Sequestration from Afforestation}{12}{subsection.5.5}%
 \contentsline {subsection}{\numberline {5.6}Carbon Emissions from Livestock Raising}{12}{subsection.5.6}%
 \contentsline {subsection}{\numberline {5.7}Aggregate Formula for Household Carbon Footprint}{13}{subsection.5.7}%
 \contentsline {subsection}{\numberline {5.8}Household Emissions Breakdown under LCA}{13}{subsection.5.8}%
 \contentsline {section}{\numberline {6}Input–Output Model and Carbon Footprint Estimation}{14}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Leontief Input–Output Framework}{15}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.1}Leontief Input–Output Framework}{14}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Technical Coefficient Matrix}{15}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Stability of the Leontief Inverse}{15}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Carbon Footprint Estimation via Input–Output Modelling}{15}{subsection.6.4}%
@@ -24,7 +24,7 @@
 \contentsline {paragraph}{Tier 2: Indirect Energy Emissions}{16}{paragraph*.9}%
 \contentsline {paragraph}{Tier 3: Indirect Supply Chain Emissions}{16}{paragraph*.10}%
 \contentsline {paragraph}{Total Household Footprint.}{16}{paragraph*.11}%
-\contentsline {subsection}{\numberline {6.6}Illustrative Application of the Input-Output Model}{17}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.6}Illustrative Application of the Input-Output Model}{16}{subsection.6.6}%
 \contentsline {subsubsection}{\numberline {6.6.1}Data and Methodology}{17}{subsubsection.6.6.1}%
 \contentsline {subsubsection}{\numberline {6.6.2}Results}{18}{subsubsection.6.6.2}%
 \contentsline {subsection}{\numberline {6.7}Comparative Assessment of LCA and EEIOA for Household Carbon Footprint Estimation}{18}{subsection.6.7}%
@@ -33,13 +33,13 @@
 \contentsline {subsubsection}{\numberline {7.1.1}Production and Emissions}{20}{subsubsection.7.1.1}%
 \contentsline {subsubsection}{\numberline {7.1.2}Firms and Capital Market}{20}{subsubsection.7.1.2}%
 \contentsline {subsubsection}{\numberline {7.1.3}Household Optimization Problem}{20}{subsubsection.7.1.3}%
-\contentsline {subsubsection}{\numberline {7.1.4}First-Order Conditions}{21}{subsubsection.7.1.4}%
-\contentsline {subsubsection}{\numberline {7.1.5}Market Equilibrium and Derivation of the Weighting Parameter}{21}{subsubsection.7.1.5}%
-\contentsline {subsubsection}{\numberline {7.1.6}Household Footprint}{22}{subsubsection.7.1.6}%
+\contentsline {subsubsection}{\numberline {7.1.4}First-Order Conditions}{20}{subsubsection.7.1.4}%
+\contentsline {subsubsection}{\numberline {7.1.5}Market Equilibrium Conditions}{21}{subsubsection.7.1.5}%
+\contentsline {subsubsection}{\numberline {7.1.6}Household Footprint}{21}{subsubsection.7.1.6}%
 \contentsline {subsubsection}{\numberline {7.1.7}Comparative Statics of the Weighting Parameter \( \boldsymbol {\phi } \)}{22}{subsubsection.7.1.7}%
 \contentsline {subsection}{\numberline {7.2}Empirical Illustration: Application of the Single-Industry Model}{23}{subsection.7.2}%
 \contentsline {subsubsection}{\numberline {7.2.1}Carbon Footprint Estimation under Empirical Supply Curve}{23}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Carbon Footprint Estimation under Theoretical Supply Curve}{24}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.2}Carbon Footprint Estimation under Theoretical Supply Curve}{23}{subsubsection.7.2.2}%
 \contentsline {subsubsection}{\numberline {7.2.3}Structural Sources of Difference in Emissions Outcomes}{25}{subsubsection.7.2.3}%
 \contentsline {section}{\numberline {8}Responsibility for Household Carbon Emissions}{26}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Attribution Principles}{26}{subsection.8.1}%
@@ -54,5 +54,5 @@
 \contentsline {subsection}{\numberline {9.4}Behavioural Interventions}{34}{subsection.9.4}%
 \contentsline {subsection}{\numberline {9.5}AI and Digital Tools}{35}{subsection.9.5}%
 \contentsline {subsection}{\numberline {9.6}Integrating Instruments and Equity}{36}{subsection.9.6}%
-\contentsline {subsection}{\numberline {9.7}Policy Implications and Strategic Recommendations}{38}{subsection.9.7}%
-\contentsline {section}{\numberline {10}Conclusion}{39}{section.10}%
+\contentsline {subsection}{\numberline {9.7}Policy Implications and Strategic Recommendations}{37}{subsection.9.7}%
+\contentsline {section}{\numberline {10}Conclusion}{38}{section.10}%

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  21 JUL 2025 23:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  21 JUL 2025 22:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex"
-(c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex
+**"c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/backup hs.tex"
+(c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/backup hs.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -440,34 +440,8 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip117
 \RaggedRightParindent=\skip118
 \JustifyingParindent=\skip119
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
-Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
-Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
-\LTleft=\skip120
-\LTright=\skip121
-\LTpre=\skip122
-\LTpost=\skip123
-\LTchunksize=\count337
-\LTcapwidth=\dimen259
-\LT@head=\box69
-\LT@firsthead=\box70
-\LT@foot=\box71
-\LT@lastfoot=\box72
-\LT@gbox=\box73
-\LT@cols=\count338
-\LT@rows=\count339
-\c@LT@tables=\count340
-\c@LT@chunks=\count341
-\LT@p@ftn=\toks31
-)
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 63.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 61.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -475,30 +449,30 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 63.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 61.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (roughdraft(1).aux)
-\openout1 = `roughdraft(1).aux'.
+) (backup hs.aux)
+\openout1 = `"backup hs.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -536,17 +510,17 @@ LaTeX Font Info:    ... okay on input line 63.
 
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count342
-\scratchdimen=\dimen260
-\scratchbox=\box74
-\nofMPsegments=\count343
-\nofMParguments=\count344
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count345
-\MPscratchDim=\dimen261
-\MPnumerator=\count346
-\makeMPintoPDFobject=\count347
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count337
+\scratchdimen=\dimen259
+\scratchbox=\box69
+\nofMPsegments=\count338
+\nofMParguments=\count339
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count340
+\MPscratchDim=\dimen260
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
+\everyMPtoPDFconversion=\toks32
 ) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -556,26 +530,22 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-Package caption Info: longtable package is loaded.
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
-Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-)
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 63.
- (roughdraft(1).out) (roughdraft(1).out)
+Package hyperref Info: Link coloring OFF on input line 61.
+ (backup hs.out) (backup hs.out)
 \@outlinefile=\write3
-\openout3 = `roughdraft(1).out'.
+\openout3 = `"backup hs.out"'.
 
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 63.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 61.
 
 
 [1
 
-{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (roughdraft(1).toc
+{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (backup hs.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -592,7 +562,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 l.39 ...ymbol {\phi } \)}{22}{subsubsection.7.1.7}
                                                   % [1])
 \tf@toc=\write4
-\openout4 = `roughdraft(1).toc'.
+\openout4 = `"backup hs.toc"'.
 
 
 
@@ -602,17 +572,17 @@ l.39 ...ymbol {\phi } \)}{22}{subsubsection.7.1.7}
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.100 
-       [1]
+l.98 
+      [1]
 <publication_trend_darkblue_estimated2025.png, id=302, 722.7pt x 433.62pt>
 File: publication_trend_darkblue_estimated2025.png Graphic file (type png)
 <use publication_trend_darkblue_estimated2025.png>
-Package pdftex.def Info: publication_trend_darkblue_estimated2025.png  used on input line 108.
+Package pdftex.def Info: publication_trend_darkblue_estimated2025.png  used on input line 106.
 (pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
 <keyword_cooccurrence.png, id=304, 867.24pt x 722.7pt>
 File: keyword_cooccurrence.png Graphic file (type png)
 <use keyword_cooccurrence.png>
-Package pdftex.def Info: keyword_cooccurrence.png  used on input line 114.
+Package pdftex.def Info: keyword_cooccurrence.png  used on input line 112.
 (pdftex.def)             Requested size: 386.96027pt x 322.46614pt.
 
 
@@ -620,7 +590,7 @@ Package pdftex.def Info: keyword_cooccurrence.png  used on input line 114.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.119 
+l.117 
        [2]
 
 [3 <./publication_trend_darkblue_estimated2025.png> <./keyword_cooccurrence.png>]
@@ -630,7 +600,7 @@ l.119
 [5]
 
 [6]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 151.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 149.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -665,7 +635,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <LCA_pie.png, id=394, 625.8582pt x 495.7722pt>
 File: LCA_pie.png Graphic file (type png)
 <use LCA_pie.png>
-Package pdftex.def Info: LCA_pie.png  used on input line 378.
+Package pdftex.def Info: LCA_pie.png  used on input line 368.
 (pdftex.def)             Requested size: 364.19667pt x 288.50124pt.
 
 
@@ -674,7 +644,7 @@ Package pdftex.def Info: LCA_pie.png  used on input line 378.
 [15]
 
 [16]
-Overfull \hbox (2.23285pt too wide) in paragraph at lines 487--488
+Overfull \hbox (2.23285pt too wide) in paragraph at lines 477--478
 []\T1/ptm/m/n/12 Annual house-hold fi-nal con-sump-tion ex-pen-di-ture for France, Spain, and Ger-many was sourced
  []
 
@@ -686,283 +656,282 @@ Overfull \hbox (2.23285pt too wide) in paragraph at lines 487--488
 
 [19]
 
-[20
-pdfTeX warning (ext4): destination with the same identifier (name{equation.28}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.612 \end{align}
-                 ]
+[20]
 
 [21]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 671.
+(hyperref)                removing `\begingroup' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 671.
+(hyperref)                removing `\<let>-command' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@nomath' on input line 671.
+(hyperref)                removing `\@nomath' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 671.
+(hyperref)                removing `\begingroup' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\setbox' on input line 671.
+(hyperref)                removing `\setbox' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 671.
+(hyperref)                removing `\z@' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 671.
+(hyperref)                removing `\hbox' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\thinmuskip' on input line 671.
+(hyperref)                removing `\thinmuskip' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\medmuskip' on input line 671.
+(hyperref)                removing `\medmuskip' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\m@ne' on input line 671.
+(hyperref)                removing `\m@ne' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\thickmuskip' on input line 671.
+(hyperref)                removing `\thickmuskip' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ne' on input line 671.
+(hyperref)                removing `\@ne' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\setbox' on input line 671.
+(hyperref)                removing `\setbox' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tw@' on input line 671.
+(hyperref)                removing `\tw@' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 671.
+(hyperref)                removing `\hbox' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 671.
+(hyperref)                removing `\phi' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 671.
+(hyperref)                removing `\mathsurround' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 671.
+(hyperref)                removing `\z@' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 671.
+(hyperref)                removing `\phi' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 671.
+(hyperref)                removing `\mathsurround' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 671.
+(hyperref)                removing `\z@' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 671.
+(hyperref)                removing `\<def>-command' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathchoice' on input line 671.
+(hyperref)                removing `\mathchoice' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 671.
+(hyperref)                removing `\hbox' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 671.
+(hyperref)                removing `\mathsurround' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 671.
+(hyperref)                removing `\z@' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\displaystyle' on input line 671.
+(hyperref)                removing `\displaystyle' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 671.
+(hyperref)                removing `\phi' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 671.
+(hyperref)                removing `\hbox' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 671.
+(hyperref)                removing `\mathsurround' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 671.
+(hyperref)                removing `\z@' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textstyle' on input line 671.
+(hyperref)                removing `\textstyle' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 671.
+(hyperref)                removing `\phi' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 671.
+(hyperref)                removing `\hbox' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 671.
+(hyperref)                removing `\mathsurround' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 671.
+(hyperref)                removing `\z@' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\scriptstyle' on input line 671.
+(hyperref)                removing `\scriptstyle' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 671.
+(hyperref)                removing `\phi' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 671.
+(hyperref)                removing `\hbox' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 671.
+(hyperref)                removing `\mathsurround' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 671.
+(hyperref)                removing `\z@' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\scriptscriptstyle' on input line 671.
+(hyperref)                removing `\scriptscriptstyle' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 671.
+(hyperref)                removing `\phi' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 671.
+(hyperref)                removing `math shift' on input line 804.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endgroup' on input line 671.
+(hyperref)                removing `\endgroup' on input line 804.
 
 
 
 [22]
-<Hakenes illustration.png, id=479, 787.38165pt x 281.853pt>
+
+[23]
+
+[24]
+<Hakenes illustration.png, id=491, 787.38165pt x 281.853pt>
 File: Hakenes illustration.png Graphic file (type png)
 <use Hakenes illustration.png>
-Package pdftex.def Info: Hakenes illustration.png  used on input line 705.
+Package pdftex.def Info: Hakenes illustration.png  used on input line 898.
 (pdftex.def)             Requested size: 455.24411pt x 162.95876pt.
 
 
-[23 <./Hakenes illustration.png>]
-
-[24]
-
-[25]
+[25 <./Hakenes illustration.png>]
 
 [26]
 
 [27]
-Overfull \hbox (12.2351pt too wide) in paragraph at lines 811--812
+Overfull \hbox (12.2351pt too wide) in paragraph at lines 943--944
 \T1/ptm/m/n/12 spon-si-bil-ity for emis-sions^^Voffering a fun-da-men-tally dif-fer-ent logic from control- or consumption-
  []
 
 
 
 [28]
-<Heatmap Res.png, id=528, 557.2017pt x 281.853pt>
-File: Heatmap Res.png Graphic file (type png)
-<use Heatmap Res.png>
-Package pdftex.def Info: Heatmap Res.png  used on input line 830.
-(pdftex.def)             Requested size: 455.24411pt x 230.2823pt.
+Overfull \hbox (31.33884pt too wide) in paragraph at lines 957--958
+\T1/ptm/m/n/12 min-i-miz-ing the risk of over-attribution but of-fer-ing lit-tle be-hav-ioral or struc-tural in-sight. Consumption-
+ []
+
+<attribution_heatmap.png, id=527, 625.8582pt x 281.853pt>
+File: attribution_heatmap.png Graphic file (type png)
+<use attribution_heatmap.png>
+Package pdftex.def Info: attribution_heatmap.png  used on input line 965.
+(pdftex.def)             Requested size: 455.24411pt x 205.01985pt.
 
 
-[29 <./Heatmap Res.png>]
+[29 <./attribution_heatmap.png>]
 
 [30]
 
 [31]
 
 [32]
-Overfull \hbox (4.83165pt too wide) in paragraph at lines 881--882
+Overfull \hbox (4.83165pt too wide) in paragraph at lines 1015--1016
 \T1/ptm/m/n/12 ing body of re-search sug-gests that in-vest-ment de-ci-sions^^Vparticularly among high-income house-
  []
 
@@ -973,12 +942,12 @@ Overfull \hbox (4.83165pt too wide) in paragraph at lines 881--882
 [34]
 
 [35]
-Overfull \hbox (13.89601pt too wide) in paragraph at lines 923--924
+Overfull \hbox (13.89601pt too wide) in paragraph at lines 1057--1058
 []\T1/ptm/m/n/12 The five pol-icy in-stru-ments ex-am-ined in this chap-ter^^Vcarbon tax, prod-uct stan-dards, investment-
  []
 
 
-Overfull \hbox (148.20366pt too wide) in paragraph at lines 931--958
+Overfull \hbox (148.20366pt too wide) in paragraph at lines 1065--1092
  [] 
  []
 
@@ -990,7 +959,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [36]
 
 [37]
-Overfull \hbox (8.01581pt too wide) in paragraph at lines 976--977
+Overfull \hbox (8.01581pt too wide) in paragraph at lines 1110--1111
 []\T1/ptm/m/n/12 In sum, ef-fec-tive house-hold car-bon pol-icy must be method-olog-i-cally in-formed, equity-sensitive,
  []
 
@@ -1001,12 +970,12 @@ Overfull \hbox (8.01581pt too wide) in paragraph at lines 976--977
 [39]
 
 [40]
-Overfull \hbox (3.45842pt too wide) detected at line 1118
+Overfull \hbox (3.45842pt too wide) detected at line 1252
 $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 3$
  []
 
 
-Overfull \hbox (3.45842pt too wide) detected at line 1118
+Overfull \hbox (3.45842pt too wide) detected at line 1252
 $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1$
  []
 
@@ -1024,33 +993,26 @@ $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1$
 
 [46]
 
-[47]
-
-[48
-
-
-]
-
-[49] (roughdraft(1).aux)
+[47] (backup hs.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
-Package rerunfilecheck Info: File `roughdraft(1).out' has not changed.
-(rerunfilecheck)             Checksum: BE1D80529D7B8376F99032CE7788EEAB;14031.
+Package rerunfilecheck Info: File `"backup hs".out' has not changed.
+(rerunfilecheck)             Checksum: AF0CC5E3328D23B28183720D87B6CF83;13861.
  ) 
 Here is how much of TeX's memory you used:
- 18460 strings out of 470045
- 357127 string characters out of 5479094
- 802803 words of memory out of 5000000
- 44711 multiletter control sequences out of 15000+600000
+ 18238 strings out of 470045
+ 352453 string characters out of 5479094
+ 799183 words of memory out of 5000000
+ 44508 multiletter control sequences out of 15000+600000
  682224 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,19n,79p,2422b,1071s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,19n,79p,2418b,1071s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on roughdraft(1).pdf (52 pages, 2199797 bytes).
+Output written on "backup hs.pdf" (50 pages, 2215209 bytes).
 PDF statistics:
- 741 PDF objects out of 1000 (max. 8388607)
- 195 named destinations out of 1000 (max. 500000)
+ 729 PDF objects out of 1000 (max. 8388607)
+ 191 named destinations out of 1000 (max. 500000)
  458 words of extra memory for PDF output out of 10000 (max. 10000000)
 

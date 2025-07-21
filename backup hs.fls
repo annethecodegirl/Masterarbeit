@@ -1,7 +1,7 @@
 PWD c:\Users\USER\OneDrive\Documents\Desktop\Library\MASTERS\Thesis\Master Thesis VS Code
 INPUT C:\Users\USER\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\USER\OneDrive\Documents\Desktop\Library\MASTERS\Thesis\Master Thesis VS Code\backupdraft.tex
-OUTPUT backupdraft.log
+INPUT c:\Users\USER\OneDrive\Documents\Desktop\Library\MASTERS\Thesis\Master Thesis VS Code\backup hs.tex
+OUTPUT backup hs.log
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -161,10 +161,10 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\t1ptm.fd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT .\backupdraft.aux
-INPUT .\backupdraft.aux
-INPUT backupdraft.aux
-OUTPUT backupdraft.aux
+INPUT .\backup hs.aux
+INPUT .\backup hs.aux
+INPUT backup hs.aux
+OUTPUT backup hs.aux
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -173,14 +173,14 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT .\backupdraft.out
-INPUT .\backupdraft.out
-INPUT backupdraft.out
-INPUT backupdraft.out
-OUTPUT backupdraft.pdf
-INPUT .\backupdraft.out
-INPUT .\backupdraft.out
-OUTPUT backupdraft.out
+INPUT .\backup hs.out
+INPUT .\backup hs.out
+INPUT backup hs.out
+INPUT backup hs.out
+OUTPUT backup hs.pdf
+INPUT .\backup hs.out
+INPUT .\backup hs.out
+OUTPUT backup hs.out
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
@@ -197,9 +197,9 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT .\backupdraft.toc
-INPUT .\backupdraft.toc
-INPUT backupdraft.toc
+INPUT .\backup hs.toc
+INPUT .\backup hs.toc
+INPUT backup hs.toc
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -237,7 +237,7 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmex
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy8.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
-OUTPUT backupdraft.toc
+OUTPUT backup hs.toc
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
@@ -263,7 +263,6 @@ INPUT .\publication_trend_darkblue_estimated2025.png
 INPUT .\publication_trend_darkblue_estimated2025.png
 INPUT .\publication_trend_darkblue_estimated2025.png
 INPUT .\publication_trend_darkblue_estimated2025.png
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT .\keyword_cooccurrence.png
 INPUT .\keyword_cooccurrence.png
 INPUT .\keyword_cooccurrence.png
@@ -273,8 +272,6 @@ INPUT .\keyword_cooccurrence.png
 INPUT .\keyword_cooccurrence.png
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
@@ -283,6 +280,8 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8c.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
@@ -292,6 +291,10 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8c.vf
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
@@ -305,30 +308,27 @@ INPUT .\LCA_pie.png
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
-INPUT .\Hakenes illustration.png
-INPUT .\Hakenes illustration.png
-INPUT .\Hakenes illustration.png
-INPUT .\Hakenes illustration.png
-INPUT .\Hakenes illustration.png
-INPUT .\Hakenes illustration.png
-INPUT .\Hakenes illustration.png
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT .\Heatmap Res.png
-INPUT .\Heatmap Res.png
-INPUT .\Heatmap Res.png
-INPUT .\Heatmap Res.png
-INPUT .\Heatmap Res.png
-INPUT .\Heatmap Res.png
-INPUT .\Heatmap Res.png
-INPUT backupdraft.aux
-INPUT .\backupdraft.out
-INPUT .\backupdraft.out
+INPUT .\Hakenes illustration.png
+INPUT .\Hakenes illustration.png
+INPUT .\Hakenes illustration.png
+INPUT .\Hakenes illustration.png
+INPUT .\Hakenes illustration.png
+INPUT .\Hakenes illustration.png
+INPUT .\Hakenes illustration.png
+INPUT .\attribution_heatmap.png
+INPUT .\attribution_heatmap.png
+INPUT .\attribution_heatmap.png
+INPUT .\attribution_heatmap.png
+INPUT .\attribution_heatmap.png
+INPUT .\attribution_heatmap.png
+INPUT .\attribution_heatmap.png
+INPUT backup hs.aux
+INPUT .\backup hs.out
+INPUT .\backup hs.out
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
