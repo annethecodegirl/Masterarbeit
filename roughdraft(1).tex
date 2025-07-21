@@ -156,6 +156,7 @@ Scope 1 emissions are derived from the direct combustion of fossil fuels by hous
 
 \begin{table}[h]
 \centering
+\captionsetup{justification=raggedright,singlelinecheck=false} 
 \caption{\small Direct Emissions from Household Energy and Transport (Scope 1)}\label{tab:scope1}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lccc}
@@ -172,12 +173,13 @@ Petrol (Other)          & 0.18 & 73.3 & 13.19 \\
 \end{tabular}%
 }
 \raggedright
-\textit{\tiny{Source: Author's calculations based on INE (2022), DEFRA (2022), and IPCC (2019) emission factors.}}
+\textit{\footnotesize{Source: Author's calculations based on INE (2022), DEFRA (2022), and IPCC (2019) emission factors.}}
 \end{table}
 
 
 \begin{table}[h]
 \centering
+\captionsetup{justification=raggedright,singlelinecheck=false} 
 \caption{\small Indirect Emissions from Heating and Cooling (Scope 2)}\label{tab:scope2}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lccc}
@@ -191,7 +193,7 @@ Heating/Cooling Energy & 8.96 & 92.6 & 829.70 \\
 \end{tabular}%
 }
 \raggedright
-\textit{\tiny{Source: Author's calculations based on INE (2022), DEFRA (2022), and IPCC (2019) emission factors.}}
+\textit{\footnotesize{Source: Author's calculations based on INE (2022), DEFRA (2022), and IPCC (2019) emission factors.}}
 \end{table}
 
 Scope 3 emissions represent the most extensive component of the household carbon footprint, capturing the indirect environmental impacts associated with consumption. These emissions encompass the carbon embedded in food, manufactured goods, services, and transport-related infrastructure. Each expenditure category is assigned a specific emission factor, derived from lifecycle assessment data, and multiplied by corresponding household spending. For instance, food consumption carries an average emission factor of 0.50 kg CO\textsubscript{2}e per euro, accounting for agricultural production, processing, and distribution. Clothing is assigned a lower factor of 0.25 kg CO\textsubscript{2}e/€, while restaurant services, due to their higher energy intensity, are estimated at 0.40 kg CO\textsubscript{2}e/€. Detailed category-level results for Scope 3 are shown in Table 3.
@@ -199,6 +201,7 @@ Scope 3 emissions represent the most extensive component of the household carbon
 
 \begin{table}[h]
 \centering
+\captionsetup{justification=raggedright,singlelinecheck=false} 
 \caption{\small Consumption-Based Emissions (Scope 3)}\label{tab:scope3}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lccc}
@@ -223,14 +226,15 @@ Miscellaneous goods and services & 2,364 & 0.30 &   709.20 \\
 \end{tabular}%
 }
 \raggedright
-\textit{\tiny{Source: Author's calculations based on INE (2022), DEFRA (2022), and IPCC (2019) emission factors.}}
+\textit{\footnotesize{Source: Author's calculations based on INE (2022), DEFRA (2022), and IPCC (2019) emission factors.}}
 \end{table}
 
 Summing all three scopes, the total annual carbon footprint of a Spanish household in 2022 is estimated at 11,828.08 kg CO\textsubscript{2}e. While Scope 1 and Scope 2 together account for less than 20 \% of the total footprint, largely reflecting fuel use for transport and home energy consumption, Scope 3 alone contributes over four-fifths of total emissions.\footnote{see Table 4} This pattern emphasizes that even households with modest direct energy use can maintain high overall footprints due to the embedded emissions in everyday consumption, pointing to the critical importance of addressing upstream emissions in climate policy.
 % Make sure \usepackage{booktabs} is in your preamble
 
 \begin{table}[h]
-\caption{\small Total household carbon footprint by emission scope}\label{tab:total_emissions}
+  \captionsetup{justification=raggedright,singlelinecheck=false} 
+\caption{\small Total Household Carbon Footprint by Emission Scopes}\label{tab:total_emissions}
 \begin{tabular}{lcccc}
 \toprule
  & \small \textbf{Scope 1} & \small \textbf{Scope 2} & \small \textbf{Scope 3} & \small \textbf{Total} \\
@@ -240,7 +244,7 @@ Summing all three scopes, the total annual carbon footprint of a Spanish househo
 \end{tabular}
 
 \raggedright
-\textit{\tiny Source: Author's calculations based on INE (2022), DEFRA (2022), and IPCC (2019) emission factors.}
+\textit{\footnotesize{Source: Author's calculations based on INE (2022), DEFRA (2022), and IPCC (2019) emission factors.}}
 \end{table}
 
 
@@ -495,17 +499,20 @@ The same procedure is applied across all final demand categories and for Spain a
 Table 5 summarizes the estimated household carbon footprints for France, Spain, and Germany in 2021, derived using the environmentally extended input--output model. The full breakdown by expenditure category is reported in Appendix~A (Tables~A6--A8).
 
 \begin{table}[h]
-\centering
-\caption{Total estimated household carbon footprints (2021)}
+ \captionsetup{justification=raggedright,singlelinecheck=false} 
+\caption{\small{Total estimated household carbon footprints (2021)}}
 \begin{tabular}{lcc}
 \toprule
-\textbf{Country} & \textbf{Expenditure (bn €)} & \textbf{Emissions (Mt CO\textsubscript{2}e)} \\
+\textbf\small{Country} & \textbf\small{Expenditure (bn €)} & \textbf\small{Emissions (Mt CO\textsubscript{2}e)} \\
 \midrule
-France & 1322.0 & 420.0 \\
-Spain & 747.9 & 227.0 \\
-Germany & 1794.8 & 545.9 \\
+\small France & \small 1322.0 & \small 420.0 \\
+\small Spain & \small 747.9 & \small 227.0 \\
+\small Germany & \small 1794.8 & \small 545.9 \\
 \bottomrule
 \end{tabular}
+\raggedright
+
+\textit{\footnotesize{Source: Author's calculations based on Eurostat 2021 data on Household final consumption expenditure by purpose (COICOP 1999) and EXIOBASE (2025) emission factors.}}
 \end{table}
 
 In all three countries, the dominant drivers of household emissions are housing, food, and transport. These sectors together account for over 60\% of the footprint, reflecting the carbon intensity of residential energy use, agri-food supply chains, and private mobility. The relative magnitude and structure of results are consistent with earlier multi-regional IO studies (Matthews et al.~2008; Long et al.~2019; Sheng et al.~2024), confirming the utility of EEIO methods for policy-relevant footprint accounting.
@@ -824,29 +831,31 @@ In sum, the weighting parameter \( \boldsymbol{\phi} \) is decreasing in both ri
 
 \subsection{Empirical Illustration: Application of the Single-Industry Model}
 
-Here, the simplified version of the Hakenes and Schliephake (2024) model is applied to the U.S. wheat market, using USDA data from 2010 to 2016. Production volumes serve as a proxy for quantity supplied, while total domestic use approximates quantity demanded. Farm prices are taken as observed average annual prices.
-
-To estimate supply behavior, an ordinary least squares (OLS) regression of price is fitted on observed production, yielding the empirical supply curve. In the empirical illustration, the demand curve is specified as linear and downward sloping. Its slope is calibrated using average values from the dataset, consistent with observed market behavior in the U.S. wheat sector. While the curve is not estimated directly via regression (due to data limitations on price responsiveness), it reflects a stylized elasticity based on domain knowledge. This contrasts with the supply curve, which is estimated using OLS on observed price and production data. We simulate the 2016–2017 wheat supply shock, during which production declined by 15.6\%. The intersection of the two curves provide the empirical equilibrium quantities and prices before and after the 2016–2017 supply shock. This is modeled by proportionally shifting the supply curve upward. Equilibrium price and quantity before and after the shock are obtained by solving the intersection between the demand curve and the respective supply curves.
-
+Here, the simplified version of the Hakenes and Schliephake (2024) model is applied to the U.S. wheat market, using USDA data from 2010 to 2016\footnote{See Table A9 in Appendix A}. Production volumes serve as a proxy for quantity supplied, while total domestic use approximates quantity demanded. Farm prices are taken as observed average annual prices.
 
 \subsubsection{Carbon Footprint Estimation under Empirical Supply Curve}
 
-We compute the carbon footprint associated with each equilibrium using an emission factor of 10.88 kg CO\textsubscript{2}e per bushel (based on FAO and USDA estimates).
+To estimate supply behavior, an ordinary least squares (OLS) regression of price is fitted on observed production, yielding the empirical supply curve. In the empirical illustration, the demand curve is specified as linear and downward sloping. Its slope is calibrated using average values from the dataset, consistent with observed market behavior in the U.S. wheat sector. While the curve is not estimated directly via regression (due to data limitations on price responsiveness), it reflects a stylized elasticity based on domain knowledge. This contrasts with the supply curve, which is estimated using OLS on observed price and production data. A supply shock is then simulated for the wheat data in 2016–2017, during which production declined by 15.6\%. The intersection of the two curves provide the empirical equilibrium quantities and prices before and after the 2016–2017 supply shock. This is modeled by proportionally shifting the supply curve upward. Equilibrium price and quantity before and after the shock are obtained by solving the intersection between the demand curve and the respective supply curves and is illustrated in Panel A of Figure 4.
+
+The carbon footprint associated with each equilibrium is calculated using an emission factor of 10.88 kg CO\textsubscript{2}e per bushel (based on FAO and USDA estimates) and is presented in Table 6.
 
 \begin{table}[ht]
-\centering
+\captionsetup{justification=raggedright,singlelinecheck=false} 
 \caption{Carbon footprint before and after the supply shock using real market data.}
 \begin{tabular}{lccc}
 \toprule
-\textbf{Scenario} & \textbf{Quantity} & \textbf{Price} & \textbf{Carbon Footprint} \\
-\textbf{USDA data} & \textbf{(million bushels)} & \textbf{(USD)} & \textbf{(million kg CO\textsubscript{2}e)} \\
+\textbf{\small{Scenario}} & \textbf{\small{Equilibrium Quantity}} & \textbf{\small{Equilibrium Price}} & \textbf{\small{Carbon Footprint}} \\
+\textbf & \small\textbf{(million bushels)} & \small\textbf{(USD)} & \small\textbf{(million kg CO\textsubscript{2}e)} \\
 \midrule
-Before Shock  & 2100.71 & 5.58 & 22859.68 \\
-After Shock & 2068.38 & 5.82 & 22500.32 \\
+\small Before Shock  & \small 2100.71 & \small 5.58 & \small 22859.68 \\
+\small After Shock & \small 2068.38 & \small 5.82 & \small 22500.32 \\
 \midrule
-\textbf{Change} & \textemdash& \textemdash& \textbf{-359.36} \\
+\small\textbf{Change} & \textemdash& \textemdash& \small\textbf{-359.36} \\
 \bottomrule
 \end{tabular}
+\raggedright
+
+\textit{\footnotesize{Source: Author's calculations based on USDA data (2010–2016) and FAO emission factors.}}
 \end{table}
 
 \subsubsection{Carbon Footprint Estimation under Theoretical Supply Curve}
@@ -861,23 +870,28 @@ where \( c \) denotes the marginal cost of production, \( r_f \) the risk-free r
 
 This expression yields a linear and upward-sloping supply curve. The theoretical supply curve applied in this illustration was constructed using parameter values selected to reflect realistic conditions in the U.S. wheat and financial markets during the study period. The marginal cost of production was assumed to be $c = 4$, which is consistent with per-bushel production costs observed in U.S. wheat farming and allows the resulting equilibrium prices to align with historical market levels. The risk-free rate was set to $r_f = 0.05$, corresponding to the average yield on 10-year U.S. Treasury bonds between 2010 and 2016. The liquidation value of capital was taken as $\lambda = 0.01$, reflecting the reduced resale value of farm-specific capital such as machinery or equipment. The coefficient of absolute risk aversion was assumed to be $\alpha = 0.5$, a value that captures moderate household risk sensitivity consistent with empirical estimates from investment literature. The volatility of investment returns was specified as $\sigma = 0.4$, implying a variance of $\sigma^2 = 0.16$, which falls within the range typically observed for U.S. agricultural investments and related financial instruments. Finally, the number of households was assumed to be $n = 100{,}000$, representing an approximation of the number of wheat-producing farms in the United States during the relevant years. These parameter values were used to generate a supply curve that reflects theoretical investment behavior under risk, providing a basis for comparison with the empirically estimated curve, and the intercept reflects the opportunity cost of capital. The new equilibrium values were obtained by solving the intersection of this supply curve with the demand curve used previously.
 
-By solving the intersection of this supply curve with the same demand curve used in the empirical case, equilibrium values for price and quantity were obtained both before and after the simulated shock. The corresponding carbon footprints were then computed using the same emissions factor of 10.88 kg CO\textsubscript{2}e per bushel.
-
 \begin{table}[ht]
-\centering
+\captionsetup{justification=raggedright,singlelinecheck=false} 
 \caption{Model-based carbon footprint before and after the supply shock.}
 \begin{tabular}{lccc}
 \toprule
-\textbf{Scenario} & \textbf{Quantity} & \textbf{Price} & \textbf{Carbon Footprint} \\
-\textbf{Theory} & \textbf{(million bushels)} & \textbf{(USD)} & \textbf{(million kg CO\textsubscript{2}e)} \\
+\textbf{\small{Scenario}} & \textbf{\small{Equilibrium Quantity}} & \textbf{\small{Equilibrium Price}} & \textbf{\small{Carbon Footprint}} \\
+\textbf & \small\textbf{(million bushels)} & \small\textbf{(USD)} & \small\textbf{(million kg CO\textsubscript{2}e)} \\
 \midrule
-Before Shock & 2112.36 & 5.69 & 22983.46 \\
-After Shock   & 2095.13 & 5.85 & 22808.35 \\
+\small Before Shock & \small 2112.45 & \small 5.69 & \small 22983.46 \\
+\small After Shock   & \small 2096.36 & \small 5.99 & \small 22808.40 \\
 \midrule
-\textbf{Change} & \textemdash& \textemdash& \textbf{-175.11} \\
+\small\textbf{Change} & \textemdash& \textemdash& \small\textbf{-175.06} \\
 \bottomrule
 \end{tabular}
+\raggedright
+
+\textit{\footnotesize{Source: Author's calculations based on USDA data (2010–2016) and FAO emission factors.}}
+
 \end{table}
+
+By solving the intersection of this supply curve with the same demand curve used in the empirical case, equilibrium values for price and quantity were obtained both before and after the simulated shock as shown in Panel B of Figure 4. The corresponding carbon footprints were then computed using the same emissions factor of 10.88 kg CO\textsubscript{2}e per bushel\footnote{See Table 7}.
+
 
 \begin{figure}[ht]
     \centering
@@ -887,7 +901,7 @@ After Shock   & 2095.13 & 5.85 & 22808.35 \\
 
 \subsubsection{Structural Sources of Difference in Emissions Outcomes}
 
-Although the same demand curve was used in both the empirical and theoretical approaches, the estimated reduction in carbon footprint differed considerably. The empirical estimation yielded a reduction of 359.36 million kg CO\textsubscript{2}e, while the theoretical model predicted a more modest reduction of 175.11 million kg CO\textsubscript{2}e.
+Although the same demand curve was used in both the empirical and theoretical approaches, the estimated reduction in carbon footprint differed considerably. The empirical estimation yielded a reduction of 359.36 million kg CO\textsubscript{2}e, while the theoretical model predicted a more modest reduction of 175.06 million kg CO\textsubscript{2}e.
 
 This difference can be attributed entirely to the way supply was modeled. In the empirical estimation, the supply curve was estimated via OLS using observed data on price and quantity. This approach captured market behavior as it appeared in the historical record but did not account for underlying decision-making under uncertainty or equilibrium responses. In contrast, the theoretical supply curve was derived from the model’s structural assumptions, incorporating risk preferences, investment volatility, and optimal capital allocation. It reflected how households would respond to market changes under forward-looking behavior, leading to a more muted response in output and, correspondingly, in emissions.
 
@@ -895,19 +909,18 @@ Additionally, the theoretical model introduced a consequentialist perspective by
 
 
 \section{Responsibility for Household Carbon Emissions}
-\subsection{Rethinking Responsibility}
 
 Households are often portrayed as central actors in climate mitigation—urged to fly less, retrofit their homes, shift their diets, or reduce electricity use. Yet, the basis on which such responsibility is assigned remains contested. What does it mean to hold a household responsible for climate change, and how do we ensure that this responsibility is fair, actionable, and grounded in reality?
 
 Existing carbon accounting methods offer different answers. Some emphasize direct control over emissions, others focus on consumption or supply chains, and still others ask whether a household’s actions actually reduce emissions. These differences reflect deeper questions about agency, influence, and obligation. 
 
-This chapter rethinks household responsibility by comparing the attribution logics embedded in four key models—production-based (GHG Protocol), product-based (LCA), demand-based (EEIO), and marginal impact models (Hakenes and Schliephake) \footnote{The Hakenes and Schliephake model can be understood as a general equilibrium carbon footprint model, as it determines household responsibility based on the marginal change in total emissions across interconnected markets resulting from a behavioral shift, accounting for substitution, spillovers, and price effects.}. Our aim is to evaluate not only how these methods measure emissions, but also how they construct the idea of responsibility itself and with what consequences for policy, fairness, and climate action.
+This chapter rethinks household responsibility by comparing the attribution logics embedded in four key models—production-based (GHG Protocol), product-based (LCA), demand-based (EEIO), and marginal impact models (Hakenes and Schliephake). The aim is to evaluate not only how these methods measure emissions, but also how they construct the idea of responsibility itself and with what consequences for policy, fairness, and climate action.
 
 \subsection{Attribution Principles}
 
 \subsubsection{Attribution Based on Operational Control}
 
-Control-based attribution allocates emissions to the actor who directly controls the physical source of greenhouse gas release. Emissions are assigned based on \textit{operational responsibility},that is, who manages the combustion process or industrial activity rather than on who benefits from or demands the resulting goods and services. In this framework, emissions from electricity generation are attributed to power plants, and those from food or goods production are attributed to manufacturing firms, not to the households that consume the outputs.
+Control-based attribution allocates emissions to the actor who directly controls the physical source of greenhouse gas release. Emissions are assigned based on \textit{operational responsibility}, that is, who manages the combustion process or industrial activity rather than on who benefits from or demands the resulting goods and services. In this framework, emissions from electricity generation are attributed to power plants, and those from food or goods production are attributed to manufacturing firms, not to the households that consume the outputs.
 
 The GHG Protocol is the principal framework that operationalizes this logic. In household-level applications, it typically attributes emissions only from direct fuel use (e.g., home heating, personal vehicles) and from purchased electricity or heat (Scopes 1 and 2). Emissions embedded in goods, services, or infrastructure (commonly classified as Scope 3) are excluded unless separately modeled. As a result, household responsibility appears significantly lower than in consumption-based frameworks. For instance, while households in developed economies are responsible for an estimated 60–70\% of emissions under a consumption-based approach, control-based inventories typically attribute only 10–20\% to them.\footnote{See Hertwich and Peters (2009). Consumption-based GHG emissions. \textit{Environmental Science \& Technology}.}
 
@@ -1044,7 +1057,7 @@ Nonetheless, when deployed in alignment with participatory design, open standard
 The five policy instruments examined in this chapter—carbon tax, product standards, investment-based taxation, behavioural interventions, and AI-enabled digital tools—each emerge from different methodological traditions and assign carbon responsibility in distinct ways. What unites them, however, is their relevance to the household as both emitter and agent. By pairing these instruments with the methods that best support their design—whether LCA, EEIO, general equilibrium modeling, or behavioural science—we gain clarity not only about which tools are technically appropriate, but also about which are ethically justified, socially acceptable, and financially scalable. The table below summarizes this alignment and reflects on the broader implications for climate policy and finance at the household level.
 
 
-\begin{table}[htbp]
+\begin{table}[h]
 \centering
 \caption{Household Carbon Policy Instruments: Methodological Alignment and Strategic Implications}
 \label{tab:final_policy_comparison}
@@ -1122,7 +1135,7 @@ At a moment when climate responsibility is increasingly individualized in public
 
 
 \begin{table}[H]
-\centering
+\captionsetup{justification=raggedright,singlelinecheck=false} 
 \caption{Annual number of publications, cumulative total, and estimated annual growth rate in household carbon footprint literature (2000–2025).}
 \resizebox{0.8\textwidth}{!}{%
 \begin{tabular}{rrrr}
@@ -1148,13 +1161,18 @@ Year & Number of Publications & Cumulative Publications & Annual Growth (\%) \\
 2022 & 110 & 922 & -22.54 \\
 2023 & 134 & 1056 & 21.82 \\
 2024 & 171 & 1227 & 27.61 \\
-2025 & 168 & 1395 & -1.75 \\
+2025 & 84 & 1311 & - \\
 \bottomrule
 \end{tabular}
-}\end{table}
+}
+\raggedright
+\vspace{0.3cm}
+
+\footnotesize Source: Scopus. (n.d.). Search for "household carbon footprint" using the advanced search. July 2025, from [https://www.scopus.com]
+\end{table}
 
 \begin{table}[H]
-\centering
+\captionsetup{justification=raggedright,singlelinecheck=false} 
 \caption{Top 10 contributing authors in HCF literature and their affiliations.}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{llr}
@@ -1174,10 +1192,15 @@ Hubacek K. & Institute of Carbon Neutrality, Peking University, China & 14 \\
 \bottomrule
 \end{tabular}
 }
+\raggedright
+\vspace{0.3cm}
+
+\footnotesize Source: Author's own analysis from Scopus. (n.d.) dataset. Search for "household carbon footprint" using the advanced search. July 2025, from [https://www.scopus.com]
+
 \end{table}
 
 \begin{table}[H]
-\centering
+\captionsetup{justification=raggedright,singlelinecheck=false} 
 \caption{Top 10 most frequently used keywords in HCF literature.}
 \resizebox{0.4\textwidth}{!}{%
 \begin{tabular}{lr}
@@ -1197,15 +1220,20 @@ carbon emissions & 34 \\
 \bottomrule
 \end{tabular}
 }
+\raggedright
+\vspace{0.3cm}
+
+\footnotesize Source: Author's own analysis from Scopus. (n.d.) dataset. Search for "household carbon footprint" using the advanced search. July 2025, from [https://www.scopus.com]
 \end{table}
 
 \begin{table}[H]
 \centering
-\caption{Mean Consumption Expenditure per Household in Spain, 2022}\label{tab:expenditure}
+\caption{Mean Consumption Expenditure per Household, Structure (\%), Annual Rate (\%) and
+ Absolute Difference by ECOICOP divisions. Year 2022}\label{tab:expenditure}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{l S[table-format=5.0] S[table-format=5.1] S[table-format=2.1] S[table-format=5.0]}
 \toprule
-\textbf{Category} & {\textbf{Mean Expenditure (€)}} & {\textbf{Structure (\%)}} & {\textbf{Annual Rate (\%)}} & {\textbf{Annual Difference (€)}} \\
+\textbf{Category} & {\textbf{Mean Expenditure (€)}} & {\textbf{Structure (\%)}} & {\textbf{Annual Rate (\%)}} & {\textbf{Absolute Difference (€)}} \\
 \midrule
 Total & 31568 & 100.0 & 7.9 & 2324 \\
 Food and non-alcoholic beverages & 5050 & 16.0 & 5.1 & 244 \\
@@ -1222,11 +1250,16 @@ Restaurants and hotels & 2953 & 9.4 & 29.1 & 665 \\
 Miscellaneous goods and services & 2364 & 7.5 & 7.5 & 148 \\
 \bottomrule
 \end{tabular}}
+
+\raggedright
+\vspace{0.3cm}
+
+\footnotesize{Source: Household Budget Survey 2022, INE. Instituto Nacional de Estadística.}
 \end{table}
 
 % Table 2: Emission Factors
 \begin{table}[H]
-\centering
+\captionsetup{justification=raggedright,singlelinecheck=false} 
 \caption{Spend-Based Emission Factors (EXIOBASE via Climatiq.io)}\label{tab:efactors}
 \begin{tabular}{l S[table-format=1.2]}
 \toprule
@@ -1246,11 +1279,16 @@ Communications & 0.15 \\
 Education & 0.15 \\
 \bottomrule
 \end{tabular}
+\raggedright
+\vspace{0.3cm}
+
+\footnotesize{Source: Stadler, K., Wood, R., Bulavskaya, T., Södersten, C.-J., Simas, M., Schmidt, S., Usubiaga, A., Acosta-Fernández, J., Kuenen, J., Bruckner, M., Giljum, S., Lutter, S., Merciai, S., Schmidt, J. H., Theurl, M. C., Plutzar, C., Kastner, T., Eisenmenger, N., Erb, K.-H., … Tukker, A. (2025). EXIOBASE 3 (3.9.6) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15689391
+}
 \end{table}
 
 % Table: France Expenditure and Emissions
 \begin{table}[H]
-\centering
+\captionsetup{justification=raggedright,singlelinecheck=false} 
 \caption{Household expenditure and carbon footprint by category for France (2021, Eurostat).}\label{tab:france_expenditure_emissions}
 \resizebox{\textwidth}{!}{
 \begin{tabular}{l S[table-format=1.2] S[table-format=3.1] S[table-format=4.1] S[table-format=4.1]}
@@ -1273,6 +1311,11 @@ Education & 0.15 & 0.5 & 6.6 & 1.0 \\
 \textbf{TOTAL} & & 100.0 & 1323.0 & 419.5 \\
 \bottomrule
 \end{tabular}}
+\raggedright
+\vspace{0.3cm}
+
+\footnotesize{Source: Household final consumption expenditure by purpose (COICOP 1999). 2025 Eurostat.}
+
 \end{table}
 
 % Appendix A: Spain Expenditure and Emissions Table with Resizebox
@@ -1300,6 +1343,11 @@ Education & 0.15 & 1.40 & 9.7 & 1.5 \\
 \textbf{TOTAL} &  & 100.0 & 689.1 & 226.8 \\
 \bottomrule
 \end{tabular}}
+\raggedright
+\vspace{0.3cm}
+
+\footnotesize{Source: Household final consumption expenditure by purpose (COICOP 1999). 2025 Eurostat.}
+
 \end{table}
 
 
@@ -1328,6 +1376,11 @@ Education & 0.15 & 0.80 & 14.4 & 2.2 \\
 \textbf{TOTAL} &  & 100.0 & 1794.8 & 545.9 \\
 \bottomrule
 \end{tabular}}
+\raggedright
+\vspace{0.3cm}
+
+\footnotesize{Source: Household final consumption expenditure by purpose (COICOP 1999). 2025 Eurostat.}
+
 \end{table}
 
 
