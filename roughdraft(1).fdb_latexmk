@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1753134939.25218 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" "roughdraft(1).pdf" "roughdraft(1)" 1753134943.94943 0
+["pdflatex"] 1753135369.16824 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" "roughdraft(1).pdf" "roughdraft(1)" 1753135374.07207 0
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1753133422 84158 d77284a6843bde1e4b9764f09fb2e89e ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1748704790 13089765 bc6a75f620132fc869ce2950439eeb88 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -132,8 +132,6 @@
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/lipsum/lipsum.ltd.tex" 1633253722 95525 6fd0552101a6b1f9b7a84b402ec435ba ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/lipsum/lipsum.sty" 1633253722 14690 c2c754218a7108db7823a4839c1bc3cd ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/natbib/natbib.sty" 1292249081 46712 1c8843383c0bd05870c45fa0ebea6cc2 ""
-  "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape-nometadata.sty" 1668505912 6572 ea530fbbe537629fd97736d33babc07d ""
-  "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape.sty" 1668505912 2224 1230ab76aa62221ccbd90bca8c8c015e ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/t1ptm.fd" 1585253778 817 61d7da1e9f9e74989b196d147e623736 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/times.sty" 1585926771 888 8e0e5c8cca7b18e0400f97f5a2b90a99 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ts1ptm.fd" 1585253778 653 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
@@ -154,13 +152,13 @@
   "Hakenes illustration.png" 1753061758 156191 b2bacacf6eb0dac244c3bc11685a1344 ""
   "Heatmap Res.png" 1753131249 116970 8486da9e000fed82f6cc755b47201a5d ""
   "LCA_pie.png" 1751297765 185552 8226e4b9a75c7d0e0c4b2433fe6ffb17 ""
-  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" 1753134938 131087 4a8bebcf4f2c2d8deb840c4a77d990cb ""
+  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex" 1753135367 131084 d13ca1e79165969d20610693785b9573 ""
   "keyword_cooccurrence.png" 1752452055 2014548 b62d823d71ac1d33c677ccdd12fc7c4a ""
   "publication_trend_darkblue_estimated2025.png" 1752453170 203507 21e6624ff673f46b4ef44cb9c0db0b42 ""
-  "roughdraft(1).aux" 1753134943 15536 369a8ba3d9d1ba971213fd95a3af2321 "pdflatex"
-  "roughdraft(1).out" 1753134943 14031 be1d80529d7b8376f99032ce7788eeab "pdflatex"
-  "roughdraft(1).tex" 1753134938 131087 4a8bebcf4f2c2d8deb840c4a77d990cb ""
-  "roughdraft(1).toc" 1753134943 6045 c8174db95ae73dd21fa919568862e269 "pdflatex"
+  "roughdraft(1).aux" 1753135373 15536 369a8ba3d9d1ba971213fd95a3af2321 "pdflatex"
+  "roughdraft(1).out" 1753135373 14031 be1d80529d7b8376f99032ce7788eeab "pdflatex"
+  "roughdraft(1).tex" 1753135367 131084 d13ca1e79165969d20610693785b9573 ""
+  "roughdraft(1).toc" 1753135373 6045 c8174db95ae73dd21fa919568862e269 "pdflatex"
   (generated)
   "roughdraft(1).aux"
   "roughdraft(1).log"
