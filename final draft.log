@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  23 JUL 2025 03:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  23 JUL 2025 16:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex"
-(c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/roughdraft(1).tex
+**"c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/final draft.tex"
+(c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/final draft.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -478,8 +478,8 @@ Package color Info: Driver file: pdftex.def on input line 149.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 64.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (roughdraft(1).aux)
-\openout1 = `roughdraft(1).aux'.
+) (final draft.aux)
+\openout1 = `"final draft.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
@@ -563,9 +563,9 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 64.
- (roughdraft(1).out) (roughdraft(1).out)
+ (final draft.out) (final draft.out)
 \@outlinefile=\write3
-\openout3 = `roughdraft(1).out'.
+\openout3 = `"final draft.out"'.
 
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
@@ -575,7 +575,7 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 
 [1
 
-{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (roughdraft(1).toc
+{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (final draft.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -592,7 +592,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 l.39 ...ymbol {\phi } \)}{22}{subsubsection.7.1.7}
                                                   % [1])
 \tf@toc=\write4
-\openout4 = `roughdraft(1).toc'.
+\openout4 = `"final draft.toc"'.
 
 
 
@@ -1106,26 +1106,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 1316--1346
 
 [50]
 
-[51] (roughdraft(1).aux)
+[51]
+
+[52] (final draft.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
-Package rerunfilecheck Info: File `roughdraft(1).out' has not changed.
+Package rerunfilecheck Info: File `"final draft".out' has not changed.
 (rerunfilecheck)             Checksum: 92340B8D302AD5E3A948FBD0FD055869;13917.
  ) 
 Here is how much of TeX's memory you used:
- 18523 strings out of 470045
- 357852 string characters out of 5479094
+ 18527 strings out of 470045
+ 357900 string characters out of 5479094
  803420 words of memory out of 5000000
- 44770 multiletter control sequences out of 15000+600000
+ 44773 multiletter control sequences out of 15000+600000
  682224 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,19n,79p,2422b,1071s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,19n,79p,2420b,1071s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on roughdraft(1).pdf (54 pages, 2525285 bytes).
+Output written on "final draft.pdf" (55 pages, 2526197 bytes).
 PDF statistics:
- 764 PDF objects out of 1000 (max. 8388607)
- 202 named destinations out of 1000 (max. 500000)
+ 769 PDF objects out of 1000 (max. 8388607)
+ 203 named destinations out of 1000 (max. 500000)
  470 words of extra memory for PDF output out of 10000 (max. 10000000)
 

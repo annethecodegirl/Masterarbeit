@@ -1,0 +1,76 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Crawford_Bontinck_Stephan_Wiedmann_Yu_2018}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=c4efd095cdab93ffefc701de144eba03}{%
+           family={Crawford},
+           familyi={C\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=1713873094c6b65ab057625a8b513e61}{%
+           family={Bontinck},
+           familyi={B\bibinitperiod},
+           given={Paul-Antoine},
+           giveni={P\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=fc26a61561bf71c120da0f101c6179e7}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5d23751a25270d6f00900a23ea702b4c}{%
+           family={Wiedmann},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=13c2a004dbc45accf0567f21c5a753ef}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Man},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6699b9052d7bf42c2283078c975b161a}
+      \strng{fullhash}{fbf167869e3095c543f7377ed6f075a6}
+      \strng{fullhashraw}{fbf167869e3095c543f7377ed6f075a6}
+      \strng{bibnamehash}{6699b9052d7bf42c2283078c975b161a}
+      \strng{authorbibnamehash}{6699b9052d7bf42c2283078c975b161a}
+      \strng{authornamehash}{6699b9052d7bf42c2283078c975b161a}
+      \strng{authorfullhash}{fbf167869e3095c543f7377ed6f075a6}
+      \strng{authorfullhashraw}{fbf167869e3095c543f7377ed6f075a6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cleaner Production}
+      \field{month}{1}
+      \field{title}{Hybrid Life Cycle Inventory Methods – A Review}
+      \field{volume}{172}
+      \field{year}{2018}
+      \field{pages}{1273\bibrangedash 1288}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.jclepro.2017.10.176
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
