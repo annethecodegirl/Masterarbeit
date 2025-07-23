@@ -153,6 +153,8 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
@@ -245,6 +247,8 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmex
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
 OUTPUT roughdraft(1).toc
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
@@ -255,6 +259,10 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
@@ -269,7 +277,6 @@ INPUT .\publication_trend_darkblue_estimated2025.png
 INPUT .\publication_trend_darkblue_estimated2025.png
 INPUT .\publication_trend_darkblue_estimated2025.png
 INPUT .\publication_trend_darkblue_estimated2025.png
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT .\keyword_cooccurrence.png
 INPUT .\keyword_cooccurrence.png
 INPUT .\keyword_cooccurrence.png
@@ -279,19 +286,16 @@ INPUT .\keyword_cooccurrence.png
 INPUT .\keyword_cooccurrence.png
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8c.tfm
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
@@ -299,8 +303,6 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8c.vf
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\LCA_pie.png
 INPUT .\LCA_pie.png
 INPUT .\LCA_pie.png
@@ -332,6 +334,34 @@ INPUT .\Heatmap Res.png
 INPUT .\Heatmap Res.png
 INPUT .\Heatmap Res.png
 INPUT .\Heatmap Res.png
+INPUT .\per capita world emissions.png
+INPUT .\per capita world emissions.png
+INPUT .\per capita world emissions.png
+INPUT .\per capita world emissions.png
+INPUT .\per capita world emissions.png
+INPUT .\per capita world emissions.png
+INPUT .\per capita world emissions.png
+INPUT .\emission by income.png
+INPUT .\emission by income.png
+INPUT .\emission by income.png
+INPUT .\emission by income.png
+INPUT .\emission by income.png
+INPUT .\emission by income.png
+INPUT .\emission by income.png
+INPUT .\ecodesign.png
+INPUT .\ecodesign.png
+INPUT .\ecodesign.png
+INPUT .\ecodesign.png
+INPUT .\ecodesign.png
+INPUT .\ecodesign.png
+INPUT .\ecodesign.png
+INPUT .\moneythor.png
+INPUT .\moneythor.png
+INPUT .\moneythor.png
+INPUT .\moneythor.png
+INPUT .\moneythor.png
+INPUT .\moneythor.png
+INPUT .\moneythor.png
 INPUT roughdraft(1).aux
 INPUT .\roughdraft(1).out
 INPUT .\roughdraft(1).out
