@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  23 JUL 2025 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  25 JUL 2025 13:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -610,7 +610,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 ...ymbol {\phi } \)}{22}{subsubsection.7.1.7}
+l.41 ...Order Conditions}{21}{subsubsection.7.1.4}
                                                   % [1])
 \tf@toc=\write4
 \openout4 = `thesisdraft.toc'.
@@ -618,47 +618,65 @@ l.39 ...ymbol {\phi } \)}{22}{subsubsection.7.1.7}
 
 
 [2]
+Overfull \hbox (3.78813pt too wide) in paragraph at lines 94--95
+\T1/ptm/m/n/10.95 mated foot-prints vary sub-stan-tially across meth-ods, with EEIO and the Hakenes-Schliephake
+ []
+
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.106 
+l.108 
        [1]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 
+l.117 
        [2]
-<publication_trend_darkblue_estimated2025.png, id=300, 722.7pt x 433.62pt>
+<publication_trend_darkblue_estimated2025.png, id=336, 722.7pt x 433.62pt>
 File: publication_trend_darkblue_estimated2025.png Graphic file (type png)
 <use publication_trend_darkblue_estimated2025.png>
-Package pdftex.def Info: publication_trend_darkblue_estimated2025.png  used on input line 120.
+Package pdftex.def Info: publication_trend_darkblue_estimated2025.png  used on input line 122.
 (pdftex.def)             Requested size: 386.96027pt x 232.1796pt.
-<keyword_cooccurrence.png, id=302, 867.24pt x 722.7pt>
+<keyword_cooccurrence.png, id=338, 867.24pt x 722.7pt>
 File: keyword_cooccurrence.png Graphic file (type png)
 <use keyword_cooccurrence.png>
-Package pdftex.def Info: keyword_cooccurrence.png  used on input line 126.
+Package pdftex.def Info: keyword_cooccurrence.png  used on input line 128.
 (pdftex.def)             Requested size: 386.96027pt x 322.46614pt.
 
 
-[3 <./publication_trend_darkblue_estimated2025.png>]
+[3]
 
-[4 <./keyword_cooccurrence.png>]
+[4 <./publication_trend_darkblue_estimated2025.png> <./keyword_cooccurrence.png>]
+Overfull \hbox (5.05983pt too wide) in paragraph at lines 136--137
+\T1/ptm/m/n/12 cov-er-age, ques-tions re-main about the causal va-lid-ity and pol-icy rel-e-vance of dif-fer-ent ap-proaches.
+ []
+
+
 
 [5]
 
 [6]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 163.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 167.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
 [7]
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
 [8]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 [9]
 
@@ -669,25 +687,21 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 [12]
 
 [13]
-<LCA_pie.png, id=389, 625.8582pt x 495.7722pt>
-File: LCA_pie.png Graphic file (type png)
-<use LCA_pie.png>
-Package pdftex.def Info: LCA_pie.png  used on input line 390.
-(pdftex.def)             Requested size: 364.19667pt x 288.50124pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 
 [14]
+<LCA_pie.png, id=431, 625.8582pt x 495.7722pt>
+File: LCA_pie.png Graphic file (type png)
+<use LCA_pie.png>
+Package pdftex.def Info: LCA_pie.png  used on input line 393.
+(pdftex.def)             Requested size: 364.19667pt x 288.50124pt.
+
 
 [15 <./LCA_pie.png>]
 
 [16]
 
 [17]
-Overfull \hbox (2.23285pt too wide) in paragraph at lines 499--500
+Overfull \hbox (2.23285pt too wide) in paragraph at lines 504--505
 []\T1/ptm/m/n/12 Annual house-hold fi-nal con-sump-tion ex-pen-di-ture for France, Spain, and Ger-many was sourced
  []
 
@@ -706,323 +720,323 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{equation.28}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.647 \end{equation}
-                    ]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@nomath' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\begingroup' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\setbox' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\thinmuskip' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\medmuskip' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\m@ne' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\thickmuskip' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ne' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\setbox' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tw@' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathchoice' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\displaystyle' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\textstyle' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\scriptstyle' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\scriptscriptstyle' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\phi' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 683.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endgroup' on input line 683.
-
-
+l.642 \end{align}
+                 ]
 
 [22]
-<Hakenes illustration.png, id=474, 787.38165pt x 281.853pt>
-File: Hakenes illustration.png Graphic file (type png)
-<use Hakenes illustration.png>
-Package pdftex.def Info: Hakenes illustration.png  used on input line 717.
-(pdftex.def)             Requested size: 455.24411pt x 162.95876pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@nomath' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\setbox' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\thinmuskip' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\medmuskip' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\m@ne' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\thickmuskip' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ne' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\setbox' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tw@' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\phi' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\phi' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathchoice' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\displaystyle' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\phi' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textstyle' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\phi' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\scriptstyle' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\phi' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\scriptscriptstyle' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\phi' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 688.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endgroup' on input line 688.
+
 
 
 [23]
+<Hakenes illustration.png, id=519, 787.38165pt x 281.853pt>
+File: Hakenes illustration.png Graphic file (type png)
+<use Hakenes illustration.png>
+Package pdftex.def Info: Hakenes illustration.png  used on input line 723.
+(pdftex.def)             Requested size: 455.24411pt x 162.95876pt.
+
 
 [24 <./Hakenes illustration.png>]
+Overfull \hbox (1.29065pt too wide) in paragraph at lines 790--791
+[] []\T1/ptm/b/n/12 Struc-tural Sources of Dif-fer-ence in Emis-sions Out-comes:[] \T1/ptm/m/n/12 Al-though the same de-mand curve
+ []
+
+
 
 [25]
 
 [26]
 
 [27]
-Overfull \hbox (12.2351pt too wide) in paragraph at lines 823--824
+
+[28]
+Overfull \hbox (12.2351pt too wide) in paragraph at lines 829--830
 \T1/ptm/m/n/12 spon-si-bil-ity for emis-sions^^Voffering a fun-da-men-tally dif-fer-ent logic from control- or consumption-
  []
 
 
 
-[28]
-<Heatmap Res.png, id=521, 557.2017pt x 281.853pt>
+[29]
+<Heatmap Res.png, id=571, 557.2017pt x 281.853pt>
 File: Heatmap Res.png Graphic file (type png)
 <use Heatmap Res.png>
-Package pdftex.def Info: Heatmap Res.png  used on input line 842.
+Package pdftex.def Info: Heatmap Res.png  used on input line 848.
 (pdftex.def)             Requested size: 364.19667pt x 184.22585pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[29]
-<per capita world emissions.png, id=529, 419.76825pt x 483.0045pt>
+[30 <./Heatmap Res.png>]
+<per capita world emissions.png, id=579, 419.76825pt x 483.0045pt>
 File: per capita world emissions.png Graphic file (type png)
 <use per capita world emissions.png>
-Package pdftex.def Info: per capita world emissions.png  used on input line 857.
+Package pdftex.def Info: per capita world emissions.png  used on input line 863.
 (pdftex.def)             Requested size: 318.66948pt x 366.68924pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<emission by income.png, id=530, 434.22224pt x 478.78876pt>
+<emission by income.png, id=580, 434.22224pt x 478.78876pt>
 File: emission by income.png Graphic file (type png)
 <use emission by income.png>
-Package pdftex.def Info: emission by income.png  used on input line 864.
+Package pdftex.def Info: emission by income.png  used on input line 870.
 (pdftex.def)             Requested size: 364.19667pt x 401.57344pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-
-[30 <./Heatmap Res.png>]
 
 [31 <./per capita world emissions.png>]
 
 [32 <./emission by income.png>]
-Overfull \hbox (7.94043pt too wide) in paragraph at lines 885--886
+Overfull \hbox (7.94043pt too wide) in paragraph at lines 891--892
 \T1/ptm/m/n/12 pro-posal for the Ecode-sign for Sus-tain-able Prod-ucts Reg-u-la-tion (ESPR), adopted in 2023^^Vbroad-
  []
 
-<ecodesign.png, id=550, 389.65575pt x 201.75375pt>
+<ecodesign.png, id=594, 389.65575pt x 201.75375pt>
 File: ecodesign.png Graphic file (type png)
 <use ecodesign.png>
-Package pdftex.def Info: ecodesign.png  used on input line 889.
+Package pdftex.def Info: ecodesign.png  used on input line 895.
 (pdftex.def)             Requested size: 273.14923pt x 141.43907pt.
 
 
-[33 <./ecodesign.png>]
+[33]
 
-[34]
+[34 <./ecodesign.png>]
 
 [35]
-<moneythor.png, id=569, 903.375pt x 474.27188pt>
+
+[36]
+<moneythor.png, id=617, 903.375pt x 474.27188pt>
 File: moneythor.png Graphic file (type png)
 <use moneythor.png>
-Package pdftex.def Info: moneythor.png  used on input line 935.
+Package pdftex.def Info: moneythor.png  used on input line 941.
 (pdftex.def)             Requested size: 364.19667pt x 191.2034pt.
 
 
-[36]
-Overfull \hbox (148.20366pt too wide) in paragraph at lines 957--984
+[37 <./moneythor.png>]
+Overfull \hbox (148.20366pt too wide) in paragraph at lines 962--989
  [] 
  []
 
@@ -1031,315 +1045,334 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[37 <./moneythor.png>]
-
 [38]
 
 [39]
+Overfull \hbox (3.29552pt too wide) in paragraph at lines 1005--1006
+\T1/ptm/m/n/12 investment-linked at-tri-bu-tion, consumption-based ac-count-abil-ity, be-hav-ioral re-spon-sive-ness, and
+ []
+
+
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1033
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1035--1043
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1046--1054
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1057--1065
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1068--1076
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1079--1087
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1090--1098
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1112--1119
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1122--1130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1133--1141
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1152
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1155--1172
-
- []
-
-
 
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1175--1183
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1037
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1186--1194
+Underfull \hbox (badness 10000) in paragraph at lines 1039--1047
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1197--1205
+Underfull \hbox (badness 10000) in paragraph at lines 1050--1058
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1208--1216
+Underfull \hbox (badness 10000) in paragraph at lines 1061--1069
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1227
+Underfull \hbox (badness 10000) in paragraph at lines 1072--1080
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1230--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1091
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1241--1249
+Underfull \hbox (badness 10000) in paragraph at lines 1094--1102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1252--1260
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1263--1271
+Underfull \hbox (badness 10000) in paragraph at lines 1116--1123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1274--1282
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1285--1293
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1296--1304
+Underfull \hbox (badness 10000) in paragraph at lines 1148--1156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1159--1176
 
  []
 
 
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 1307--1315
+Underfull \hbox (badness 10000) in paragraph at lines 1179--1187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1318--1325
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1328--1336
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1339--1347
+Underfull \hbox (badness 10000) in paragraph at lines 1212--1220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1357
+Underfull \hbox (badness 10000) in paragraph at lines 1223--1231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1360--1368
+Underfull \hbox (badness 10000) in paragraph at lines 1234--1242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1371--1379
+Underfull \hbox (badness 10000) in paragraph at lines 1245--1253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1382--1390
+Underfull \hbox (badness 10000) in paragraph at lines 1256--1264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1393--1401
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1404--1412
+Underfull \hbox (badness 10000) in paragraph at lines 1278--1286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1415--1423
+Underfull \hbox (badness 10000) in paragraph at lines 1289--1297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1426--1434
+Underfull \hbox (badness 10000) in paragraph at lines 1300--1308
 
  []
 
 
 
 [43]
+Underfull \hbox (badness 10000) in paragraph at lines 1311--1319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1322--1329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1332--1340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1354--1361
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1364--1372
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1375--1383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1386--1394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1397--1405
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1408--1416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1419--1427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1430--1438
+
+ []
+
+
 
 [44]
-Overfull \hbox (3.45842pt too wide) detected at line 1560
+Overfull \hbox (3.416pt too wide) in paragraph at lines 1446--1447
+\T1/ptm/m/n/12 ron-ment, Food and Ru-ral Af-fairs (UK); EEIO / EEIOA: En-vi-ron-men-tally Ex-tended In-put^^UOutput
+ []
+
+
+Overfull \hbox (7.61461pt too wide) in paragraph at lines 1446--1447
+\T1/ptm/m/n/12 (Anal-y-sis); EF: Emis-sion Fac-tor; eGRID: Emis-sions & Gen-er-a-tion Re-source In-te-grated Database;
+ []
+
+
+
+[1
+
+]
+
+[2]
+Overfull \hbox (3.45842pt too wide) detected at line 1574
 $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 3$
  []
 
 
-Overfull \hbox (3.45842pt too wide) detected at line 1560
+Overfull \hbox (3.45842pt too wide) detected at line 1574
 $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1$
  []
 
 
 
-[45]
+[3]
 
-[46]
+[4]
 
-[47]
+[5]
 
-[48]
+[6]
 
-[49]
+[7]
 
-[50]
+[8]
 
-[51]
-Underfull \hbox (badness 4378) in paragraph at lines 1759--1759
+[9]
+Underfull \hbox (badness 4378) in paragraph at lines 1773--1773
 []|\T1/ptm/m/n/10.95 6.6^^U26.3 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1759--1759
+Underfull \hbox (badness 1406) in paragraph at lines 1773--1773
 []|\T1/ptm/m/n/10.95 10.8^^U52.4 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1759--1759
+Underfull \hbox (badness 1406) in paragraph at lines 1773--1773
 []|\T1/ptm/m/n/10.95 24.6^^U40.3 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+Underfull \hbox (badness 10000) in paragraph at lines 1773--1773
 []|\T1/ptm/m/n/10.95 7.8^^U8.7 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+Underfull \hbox (badness 10000) in paragraph at lines 1773--1773
 []|\T1/ptm/m/n/10.95 2.6^^U5.8 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1759--1759
+Underfull \hbox (badness 1406) in paragraph at lines 1773--1773
 []|\T1/ptm/m/n/10.95 66.1^^U87.0 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1759--1759
+Underfull \hbox (badness 1406) in paragraph at lines 1773--1773
 []|\T1/ptm/m/n/10.95 70.7^^U93.7 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+Underfull \hbox (badness 10000) in paragraph at lines 1773--1773
 []|\T1/ptm/m/n/10.95 2.3^^U3.6 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+Underfull \hbox (badness 10000) in paragraph at lines 1773--1773
 []|\T1/ptm/m/n/10.95 3.7^^U5.5 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1759--1759
+Underfull \hbox (badness 10000) in paragraph at lines 1773--1773
 []|\T1/ptm/m/n/10.95 4.6^^U6.3 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1733--1763
+Underfull \hbox (badness 10000) in paragraph at lines 1747--1777
 [][]
  []
 
 
 
-[52
+[10
 
 
 ]
 
-[53]
+[11]
 
-[54]
+[12]
 
-[55] (thesisdraft.aux)
+[13] (thesisdraft.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
 Package rerunfilecheck Info: File `thesisdraft.out' has not changed.
-(rerunfilecheck)             Checksum: 92340B8D302AD5E3A948FBD0FD055869;13917.
+(rerunfilecheck)             Checksum: 49A258FBF96256492CEAC9BCB57A93B4;13964.
  ) 
 Here is how much of TeX's memory you used:
- 18911 strings out of 470045
- 364568 string characters out of 5479094
- 812542 words of memory out of 5000000
- 45145 multiletter control sequences out of 15000+600000
- 685072 words of font info for 121 fonts, out of 8000000 for 9000
+ 18924 strings out of 470045
+ 364866 string characters out of 5479094
+ 812544 words of memory out of 5000000
+ 45148 multiletter control sequences out of 15000+600000
+ 679547 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,19n,79p,2420b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,20n,79p,2160b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesisdraft.pdf (58 pages, 2546094 bytes).
+Output written on thesisdraft.pdf (60 pages, 2552313 bytes).
 PDF statistics:
- 816 PDF objects out of 1000 (max. 8388607)
- 206 named destinations out of 1000 (max. 500000)
- 470 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 871 PDF objects out of 1000 (max. 8388607)
+ 218 named destinations out of 1000 (max. 500000)
+ 534 words of extra memory for PDF output out of 10000 (max. 10000000)
 

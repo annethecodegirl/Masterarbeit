@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  24 JUL 2025 16:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  24 JUL 2025 19:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/backupdraft.tex"
-(c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/backupdraft.tex
+**"c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/backup_overdraft.tex"
+(c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/backup_overdraft.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -488,8 +488,8 @@ Package color Info: Driver file: pdftex.def on input line 149.
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 66.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (backupdraft.aux)
-\openout1 = `backupdraft.aux'.
+) (backup_overdraft.aux)
+\openout1 = `backup_overdraft.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
@@ -573,9 +573,9 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 66.
- (backupdraft.out) (backupdraft.out)
+ (backup_overdraft.out) (backup_overdraft.out)
 \@outlinefile=\write3
-\openout3 = `backupdraft.out'.
+\openout3 = `backup_overdraft.out'.
 
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
@@ -596,7 +596,7 @@ Package gensymb Warning: Not defining \micro.
 
 [1
 
-{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (backupdraft.toc
+{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (backup_overdraft.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -613,11 +613,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 l.39 ...ymbol {\phi } \)}{22}{subsubsection.7.1.7}
                                                   % [1])
 \tf@toc=\write4
-\openout4 = `backupdraft.toc'.
+\openout4 = `backup_overdraft.toc'.
 
 
 
 [2]
+Overfull \hbox (3.78813pt too wide) in paragraph at lines 92--93
+\T1/ptm/m/n/10.95 mated foot-prints vary sub-stan-tially across meth-ods, with EEIO and the Hakenes-Schliephake
+ []
+
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -1320,24 +1325,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1733--1763
 
 [54]
 
-[55] (backupdraft.aux)
+[55] (backup_overdraft.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
-Package rerunfilecheck Info: File `backupdraft.out' has not changed.
+Package rerunfilecheck Info: File `backup_overdraft.out' has not changed.
 (rerunfilecheck)             Checksum: 92340B8D302AD5E3A948FBD0FD055869;13917.
  ) 
 Here is how much of TeX's memory you used:
  18911 strings out of 470045
- 364568 string characters out of 5479094
- 812542 words of memory out of 5000000
+ 364693 string characters out of 5479094
+ 812552 words of memory out of 5000000
  45145 multiletter control sequences out of 15000+600000
  685072 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,19n,79p,2420b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,19n,79p,1983b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on backupdraft.pdf (58 pages, 2546094 bytes).
+Output written on backup_overdraft.pdf (58 pages, 2546098 bytes).
 PDF statistics:
  816 PDF objects out of 1000 (max. 8388607)
  206 named destinations out of 1000 (max. 500000)
