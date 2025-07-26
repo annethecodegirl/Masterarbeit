@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  25 JUL 2025 13:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  26 JUL 2025 03:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -988,14 +988,14 @@ File: Heatmap Res.png Graphic file (type png)
 <use Heatmap Res.png>
 Package pdftex.def Info: Heatmap Res.png  used on input line 848.
 (pdftex.def)             Requested size: 364.19667pt x 184.22585pt.
+<per capita world emissions.png, id=573, 419.76825pt x 483.0045pt>
+File: per capita world emissions.png Graphic file (type png)
+<use per capita world emissions.png>
+Package pdftex.def Info: per capita world emissions.png  used on input line 862.
+(pdftex.def)             Requested size: 318.66948pt x 366.68924pt.
 
 
 [30 <./Heatmap Res.png>]
-<per capita world emissions.png, id=579, 419.76825pt x 483.0045pt>
-File: per capita world emissions.png Graphic file (type png)
-<use per capita world emissions.png>
-Package pdftex.def Info: per capita world emissions.png  used on input line 863.
-(pdftex.def)             Requested size: 318.66948pt x 366.68924pt.
 <emission by income.png, id=580, 434.22224pt x 478.78876pt>
 File: emission by income.png Graphic file (type png)
 <use emission by income.png>
@@ -1024,252 +1024,237 @@ Package pdftex.def Info: ecodesign.png  used on input line 895.
 [33]
 
 [34 <./ecodesign.png>]
+Overfull \hbox (2.34633pt too wide) in paragraph at lines 910--911
+\T1/ptm/m/n/12 bed cli-mate risk and in-cen-tivize sus-tain-abil-ity align-ment. These in-clude green and sustainability-
+ []
+
+
 
 [35]
-
-[36]
-<moneythor.png, id=617, 903.375pt x 474.27188pt>
+<moneythor.png, id=615, 903.375pt x 474.27188pt>
 File: moneythor.png Graphic file (type png)
 <use moneythor.png>
-Package pdftex.def Info: moneythor.png  used on input line 941.
+Package pdftex.def Info: moneythor.png  used on input line 936.
 (pdftex.def)             Requested size: 364.19667pt x 191.2034pt.
 
 
-[37 <./moneythor.png>]
-Overfull \hbox (148.20366pt too wide) in paragraph at lines 962--989
+[36]
+Overfull \hbox (148.20366pt too wide) in paragraph at lines 957--985
  [] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-
+[37 <./moneythor.png>]
 
 [38]
 
 [39]
-Overfull \hbox (3.29552pt too wide) in paragraph at lines 1005--1006
-\T1/ptm/m/n/12 investment-linked at-tri-bu-tion, consumption-based ac-count-abil-ity, be-hav-ioral re-spon-sive-ness, and
- []
-
-
 
 [40]
+Underfull \hbox (badness 10000) in paragraph at lines 1023--1031
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1041
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1052
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1063
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1074
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1085
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1096
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1110--1117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1120--1128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1131--1139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1153--1170
+
+ []
+
+
 
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1029--1037
+Underfull \hbox (badness 10000) in paragraph at lines 1173--1181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1039--1047
+Underfull \hbox (badness 10000) in paragraph at lines 1184--1192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1058
+Underfull \hbox (badness 10000) in paragraph at lines 1195--1203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1061--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1206--1214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1072--1080
+Underfull \hbox (badness 10000) in paragraph at lines 1217--1225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1083--1091
+Underfull \hbox (badness 10000) in paragraph at lines 1228--1236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1102
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1105--1113
+Underfull \hbox (badness 10000) in paragraph at lines 1250--1258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1116--1123
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1269
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1126--1134
+Underfull \hbox (badness 10000) in paragraph at lines 1272--1280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1137--1145
+Underfull \hbox (badness 10000) in paragraph at lines 1283--1291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1156
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1159--1176
+Underfull \hbox (badness 10000) in paragraph at lines 1294--1302
 
  []
 
 
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 1179--1187
+Underfull \hbox (badness 10000) in paragraph at lines 1305--1313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1198
+Underfull \hbox (badness 10000) in paragraph at lines 1316--1323
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1201--1209
+Underfull \hbox (badness 10000) in paragraph at lines 1326--1334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1212--1220
+Underfull \hbox (badness 10000) in paragraph at lines 1337--1345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1223--1231
+Underfull \hbox (badness 10000) in paragraph at lines 1348--1355
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1234--1242
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1245--1253
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1377
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1256--1264
+Underfull \hbox (badness 10000) in paragraph at lines 1380--1388
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1275
+Underfull \hbox (badness 10000) in paragraph at lines 1391--1399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1278--1286
+Underfull \hbox (badness 10000) in paragraph at lines 1402--1410
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1289--1297
+Underfull \hbox (badness 10000) in paragraph at lines 1413--1421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1300--1308
+Underfull \hbox (badness 10000) in paragraph at lines 1424--1432
 
  []
 
 
 
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 1311--1319
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1322--1329
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1332--1340
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1343--1351
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1354--1361
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1364--1372
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1383
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1386--1394
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1397--1405
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1408--1416
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1419--1427
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1430--1438
-
- []
-
-
-
-[44]
-Overfull \hbox (3.416pt too wide) in paragraph at lines 1446--1447
-\T1/ptm/m/n/12 ron-ment, Food and Ru-ral Af-fairs (UK); EEIO / EEIOA: En-vi-ron-men-tally Ex-tended In-put^^UOutput
- []
-
-
-Overfull \hbox (7.61461pt too wide) in paragraph at lines 1446--1447
-\T1/ptm/m/n/12 (Anal-y-sis); EF: Emis-sion Fac-tor; eGRID: Emis-sions & Gen-er-a-tion Re-source In-te-grated Database;
- []
-
-
 
 [1
 
 ]
 
 [2]
-Overfull \hbox (3.45842pt too wide) detected at line 1574
+Overfull \hbox (3.45842pt too wide) detected at line 1568
 $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 3$
  []
 
 
-Overfull \hbox (3.45842pt too wide) detected at line 1574
+Overfull \hbox (3.45842pt too wide) detected at line 1568
 $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1$
  []
 
@@ -1288,57 +1273,57 @@ $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 1$
 [8]
 
 [9]
-Underfull \hbox (badness 4378) in paragraph at lines 1773--1773
+Underfull \hbox (badness 4378) in paragraph at lines 1767--1767
 []|\T1/ptm/m/n/10.95 6.6^^U26.3 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1773--1773
+Underfull \hbox (badness 1406) in paragraph at lines 1767--1767
 []|\T1/ptm/m/n/10.95 10.8^^U52.4 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1773--1773
+Underfull \hbox (badness 1406) in paragraph at lines 1767--1767
 []|\T1/ptm/m/n/10.95 24.6^^U40.3 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1773--1773
+Underfull \hbox (badness 10000) in paragraph at lines 1767--1767
 []|\T1/ptm/m/n/10.95 7.8^^U8.7 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1773--1773
+Underfull \hbox (badness 10000) in paragraph at lines 1767--1767
 []|\T1/ptm/m/n/10.95 2.6^^U5.8 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1773--1773
+Underfull \hbox (badness 1406) in paragraph at lines 1767--1767
 []|\T1/ptm/m/n/10.95 66.1^^U87.0 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1773--1773
+Underfull \hbox (badness 1406) in paragraph at lines 1767--1767
 []|\T1/ptm/m/n/10.95 70.7^^U93.7 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1773--1773
+Underfull \hbox (badness 10000) in paragraph at lines 1767--1767
 []|\T1/ptm/m/n/10.95 2.3^^U3.6 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1773--1773
+Underfull \hbox (badness 10000) in paragraph at lines 1767--1767
 []|\T1/ptm/m/n/10.95 3.7^^U5.5 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1773--1773
+Underfull \hbox (badness 10000) in paragraph at lines 1767--1767
 []|\T1/ptm/m/n/10.95 4.6^^U6.3 Gt CO$[]$e (Williamson,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1747--1777
+Underfull \hbox (badness 10000) in paragraph at lines 1741--1771
 [][]
  []
 
@@ -1359,20 +1344,20 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
 Package rerunfilecheck Info: File `thesisdraft.out' has not changed.
-(rerunfilecheck)             Checksum: 49A258FBF96256492CEAC9BCB57A93B4;13964.
+(rerunfilecheck)             Checksum: 93CC03A5029CFF5B9541BA3BABBBC153;14004.
  ) 
 Here is how much of TeX's memory you used:
  18924 strings out of 470045
- 364866 string characters out of 5479094
+ 364871 string characters out of 5479094
  812544 words of memory out of 5000000
  45148 multiletter control sequences out of 15000+600000
  679547 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,20n,79p,2160b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesisdraft.pdf (60 pages, 2552313 bytes).
+Output written on thesisdraft.pdf (59 pages, 2550758 bytes).
 PDF statistics:
- 871 PDF objects out of 1000 (max. 8388607)
+ 868 PDF objects out of 1000 (max. 8388607)
  218 named destinations out of 1000 (max. 500000)
  534 words of extra memory for PDF output out of 10000 (max. 10000000)
 

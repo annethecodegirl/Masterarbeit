@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1753444086.14002 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/thesisdraft.tex" "thesisdraft.pdf" "thesisdraft" 1753444090.86295 0
+["pdflatex"] 1753493536.62248 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/thesisdraft.tex" "thesisdraft.pdf" "thesisdraft" 1753493541.42454 0
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1753293330 84158 d77284a6843bde1e4b9764f09fb2e89e ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1748704790 13089765 bc6a75f620132fc869ce2950439eeb88 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -155,17 +155,17 @@
   "Hakenes illustration.png" 1753061758 156191 b2bacacf6eb0dac244c3bc11685a1344 ""
   "Heatmap Res.png" 1753131249 116970 8486da9e000fed82f6cc755b47201a5d ""
   "LCA_pie.png" 1751297765 185552 8226e4b9a75c7d0e0c4b2433fe6ffb17 ""
-  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/thesisdraft.tex" 1753444085 147221 2ea8e8740a25fd780e52b291153ddb7c ""
+  "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/thesisdraft.tex" 1753493535 145711 9d3af34079bd0311ecda2b9a8c0c6e37 ""
   "ecodesign.png" 1753226690 157919 76cb774b36ab3fcf67a819d85bf24c3f ""
   "emission by income.png" 1753225040 47871 925d6dca02b04e92ce2238555912ef0e ""
   "keyword_cooccurrence.png" 1752452055 2014548 b62d823d71ac1d33c677ccdd12fc7c4a ""
   "moneythor.png" 1753230073 42492 220e83546749bb14ee6cfc9fcf7a3638 ""
   "per capita world emissions.png" 1753223770 155030 36005a659b5e8288228eaa748711ad20 ""
   "publication_trend_darkblue_estimated2025.png" 1752453170 203507 21e6624ff673f46b4ef44cb9c0db0b42 ""
-  "thesisdraft.aux" 1753444090 18921 7784a7846b075fa5b5f85f29aa8ce621 "pdflatex"
-  "thesisdraft.out" 1753444090 13964 49a258fbf96256492ceac9bcb57a93b4 "pdflatex"
-  "thesisdraft.tex" 1753444085 147221 2ea8e8740a25fd780e52b291153ddb7c ""
-  "thesisdraft.toc" 1753444090 6845 0e54f31258e95577a642cf9a109c2279 "pdflatex"
+  "thesisdraft.aux" 1753493541 18929 5e5bfdcd92fa076d62d13ffedede2231 "pdflatex"
+  "thesisdraft.out" 1753493541 14004 93cc03a5029cff5b9541ba3babbbc153 "pdflatex"
+  "thesisdraft.tex" 1753493535 145711 9d3af34079bd0311ecda2b9a8c0c6e37 ""
+  "thesisdraft.toc" 1753493541 6853 2cd8fd2d72129d64b16cc80d0d94f91b "pdflatex"
   (generated)
   "thesisdraft.aux"
   "thesisdraft.log"

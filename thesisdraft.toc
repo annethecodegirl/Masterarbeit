@@ -55,15 +55,15 @@
 \contentsline {subsubsection}{\numberline {8.1.3}Consequentialist Attribution}{29}{subsubsection.8.1.3}%
 \contentsline {subsection}{\numberline {8.2}Comparative Analysis of Attribution Principles}{30}{subsection.8.2}%
 \contentsline {section}{\numberline {9}Policy Instruments for Household Decarbonization}{31}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Carbon Taxes}{33}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.1}Carbon Taxes}{32}{subsection.9.1}%
 \contentsline {subsection}{\numberline {9.2}Product and Appliance Standards}{33}{subsection.9.2}%
 \contentsline {subsection}{\numberline {9.3}Investment-Based Instruments}{34}{subsection.9.3}%
 \contentsline {subsection}{\numberline {9.4}Behavioural Interventions}{35}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}AI and Digital Tools}{36}{subsection.9.5}%
-\contentsline {subsection}{\numberline {9.6}Comparative Analysis of Policy Instruments}{38}{subsection.9.6}%
+\contentsline {subsection}{\numberline {9.5}AI enabled Digital Platforms}{36}{subsection.9.5}%
+\contentsline {subsection}{\numberline {9.6}Comparative Analysis of Policy Instruments}{37}{subsection.9.6}%
 \contentsline {subsection}{\numberline {9.7}Policy Recommendations}{38}{subsection.9.7}%
-\contentsline {section}{\numberline {10}Conclusion}{40}{section.10}%
-\contentsline {section}{References}{42}{section.10}%
+\contentsline {section}{\numberline {10}Conclusion}{39}{section.10}%
+\contentsline {section}{References}{41}{section.10}%
 \contentsline {section}{List of Abbreviations}{i}{section.10}%
 \contentsline {section}{Appendix A: Tables and Figures}{ii}{section.10}%
 \contentsline {section}{Appendix B: Derivations}{xi}{table.caption.37}%
