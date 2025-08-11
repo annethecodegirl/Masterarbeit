@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  7 AUG 2025 21:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  11 AUG 2025 20:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -781,16 +781,45 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (beamer presentation.nav)
+Overfull \hbox (7.35728pt too wide) detected at line 49
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (7.35728pt too wide) detected at line 54
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
 [1{C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
-] (beamer presentation.toc)
+]
+Overfull \hbox (7.35728pt too wide) detected at line 59
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+(beamer presentation.toc)
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
 [2
 
 ]
+Overfull \hbox (7.35728pt too wide) detected at line 90
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
 LaTeX Font Info:    Trying to load font information for U+msa on input line 90.
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 90.
@@ -801,7 +830,7 @@ LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inpu
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
-<co2.jpg, id=182, 1003.75pt x 648.4225pt>
+<co2.jpg, id=305, 1003.75pt x 648.4225pt>
 File: co2.jpg Graphic file (type jpg)
 <use co2.jpg>
 Package pdftex.def Info: co2.jpg  used on input line 90.
@@ -812,36 +841,84 @@ Overfull \vbox (1.3208pt too high) detected at line 90
 
 
 
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
 [3
 
  <./co2.jpg>]
+Overfull \hbox (7.35728pt too wide) detected at line 102
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
 [4
 
 ]
+Overfull \hbox (7.35728pt too wide) detected at line 118
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
 [5
 
 ]
+Overfull \hbox (7.35728pt too wide) detected at line 141
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
 
 LaTeX Warning: The counter will not be printed.
              The label is: $\Rightarrow $ on input line 141.
 
 
 
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
 [6
 
 ]
+Overfull \hbox (7.35728pt too wide) detected at line 165
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
 [7
 
 ]
-<publication_trend_darkblue_estimated2025.png, id=409, 722.7pt x 433.62pt>
+Overfull \hbox (7.35728pt too wide) detected at line 196
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+<publication_trend_darkblue_estimated2025.png, id=702, 722.7pt x 433.62pt>
 File: publication_trend_darkblue_estimated2025.png Graphic file (type png)
 <use publication_trend_darkblue_estimated2025.png>
 Package pdftex.def Info: publication_trend_darkblue_estimated2025.png  used on input line 196.
 (pdftex.def)             Requested size: 136.91862pt x 82.15045pt.
-<keyword_cooccurrence.png, id=411, 867.24pt x 722.7pt>
+<keyword_cooccurrence.png, id=704, 867.24pt x 722.7pt>
 File: keyword_cooccurrence.png Graphic file (type png)
 <use keyword_cooccurrence.png>
 Package pdftex.def Info: keyword_cooccurrence.png  used on input line 196.
@@ -857,36 +934,94 @@ Overfull \vbox (4.4652pt too high) detected at line 196
 
 
 
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
 [8
 
  <./publication_trend_darkblue_estimated2025.png> <./keyword_cooccurrence.png>]
-<ghg scope.png, id=459, 803.0pt x 508.90125pt>
+Overfull \hbox (7.35728pt too wide) detected at line 218
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+<ghg scope.png, id=786, 803.0pt x 508.90125pt>
 File: ghg scope.png Graphic file (type png)
 <use ghg scope.png>
 Package pdftex.def Info: ghg scope.png  used on input line 218.
 (pdftex.def)             Requested size: 188.26346pt x 119.31226pt.
 
 
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
 [9
 
  <./ghg scope.png>]
+Overfull \hbox (7.35728pt too wide) detected at line 242
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
 [10
 
 ]
+Overfull \hbox (7.35728pt too wide) detected at line 283
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
 [11
 
 ]
+Overfull \hbox (7.35728pt too wide) detected at line 307
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
 [12
 
 ]
+Overfull \hbox (7.35728pt too wide) detected at line 334
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
 [13
 
 ]
-<LCA_pie.png, id=688, 625.8582pt x 495.7722pt>
+Overfull \hbox (7.35728pt too wide) detected at line 347
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+<LCA_pie.png, id=1185, 625.8582pt x 495.7722pt>
 File: LCA_pie.png Graphic file (type png)
 <use LCA_pie.png>
 Package pdftex.def Info: LCA_pie.png  used on input line 347.
@@ -897,9 +1032,18 @@ Overfull \vbox (3.66588pt too high) detected at line 347
 
 
 
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
 [14
 
  <./LCA_pie.png>]
+Overfull \hbox (7.35728pt too wide) detected at line 383
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <9> not available
 (Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 383.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
@@ -912,24 +1056,551 @@ Overfull \vbox (2.03757pt too high) detected at line 383
 
 
 
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
 [15
 
 ]
+Overfull \hbox (7.35728pt too wide) detected at line 418
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
 [16
 
 ]
+Overfull \hbox (7.35728pt too wide) detected at line 450
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
 [17
 
 ]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 472.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 472.
+Overfull \hbox (7.35728pt too wide) detected at line 473
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 473.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 473.
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
 
 [18
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 505
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+Overfull \vbox (12.68796pt too high) detected at line 505
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[19
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 546
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+Overfull \vbox (80.02393pt too high) detected at line 546
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[20
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 584
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+Overfull \vbox (19.49405pt too high) detected at line 584
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[21
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 621
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+<Hakenes illustration.png, id=1816, 787.38165pt x 281.853pt>
+File: Hakenes illustration.png Graphic file (type png)
+<use Hakenes illustration.png>
+Package pdftex.def Info: Hakenes illustration.png  used on input line 621.
+(pdftex.def)             Requested size: 308.06367pt x 110.27489pt.
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[22
+
+ <./Hakenes illustration.png>]
+Overfull \hbox (7.35728pt too wide) detected at line 643
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[23
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 670
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[24
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 693
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[25
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 719
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[26
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 733
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+<Heatmap Res.png, id=2209, 557.2017pt x 281.853pt>
+File: Heatmap Res.png Graphic file (type png)
+<use Heatmap Res.png>
+Package pdftex.def Info: Heatmap Res.png  used on input line 733.
+(pdftex.def)             Requested size: 256.72147pt x 129.86038pt.
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[27
+
+ <./Heatmap Res.png>]
+Overfull \hbox (7.35728pt too wide) detected at line 749
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+<per capita world emissions.png, id=2289, 419.76825pt x 483.0045pt>
+File: per capita world emissions.png Graphic file (type png)
+<use per capita world emissions.png>
+Package pdftex.def Info: per capita world emissions.png  used on input line 749.
+(pdftex.def)             Requested size: 154.03183pt x 177.23485pt.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 749.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 749.
+<emission by income.png, id=2290, 434.22224pt x 478.78876pt>
+File: emission by income.png Graphic file (type png)
+<use emission by income.png>
+Package pdftex.def Info: emission by income.png  used on input line 749.
+(pdftex.def)             Requested size: 154.03183pt x 169.83603pt.
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[28
+
+ <./per capita world emissions.png> <./emission by income.png>]
+Overfull \hbox (7.35728pt too wide) detected at line 775
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+[]\OT1/cmss/m/n/9 GHG Pro-to-col (Scopes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+\OT1/cmss/m/n/9 for consumption-based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+[]\OT1/cmss/m/n/9 Price-based ef-fi-ciency;
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 775--775
+\OT1/cmss/m/n/9 bu-tion; omits em-bed-ded
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 775--775
+\OT1/cmss/m/n/9 emis-sions if Scope 3 ex-
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 775--775
+[]\OT1/cmss/m/n/9 Product & Ap-pli-ance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+[]\OT1/cmss/m/n/9 Tech-driven ef-fi-ciency
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 775--775
+\OT1/cmss/m/n/9 gains; aligns with trade
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+[]\OT1/cmss/m/n/9 Investment-Based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+\OT1/cmss/m/n/9 enes{Schliephake) with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+[]\OT1/cmss/m/n/9 Targets capital-linked
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+[]\OT1/cmss/m/n/9 Data-intensive; po-lit-i-cally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+\OT1/cmss/m/n/9 sen-si-tive in asset-heavy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+[]\OT1/cmss/m/n/9 Behavioural In-ter-ven-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+[]\OT1/cmss/m/n/9 Behavioural eco-nomics;
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 775--775
+[]\OT1/cmss/m/n/9 Low-cost, adap-tive, so-
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 775--775
+[]\OT1/cmss/m/n/9 Hybrid EEIO{LCA with
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 775--775
+[]\OT1/cmss/m/n/9 Real-time track-ing; per-
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[29
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 788
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[30
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 801
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[31
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 825
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+[]\OT1/cmss/m/n/8 GHG Pro-to-col (Scopes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 1{2); EEIO for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+[]\OT1/cmss/m/n/8 Sweden: 130+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 USD/tCO$[]$; Canada
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 825--825
+[]\OT1/cmss/m/n/8 Internalises marginal so-cial
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 cost; scal-able; re-gres-sive
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 with-out rev-enue re-cy-cling;
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 leak-age risk if em-bed-ded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+[]\OT1/cmss/bx/n/8 Product & Ap-pli-ance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+[]\OT1/cmss/m/n/8 Life Cy-cle As-sess-ment
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 825--825
+[]\OT1/cmss/m/n/8 EU Ecode-sign Di-rec-tive;
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 825--825
+[]\OT1/cmss/m/n/8 Corrects ef-fi-ciency mar-ket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 fail-ures; har-mon-is-able in
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 trade pol-icy; ef-fec-tive-ness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 enes{Schliephake) with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+[]\OT1/cmss/m/n/8 Targets cap-i-tal al-lo-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 to low-carbon sec-tors;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+[]\OT1/cmss/bx/n/8 Behavioural In-ter-ven-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+[]\OT1/cmss/m/n/8 Behavioural eco-nomics;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 typ-i-cally out-side static
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 diet-shift cam-paigns;
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 cook-stove adop-tion pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+[]\OT1/cmss/m/n/8 Low-cost de-mand ad-just-
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 ment; high so-cial adapt-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+\OT1/cmss/m/n/8 abil-ity; per-sis-tence and
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 825--825
+[]\OT1/cmss/m/n/8 Hybrid EEIO{LCA with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+[]\OT1/cmss/m/n/8 Real-time, marginal be-
+ []
+
+
+Overfull \vbox (20.06694pt too high) detected at line 825
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[32
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 849
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[33
+
+]
+Overfull \hbox (7.35728pt too wide) detected at line 880
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+
+Overfull \vbox (29.0623pt too high) detected at line 880
+ []
+
+
+
+
+Overfull \hbox (7.35728pt too wide) has occurred while \output is active
+  [] [][] [][][][] [][][][] [][][][][][][][][][][][][][][] [][][][][][][][][][][][]  
+ []
+
+[34
 
 ]
 \tf@nav=\write6
@@ -947,20 +1618,20 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
 Package rerunfilecheck Info: File `"beamer presentation".out' has not changed.
-(rerunfilecheck)             Checksum: E8D61EA07642CF3F69B39992EE7D5CD4;625.
+(rerunfilecheck)             Checksum: 2D32B57F96A4812A18223D23B0D2EEFA;846.
  ) 
 Here is how much of TeX's memory you used:
- 26430 strings out of 470045
- 532279 string characters out of 5479094
- 884082 words of memory out of 5000000
- 52566 multiletter control sequences out of 15000+600000
- 638878 words of font info for 88 fonts, out of 8000000 for 9000
+ 26567 strings out of 470045
+ 534860 string characters out of 5479094
+ 900294 words of memory out of 5000000
+ 52670 multiletter control sequences out of 15000+600000
+ 641114 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,123p,519b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcsx0900.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss0900.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on "beamer presentation.pdf" (18 pages, 2162776 bytes).
+ <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcsx0900.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss0900.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "beamer presentation.pdf" (34 pages, 2743946 bytes).
 PDF statistics:
- 978 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2902 PDF objects out of 2984 (max. 8388607)
+ 74 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 

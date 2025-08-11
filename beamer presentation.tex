@@ -7,7 +7,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath, amsfonts, graphicx, booktabs, hyperref}
 \usepackage{tikz, caption}
-
+\usepackage{booktabs}
 % Custom colors
 \definecolor{DeepBlue}{RGB}{0,51,102}
 \setbeamercolor{title}{fg=DeepBlue}
@@ -92,7 +92,7 @@ Households are increasingly recognized as key actors in climate mitigation. Howe
 
 
 % -------------------
-\section{Research Questions and Methodology}
+\section{Research Questions \& Methodology}
 \begin{frame}{Research Questions}
 \begin{enumerate}
   \item How do footprint estimates vary across models?
@@ -217,7 +217,7 @@ E_i = \sum_j Q_{ij} \cdot EF_{ij}
 
 \end{frame}
 
-\section{Methods and Applications}
+\section{Methods \& Applications}
 
 \begin{frame}{GHG Protocol – Empirical Application (Spain, 2022)}
 \vspace{-2.5em}
@@ -467,11 +467,418 @@ Germany  & 1794.8 & 545.9 \\
 \end{itemize}
 
 
+
 \vspace{0.3em}
 \textit{The EEIO framework captures upstream emissions embedded in household consumption, providing a robust basis for cross-country comparison.}
 \end{frame}
 
+%------------------------------------------------
+\begin{frame}{The Hakenes \& Schliephake Model}
+\footnotesize
+\vspace{-2.5em}
+The model captures the \textit{marginal causal impact} of household behaviour on total emissions, accounting for both \textbf{consumption} and \textbf{investment} channels in a general equilibrium setting.
+
+\vspace{0.4em}
+\textbf{Model Assumptions:}
+\begin{itemize}
+  \item One homogeneous good produced with capital only, constant returns to scale.
+  \item Linear technology: \( I = c Q \), where \(Q\) is total output and \(I\) total investment.
+  \item Emissions proportional to output: \( X = x Q \).
+\end{itemize}
+
+\textbf{Households:}
+\begin{itemize}
+  \item Wealth \(w\) allocated to consumption \(q_h\) and investment \(i_h\), residual in risk-free asset (\(r_f\)).
+  \item Firms raise \(I\) from households, repay with \(r = \frac{P}{c} + \lambda + \varepsilon\), with \(\varepsilon \sim \mathcal{N}(0,\sigma^2)\).
+  \item Utility:  
+  \[
+  U_h = \mathbb{E}\left[-\exp\left(-\alpha \left( a q_h - \frac{b}{2}q_h^2 + m_h - xQ \right)\right)\right]
+  \]
+\end{itemize}
+
+\textbf{First-Order Conditions:}
+\[
+q_h = \frac{a - x - P}{b}, \quad 
+i_h = \frac{1}{\alpha\sigma^2}\left(\frac{P}{c} + \lambda - r_f\right)
+\]
+These capture optimal consumption and investment given prices, risk, and emissions.
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}{Market Equilibrium and Footprint Derivation}
+\footnotesize
+\vspace{-2.5em}
+\textbf{Market Clearing:}
+\[
+Q = q_h + (n-1)q_{-h}, \quad I = i_h + (n-1)i_{-h}, \quad I = c Q
+\]
+From other households’ FOCs:
+\[
+q_{-h} = \frac{a - x - P}{b}, \quad i_{-h} = \frac{1}{\alpha\sigma^2}\left(\frac{P}{c} + \lambda - r_f\right)
+\]
+Total investment:  
+\[
+I = \frac{n-1}{\alpha\sigma^2}\left(\frac{P}{c} + \lambda - r_f\right) \quad \Rightarrow \quad Q = \frac{n-1}{c\alpha\sigma^2}\left(\frac{P}{c} + \lambda - r_f\right)
+\]
+
+\vspace{0.3em}
+\textbf{Supply Curve:}
+\[
+P = c(r_f - \lambda) + \frac{c^2\alpha\sigma^2}{n-1} Q
+\]
+
+\vspace{0.3em}
+\textbf{Solving Supply \& Demand:}
+\[
+Q = (n-1)\frac{a - x - c(r_f - \lambda)}{b + c^2\alpha\sigma^2} + \phi q_h + (1-\phi)\frac{i_h}{c}
+\]
+where:
+\[
+\phi = \frac{b}{b + c^2\alpha\sigma^2}
+\]
+
+\vspace{0.3em}
+\textbf{Consequentialist Footprint:}
+\[
+fp_h = x\left(\phi q_h + (1-\phi)\frac{i_h}{c}\right), \quad \sum_h fp_h = x Q
+\]
+\textit{Interpretation:} \(\phi \to 1\) → footprint purely consumption-driven; \(\phi \to 0\) → purely investment-driven. Comparative statics show \(\phi\) ↓ with higher risk aversion (\(\alpha\)) or volatility (\(\sigma^2\)), ↑ with stronger diminishing marginal utility (\(b\)).
+\end{frame}
+%------------------------------------------------
+
+%---------------------------------------------
+\begin{frame}{Empirical Illustration: U.S. Wheat Market}
+\footnotesize
+\vspace{-2.5em}
+\textbf{Objective:} Apply the single-industry Hakenes--Schliephake model to quantify the impact of supply shocks on the carbon footprint.
+
+\vspace{0.5em}
+\textbf{Data \& Market Setup:}
+\begin{itemize}
+  \item USDA (2010--2017): production volumes (supply), total domestic use (demand), average farm-gate wheat prices.
+  \item FAO/USDA: emission factor of 10.88~kg~CO\textsubscript{2}e per bushel.
+\item Simulated a 15.6\% production shock (2016–2017).
+\item \textbf{Carbon Footprint Calculation: }$
+\text{Emissions} = Q_{\text{eq}} \times 10.88 \text{ kg CO\textsubscript{2}e/bushel}
+$
+
+\end{itemize}
 
 
+\textbf{Empirical Supply Curve:}
+\begin{itemize}
+  \item Estimated by OLS: \( P = \beta_0 + \beta_1 Q \).
+  \item Demand curve: calibrated linear slope from dataset averages.
+  
+\end{itemize}
+
+\textbf{Theoretical Supply Curve:}
+\[
+P(Q) = c(r_f - \lambda) + \frac{c^2 \alpha \sigma^2}{n - 1} Q
+\]
+\begin{itemize}
+  \item Parameters: \(c = 4\), \(r_f = 0.05\), \(\lambda = 0.01\), \(\alpha = 0.5\), \(\sigma = 0.4\), \(n = 100{,}000\).
+  \item Demand curve identical to empirical case.
+  \item Captures optimal household capital allocation under risk.
+\end{itemize}
+\end{frame}
+
+%---------------------------------------------
+
+\begin{frame}{Methodology: Empirical vs. Theoretical Supply}
+\footnotesize
+\vspace{-3.0em}
+\begin{center}
+\includegraphics[width=0.9\linewidth]{Hakenes illustration.png}
+\end{center}
+
+\footnotesize
+\begin{table}[h!]
+\centering
+\resizebox{0.8\linewidth}{!}{%
+\begin{tabular}{lcc|cc}
+\toprule
+\textbf{Scenario} & \textbf{Qty (M bu)} & \textbf{CF (M kg CO\textsubscript{2}e)} & \textbf{Qty (M bu)} & \textbf{CF (M kg CO\textsubscript{2}e)} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+ & \multicolumn{2}{c}{\textbf{Empirical Model}} & \multicolumn{2}{c}{\textbf{Theoretical Model}} \\
+\midrule
+Before  & 2100.71 & 22859.68 & 2112.45 & 22983.46 \\
+After   & 2068.38 & 22500.32 & 2096.36 & 22808.40 \\
+$\Delta$ & ---     & \textbf{-359.36} & ---     & \textbf{-175.06} \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+
+\vspace{0.3em}
+\scriptsize Source: Author's calculations based on USDA (2010--2017) and FAO data.
+
+
+\vspace{0.5em}
+
+
+
+\end{frame}
+%---------------------------------------------
+
+\begin{frame}{Results and Interpretation}
+\footnotesize
+\vspace{-2.0em}
+
+
+
+\vspace{0.5em}
+\textbf{Key Insights:}
+\begin{itemize}
+    \item Despite using the same demand curve, the empirical model estimates a larger emissions reduction (\(-359\) M kg CO\textsubscript{2}e) than the theoretical model (\(-175\) M kg CO\textsubscript{2}e).
+    \item Discrepancy arises from supply modeling:  
+        \begin{itemize}
+            \item Empirical: OLS estimation on historical data; no explicit modeling of risk or equilibrium feedback.  
+            \item Theoretical: derived from structural parameters, incorporating risk aversion, return volatility, and optimal capital allocation.
+        \end{itemize}
+    \item Theoretical framework embeds a consequentialist attribution, internalizing substitution effects and capital reallocation—muting output and emissions responses.
+    \item Highlights the need to integrate behavioral and market feedbacks into footprint assessments for robust policy evaluation.
+\end{itemize}
+
+\end{frame}
+
+
+%---------------------------------------------
+\section{Responsibility \& Policy Implications}
+\begin{frame}{Responsibility for Household Carbon Emissions}
+\footnotesize
+\vspace{-2.5em}
+\textbf{Central Question:}  
+How should household responsibility for climate change be defined, measured, and fairly attributed?\\
+\vspace{0.5em}
+\textbf{Attribution Logics:}
+\begin{enumerate}
+  \item \textbf{Control-based (GHG Protocol)}: 
+    \begin{itemize}
+      \footnotesize
+      \item Emissions assigned to actors with operational control of sources (Scopes~1--2); producer-focused. 
+      \item Upstream supply-chain emissions (Scope~3) typically excluded.
+      \item Limited to operational control, often underestimates total responsibility.
+      \item Under household lens: 10--20\% of national emissions assigned
+      \item \textbf{Policy Implication:} 
+        \begin{itemize}
+          \item Focuses on direct emissions reduction; less effective for upstream supply chains.
+          \item May incentivize offshoring emissions rather than reducing them.
+        \end{itemize}
+    \end{itemize}
+  \end{enumerate}
+  \end{frame}
+
+\begin{frame}{Responsibility for Household Carbon Emissions (cont.)}
+\footnotesize
+\begin{enumerate}
+  \setcounter{enumi}{1}
+  \item \textbf{Consumption-based (LCA, EEIO)}: 
+    \begin{itemize}
+      \footnotesize
+
+      \item \textbf{LCA:} Attributes responsibility to households by assigning them all direct and upstream emissions generated across a product’s entire life cycle, proportionally to their consumption of that product or service.
+  \item \textbf{EEIO:} Links household final demand vector $\mathbf{F}$ to sectoral emissions via
+    \[
+      \mathbf{E} = \mathbf{C} (\mathbf{I} - \mathbf{A})^{-1} \mathbf{F}
+    \]
+      \item Under household lens: 60--80\% of national emissions assigned.
+      \item \textbf{Policy Implication:} 
+        \begin{itemize}
+          \item Encourages individual climate responsibility through policies that use behavioral nudges to encourage sustainable consumption.
+          \item Risks overstating household agency by ignoring structural and supply-side constraints.
+        \end{itemize}
+    \end{itemize}
+    \end{enumerate}
+    \end{frame}
+
+\begin{frame}{Responsibility for Household Carbon Emissions (cont.)}
+\footnotesize
+\vspace{-3.0em}
+\begin{enumerate}
+  \setcounter{enumi}{2}
+  \item \textbf{Consequentialist (Hakenes–Schliephake)}:
+    \begin{itemize}
+      \footnotesize
+      \item Attributes household responsibility to the \textit{marginal causal impact} of its consumption and investment decisions on total emissions.
+      \item Compares general equilibrium with the household present to the counterfactual without it, capturing direct and indirect market spillovers.
+      \item Defines marginal impact footprint:
+      \[
+        fp_h = x \left( \phi q_h + (1-\phi)\frac{i_h}{c} \right)
+      \]
+      \item $\phi = \frac{b}{b + c^2 \alpha \sigma^2}$ allocates responsibility between consumption and investment.
+      \item Higher $\alpha$ (risk aversion) or $\sigma^2$ (return variance) shifts responsibility toward consumption; greater substitutability amplifies investment effects.
+      \item Can yield near-zero responsibility if actions are fully offset by others, avoiding over-attribution in static frameworks.
+      \item \textbf{Policy Implication:}
+        \begin{itemize}
+          \item Aligns with structural mechanisms such as green financial regulation or carbon-intensity weighting of investment portfolios.
+          \item Differentiates between symbolic and substantive household climate action.
+        \end{itemize}
+    \end{itemize}
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Comparative Analysis of Attribution Principles}
+\small
+\vspace{-2.5em}
+\begin{center}
+  \includegraphics[width=0.75\linewidth]{Heatmap Res.png}
+
+  \footnotesize
+\textit{The heatmap compares attribution frameworks across behavioral relevance, structural sensitivity, and over-attribution risk.}
+\end{center}
+\footnotesize
+\vspace{0.4em}
+\textbf{Main finding:} Consequentialist attribution (H\&S) uniquely captures systemic feedbacks, avoiding double-counting while grounding responsibility in causal impact.
+\end{frame}
+
+\begin{frame}{Household Carbon Footprint Disparities}
+  \vspace{-2.0em}
+\centering
+\begin{minipage}{0.45\linewidth}
+    \includegraphics[width=\linewidth]{per capita world emissions.png}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\linewidth}
+    \includegraphics[width=\linewidth]{emission by income.png}
+\end{minipage}
+
+\vspace{0.5em}
+\footnotesize
+\textit{The heterogeneity in carbon footprints across regions and income groups determines the efficiency and equity outcomes of policy instruments.}
+\end{frame}
+
+%---------------------------------------------
+\begin{frame}{Household Carbon Policy Instruments: Comparative Overview}
+\footnotesize
+\vspace{-2.5em}
+%\textbf{Framing:} Policy efficacy hinges on the \textit{attribution framework}; methods determine not only the quantification of household emissions, but also the feasible policy levers and their distributive outcomes.
+
+\vspace{0.8em}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{3.2cm} p{3.6cm} p{3.6cm} p{3.8cm}}
+\toprule
+\textbf{Instrument} & \textbf{Methodological Basis} & \textbf{Strengths} & \textbf{Limitations} \\
+\midrule
+Carbon Taxes & GHG Protocol (Scopes 1–2); extended by EEIO for consumption-based pricing & Price-based efficiency; scalable; fiscal integration & Regressive without redistribution; omits embedded emissions if Scope 3 excluded \\
+\addlinespace
+Product \& Appliance Standards & LCA with embedded carbon and durability criteria & Tech-driven efficiency gains; aligns with trade rules & Enforcement gaps; risk of excluding low-income users \\
+\addlinespace
+Investment-Based Tools & General equilibrium (Hakenes–Schliephake) with EEIO sectoral intensities & Targets capital-linked emissions; addresses top-income externalities & Data-intensive; politically sensitive in asset-heavy economies \\
+\addlinespace
+Behavioural Interventions & Behavioural economics; weakly embedded in static models & Low-cost, adaptive, socially contextual & Under-captured in conventional carbon metrics \\
+\addlinespace
+AI-Enabled Platforms & Hybrid EEIO–LCA with transaction-level data & Real-time tracking; personalised policy feedback & Digital divide; privacy and governance risks \\
+\bottomrule
+\end{tabular}
+}
+\end{frame}
+
+%---------------------------------------------
+\begin{frame}{Strategic Insights from Comparative Assessment}
+\footnotesize
+\textbf{Key Takeaways:}
+\begin{itemize}
+  \item Attribution logic is endogenous to policy design — \textit{what is measured constrains what can be mitigated}.
+  \item Static, control-based approaches (GHG Protocol) facilitate fiscal and regulatory instruments but understate indirect and imported emissions.
+  \item LCA and EEIO expand system boundaries, enabling product regulation and consumption-based taxation, but risk over-attribution absent behavioural or supply-side constraints.
+  \item Equilibrium models capture inter-market spillovers and capital flows, offering distribution-sensitive interventions, particularly for high-wealth cohorts.
+  \item Behavioural and AI tools bridge micro-level heterogeneity with adaptive policy targeting, but remain weakly institutionalised in formal carbon accounting.
+\end{itemize}
+\end{frame}
+
+%---------------------------------------------
+\begin{frame}{Conclusion: Method–Instrument Alignment}
+\footnotesize
+\textbf{Synthesis:}
+\begin{itemize}
+  \item No single instrument is universally optimal — efficiency, equity, and political feasibility trade-offs are shaped by the underlying attribution framework.
+  \item Integration across methods is essential: \textit{fiscal} (tax), \textit{technological} (standards), \textit{financial} (investment), and \textit{behavioural} levers target distinct channels of household emissions.
+  \item Economically coherent design requires aligning price signals, regulatory standards, and behavioural incentives within the structural constraints revealed by the chosen model.
+\end{itemize}
+\vspace{0.5em}
+\textit{Implication for policy:} Incomplete or mismatched attribution undermines both cost-effectiveness and distributional legitimacy.
+\end{frame}
+%---------------------------------------------
+
+\begin{frame}{Household Carbon Policy Instruments: Methods, Examples, and Economic Notes}
+\scriptsize
+\vspace{-3.0em}
+\renewcommand{\arraystretch}{1.15}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{3.2cm} p{3.3cm} p{3.3cm} p{3.6cm}}
+\toprule
+\textbf{Instrument} & \textbf{Methodological Basis} & \textbf{Example Implementations} & \textbf{Features} \\
+\midrule
+\textbf{Carbon Taxes} & GHG Protocol (Scopes 1–2); EEIO for consumption-based pricing & Sweden: 130+ USD/tCO$_2$; Canada federal backstop; EU Border Carbon Adjustment & Internalises marginal social cost; scalable; regressive without revenue recycling; leakage risk if embedded emissions excluded \\
+\addlinespace
+\textbf{Product \& Appliance Standards} & Life Cycle Assessment (LCA); embedded carbon and durability metrics & EU Ecodesign Directive; Japan Top Runner; US Energy Star & Corrects efficiency market failures; harmonisable in trade policy; effectiveness depends on enforcement and affordability \\
+\addlinespace
+\textbf{Investment-Based Tools} & General Equilibrium (Hakenes–Schliephake) with EEIO sectoral intensities & EU ETS; California Carbon Allowance; ESG ETFs; Green Bonds & Targets capital allocation to low-carbon sectors; addresses emissions concentration; politically sensitive, data-intensive \\
+\addlinespace
+\textbf{Behavioural Interventions} & Behavioural economics; typically outside static carbon models & UK smart meter nudges; diet-shift campaigns; cookstove adoption programs & Low-cost demand adjustment; high social adaptability; persistence and measurement challenges \\
+\addlinespace
+\textbf{AI-Enabled Platforms} & Hybrid EEIO–LCA with transaction-level data integration & Moneythor tracker; Svalna app; Klima app & Real-time, marginal behaviour targeting; adaptive feedback; digital divide and privacy governance concerns \\
+\bottomrule
+\end{tabular}
+}
+\end{frame}
+
+
+\begin{frame}{Synthesis: Economic Logic and Strategic Trade-Offs}
+\footnotesize
+\begin{itemize}
+  \item \textbf{Attribution methods determine instrument choice:}  
+    \begin{itemize}
+      \item GHG Protocol $\rightarrow$ direct price signals (carbon taxes, fuel levies).
+      \item LCA $\rightarrow$ product-level regulation (standards, eco-design).
+      \item EEIO $\rightarrow$ consumption-based taxes, trade adjustments.
+      \item General equilibrium $\rightarrow$ capital market instruments.
+      \item Behavioural/AI $\rightarrow$ adaptive, personalised demand-side measures.
+    \end{itemize}
+  \item \textbf{Core trade-offs:}  
+    Taxes = allocatively efficient but potentially regressive.  
+    Standards = technology-forcing, risk of exclusion.  
+    Investment tools = target high-emission wealth segments, politically sensitive.  
+    Behavioural = socially embedded, hard to monetise.  
+    AI = granular and dynamic, constrained by digital equity.
+  \item \textbf{Strategic implication:}  
+    No single instrument optimises efficiency, equity, and political feasibility.  
+    An optimal portfolio integrates complementary tools, each grounded in the correct attribution logic, to maximise mitigation while maintaining fairness and public acceptance.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Conclusion}
+\footnotesize
+\textbf{Key Takeaways:}
+\begin{itemize}
+    \item Household carbon footprints are highly sensitive to \textbf{attribution framework}:
+    \begin{itemize}
+        \item GHG Protocol, LCA $\rightarrow$ lower footprints, focus on direct use.
+        \item EEIO, general equilibrium $\rightarrow$ higher footprints via supply chains, market spillovers, capital allocation.
+    \end{itemize}
+    \item Method choice \textbf{determines policy alignment}:
+    \begin{itemize}
+        \item GHG Protocol $\rightarrow$ direct fuel/energy pricing.
+        \item LCA $\rightarrow$ product and appliance standards.
+        \item EEIO $\rightarrow$ upstream interventions, border carbon adjustments.
+        \item GE model $\rightarrow$ investment-based and capital-sensitive instruments.
+    \end{itemize}
+    \item Ensuring \textbf{internal consistency} between accounting method, policy instrument, and financing strategy is critical for efficiency and fairness.
+\end{itemize}
+
+\vspace{0.4em}
+\textbf{Future Work:}
+\begin{itemize}
+    \item Integrate micro-level household data, dynamic GE extensions, and behavioural/digital mechanisms.
+\end{itemize}
+
+\vspace{0.4em}
+\textbf{Final Note:}  
+Methodological choices are not neutral—they shape the scale, focus, and equity of household decarbonisation policy.
+\end{frame}
 
 \end{document}
+
+

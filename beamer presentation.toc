@@ -1,4 +1,5 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{Research Questions and Methodology}{4}{0}{2}
+\beamer@sectionintoc {2}{Research Questions \& Methodology}{4}{0}{2}
 \beamer@sectionintoc {3}{Literature Review}{7}{0}{3}
-\beamer@sectionintoc {4}{Methods and Applications}{10}{0}{4}
+\beamer@sectionintoc {4}{Methods \& Applications}{10}{0}{4}
+\beamer@sectionintoc {5}{Responsibility \& Policy Implications}{24}{0}{5}

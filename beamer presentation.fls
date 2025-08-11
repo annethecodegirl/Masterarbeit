@@ -468,6 +468,42 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.t
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcsx0900.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssi10.tfm
+INPUT .\Hakenes illustration.png
+INPUT .\Hakenes illustration.png
+INPUT .\Hakenes illustration.png
+INPUT .\Hakenes illustration.png
+INPUT .\Hakenes illustration.png
+INPUT .\Hakenes illustration.png
+INPUT .\Hakenes illustration.png
+INPUT .\Heatmap Res.png
+INPUT .\Heatmap Res.png
+INPUT .\Heatmap Res.png
+INPUT .\Heatmap Res.png
+INPUT .\Heatmap Res.png
+INPUT .\Heatmap Res.png
+INPUT .\Heatmap Res.png
+INPUT .\per capita world emissions.png
+INPUT .\per capita world emissions.png
+INPUT .\per capita world emissions.png
+INPUT .\per capita world emissions.png
+INPUT .\per capita world emissions.png
+INPUT .\per capita world emissions.png
+INPUT .\per capita world emissions.png
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\sansmathaccent\mathkerncmssi10.tfm
+INPUT .\emission by income.png
+INPUT .\emission by income.png
+INPUT .\emission by income.png
+INPUT .\emission by income.png
+INPUT .\emission by income.png
+INPUT .\emission by income.png
+INPUT .\emission by income.png
 OUTPUT beamer presentation.nav
 OUTPUT beamer presentation.toc
 OUTPUT beamer presentation.snm
@@ -508,3 +544,5 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb

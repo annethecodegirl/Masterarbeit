@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1753527475.18026 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/thesisdraft.tex" "thesisdraft.pdf" "thesisdraft" 1753527479.86496 0
-  "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1753293330 84158 d77284a6843bde1e4b9764f09fb2e89e ""
+["pdflatex"] 1754844290.18501 "c:/Users/USER/OneDrive/Documents/Desktop/Library/MASTERS/Thesis/Master Thesis VS Code/thesisdraft.tex" "thesisdraft.pdf" "thesisdraft" 1754844296.1514 0
+  "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1754471466 84337 09a9ad228ef7e34d6f9cbf497373c91e ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1748704790 13089765 bc6a75f620132fc869ce2950439eeb88 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb8c.tfm" 1136768654 1340 d2f6275bc4fa3f07e3bc50aae2c71eab ""
@@ -162,10 +162,10 @@
   "moneythor.png" 1753230073 42492 220e83546749bb14ee6cfc9fcf7a3638 ""
   "per capita world emissions.png" 1753223770 155030 36005a659b5e8288228eaa748711ad20 ""
   "publication_trend_darkblue_estimated2025.png" 1752453170 203507 21e6624ff673f46b4ef44cb9c0db0b42 ""
-  "thesisdraft.aux" 1753527479 18928 3ac57104eee73510d15fbdba0cc8081e "pdflatex"
-  "thesisdraft.out" 1753527479 14004 93cc03a5029cff5b9541ba3babbbc153 "pdflatex"
+  "thesisdraft.aux" 1754844295 18928 3ac57104eee73510d15fbdba0cc8081e "pdflatex"
+  "thesisdraft.out" 1754844295 14004 93cc03a5029cff5b9541ba3babbbc153 "pdflatex"
   "thesisdraft.tex" 1753527474 145658 c4365f57299fea2862950d2fa258061a ""
-  "thesisdraft.toc" 1753527479 6852 24c7d52e310f61604a57996dfffe8293 "pdflatex"
+  "thesisdraft.toc" 1754844295 6852 24c7d52e310f61604a57996dfffe8293 "pdflatex"
   (generated)
   "thesisdraft.aux"
   "thesisdraft.log"
