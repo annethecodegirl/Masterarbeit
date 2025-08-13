@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  12 AUG 2025 17:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  13 AUG 2025 22:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -852,29 +852,45 @@ Package pdftex.def Info: ghg scope.png  used on input line 184.
 [8
 
  <./ghg scope.png>]
+<Spanish Data Visual.png, id=707, 1445.4pt x 813.0375pt>
+File: Spanish Data Visual.png Graphic file (type png)
+<use Spanish Data Visual.png>
+Package pdftex.def Info: Spanish Data Visual.png  used on input line 207.
+(pdftex.def)             Requested size: 273.83728pt x 154.03212pt.
+
 
 [9
 
-]
+ <./Spanish Data Visual.png (PNG copy)>]
 
 [10
 
 ]
+<LCA Visual.png, id=848, 1445.4pt x 813.0375pt>
+File: LCA Visual.png Graphic file (type png)
+<use LCA Visual.png>
+Package pdftex.def Info: LCA Visual.png  used on input line 262.
+(pdftex.def)             Requested size: 239.60567pt x 134.77809pt.
+
+Overfull \vbox (1.69077pt too high) detected at line 262
+ []
+
+
 
 [11
 
-]
+ <./LCA Visual.png (PNG copy)>]
 
 [12
 
 ]
-<LCA_pie.png, id=989, 625.8582pt x 495.7722pt>
+<LCA_pie.png, id=990, 625.8582pt x 495.7722pt>
 File: LCA_pie.png Graphic file (type png)
 <use LCA_pie.png>
-Package pdftex.def Info: LCA_pie.png  used on input line 313.
+Package pdftex.def Info: LCA_pie.png  used on input line 302.
 (pdftex.def)             Requested size: 232.75829pt x 184.37845pt.
 
-Overfull \vbox (3.66588pt too high) detected at line 313
+Overfull \vbox (3.66588pt too high) detected at line 302
  []
 
 
@@ -883,15 +899,11 @@ Overfull \vbox (3.66588pt too high) detected at line 313
 
  <./LCA_pie.png>]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <9> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 349.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 338.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 349.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 338.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 349.
-
-Overfull \vbox (2.03757pt too high) detected at line 349
- []
-
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 338.
 
 
 [14
@@ -901,20 +913,21 @@ Overfull \vbox (2.03757pt too high) detected at line 349
 [15
 
 ]
+<EEIO Visual.png, id=1204, 922.94812pt x 813.0375pt>
+File: EEIO Visual.png Graphic file (type png)
+<use EEIO Visual.png>
+Package pdftex.def Info: EEIO Visual.png  used on input line 404.
+(pdftex.def)             Requested size: 205.37926pt x 180.91579pt.
+
 
 [16
 
-]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 439.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 439.
-
+ <./EEIO Visual.png>]
 
 [17
 
 ]
-Overfull \vbox (12.68796pt too high) detected at line 471
+Overfull \vbox (12.68796pt too high) detected at line 461
  []
 
 
@@ -922,7 +935,7 @@ Overfull \vbox (12.68796pt too high) detected at line 471
 [18
 
 ]
-Overfull \vbox (80.02393pt too high) detected at line 512
+Overfull \vbox (80.02393pt too high) detected at line 502
  []
 
 
@@ -930,7 +943,7 @@ Overfull \vbox (80.02393pt too high) detected at line 512
 [19
 
 ]
-Overfull \vbox (19.49405pt too high) detected at line 550
+Overfull \vbox (19.49405pt too high) detected at line 540
  []
 
 
@@ -938,16 +951,21 @@ Overfull \vbox (19.49405pt too high) detected at line 550
 [20
 
 ]
-<Hakenes illustration.png, id=1557, 787.38165pt x 281.853pt>
+<Hakenes illustration.png, id=1559, 787.38165pt x 281.853pt>
 File: Hakenes illustration.png Graphic file (type png)
 <use Hakenes illustration.png>
-Package pdftex.def Info: Hakenes illustration.png  used on input line 587.
+Package pdftex.def Info: Hakenes illustration.png  used on input line 577.
 (pdftex.def)             Requested size: 308.06367pt x 110.27489pt.
 
 
 [21
 
  <./Hakenes illustration.png>]
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 599.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <7> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 599.
+
 
 [22
 
@@ -964,171 +982,171 @@ Package pdftex.def Info: Hakenes illustration.png  used on input line 587.
 [25
 
 ]
-<Heatmap Res.png, id=1910, 557.2017pt x 281.853pt>
+<Heatmap Res.png, id=1912, 557.2017pt x 281.853pt>
 File: Heatmap Res.png Graphic file (type png)
 <use Heatmap Res.png>
-Package pdftex.def Info: Heatmap Res.png  used on input line 699.
+Package pdftex.def Info: Heatmap Res.png  used on input line 689.
 (pdftex.def)             Requested size: 256.72147pt x 129.86038pt.
 
 
 [26
 
  <./Heatmap Res.png>]
-<per capita world emissions.png, id=1982, 419.76825pt x 483.0045pt>
+<per capita world emissions.png, id=1984, 419.76825pt x 483.0045pt>
 File: per capita world emissions.png Graphic file (type png)
 <use per capita world emissions.png>
-Package pdftex.def Info: per capita world emissions.png  used on input line 715.
+Package pdftex.def Info: per capita world emissions.png  used on input line 705.
 (pdftex.def)             Requested size: 154.03183pt x 177.23485pt.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 715.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 705.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 715.
-<emission by income.png, id=1983, 434.22224pt x 478.78876pt>
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 705.
+<emission by income.png, id=1985, 434.22224pt x 478.78876pt>
 File: emission by income.png Graphic file (type png)
 <use emission by income.png>
-Package pdftex.def Info: emission by income.png  used on input line 715.
+Package pdftex.def Info: emission by income.png  used on input line 705.
 (pdftex.def)             Requested size: 154.03183pt x 169.83603pt.
 
 
 [27
 
  <./per capita world emissions.png> <./emission by income.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 []\OT1/cmss/m/n/8 GHG Pro-to-col (Scopes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 1{2); EEIO for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 []\OT1/cmss/m/n/8 Sweden: 130+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 USD/tCO$[]$; Canada
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 740--740
+Underfull \hbox (badness 1852) in paragraph at lines 730--730
 []\OT1/cmss/m/n/8 Internalises marginal so-cial
  []
 
 
-Underfull \hbox (badness 5741) in paragraph at lines 740--740
+Underfull \hbox (badness 5741) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 cost; scal-able; re-gres-sive
  []
 
 
-Underfull \hbox (badness 3907) in paragraph at lines 740--740
+Underfull \hbox (badness 3907) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 with-out rev-enue re-cy-cling;
  []
 
 
-Underfull \hbox (badness 4543) in paragraph at lines 740--740
+Underfull \hbox (badness 4543) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 leak-age risk if em-bed-ded
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 []\OT1/cmss/bx/n/8 Product & Ap-pli-ance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 []\OT1/cmss/m/n/8 Life Cy-cle As-sess-ment
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 740--740
+Underfull \hbox (badness 2302) in paragraph at lines 730--730
 []\OT1/cmss/m/n/8 EU Ecode-sign Di-rec-tive;
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 740--740
+Underfull \hbox (badness 5847) in paragraph at lines 730--730
 []\OT1/cmss/m/n/8 Corrects ef-fi-ciency mar-ket
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 fail-ures; har-mon-is-able in
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 740--740
+Underfull \hbox (badness 3679) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 trade pol-icy; ef-fec-tive-ness
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 enes{Schliephake) with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 []\OT1/cmss/m/n/8 Targets cap-i-tal al-lo-ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 to low-carbon sec-tors;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 []\OT1/cmss/bx/n/8 Behavioural In-ter-ven-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 []\OT1/cmss/m/n/8 Behavioural eco-nomics;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 typ-i-cally out-side static
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 diet-shift cam-paigns;
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 740--740
+Underfull \hbox (badness 2512) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 cook-stove adop-tion pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 []\OT1/cmss/m/n/8 Low-cost de-mand ad-just-
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 740--740
+Underfull \hbox (badness 3364) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 ment; high so-cial adapt-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 \OT1/cmss/m/n/8 abil-ity; per-sis-tence and
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 740--740
+Underfull \hbox (badness 5446) in paragraph at lines 730--730
 []\OT1/cmss/m/n/8 Hybrid EEIO{LCA with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 740--740
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
 []\OT1/cmss/m/n/8 Real-time, marginal be-
  []
 
 
-Overfull \vbox (2.06694pt too high) detected at line 740
+Overfull \vbox (2.06694pt too high) detected at line 730
  []
 
 
@@ -1148,7 +1166,7 @@ Overfull \vbox (2.06694pt too high) detected at line 740
 [31
 
 ]
-Overfull \vbox (29.0623pt too high) detected at line 823
+Overfull \vbox (29.0623pt too high) detected at line 813
  []
 
 
@@ -1174,17 +1192,17 @@ Package rerunfilecheck Info: File `"Proofread copy presentation".out' has not ch
 (rerunfilecheck)             Checksum: 1667186C925EDCE6D51DC7B38344D696;500.
  ) 
 Here is how much of TeX's memory you used:
- 26548 strings out of 470045
- 534965 string characters out of 5479094
+ 26564 strings out of 470045
+ 535414 string characters out of 5479094
  896926 words of memory out of 5000000
- 52657 multiletter control sequences out of 15000+600000
- 641114 words of font info for 96 fonts, out of 8000000 for 9000
+ 52675 multiletter control sequences out of 15000+600000
+ 640415 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,123p,527b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcsx0900.pk> <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss0900.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Proofread copy presentation.pdf" (32 pages, 2680977 bytes).
+ <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss0900.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "Proofread copy presentation.pdf" (32 pages, 2998934 bytes).
 PDF statistics:
- 2467 PDF objects out of 2487 (max. 8388607)
+ 2460 PDF objects out of 2487 (max. 8388607)
  68 named destinations out of 1000 (max. 500000)
- 112 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -161,7 +161,7 @@
 
 %create a flowchart for comparison basis: Derivation->Estimation->Attribution->Policy Implications
 
-\begin{frame}{GHG Protocol: Emission Inventory Framework}
+\begin{frame}{The GHG Protocol}
 \small
 \vspace{-2.5em}
 
@@ -188,23 +188,22 @@ E_i = \sum_j Q_{ij} \cdot EF_{ij}
 \begin{frame}{GHG Protocol – Empirical Application (Spain, 2022)}
 \vspace{-2.5em}
   \footnotesize
-\textbf{Objective:} Estimate average household emissions by scope using GHG Protocol.
+  \begin{itemize}
+\item \textbf{Objective:} Estimate average household emissions by scope using GHG Protocol.\\
 
-\vspace{0.6em}
-\textbf{Data:}  
-Spanish household expenditure and energy use (INE 2022), mapped to COICOP categories. Emission factors sourced from DEFRA (2022) and IPCC (2019).
 
-\vspace{0.6em}
-\textbf{Method:}
-\begin{itemize}
-  \item \textbf{Scope 1:} Direct emissions from household fuel combustion (e.g., petrol in vehicles, natural gas for heating).
-  \item \textbf{Scope 2:} Indirect emissions from electricity and district heating generation due to household demand.
-  \item \textbf{Scope 3:} Indirect emissions from purchased goods and services via € expenditure × emission factor
-\end{itemize}
+\item \textbf{Method: }Scope 1, 2, and 3 emissions are calculated using the GHG Protocol's framework using data on Spanish household expenditure and energy use (INE 2022) and emission factors sourced from DEFRA (2022) and IPCC (2019).\\
+  \end{itemize}
+
 %make this into a pie chart
-\vspace{0.6em}
-\textbf{Avg. annual spending:} = €31,568 \\ 
-\textbf{Major spending:} Housing (32.4\%), Food (16\%), Transport (12\%)
+\vspace{-0.5em}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{Spanish Data Visual.png}
+\end{figure}
+
+
+
 \end{frame}
 
 \begin{frame}{GHG Protocol – Empirical Results (Spain, 2022)}
@@ -248,33 +247,23 @@ The GHG Protocol effectively captures direct emissions but underestimates total 
 %include limitations? Remove the previous slide?
 \end{frame}
 
-\begin{frame}{Life Cycle Assessment (LCA): Conceptual Basis}
+\begin{frame}{Life Cycle Assessment (LCA)}
 \footnotesize
-\vspace{-0.5em}
-\textbf{Definition:}  
-Life Cycle Assessment (LCA) calculates greenhouse gas emissions across the full life cycle of a product or service, from resource extraction and production to use and end-of-life disposal.
-
-\vspace{0.7em}
-\textbf{Analytical Scope:}  
-This method captures both direct and embodied emissions by integrating three complementary approaches:
+\vspace{-2.5em}
 \begin{itemize}
-  \item \textit{Process-based LCA}, which quantifies emissions from discrete production activities such as fuel combustion, agriculture, and food processing
-  \item \textit{Input–Output LCA}, which links household consumption to indirect upstream emissions using environmentally extended input–output (EEIO) tables
-  \item \textit{Hybrid LCA}, which combines the process-level specificity of traditional LCA with macroeconomic linkages from IO models to reduce system boundary truncation
+\item Life Cycle Assessment (LCA) calculates greenhouse gas emissions across the full life cycle of a product or service, from resource extraction and production to use and end-of-life disposal assigning life cycle emission factors to household consumption in units using the \textbf{$fp_h = q_h \cdot \text{LCA}_j$} principle. 
+\item This method captures both direct and embodied emissions by integrating three complementary approaches:
 \end{itemize}
-
-\vspace{0.7em}
-\textbf{Carbon Footprint Estimation:}
-\[
-fp_h = q_h \cdot \text{LCA}_j
-\]
-where $q_h$ is household consumption and $\text{LCA}_j$ is the unit emission factor for product $j$
-
+\vspace{-0.5em}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{LCA Visual.png}
+\end{figure}
 \end{frame}
 
 \begin{frame}{Life Cycle Assessment (LCA): Integrated Estimation}
 \footnotesize
-\vspace{-2.0em}
+\vspace{-2.5em}
 \textbf{Framework:}  
 Adapted from Peng et al. (2021), the hybrid LCA model aggregates activity-based emissions and sequestration:
 
@@ -299,7 +288,7 @@ CF_i = \sum_n E_{in} + \sum_m S_{im}
 The Hybrid LCA structure reduces truncation error and better reflects household-level carbon responsibility particularly in domains such as food, housing, and land use.
 \end{frame}
 
-\begin{frame}{LCA Illustration}
+\begin{frame}{Life Cycle Assessment (LCA): Illustration}
 \vspace{-2.5em}
 \footnotesize
 \begin{itemize}
@@ -312,7 +301,7 @@ The Hybrid LCA structure reduces truncation error and better reflects household-
 
 \end{frame}
 
-\begin{frame}{Environmentally Extended Input–Output (EEIO) Framework}
+\begin{frame}{Environmentally Extended Input–Output (EEIO) Model}
 \footnotesize
 \vspace{-2.5em}
 \textbf{Definition:}  
@@ -384,39 +373,40 @@ Import-adjusted tiers ensure that emissions are attributed to domestic demand. E
 \end{frame}
 
 \begin{frame}{EEIO Illustration: Method and Aggregate Estimates}
-\vspace{-2.0em}
-  \footnotesize
-\textbf{Methodology:}
-\begin{itemize}
-  \item Emission intensities \(EF_i\) reflect \( \mathbf{C}(\mathbf{I}-\mathbf{A})^{-1} \), derived from EXIOBASE (via Climatiq.io).
-  \item National consumption \(F_{i,c}\) from Eurostat (2021) is multiplied by category-specific \(EF_i\) for each country:
-  \[
-  E_{i,c} = F_{i,c} \cdot EF_i
-  \]
-  \end{itemize}
-
-\vspace{0.6em}
-\textbf{Total Household Carbon Footprints (2021):}
-
-\begin{table}[h]
+\vspace{-2.0em} % Adjust vertical space if needed
 \footnotesize
-\begin{tabular}{lcc}
-\toprule
-\textbf{Country} & \textbf{Expenditure (bn €)} & \textbf{Emissions (Mt CO\textsubscript{2}e)} \\
-\midrule
-France   & 1322.0 & 420.0 \\
-Spain    & 747.9  & 227.0 \\
-Germany  & 1794.8 & 545.9 \\
-\bottomrule
-\end{tabular}
-\end{table}
 
-\vspace{0.3em}
-\footnotesize Source: Eurostat (2021), EXIOBASE (2025); Author’s calculations.
+\begin{columns}[T] % Align columns at the top
+  % Left column: text
+  \begin{column}{0.40\textwidth}
+    \vspace{2.0em}
+    \textbf{Methodology:}
+    \begin{itemize}
+      \item Emission intensities \(EF_i\) reflect \( \mathbf{C}(\mathbf{I}-\mathbf{A})^{-1} \), derived from EXIOBASE (via Climatiq.io).
+      \item National consumption \(F_{i,c}\) from Eurostat (2021) is multiplied by category-specific \(EF_i\) for each country:
+      \[
+      E_{i,c} = F_{i,c} \cdot EF_i
+      \]
+    \end{itemize}
+    
+    
+  \end{column}
+
+  % Right column: figure
+  \begin{column}{0.60\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{EEIO Visual.png}
+
+    \footnotesize Source: Eurostat (2021), EXIOBASE (2025); Author’s calculations.
+  \end{column}
+\end{columns}
+
 \end{frame}
 
+
+
 \begin{frame}{EEIO Illustration: Interpretation of Results}
-\small
+\footnotesize
 \vspace{-2.5em}
 \textbf{Sectoral Composition of Emissions}
 \begin{itemize}

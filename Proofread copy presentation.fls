@@ -448,20 +448,39 @@ INPUT .\ghg scope.png
 INPUT .\ghg scope.png
 INPUT .\ghg scope.png
 INPUT .\ghg scope.png
+INPUT .\Spanish Data Visual.png
+INPUT .\Spanish Data Visual.png
+INPUT .\Spanish Data Visual.png
+INPUT .\Spanish Data Visual.png
+INPUT .\Spanish Data Visual.png
+INPUT .\Spanish Data Visual.png
+INPUT .\Spanish Data Visual.png
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
+INPUT .\LCA Visual.png
+INPUT .\LCA Visual.png
+INPUT .\LCA Visual.png
+INPUT .\LCA Visual.png
+INPUT .\LCA Visual.png
+INPUT .\LCA Visual.png
+INPUT .\LCA Visual.png
+INPUT .\LCA_pie.png
+INPUT .\LCA_pie.png
+INPUT .\LCA_pie.png
+INPUT .\LCA_pie.png
+INPUT .\LCA_pie.png
+INPUT .\LCA_pie.png
+INPUT .\LCA_pie.png
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcss0900.tfm
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
-INPUT .\LCA_pie.png
-INPUT .\LCA_pie.png
-INPUT .\LCA_pie.png
-INPUT .\LCA_pie.png
-INPUT .\LCA_pie.png
-INPUT .\LCA_pie.png
-INPUT .\LCA_pie.png
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcsx0900.tfm
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssi10.tfm
+INPUT .\EEIO Visual.png
+INPUT .\EEIO Visual.png
+INPUT .\EEIO Visual.png
+INPUT .\EEIO Visual.png
+INPUT .\EEIO Visual.png
+INPUT .\EEIO Visual.png
+INPUT .\EEIO Visual.png
 INPUT .\Hakenes illustration.png
 INPUT .\Hakenes illustration.png
 INPUT .\Hakenes illustration.png
@@ -510,8 +529,6 @@ OUTPUT Proofread copy presentation.snm
 INPUT Proofread copy presentation.aux
 INPUT .\Proofread copy presentation.out
 INPUT .\Proofread copy presentation.out
-INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcsx0900.pk
-INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcsx0900.pk
 INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss0900.pk
 INPUT C:\Users\USER\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcss0900.pk
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex9.pfb
@@ -530,8 +547,6 @@ INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss9.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssi10.pfb
-INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssi10.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssi8.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssi8.pfb
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssi9.pfb
