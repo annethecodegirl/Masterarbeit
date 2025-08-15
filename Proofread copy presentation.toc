@@ -1,3 +1,4 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{Methods \& Applications}{9}{0}{2}
 \beamer@sectionintoc {3}{Responsibility \& Policy Implications}{23}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{31}{0}{4}
