@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  15 AUG 2025 15:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.31)  18 AUG 2025 14:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -784,163 +784,170 @@ Package caption Info: End \AtBeginDocument code.
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 82.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 83.
  (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
-<co2.jpg, id=280, 1003.75pt x 648.4225pt>
+<co2.jpg, id=273, 1003.75pt x 648.4225pt>
 File: co2.jpg Graphic file (type jpg)
 <use co2.jpg>
-Package pdftex.def Info: co2.jpg  used on input line 82.
+Package pdftex.def Info: co2.jpg  used on input line 83.
 (pdftex.def)             Requested size: 102.68962pt x 66.33015pt.
 
 
 [3
 
  <./co2.jpg>]
+File: co2.jpg Graphic file (type jpg)
+<use co2.jpg>
+Package pdftex.def Info: co2.jpg  used on input line 83.
+(pdftex.def)             Requested size: 102.68962pt x 66.33015pt.
+
 
 [4
 
 ]
+File: co2.jpg Graphic file (type jpg)
+<use co2.jpg>
+Package pdftex.def Info: co2.jpg  used on input line 83.
+(pdftex.def)             Requested size: 102.68962pt x 66.33015pt.
+
 
 [5
 
 ]
-<publication_trend_darkblue_estimated2025.png, id=501, 722.7pt x 433.62pt>
-File: publication_trend_darkblue_estimated2025.png Graphic file (type png)
-<use publication_trend_darkblue_estimated2025.png>
-Package pdftex.def Info: publication_trend_darkblue_estimated2025.png  used on input line 149.
-(pdftex.def)             Requested size: 136.91862pt x 82.15045pt.
-<keyword_cooccurrence.png, id=503, 867.24pt x 722.7pt>
-File: keyword_cooccurrence.png Graphic file (type png)
-<use keyword_cooccurrence.png>
-Package pdftex.def Info: keyword_cooccurrence.png  used on input line 149.
-(pdftex.def)             Requested size: 143.76485pt x 119.80275pt.
-
-Overfull \hbox (12.33154pt too wide) detected at line 149
-[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
- []
-
-
-Overfull \vbox (4.4652pt too high) detected at line 149
- []
-
-
 
 [6
 
- <./publication_trend_darkblue_estimated2025.png> <./keyword_cooccurrence.png>]
+]
 
 [7
 
 ]
-<ghg scope.png, id=652, 803.0pt x 508.90125pt>
-File: ghg scope.png Graphic file (type png)
-<use ghg scope.png>
-Package pdftex.def Info: ghg scope.png  used on input line 184.
-(pdftex.def)             Requested size: 188.26346pt x 119.31226pt.
-
 
 [8
 
- <./ghg scope.png>]
-<Spanish Data Visual.png, id=730, 1445.4pt x 813.0375pt>
-File: Spanish Data Visual.png Graphic file (type png)
-<use Spanish Data Visual.png>
-Package pdftex.def Info: Spanish Data Visual.png  used on input line 207.
-(pdftex.def)             Requested size: 273.83728pt x 154.03212pt.
-
+]
 
 [9
 
- <./Spanish Data Visual.png (PNG copy)>]
+]
 
 [10
 
 ]
-<LCA Visual.png, id=875, 1445.4pt x 813.0375pt>
-File: LCA Visual.png Graphic file (type png)
-<use LCA Visual.png>
-Package pdftex.def Info: LCA Visual.png  used on input line 262.
-(pdftex.def)             Requested size: 239.60567pt x 134.77809pt.
-
-Overfull \vbox (1.69077pt too high) detected at line 262
- []
-
-
 
 [11
 
- <./LCA Visual.png (PNG copy)>]
+]
 
 [12
 
 ]
-<LCA_pie.png, id=1021, 625.8582pt x 495.7722pt>
-File: LCA_pie.png Graphic file (type png)
-<use LCA_pie.png>
-Package pdftex.def Info: LCA_pie.png  used on input line 302.
-(pdftex.def)             Requested size: 232.75829pt x 184.37845pt.
-
-Overfull \vbox (3.66588pt too high) detected at line 302
- []
-
-
 
 [13
 
- <./LCA_pie.png>]
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <9> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 338.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 338.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 338.
-
+]
 
 [14
 
 ]
+<publication_trend_darkblue_estimated2025.png, id=832, 722.7pt x 433.62pt>
+File: publication_trend_darkblue_estimated2025.png Graphic file (type png)
+<use publication_trend_darkblue_estimated2025.png>
+Package pdftex.def Info: publication_trend_darkblue_estimated2025.png  used on input line 157.
+(pdftex.def)             Requested size: 136.91862pt x 82.15045pt.
+<keyword_cooccurrence.png, id=834, 867.24pt x 722.7pt>
+File: keyword_cooccurrence.png Graphic file (type png)
+<use keyword_cooccurrence.png>
+Package pdftex.def Info: keyword_cooccurrence.png  used on input line 157.
+(pdftex.def)             Requested size: 143.76485pt x 119.80275pt.
+
+Overfull \hbox (12.33154pt too wide) detected at line 157
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \vbox (4.4652pt too high) detected at line 157
+ []
+
+
 
 [15
 
-]
-<EEIO Visual.png, id=1241, 922.94812pt x 813.0375pt>
-File: EEIO Visual.png Graphic file (type png)
-<use EEIO Visual.png>
-Package pdftex.def Info: EEIO Visual.png  used on input line 404.
-(pdftex.def)             Requested size: 205.37926pt x 180.91579pt.
+ <./publication_trend_darkblue_estimated2025.png> <./keyword_cooccurrence.png>]
+File: publication_trend_darkblue_estimated2025.png Graphic file (type png)
+<use publication_trend_darkblue_estimated2025.png>
+Package pdftex.def Info: publication_trend_darkblue_estimated2025.png  used on input line 157.
+(pdftex.def)             Requested size: 136.91862pt x 82.15045pt.
+File: keyword_cooccurrence.png Graphic file (type png)
+<use keyword_cooccurrence.png>
+Package pdftex.def Info: keyword_cooccurrence.png  used on input line 157.
+(pdftex.def)             Requested size: 143.76485pt x 119.80275pt.
+
+Overfull \hbox (12.33154pt too wide) detected at line 157
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \vbox (4.4652pt too high) detected at line 157
+ []
+
 
 
 [16
 
- <./EEIO Visual.png>]
+]
+File: publication_trend_darkblue_estimated2025.png Graphic file (type png)
+<use publication_trend_darkblue_estimated2025.png>
+Package pdftex.def Info: publication_trend_darkblue_estimated2025.png  used on input line 157.
+(pdftex.def)             Requested size: 136.91862pt x 82.15045pt.
+File: keyword_cooccurrence.png Graphic file (type png)
+<use keyword_cooccurrence.png>
+Package pdftex.def Info: keyword_cooccurrence.png  used on input line 157.
+(pdftex.def)             Requested size: 143.76485pt x 119.80275pt.
+
+Overfull \hbox (12.33154pt too wide) detected at line 157
+[][][] $[]$[][][][][][][][] $[]$[][][][][][] 
+ []
+
+
+Overfull \vbox (4.4652pt too high) detected at line 157
+ []
+
+
 
 [17
 
 ]
-Overfull \hbox (2.18341pt too wide) detected at line 465
-\U/msb/m/n/9 E\OT1/cmss/m/n/9 [\OT1/mathkerncmss/m/sl/9 U[]\OT1/cmss/m/n/9 ] = \OMS/cmsy/m/n/9 ^^@ [] []
- []
+<Methodology chart.png, id=984, 1445.4pt x 392.96812pt>
+File: Methodology chart.png Graphic file (type png)
+<use Methodology chart.png>
+Package pdftex.def Info: Methodology chart.png  used on input line 177.
+(pdftex.def)             Requested size: 342.2953pt x 93.06107pt.
 
-
-Overfull \vbox (2.68796pt too high) detected at line 465
+Overfull \vbox (1.59871pt too high) detected at line 177
  []
 
 
 
 [18
 
-]
-Overfull \vbox (79.37338pt too high) detected at line 509
+ <./Methodology chart.png>]
+File: Methodology chart.png Graphic file (type png)
+<use Methodology chart.png>
+Package pdftex.def Info: Methodology chart.png  used on input line 177.
+(pdftex.def)             Requested size: 342.2953pt x 93.06107pt.
+
+Overfull \vbox (1.59871pt too high) detected at line 177
  []
 
 
@@ -948,7 +955,12 @@ Overfull \vbox (79.37338pt too high) detected at line 509
 [19
 
 ]
-Overfull \vbox (19.49405pt too high) detected at line 547
+File: Methodology chart.png Graphic file (type png)
+<use Methodology chart.png>
+Package pdftex.def Info: Methodology chart.png  used on input line 177.
+(pdftex.def)             Requested size: 342.2953pt x 93.06107pt.
+
+Overfull \vbox (1.59871pt too high) detected at line 177
  []
 
 
@@ -956,211 +968,83 @@ Overfull \vbox (19.49405pt too high) detected at line 547
 [20
 
 ]
-<Hakenes illustration.png, id=1606, 787.38165pt x 281.853pt>
-File: Hakenes illustration.png Graphic file (type png)
-<use Hakenes illustration.png>
-Package pdftex.def Info: Hakenes illustration.png  used on input line 584.
-(pdftex.def)             Requested size: 308.06367pt x 110.27489pt.
+File: Methodology chart.png Graphic file (type png)
+<use Methodology chart.png>
+Package pdftex.def Info: Methodology chart.png  used on input line 177.
+(pdftex.def)             Requested size: 342.2953pt x 93.06107pt.
+
+Overfull \vbox (1.59871pt too high) detected at line 177
+ []
+
 
 
 [21
 
- <./Hakenes illustration.png>]
+]
+File: Methodology chart.png Graphic file (type png)
+<use Methodology chart.png>
+Package pdftex.def Info: Methodology chart.png  used on input line 177.
+(pdftex.def)             Requested size: 342.2953pt x 93.06107pt.
+
+Overfull \vbox (1.59871pt too high) detected at line 177
+ []
+
+
 
 [22
 
 ]
+<ghg scope.png, id=1209, 803.0pt x 508.90125pt>
+File: ghg scope.png Graphic file (type png)
+<use ghg scope.png>
+Package pdftex.def Info: ghg scope.png  used on input line 203.
+(pdftex.def)             Requested size: 188.26346pt x 119.31226pt.
+
 
 [23
 
-]
-<Operational Control.png, id=1824, 1445.4pt x 813.0375pt>
-File: Operational Control.png Graphic file (type png)
-<use Operational Control.png>
-Package pdftex.def Info: Operational Control.png  used on input line 621.
-(pdftex.def)             Requested size: 342.2953pt x 192.54015pt.
+ <./ghg scope.png>]
+File: ghg scope.png Graphic file (type png)
+<use ghg scope.png>
+Package pdftex.def Info: ghg scope.png  used on input line 203.
+(pdftex.def)             Requested size: 188.26346pt x 119.31226pt.
 
 
 [24
 
- <./Operational Control.png (PNG copy)>]
-<Policy Implications.png, id=1897, 1445.4pt x 813.0375pt>
-File: Policy Implications.png Graphic file (type png)
-<use Policy Implications.png>
-Package pdftex.def Info: Policy Implications.png  used on input line 628.
-(pdftex.def)             Requested size: 342.2953pt x 192.54015pt.
+]
+File: ghg scope.png Graphic file (type png)
+<use ghg scope.png>
+Package pdftex.def Info: ghg scope.png  used on input line 203.
+(pdftex.def)             Requested size: 188.26346pt x 119.31226pt.
 
 
 [25
 
- <./Policy Implications.png (PNG copy)>]
-<Heatmap Res.png, id=1971, 557.2017pt x 281.853pt>
-File: Heatmap Res.png Graphic file (type png)
-<use Heatmap Res.png>
-Package pdftex.def Info: Heatmap Res.png  used on input line 644.
-(pdftex.def)             Requested size: 342.2953pt x 173.14719pt.
+]
+<Spanish Data Visual.png, id=1362, 1445.4pt x 813.0375pt>
+File: Spanish Data Visual.png Graphic file (type png)
+<use Spanish Data Visual.png>
+Package pdftex.def Info: Spanish Data Visual.png  used on input line 226.
+(pdftex.def)             Requested size: 273.83728pt x 154.03212pt.
 
 
 [26
 
- <./Heatmap Res.png>]
-<per capita world emissions.png, id=2045, 419.76825pt x 483.0045pt>
-File: per capita world emissions.png Graphic file (type png)
-<use per capita world emissions.png>
-Package pdftex.def Info: per capita world emissions.png  used on input line 660.
-(pdftex.def)             Requested size: 154.03183pt x 177.23485pt.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 660.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 660.
-<emission by income.png, id=2046, 434.22224pt x 478.78876pt>
-File: emission by income.png Graphic file (type png)
-<use emission by income.png>
-Package pdftex.def Info: emission by income.png  used on input line 660.
-(pdftex.def)             Requested size: 154.03183pt x 169.83603pt.
+ <./Spanish Data Visual.png (PNG copy)>]
+File: Spanish Data Visual.png Graphic file (type png)
+<use Spanish Data Visual.png>
+Package pdftex.def Info: Spanish Data Visual.png  used on input line 226.
+(pdftex.def)             Requested size: 273.83728pt x 154.03212pt.
 
 
 [27
 
- <./per capita world emissions.png> <./emission by income.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-[]\OT1/cmss/m/n/8 GHG Pro-to-col (Scopes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 1{2); EEIO for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-[]\OT1/cmss/m/n/8 Sweden: 130+
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 USD/tCO$[]$; Canada
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 685--685
-[]\OT1/cmss/m/n/8 Internalises marginal so-cial
- []
-
-
-Underfull \hbox (badness 5741) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 cost; scal-able; re-gres-sive
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 with-out rev-enue re-cy-cling;
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 leak-age risk if em-bed-ded
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-[]\OT1/cmss/bx/n/8 Product & Ap-pli-ance
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-[]\OT1/cmss/m/n/8 Life Cy-cle As-sess-ment
- []
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 685--685
-[]\OT1/cmss/m/n/8 EU Ecode-sign Di-rec-tive;
- []
-
-
-Underfull \hbox (badness 5847) in paragraph at lines 685--685
-[]\OT1/cmss/m/n/8 Corrects ef-fi-ciency mar-ket
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 fail-ures; har-mon-is-able in
- []
-
-
-Underfull \hbox (badness 3679) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 trade pol-icy; ef-fec-tive-ness
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 enes{Schliephake) with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-[]\OT1/cmss/m/n/8 Targets cap-i-tal al-lo-ca-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 to low-carbon sec-tors;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-[]\OT1/cmss/bx/n/8 Behavioural In-ter-ven-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-[]\OT1/cmss/m/n/8 Behavioural eco-nomics;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 typ-i-cally out-side static
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 diet-shift cam-paigns;
- []
-
-
-Underfull \hbox (badness 2512) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 cook-stove adop-tion pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-[]\OT1/cmss/m/n/8 Low-cost de-mand ad-just-
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 ment; high so-cial adapt-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-\OT1/cmss/m/n/8 abil-ity; per-sis-tence and
- []
-
-
-Underfull \hbox (badness 5446) in paragraph at lines 685--685
-[]\OT1/cmss/m/n/8 Hybrid EEIO{LCA with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
-[]\OT1/cmss/m/n/8 Real-time, marginal be-
- []
-
-
-Overfull \vbox (2.06694pt too high) detected at line 685
- []
-
+]
+File: Spanish Data Visual.png Graphic file (type png)
+<use Spanish Data Visual.png>
+Package pdftex.def Info: Spanish Data Visual.png  used on input line 226.
+(pdftex.def)             Requested size: 273.83728pt x 154.03212pt.
 
 
 [28
@@ -1170,30 +1054,1358 @@ Overfull \vbox (2.06694pt too high) detected at line 685
 [29
 
 ]
-<Policy Recommendation.png, id=2265, 1445.4pt x 813.0375pt>
-File: Policy Recommendation.png Graphic file (type png)
-<use Policy Recommendation.png>
-Package pdftex.def Info: Policy Recommendation.png  used on input line 744.
-(pdftex.def)             Requested size: 342.2953pt x 192.54015pt.
-
 
 [30
 
- <./Policy Recommendation.png>]
+]
 
 [31
 
 ]
-<Thank you.png, id=2412, 1445.4pt x 813.0375pt>
-File: Thank you.png Graphic file (type png)
-<use Thank you.png>
-Package pdftex.def Info: Thank you.png  used on input line 765.
-(pdftex.def)             Requested size: 342.2953pt x 192.54015pt.
-
 
 [32
 
- <./Thank you.png (PNG copy)>]
+]
+<LCA Visual.png, id=1694, 1445.4pt x 813.0375pt>
+File: LCA Visual.png Graphic file (type png)
+<use LCA Visual.png>
+Package pdftex.def Info: LCA Visual.png  used on input line 283.
+(pdftex.def)             Requested size: 239.60567pt x 134.77809pt.
+
+Overfull \vbox (1.69077pt too high) detected at line 283
+ []
+
+
+
+[33
+
+ <./LCA Visual.png (PNG copy)>]
+File: LCA Visual.png Graphic file (type png)
+<use LCA Visual.png>
+Package pdftex.def Info: LCA Visual.png  used on input line 283.
+(pdftex.def)             Requested size: 239.60567pt x 134.77809pt.
+
+Overfull \vbox (1.69077pt too high) detected at line 283
+ []
+
+
+
+[34
+
+]
+
+[35
+
+]
+
+[36
+
+]
+
+[37
+
+]
+
+[38
+
+]
+
+[39
+
+]
+
+[40
+
+]
+
+[41
+
+]
+
+[42
+
+]
+<LCA_pie.png, id=2141, 625.8582pt x 495.7722pt>
+File: LCA_pie.png Graphic file (type png)
+<use LCA_pie.png>
+Package pdftex.def Info: LCA_pie.png  used on input line 330.
+(pdftex.def)             Requested size: 232.75829pt x 184.37845pt.
+
+Overfull \vbox (3.66588pt too high) detected at line 330
+ []
+
+
+
+[43
+
+ <./LCA_pie.png>]
+File: LCA_pie.png Graphic file (type png)
+<use LCA_pie.png>
+Package pdftex.def Info: LCA_pie.png  used on input line 330.
+(pdftex.def)             Requested size: 232.75829pt x 184.37845pt.
+
+Overfull \vbox (3.66588pt too high) detected at line 330
+ []
+
+
+
+[44
+
+]
+File: LCA_pie.png Graphic file (type png)
+<use LCA_pie.png>
+Package pdftex.def Info: LCA_pie.png  used on input line 330.
+(pdftex.def)             Requested size: 232.75829pt x 184.37845pt.
+
+Overfull \vbox (3.66588pt too high) detected at line 330
+ []
+
+
+
+[45
+
+]
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <9> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 368.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 368.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 368.
+
+
+[46
+
+]
+
+[47
+
+]
+
+[48
+
+]
+
+[49
+
+]
+
+[50
+
+]
+
+[51
+
+]
+
+[52
+
+]
+
+[53
+
+]
+
+[54
+
+]
+
+[55
+
+]
+
+[56
+
+]
+<EEIO Visual.png, id=2775, 922.94812pt x 813.0375pt>
+File: EEIO Visual.png Graphic file (type png)
+<use EEIO Visual.png>
+Package pdftex.def Info: EEIO Visual.png  used on input line 437.
+(pdftex.def)             Requested size: 205.37926pt x 180.91579pt.
+
+
+[57
+
+ <./EEIO Visual.png>]
+File: EEIO Visual.png Graphic file (type png)
+<use EEIO Visual.png>
+Package pdftex.def Info: EEIO Visual.png  used on input line 437.
+(pdftex.def)             Requested size: 205.37926pt x 180.91579pt.
+
+
+[58
+
+]
+File: EEIO Visual.png Graphic file (type png)
+<use EEIO Visual.png>
+Package pdftex.def Info: EEIO Visual.png  used on input line 437.
+(pdftex.def)             Requested size: 205.37926pt x 180.91579pt.
+
+
+[59
+
+]
+File: EEIO Visual.png Graphic file (type png)
+<use EEIO Visual.png>
+Package pdftex.def Info: EEIO Visual.png  used on input line 437.
+(pdftex.def)             Requested size: 205.37926pt x 180.91579pt.
+
+
+[60
+
+]
+<Emissions EEIO.png, id=2962, 1445.4pt x 813.0375pt>
+File: Emissions EEIO.png Graphic file (type png)
+<use Emissions EEIO.png>
+Package pdftex.def Info: Emissions EEIO.png  used on input line 450.
+(pdftex.def)             Requested size: 342.2953pt x 192.54015pt.
+
+Overfull \vbox (3.07779pt too high) detected at line 450
+ []
+
+
+
+[61
+
+ <./Emissions EEIO.png (PNG copy)>]
+File: Emissions EEIO.png Graphic file (type png)
+<use Emissions EEIO.png>
+Package pdftex.def Info: Emissions EEIO.png  used on input line 450.
+(pdftex.def)             Requested size: 342.2953pt x 192.54015pt.
+
+Overfull \vbox (3.07779pt too high) detected at line 450
+ []
+
+
+
+[62
+
+]
+Overfull \hbox (2.18341pt too wide) detected at line 489
+\U/msb/m/n/9 E\OT1/cmss/m/n/9 [\OT1/mathkerncmss/m/sl/9 U[]\OT1/cmss/m/n/9 ] = \OMS/cmsy/m/n/9 ^^@ [] []
+ []
+
+
+Overfull \vbox (2.68796pt too high) detected at line 489
+ []
+
+
+
+[63
+
+]
+Overfull \hbox (2.18341pt too wide) detected at line 489
+\U/msb/m/n/9 E\OT1/cmss/m/n/9 [\OT1/mathkerncmss/m/sl/9 U[]\OT1/cmss/m/n/9 ] = \OMS/cmsy/m/n/9 ^^@ [] []
+ []
+
+
+Overfull \vbox (2.68796pt too high) detected at line 489
+ []
+
+
+
+[64
+
+]
+Overfull \hbox (2.18341pt too wide) detected at line 489
+\U/msb/m/n/9 E\OT1/cmss/m/n/9 [\OT1/mathkerncmss/m/sl/9 U[]\OT1/cmss/m/n/9 ] = \OMS/cmsy/m/n/9 ^^@ [] []
+ []
+
+
+Overfull \vbox (2.68796pt too high) detected at line 489
+ []
+
+
+
+[65
+
+]
+Overfull \hbox (2.18341pt too wide) detected at line 489
+\U/msb/m/n/9 E\OT1/cmss/m/n/9 [\OT1/mathkerncmss/m/sl/9 U[]\OT1/cmss/m/n/9 ] = \OMS/cmsy/m/n/9 ^^@ [] []
+ []
+
+
+Overfull \vbox (2.68796pt too high) detected at line 489
+ []
+
+
+
+[66
+
+]
+Overfull \vbox (7.24817pt too high) detected at line 528
+ []
+
+
+
+[67
+
+]
+Overfull \vbox (7.24817pt too high) detected at line 528
+ []
+
+
+
+[68
+
+]
+Overfull \vbox (7.24817pt too high) detected at line 528
+ []
+
+
+
+[69
+
+]
+Overfull \vbox (6.49405pt too high) detected at line 566
+ []
+
+
+
+[70
+
+]
+Overfull \vbox (6.49405pt too high) detected at line 566
+ []
+
+
+
+[71
+
+]
+Overfull \vbox (6.49405pt too high) detected at line 566
+ []
+
+
+
+[72
+
+]
+Overfull \vbox (6.49405pt too high) detected at line 566
+ []
+
+
+
+[73
+
+]
+<Hakenes illustration.png, id=3589, 787.38165pt x 281.853pt>
+File: Hakenes illustration.png Graphic file (type png)
+<use Hakenes illustration.png>
+Package pdftex.def Info: Hakenes illustration.png  used on input line 605.
+(pdftex.def)             Requested size: 308.06367pt x 110.27489pt.
+
+
+[74
+
+ <./Hakenes illustration.png>]
+File: Hakenes illustration.png Graphic file (type png)
+<use Hakenes illustration.png>
+Package pdftex.def Info: Hakenes illustration.png  used on input line 605.
+(pdftex.def)             Requested size: 308.06367pt x 110.27489pt.
+
+
+[75
+
+]
+File: Hakenes illustration.png Graphic file (type png)
+<use Hakenes illustration.png>
+Package pdftex.def Info: Hakenes illustration.png  used on input line 605.
+(pdftex.def)             Requested size: 308.06367pt x 110.27489pt.
+
+
+[76
+
+]
+
+[77
+
+]
+<Operational Control.png, id=3807, 1445.4pt x 813.0375pt>
+File: Operational Control.png Graphic file (type png)
+<use Operational Control.png>
+Package pdftex.def Info: Operational Control.png  used on input line 623.
+(pdftex.def)             Requested size: 342.2953pt x 192.54015pt.
+
+
+[78
+
+ <./Operational Control.png (PNG copy)>]
+<Policy Implications.png, id=3878, 1445.4pt x 813.0375pt>
+File: Policy Implications.png Graphic file (type png)
+<use Policy Implications.png>
+Package pdftex.def Info: Policy Implications.png  used on input line 630.
+(pdftex.def)             Requested size: 342.2953pt x 192.54015pt.
+
+
+[79
+
+ <./Policy Implications.png (PNG copy)>]
+<Heatmap Res.png, id=3950, 557.2017pt x 281.853pt>
+File: Heatmap Res.png Graphic file (type png)
+<use Heatmap Res.png>
+Package pdftex.def Info: Heatmap Res.png  used on input line 646.
+(pdftex.def)             Requested size: 342.2953pt x 173.14719pt.
+
+
+[80
+
+ <./Heatmap Res.png>]
+<per capita world emissions.png, id=4022, 419.76825pt x 483.0045pt>
+File: per capita world emissions.png Graphic file (type png)
+<use per capita world emissions.png>
+Package pdftex.def Info: per capita world emissions.png  used on input line 664.
+(pdftex.def)             Requested size: 154.03183pt x 177.23485pt.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 664.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 664.
+<emission by income.png, id=4023, 434.22224pt x 478.78876pt>
+File: emission by income.png Graphic file (type png)
+<use emission by income.png>
+Package pdftex.def Info: emission by income.png  used on input line 664.
+(pdftex.def)             Requested size: 154.03183pt x 169.83603pt.
+
+
+[81
+
+ <./per capita world emissions.png> <./emission by income.png>]
+File: per capita world emissions.png Graphic file (type png)
+<use per capita world emissions.png>
+Package pdftex.def Info: per capita world emissions.png  used on input line 664.
+(pdftex.def)             Requested size: 154.03183pt x 177.23485pt.
+File: emission by income.png Graphic file (type png)
+<use emission by income.png>
+Package pdftex.def Info: emission by income.png  used on input line 664.
+(pdftex.def)             Requested size: 154.03183pt x 169.83603pt.
+
+
+[82
+
+]
+File: per capita world emissions.png Graphic file (type png)
+<use per capita world emissions.png>
+Package pdftex.def Info: per capita world emissions.png  used on input line 664.
+(pdftex.def)             Requested size: 154.03183pt x 177.23485pt.
+File: emission by income.png Graphic file (type png)
+<use emission by income.png>
+Package pdftex.def Info: emission by income.png  used on input line 664.
+(pdftex.def)             Requested size: 154.03183pt x 169.83603pt.
+
+
+[83
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 GHG Pro-to-col (Scopes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 1{2); EEIO for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Sweden: 130+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 USD/tCO$[]$; Canada
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Internalises marginal so-cial
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 cost; scal-able; re-gres-sive
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 with-out rev-enue re-cy-cling;
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 leak-age risk if em-bed-ded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/bx/n/8 Product & Ap-pli-ance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Life Cy-cle As-sess-ment
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 EU Ecode-sign Di-rec-tive;
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Corrects ef-fi-ciency mar-ket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 fail-ures; har-mon-is-able in
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 trade pol-icy; ef-fec-tive-ness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 enes{Schliephake) with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Targets cap-i-tal al-lo-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 to low-carbon sec-tors;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/bx/n/8 Behavioural In-ter-ven-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Behavioural eco-nomics;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 typ-i-cally out-side static
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 diet-shift cam-paigns;
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 cook-stove adop-tion pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Low-cost de-mand ad-just-
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 ment; high so-cial adapt-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 abil-ity; per-sis-tence and
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Hybrid EEIO{LCA with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Real-time, marginal be-
+ []
+
+
+Overfull \vbox (6.46791pt too high) detected at line 695
+ []
+
+
+
+[84
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 GHG Pro-to-col (Scopes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 1{2); EEIO for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Sweden: 130+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 USD/tCO$[]$; Canada
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Internalises marginal so-cial
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 cost; scal-able; re-gres-sive
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 with-out rev-enue re-cy-cling;
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 leak-age risk if em-bed-ded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/bx/n/8 Product & Ap-pli-ance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Life Cy-cle As-sess-ment
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 EU Ecode-sign Di-rec-tive;
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Corrects ef-fi-ciency mar-ket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 fail-ures; har-mon-is-able in
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 trade pol-icy; ef-fec-tive-ness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 enes{Schliephake) with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Targets cap-i-tal al-lo-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 to low-carbon sec-tors;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/bx/n/8 Behavioural In-ter-ven-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Behavioural eco-nomics;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 typ-i-cally out-side static
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 diet-shift cam-paigns;
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 cook-stove adop-tion pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Low-cost de-mand ad-just-
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 ment; high so-cial adapt-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 abil-ity; per-sis-tence and
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Hybrid EEIO{LCA with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Real-time, marginal be-
+ []
+
+
+Overfull \vbox (6.46791pt too high) detected at line 695
+ []
+
+
+
+[85
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 GHG Pro-to-col (Scopes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 1{2); EEIO for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Sweden: 130+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 USD/tCO$[]$; Canada
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Internalises marginal so-cial
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 cost; scal-able; re-gres-sive
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 with-out rev-enue re-cy-cling;
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 leak-age risk if em-bed-ded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/bx/n/8 Product & Ap-pli-ance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Life Cy-cle As-sess-ment
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 EU Ecode-sign Di-rec-tive;
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Corrects ef-fi-ciency mar-ket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 fail-ures; har-mon-is-able in
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 trade pol-icy; ef-fec-tive-ness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 enes{Schliephake) with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Targets cap-i-tal al-lo-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 to low-carbon sec-tors;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/bx/n/8 Behavioural In-ter-ven-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Behavioural eco-nomics;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 typ-i-cally out-side static
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 diet-shift cam-paigns;
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 cook-stove adop-tion pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Low-cost de-mand ad-just-
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 ment; high so-cial adapt-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 abil-ity; per-sis-tence and
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Hybrid EEIO{LCA with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Real-time, marginal be-
+ []
+
+
+Overfull \vbox (6.46791pt too high) detected at line 695
+ []
+
+
+
+[86
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 GHG Pro-to-col (Scopes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 1{2); EEIO for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Sweden: 130+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 USD/tCO$[]$; Canada
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Internalises marginal so-cial
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 cost; scal-able; re-gres-sive
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 with-out rev-enue re-cy-cling;
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 leak-age risk if em-bed-ded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/bx/n/8 Product & Ap-pli-ance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Life Cy-cle As-sess-ment
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 EU Ecode-sign Di-rec-tive;
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Corrects ef-fi-ciency mar-ket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 fail-ures; har-mon-is-able in
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 trade pol-icy; ef-fec-tive-ness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 enes{Schliephake) with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Targets cap-i-tal al-lo-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 to low-carbon sec-tors;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/bx/n/8 Behavioural In-ter-ven-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Behavioural eco-nomics;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 typ-i-cally out-side static
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 diet-shift cam-paigns;
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 cook-stove adop-tion pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Low-cost de-mand ad-just-
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 ment; high so-cial adapt-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 abil-ity; per-sis-tence and
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Hybrid EEIO{LCA with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Real-time, marginal be-
+ []
+
+
+Overfull \vbox (6.46791pt too high) detected at line 695
+ []
+
+
+
+[87
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 GHG Pro-to-col (Scopes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 1{2); EEIO for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Sweden: 130+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 USD/tCO$[]$; Canada
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Internalises marginal so-cial
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 cost; scal-able; re-gres-sive
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 with-out rev-enue re-cy-cling;
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 leak-age risk if em-bed-ded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/bx/n/8 Product & Ap-pli-ance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Life Cy-cle As-sess-ment
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 EU Ecode-sign Di-rec-tive;
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Corrects ef-fi-ciency mar-ket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 fail-ures; har-mon-is-able in
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 trade pol-icy; ef-fec-tive-ness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 enes{Schliephake) with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Targets cap-i-tal al-lo-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 to low-carbon sec-tors;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/bx/n/8 Behavioural In-ter-ven-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Behavioural eco-nomics;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 typ-i-cally out-side static
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 diet-shift cam-paigns;
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 cook-stove adop-tion pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Low-cost de-mand ad-just-
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 ment; high so-cial adapt-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 abil-ity; per-sis-tence and
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Hybrid EEIO{LCA with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Real-time, marginal be-
+ []
+
+
+Overfull \vbox (6.46791pt too high) detected at line 695
+ []
+
+
+
+[88
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 GHG Pro-to-col (Scopes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 1{2); EEIO for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Sweden: 130+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 USD/tCO$[]$; Canada
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Internalises marginal so-cial
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 cost; scal-able; re-gres-sive
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 with-out rev-enue re-cy-cling;
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 leak-age risk if em-bed-ded
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/bx/n/8 Product & Ap-pli-ance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Life Cy-cle As-sess-ment
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 EU Ecode-sign Di-rec-tive;
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Corrects ef-fi-ciency mar-ket
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 fail-ures; har-mon-is-able in
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 trade pol-icy; ef-fec-tive-ness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 enes{Schliephake) with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Targets cap-i-tal al-lo-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 to low-carbon sec-tors;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/bx/n/8 Behavioural In-ter-ven-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Behavioural eco-nomics;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 typ-i-cally out-side static
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 diet-shift cam-paigns;
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 cook-stove adop-tion pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Low-cost de-mand ad-just-
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 ment; high so-cial adapt-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+\OT1/cmss/m/n/8 abil-ity; per-sis-tence and
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Hybrid EEIO{LCA with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--695
+[]\OT1/cmss/m/n/8 Real-time, marginal be-
+ []
+
+
+Overfull \vbox (6.46791pt too high) detected at line 695
+ []
+
+
+
+[89
+
+]
+
+[90
+
+]
+<Policy Recommendation.png, id=4503, 1445.4pt x 813.0375pt>
+File: Policy Recommendation.png Graphic file (type png)
+<use Policy Recommendation.png>
+Package pdftex.def Info: Policy Recommendation.png  used on input line 755.
+(pdftex.def)             Requested size: 342.2953pt x 192.54015pt.
+
+
+[91
+
+ <./Policy Recommendation.png>]
+File: Policy Recommendation.png Graphic file (type png)
+<use Policy Recommendation.png>
+Package pdftex.def Info: Policy Recommendation.png  used on input line 755.
+(pdftex.def)             Requested size: 342.2953pt x 192.54015pt.
+
+
+[92
+
+]
+
+[93
+
+]
+
+[94
+
+]
+
+[95
+
+]
+
+[96
+
+]
+
+[97
+
+]
+<Thank you 2.png, id=4837, 1445.4pt x 813.0375pt>
+File: Thank you 2.png Graphic file (type png)
+<use Thank you 2.png>
+Package pdftex.def Info: Thank you 2.png  used on input line 781.
+(pdftex.def)             Requested size: 342.2953pt x 192.54015pt.
+
+
+[98
+
+ <./Thank you 2.png (PNG copy)>]
 \tf@nav=\write6
 \openout6 = `"Proofread copy presentation.nav"'.
 
@@ -1212,17 +2424,17 @@ Package rerunfilecheck Info: File `"Proofread copy presentation".out' has not ch
 (rerunfilecheck)             Checksum: AADAAD5251C74CAA43D1DDF9EE35DAE1;593.
  ) 
 Here is how much of TeX's memory you used:
- 26595 strings out of 470045
- 536211 string characters out of 5479094
- 897380 words of memory out of 5000000
- 52705 multiletter control sequences out of 15000+600000
+ 26738 strings out of 470045
+ 537815 string characters out of 5479094
+ 904663 words of memory out of 5000000
+ 52716 multiletter control sequences out of 15000+600000
  640415 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,123p,527b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,123p,527b,777s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss0900.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Proofread copy presentation.pdf" (32 pages, 15194618 bytes).
+Output written on "Proofread copy presentation.pdf" (98 pages, 16043013 bytes).
 PDF statistics:
- 2535 PDF objects out of 2984 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4986 PDF objects out of 5155 (max. 8388607)
+ 201 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
